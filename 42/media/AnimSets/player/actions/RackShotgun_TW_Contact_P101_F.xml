@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="6755d535-8bb2-5eab-9af4-b352d8373d80">
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_P101</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Name>RackShotgun_TW_Contact_P101_F</m_Name>
+	<m_AnimName>Bob_Reload_Shotgun_Rack</m_AnimName>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_EarlyTransitionOut>true</m_EarlyTransitionOut>
+	<m_SpeedScale>ReloadSpeed</m_SpeedScale>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions x_name="47383c7c-3aa0-554d-9ce6-3f52b5bc1ace">
+		<m_Name>PerformingAction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>Reload</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="74153a60-6e19-5aef-88a0-90c7fbf24957">
+		<m_Name>WeaponReloadType</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>shotgun</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="64c4ff85-cbe6-5c00-a56a-fe1bf0c8d19f">
+		<m_Name>isRacking</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Events x_name="6a3442b7-584a-5ee3-9dd2-133bbf005ba3">
+		<m_EventName>rackingFinished</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Events x_name="57b70650-af43-5eca-9f30-1187bb04e213">
+		<m_EventName>playReloadSound</m_EventName>
+		<m_TimePc>0.15</m_TimePc>
+		<m_ParameterValue>rack</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="6e65fe02-e8a4-553d-94ac-ffd537f6eedc">
+		<m_EventName>rackBullet</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Looped>false</m_Looped>
+	<m_ConditionPriority>100</m_ConditionPriority>
+</animNode>

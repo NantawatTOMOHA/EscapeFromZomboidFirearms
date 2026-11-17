@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="1dbb4f27-fe40-5adf-8138-9205f16a3be6">
+	<m_Name>fromSitOnFurnitureRightRifle_TW_Contact_RSHG_V8_F</m_Name>
+	<m_AnimName>Bob_Seated_StandUp_R_Rifle</m_AnimName>
+	<m_DeferredBoneName>Bip01</m_DeferredBoneName>
+	<m_deferredBoneAxis>Z</m_deferredBoneAxis>
+	<m_useDeferedRotation>true</m_useDeferedRotation>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.10</m_BlendTime>
+	<m_ConditionPriority>100</m_ConditionPriority>
+	<m_BlendOutTime>0.20</m_BlendOutTime>
+	<m_maxTorsoTwist>0.00</m_maxTorsoTwist>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_RSHG_V8</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="000c5775-d832-5f72-a4ef-18ed1fa5d763">
+		<m_Name>sittingonfurniture</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="b16203c8-5a9e-54b1-9d1c-2bbbb02cdaa0">
+		<m_Name>SitOnFurnitureDirection</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>Right</m_Value>
+	</m_Conditions>
+	<m_Events x_name="221ee106-7b64-513f-b23a-06228a01c9de">
+		<m_EventName>FlagWhileAlive</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>hideEquippedHandL</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="68166eaf-2a81-59c2-a9b7-b28fbedf24a3">
+		<m_EventName>FlagWhileAlive</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Conditions x_name="74311d19-70e3-5149-9308-75884f41a510">
+		<m_Name>Weapon</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>firearm</m_Value>
+	</m_Conditions>
+</animNode>

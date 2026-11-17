@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="ffbb1043-3ea5-54eb-a196-fa06d29b0dad">
+	<m_Name>LoadRifle_TW_Contact_P076</m_Name>
+	<m_AnimName>TW_Contact_P076_Reload_Rifle_Load</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_ConditionPriority>100</m_ConditionPriority>
+	<m_EarlyTransitionOut>true</m_EarlyTransitionOut>
+	<m_SpeedScale>ReloadSpeed</m_SpeedScale>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_P076</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="bdd17c03-6136-5ee4-bb02-6ef2d72c1153">
+		<m_Name>PerformingAction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>Reload</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="fb2aa7eb-8544-5918-bcf2-9609e5a76368">
+		<m_Name>WeaponReloadType</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>boltaction</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="faa52ad9-5c95-5f6b-abd7-c676ce567de4">
+		<m_Name>isLoading</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Events x_name="bf38e24d-3111-508e-91fe-35c7d7e127d3">
+		<m_EventName>loadFinished</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Events x_name="a7fce7a8-d6f2-5ba4-b278-22777bb56a9e">
+		<m_EventName>playReloadSound</m_EventName>
+		<m_TimePc>0.67</m_TimePc>
+		<m_ParameterValue>load</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="fdd52628-e892-5e8e-8f6d-bbb74e5cb970">
+		<m_EventName>playReloadSound</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>insertAmmoStart</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="48e5f602-24ec-5149-9c67-5c0763e408e9">
+		<m_EventName>TWMagDraw</m_EventName>
+		<m_TimePc>0.047</m_TimePc>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Events x_name="7eb9476e-252e-5766-8269-9111d1d97f50">
+		<m_EventName>TWMagSeat</m_EventName>
+		<m_TimePc>0.67</m_TimePc>
+		<m_ParameterValue />
+	</m_Events>
+</animNode>

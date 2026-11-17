@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf8'?>
+<animNode x_name="65f02587-7714-54f3-b35b-85044e9a9fd3">
+	<m_Name>sit_in_Rifle_TW_Contact_RSHG_V8__TWOwnRSHGMovingHigh</m_Name>
+	<m_AnimName>TW_Contact_RSHG_V8_OwnRSHGMovingHigh_SitGround_In_Rifle</m_AnimName>
+	<m_DeferredBoneName />
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_ConditionPriority>101</m_ConditionPriority>
+	<m_EarlyTransitionOut>true</m_EarlyTransitionOut>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Events x_name="3da7d581-26c1-5f28-adda-9d1a25205e67">
+		<m_EventName>SitGroundStarted</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Events x_name="2e8db6f4-9934-5bc4-a2eb-c7283790d3c5">
+		<m_EventName>PlaySound</m_EventName>
+		<m_TimePc>0.1</m_TimePc>
+		<m_ParameterValue>SurfaceSitDown</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="8f34ade4-251c-5332-ae1e-63264588fc2e">
+		<m_EventName>FlagWhileAlive</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>hideEquippedHandL</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="95663d51-1a07-5541-b875-f0f680874bf6">
+		<m_EventName>FlagWhileAlive</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_RSHG_V8</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="a455c1ab-90ce-52b8-a697-c5632d4d5d5f">
+		<m_Name>Weapon</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>firearm</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWCarryRouteReady</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWCarryMode</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>high</m_StringValue>
+	</m_Conditions>
+</animNode>

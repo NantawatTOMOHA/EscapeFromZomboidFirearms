@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="9773b624-19e3-5ac9-a7c4-770de27306c1">
+	<m_Name>LoadRifle_TW_Contact_RSHG_V8</m_Name>
+	<m_AnimName>TW_Contact_RSHG_V8_OwnMechanical_Reload</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_ConditionPriority>100</m_ConditionPriority>
+	<m_EarlyTransitionOut>true</m_EarlyTransitionOut>
+	<m_SpeedScale>ReloadSpeed</m_SpeedScale>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_RSHG_V8</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="7dd6cce3-c062-5727-b931-3db9cf15c4d5">
+		<m_Name>PerformingAction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>Reload</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="5c4076ee-83b0-5259-b71f-425b1a79ce8c">
+		<m_Name>WeaponReloadType</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>boltaction</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="121d7264-83cb-5615-881c-ef6126ba251c">
+		<m_Name>isLoading</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Events x_name="c6cbbc9c-161c-5f09-bfed-16ba167e3338">
+		<m_EventName>loadFinished</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Events x_name="080ea07e-b5d9-5fb5-b341-bb5f57b7a234">
+		<m_EventName>playReloadSound</m_EventName>
+		<m_TimePc>0.3</m_TimePc>
+		<m_ParameterValue>load</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="682f5e9a-4a7b-5908-ac0d-7dd890eb808a">
+		<m_EventName>playReloadSound</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>insertAmmoStart</m_ParameterValue>
+	</m_Events>
+</animNode>

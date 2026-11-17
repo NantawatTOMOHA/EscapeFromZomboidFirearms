@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf8'?>
+<animNode x_name="56b09f5e-9579-5a47-883d-4c4b2b132608">
+	<m_Name>inTreesRifle_TW_Contact_P121_F</m_Name>
+	<m_AnimName>TW_Contact_P121_F_RunTrees_Rifle</m_AnimName>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_ConditionPriority>100</m_ConditionPriority>
+	<m_SpeedScale>WalkSpeedTrees</m_SpeedScale>
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_P121</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="cbf65b66-5299-5925-8485-b3f2d7db23ef">
+		<m_Name>intrees</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="5def32f4-ad4e-54ca-afab-823e437fbe68">
+		<m_Name>isTurningAround</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Events x_name="3d3cddc9-1567-54f9-b3ae-60f8454324a9">
+		<m_EventName>Footstep</m_EventName>
+		<m_TimePc>0.2</m_TimePc>
+		<m_ParameterValue>run</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="6231d00b-6ad6-570f-96f9-28b47d22f806">
+		<m_EventName>Footstep</m_EventName>
+		<m_TimePc>0.65</m_TimePc>
+		<m_ParameterValue>run</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="e08ae105-0932-5dbc-8db6-44fb55094969">
+		<m_EventName>DamageWhileInTrees</m_EventName>
+		<m_TimePc>0.5</m_TimePc>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Conditions x_name="44cc8fe2-3c95-52e5-88f9-f786473d8bd8">
+		<m_Name>Weapon</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>firearm</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWCarryRouteReady</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+</animNode>

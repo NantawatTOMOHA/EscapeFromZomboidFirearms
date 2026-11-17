@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="bda59841-3d35-5fdc-af9f-82ea61f4f45e">
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_RSHG_V8</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Name>LoadDblBarrel_TW_Contact_RSHG_V8_F</m_Name>
+	<m_AnimName>Bob_Reload_DBShotgun_Load</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.40</m_BlendTime>
+	<m_EarlyTransitionOut>true</m_EarlyTransitionOut>
+	<m_SpeedScale>ReloadSpeed</m_SpeedScale>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions x_name="5bc963db-a899-5331-bd54-016916df2574">
+		<m_Name>PerformingAction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>Reload</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="e797f959-518e-5641-87b0-3c2cc7639e84">
+		<m_Name>WeaponReloadType</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>doublebarrelshotgun</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="50438ab8-c801-5222-9df3-e9a8620deff7">
+		<m_Name>isLoading</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Events x_name="0e1557d8-a3a1-51fe-973d-3cbc4a50e168">
+		<m_EventName>loadFinished</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Events x_name="f2711fac-b1a4-5bad-9d70-9363931c3121">
+		<m_EventName>playReloadSound</m_EventName>
+		<m_TimePc>0.4</m_TimePc>
+		<m_ParameterValue>load</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="36e98a7b-3032-5f29-b272-47cbba16bf77">
+		<m_EventName>changeWeaponSprite</m_EventName>
+		<m_TimePc>0.14</m_TimePc>
+		<m_ParameterValue>ShotgunDoubleBarrel_OPEN</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="63f7a5ac-2887-57f5-b321-a2380ddafe4a">
+		<m_EventName>playReloadSound</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>insertAmmoStart</m_ParameterValue>
+	</m_Events>
+	<m_Transitions>
+		<m_Target>RackDblBarrel</m_Target>
+		<m_blendInTime>0.2</m_blendInTime>
+		<m_blendOutTime>0.2</m_blendOutTime>
+	</m_Transitions>
+	<m_ConditionPriority>100</m_ConditionPriority>
+</animNode>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="e2c8c159-bc63-5b8d-94ec-e75e83a92435">
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_P074</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Name>RackHandgun_TW_Contact_P074</m_Name>
+	<m_AnimName>Bob_Reload_Handgun_Rack</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_EarlyTransitionOut>true</m_EarlyTransitionOut>
+	<m_SpeedScale>ReloadSpeed</m_SpeedScale>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions x_name="269bd999-64e6-5789-b4f1-c2980209c368">
+		<m_Name>PerformingAction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>Reload</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="921bac40-e0f9-54c8-9c6f-4780eb170043">
+		<m_Name>WeaponReloadType</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>handgun</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="c4ee0553-4a13-5177-908c-97bcd388215a">
+		<m_Name>isRacking</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Events x_name="02acb1cf-b047-5055-a1f8-546eef635a6d">
+		<m_EventName>rackingFinished</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Events x_name="a37698b2-a33a-5ea9-a762-06a30c906e0a">
+		<m_EventName>playReloadSound</m_EventName>
+		<m_TimePc>0.18</m_TimePc>
+		<m_ParameterValue>rack</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="791e78bf-fe04-562e-9d1a-68b49514bc3c">
+		<m_EventName>rackBullet</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Transitions>
+		<m_Target>RackHandgun</m_Target>
+		<m_blendInTime>0.2</m_blendInTime>
+		<m_blendOutTime>0.2</m_blendOutTime>
+	</m_Transitions>
+	<m_ConditionPriority>100</m_ConditionPriority>
+</animNode>

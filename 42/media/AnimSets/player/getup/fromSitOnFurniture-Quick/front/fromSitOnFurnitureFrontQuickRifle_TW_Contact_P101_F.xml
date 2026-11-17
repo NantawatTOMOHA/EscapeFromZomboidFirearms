@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="40b311c4-8d77-5143-ba3f-d2186fbf1d84">
+	<m_Name>fromSitOnFurnitureFrontQuickRifle_TW_Contact_P101_F</m_Name>
+	<m_AnimName>Bob_Seated_StandUp_Rifle</m_AnimName>
+	<m_DeferredBoneName>Bip01</m_DeferredBoneName>
+	<m_deferredBoneAxis>Z</m_deferredBoneAxis>
+	<m_useDeferedRotation>true</m_useDeferedRotation>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.10</m_BlendTime>
+	<m_ConditionPriority>100</m_ConditionPriority>
+	<m_BlendOutTime>0.20</m_BlendOutTime>
+	<m_SpeedScale>1.50</m_SpeedScale>
+	<m_maxTorsoTwist>0.00</m_maxTorsoTwist>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_P101</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="fdc6e0d7-5052-54aa-92a0-6138d2ecc410">
+		<m_Name>sittingonfurniture</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="338094ca-2931-5e59-9e2d-d6558aba9e4e">
+		<m_Name>SitOnFurnitureDirection</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>Front</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="1fa8ed7a-a6f4-59bc-8b42-12fd4f819f47">
+		<m_Name>getUpQuick</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Events x_name="a348af1f-f2b7-5246-8b1b-4d8ef04e82af">
+		<m_EventName>FlagWhileAlive</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>hideEquippedHandL</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="61228ac7-ace9-5692-9aef-7e1f541ea00f">
+		<m_EventName>FlagWhileAlive</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Conditions x_name="18c6f703-75ac-5c4f-8a1b-25cea2a3bd8b">
+		<m_Name>Weapon</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>firearm</m_Value>
+	</m_Conditions>
+</animNode>

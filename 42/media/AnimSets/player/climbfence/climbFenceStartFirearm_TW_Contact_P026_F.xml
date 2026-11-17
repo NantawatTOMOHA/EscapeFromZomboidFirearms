@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="30a87ff2-ee62-5ca2-b6a9-5248e5ac2c73">
+	<m_Name>climbFenceStartFirearm_TW_Contact_P026_F</m_Name>
+	<m_Priority>4</m_Priority>
+	<m_AnimName>Bob_VaultOver_Start_Rifle</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.05</m_BlendTime>
+	<m_ConditionPriority>100</m_ConditionPriority>
+	<m_SpeedScale>1.04</m_SpeedScale>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_P026</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>VaultOverRun</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>VaultOverSprint</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="7ffc66c1-6895-5f69-b983-b6654bba8bd8">
+		<m_Name>ClimbFenceStarted</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Events x_name="8278fa31-3ea4-5403-a2fc-c224937043b2">
+		<m_EventName>SetVariable</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue>ClimbFenceStarted=true</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="3399b6e3-9907-5a29-ac1f-ceef6d29a40b">
+		<m_EventName>PlayFenceSound</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>ClimbOverFenceLow</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="5ea29319-91e4-58f5-9d8e-497187d954c8">
+		<m_EventName>PlayerVoiceSound</m_EventName>
+		<m_TimePc>0.15</m_TimePc>
+		<m_ParameterValue>JumpLow</m_ParameterValue>
+	</m_Events>
+	<m_Transitions>
+		<m_Target>Idle</m_Target>
+		<m_blendInTime>0.1</m_blendInTime>
+	</m_Transitions>
+	<m_Conditions x_name="9c6a7ef0-d4bf-5b6e-937e-1083691491e8">
+		<m_Name>Weapon</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>firearm</m_Value>
+	</m_Conditions>
+</animNode>

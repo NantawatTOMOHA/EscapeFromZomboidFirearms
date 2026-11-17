@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- CODEONLY: exact native Source/masks/transitions, per-profile guards supplied by integration manifest. -->
+<animNode>
+	<m_Name>sit_ext_Rifle_TW_Contact_P026_F</m_Name>
+	<m_Priority>10</m_Priority>
+	<m_AnimName>Bob_SitGround_ActionIdle_Rifle</m_AnimName>
+	<m_DeferredBoneName />
+	<m_BlendTime>0.30</m_BlendTime>
+	<m_ConditionPriority>100</m_ConditionPriority>
+	<m_SpeedScale>0.30</m_SpeedScale>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_P026</m_StringValue>
+	</m_Conditions>
+	<m_Conditions x_name="52665eef-08a4-5b5e-b68b-e39a93f1395d">
+		<m_Name>ExtPlaying</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Transitions>
+		<m_Target>sit_loop_rifle</m_Target>
+		<m_AnimName>Bob_ActionToSitIdle_rifle</m_AnimName>
+		<m_blendInTime>0.3</m_blendInTime>
+		<m_speedScale>1</m_speedScale>
+	</m_Transitions>
+	<m_Conditions x_name="ea8d8588-bd1d-50ab-95c1-3a45fac750aa">
+		<m_Name>Weapon</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>firearm</m_Value>
+	</m_Conditions>
+<m_Conditions><m_Name>TWGripOwned</m_Name><m_Type>BOOL</m_Type><m_Value>true</m_Value></m_Conditions><m_Conditions><m_Name>TWGripFemale</m_Name><m_Type>BOOL</m_Type><m_Value>true</m_Value></m_Conditions></animNode>

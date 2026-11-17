@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="6aa971d8-b216-5600-9e3d-07ff9e663b99">
+	<m_Name>vaultOverSprintFirearm_TW_Contact_P076</m_Name>
+	<m_AnimName>Bob_ValultOver_Sprint_Rifle</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.30</m_BlendTime>
+	<m_ConditionPriority>100</m_ConditionPriority>
+	<m_SpeedScale>0.80</m_SpeedScale>
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_P076</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="425d07ad-4c53-50a9-9b66-0708f66419ac">
+		<m_Name>ClimbFenceStarted</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="29f12029-cb10-59dd-a453-ea453464be29">
+		<m_Name>VaultOverSprint</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="655be9dc-6873-5bb5-b191-c504f63042ba">
+		<m_Name>ClimbFenceOutcome</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>success</m_Value>
+	</m_Conditions>
+	<m_Events x_name="eeaf5834-3674-5171-a959-cce27e74aac1">
+		<m_EventName>VaultOverStarted</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Events x_name="b4cd5bb0-78b2-5c8b-aefe-cb733ec611a8">
+		<m_EventName>SetVariable</m_EventName>
+		<m_TimePc>0.5</m_TimePc>
+		<m_ParameterValue>ClimbFenceFinished=true</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="f4e7fd6a-8ccf-5fa9-9e1b-325c547d8b60">
+		<m_EventName>SetCollidable</m_EventName>
+		<m_TimePc>0.5</m_TimePc>
+		<m_ParameterValue>true</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="65cd0ffa-9a44-5111-b764-dc39038ebb32">
+		<m_EventName>PlayFenceSound</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>ClimbOverFenceLow</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="4fe0e0f1-1e7a-5f24-8974-a88911ced1f1">
+		<m_EventName>PlayerVoiceSound</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>JumpLow</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="99029f3b-ae02-539d-b9f5-fcfa4551545d">
+		<m_EventName>PlaySound</m_EventName>
+		<m_TimePc>0.5</m_TimePc>
+		<m_ParameterValue>LandHeavy</m_ParameterValue>
+	</m_Events>
+	<m_Transitions>
+		<m_Target>defaultSprint</m_Target>
+		<m_blendInTime>0.1</m_blendInTime>
+	</m_Transitions>
+	<m_Conditions x_name="acd4002a-7fbc-5115-8dbc-2faf9921edb5">
+		<m_Name>Weapon</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>firearm</m_Value>
+	</m_Conditions>
+</animNode>

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="f7bc2ebd-0e9d-5b30-8294-2410ed2218a0">
+	<m_Name>HitRRifleAim_TW_Contact_P074</m_Name>
+	<m_AnimName>Bob_AimHitReactRifle_01</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.10</m_BlendTime>
+	<m_ConditionPriority>100</m_ConditionPriority>
+	<m_BlendOutTime>0.20</m_BlendOutTime>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_SubStateBoneWeights>
+		<boneName>Bip01</boneName>
+		<weight>0.20</weight>
+	</m_SubStateBoneWeights>
+	<m_SubStateBoneWeights>
+		<boneName>Bip01_Neck</boneName>
+	</m_SubStateBoneWeights>
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_P074</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="9e44c844-ccc1-5fcb-bc8a-0afbdbcffcb6">
+		<m_Name>Weapon</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>rifle</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="2973dc9d-6f72-5916-8cca-4f7b7f9f2c69">
+		<m_Name>Aim</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+</animNode>

@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="dabc4e91-24e0-5edb-958d-07e5979bb307">
+	<m_Name>FirearmShove_TW_Contact_P101_F</m_Name>
+	<m_Priority>4</m_Priority>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.10</m_BlendTime>
+	<m_EarlyTransitionOut>true</m_EarlyTransitionOut>
+	<m_SpeedScale>0.80</m_SpeedScale>
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_P101</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="3605fe39-283f-53ac-9683-bce4b92a680c">
+		<m_Name>Weapon</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>firearm</m_Value>
+	</m_Conditions>
+	<m_Events x_name="c9364924-b2ef-5a38-acad-2dc55a356187">
+		<m_EventName>AttackCollisionCheck</m_EventName>
+		<m_TimePc>0.001</m_TimePc>
+		<m_ParameterValue>Shove</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="26fd9240-211b-58a1-bcbf-8390e9991f9f">
+		<m_EventName>BlockMovement</m_EventName>
+		<m_TimePc>0.1</m_TimePc>
+		<m_ParameterValue>TRUE</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="c8f586a0-13a2-5568-a156-5b688832dd6d">
+		<m_EventName>BlockMovement</m_EventName>
+		<m_TimePc>0.3</m_TimePc>
+		<m_ParameterValue>FALSE</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="ce621e71-40f7-5d23-9eb3-0b63dea4a17d">
+		<m_EventName>PlayerVoiceSound</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>MeleeShove</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="45e5a986-7b6a-5ea9-ad97-f6786013494c">
+		<m_EventName>FlagWhileAlive</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>ShoveAnim</m_ParameterValue>
+	</m_Events>
+	<m_Transitions>
+		<m_Target>IdleRifle</m_Target>
+		<m_AnimName>TW_Contact_P101_F_AimToIdle_Rifle</m_AnimName>
+		<m_blendInTime>0.5</m_blendInTime>
+		<m_blendOutTime>0.5</m_blendOutTime>
+		<m_speedScale>1.3</m_speedScale>
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>IdleRifle_TW_Contact_P101_F</m_Target>
+		<m_AnimName>TW_Contact_P101_F_AimToIdle_Rifle</m_AnimName>
+		<m_blendInTime>0.5</m_blendInTime>
+		<m_blendOutTime>0.5</m_blendOutTime>
+		<m_speedScale>1.3</m_speedScale>
+	</m_Transitions>
+	<m_AnimName>Bob_Shove_Rifle</m_AnimName>
+	<m_ConditionPriority>100</m_ConditionPriority>
+	<m_Conditions x_name="a1679163-4e78-5ed1-82fd-121c21135ec9">
+		<m_Name>AttackFromBehind</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Events x_name="758c2bd5-d5e8-5ee8-b7ae-d1ddc40e21bf">
+		<m_EventName>PistolWhipAnim</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>TRUE</m_ParameterValue>
+	</m_Events>
+	<m_SubStateBoneWeights>
+		<boneName>Bip01_Spine1</boneName>
+	</m_SubStateBoneWeights>
+	<m_SubStateBoneWeights>
+		<boneName>Bip01_Neck</boneName>
+	</m_SubStateBoneWeights>
+	<m_SubStateBoneWeights>
+		<boneName>Bip01_BackPack</boneName>
+	</m_SubStateBoneWeights>
+	<m_SubStateBoneWeights>
+		<boneName>Bip01_Prop1</boneName>
+	</m_SubStateBoneWeights>
+	<m_SubStateBoneWeights>
+		<boneName>Bip01_Prop2</boneName>
+	</m_SubStateBoneWeights>
+	<m_SubStateBoneWeights>
+		<boneName>Bip01_Spine</boneName>
+		<includeDescendants>false</includeDescendants>
+	</m_SubStateBoneWeights>
+	<m_SubStateBoneWeights>
+		<boneName>Bip01_Pelvis</boneName>
+		<weight>0.50</weight>
+		<includeDescendants>false</includeDescendants>
+	</m_SubStateBoneWeights>
+</animNode>

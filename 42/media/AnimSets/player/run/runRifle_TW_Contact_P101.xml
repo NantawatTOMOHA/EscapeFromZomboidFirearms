@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='utf8'?>
+<animNode x_name="b031e64b-5c84-5692-85b1-fc140032c928">
+	<m_Name>runRifle_TW_Contact_P101</m_Name>
+	<m_AnimName>TW_Contact_P101_RunRifle</m_AnimName>
+	<m_BlendTime>0.35</m_BlendTime>
+	<m_ConditionPriority>100</m_ConditionPriority>
+	<m_SpeedScale>1.04</m_SpeedScale>
+	<m_Scalar>WalkInjury</m_Scalar>
+	<m_Scalar2>WalkSpeed</m_Scalar2>
+	<m_2DBlends referenceID="1">
+		<m_AnimName>TW_Contact_P101_WalkRifle</m_AnimName>
+		<m_XPos>0.00</m_XPos>
+		<m_YPos>0.00</m_YPos>
+		<m_SpeedScale>0.80</m_SpeedScale>
+	</m_2DBlends>
+	<m_2DBlends referenceID="2">
+		<m_AnimName>TW_Contact_P101_WalkLightLimpR_Rifle</m_AnimName>
+		<m_XPos>0.50</m_XPos>
+		<m_YPos>0.00</m_YPos>
+		<m_SpeedScale>0.80</m_SpeedScale>
+	</m_2DBlends>
+	<m_2DBlends referenceID="3">
+		<m_AnimName>TW_Contact_P101_WalkLightLimpL_Rifle</m_AnimName>
+		<m_XPos>-0.50</m_XPos>
+		<m_YPos>0.00</m_YPos>
+		<m_SpeedScale>0.80</m_SpeedScale>
+	</m_2DBlends>
+	<m_2DBlends referenceID="4">
+		<m_AnimName>TW_Contact_P101_RunRifle</m_AnimName>
+		<m_XPos>0.00</m_XPos>
+		<m_YPos>1.00</m_YPos>
+		<m_SpeedScale>0.80</m_SpeedScale>
+	</m_2DBlends>
+	<m_2DBlends referenceID="5">
+		<m_AnimName>TW_Contact_P101_RunLightLimpR_Rifle</m_AnimName>
+		<m_XPos>0.50</m_XPos>
+		<m_YPos>1.00</m_YPos>
+		<m_SpeedScale>0.80</m_SpeedScale>
+	</m_2DBlends>
+	<m_2DBlends referenceID="6">
+		<m_AnimName>TW_Contact_P101_RunLightLimpL_Rifle</m_AnimName>
+		<m_XPos>-0.50</m_XPos>
+		<m_YPos>1.00</m_YPos>
+		<m_SpeedScale>0.80</m_SpeedScale>
+	</m_2DBlends>
+	<m_2DBlends referenceID="7">
+		<m_AnimName>TW_Contact_P101_WalkHeavyLimpR_Rifle</m_AnimName>
+		<m_XPos>1.00</m_XPos>
+		<m_YPos>0.00</m_YPos>
+		<m_SpeedScale>0.80</m_SpeedScale>
+	</m_2DBlends>
+	<m_2DBlends referenceID="8">
+		<m_AnimName>TW_Contact_P101_WalkHeavyLimpL_Rifle</m_AnimName>
+		<m_XPos>-1.00</m_XPos>
+		<m_YPos>0.00</m_YPos>
+		<m_SpeedScale>0.80</m_SpeedScale>
+	</m_2DBlends>
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_P101</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="8a5c0b07-f5ce-54c2-8ee5-48e6d58d8625">
+		<m_Name>isTurningAround</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Events x_name="062b5bef-1615-5a10-a262-0af5360775d2">
+		<m_EventName>Footstep</m_EventName>
+		<m_TimePc>0.2</m_TimePc>
+		<m_ParameterValue>run</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="0833a267-c9a0-557b-b66a-974d47ad295d">
+		<m_EventName>Footstep</m_EventName>
+		<m_TimePc>0.65</m_TimePc>
+		<m_ParameterValue>run</m_ParameterValue>
+	</m_Events>
+	<m_2DBlendTri>
+		<node1>6</node1>
+		<node2>8</node2>
+		<node3>3</node3>
+	</m_2DBlendTri>
+	<m_2DBlendTri>
+		<node1>4</node1>
+		<node2>6</node2>
+		<node3>1</node3>
+	</m_2DBlendTri>
+	<m_2DBlendTri>
+		<node1>3</node1>
+		<node2>1</node2>
+		<node3>6</node3>
+	</m_2DBlendTri>
+	<m_2DBlendTri>
+		<node1>5</node1>
+		<node2>2</node2>
+		<node3>7</node3>
+	</m_2DBlendTri>
+	<m_2DBlendTri>
+		<node1>2</node1>
+		<node2>5</node2>
+		<node3>4</node3>
+	</m_2DBlendTri>
+	<m_2DBlendTri>
+		<node1>1</node1>
+		<node2>2</node2>
+		<node3>4</node3>
+	</m_2DBlendTri>
+	<m_Transitions>
+		<m_Target>IdleRifle</m_Target>
+		<m_AnimName>TW_Contact_P101_RunToStop_Rifle</m_AnimName>
+		<m_blendInTime>0.5</m_blendInTime>
+		<m_speedScale>1</m_speedScale>
+		<m_Conditions x_name="fb15218e-c4f3-5037-a4ba-c15f388ac972">
+			<m_Name>walkinjury</m_Name>
+			<m_Type>EQU</m_Type>
+			<m_Value>0</m_Value>
+		</m_Conditions>
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>IdleRifle_TW_Contact_P101</m_Target>
+		<m_AnimName>TW_Contact_P101_RunToStop_Rifle</m_AnimName>
+		<m_blendInTime>0.5</m_blendInTime>
+		<m_speedScale>1</m_speedScale>
+		<m_Conditions x_name="6c8cb3ec-3057-5bbd-803e-52c03b86eb5b">
+			<m_Name>walkinjury</m_Name>
+			<m_Type>EQU</m_Type>
+			<m_Value>0</m_Value>
+		</m_Conditions>
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>strafeRifle</m_Target>
+		<m_AnimName>TW_Contact_P101_WalkToWalkAimRifle</m_AnimName>
+		<m_blendInTime>0.3</m_blendInTime>
+		<m_blendOutTime>0.3</m_blendOutTime>
+		<m_Conditions x_name="2b55976e-7e19-502b-81b9-303b27f91741">
+			<m_Name>isMoving</m_Name>
+			<m_Type>BOOL</m_Type>
+			<m_Value>false</m_Value>
+		</m_Conditions>
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>strafeRifle_TW_Contact_P101</m_Target>
+		<m_AnimName>TW_Contact_P101_WalkToWalkAimRifle</m_AnimName>
+		<m_blendInTime>0.3</m_blendInTime>
+		<m_blendOutTime>0.3</m_blendOutTime>
+		<m_Conditions x_name="db7587b3-8300-500d-9c19-7e2edb877c97">
+			<m_Name>isMoving</m_Name>
+			<m_Type>BOOL</m_Type>
+			<m_Value>false</m_Value>
+		</m_Conditions>
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>vaultOverRunFirearm</m_Target>
+		<m_blendInTime>0.1</m_blendInTime>
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>turn_run_180L</m_Target>
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>walkrifle</m_Target>
+		<m_blendInTime>0.3</m_blendInTime>
+		<m_blendOutTime>0.3</m_blendOutTime>
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>walkrifle_TW_Contact_P101</m_Target>
+		<m_blendInTime>0.3</m_blendInTime>
+		<m_blendOutTime>0.3</m_blendOutTime>
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>sprintFirearm</m_Target>
+		<m_blendInTime>0.5</m_blendInTime>
+		<m_blendOutTime>0.5</m_blendOutTime>
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>sprintFirearm_TW_Contact_P101</m_Target>
+		<m_blendInTime>0.5</m_blendInTime>
+		<m_blendOutTime>0.5</m_blendOutTime>
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>strafeRifle</m_Target>
+		<m_blendInTime>0.2</m_blendInTime>
+		<m_Conditions x_name="88927911-b02f-5297-a612-26ee034c220e">
+			<m_Name>isMoving</m_Name>
+			<m_Type>BOOL</m_Type>
+			<m_Value>true</m_Value>
+		</m_Conditions>
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>strafeRifle_TW_Contact_P101</m_Target>
+		<m_blendInTime>0.2</m_blendInTime>
+		<m_Conditions x_name="4ce709e0-752d-5264-b7c5-8a28ae1db929">
+			<m_Name>isMoving</m_Name>
+			<m_Type>BOOL</m_Type>
+			<m_Value>true</m_Value>
+		</m_Conditions>
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>IdleRifle</m_Target>
+		<m_blendInTime>0.5</m_blendInTime>
+		<m_speedScale>1</m_speedScale>
+		<m_Conditions x_name="91adcfe3-319e-57f3-9663-b8ed046c3f4e">
+			<m_Name>walkinjury</m_Name>
+			<m_Type>NEQ</m_Type>
+			<m_Value>0</m_Value>
+		</m_Conditions>
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>IdleRifle_TW_Contact_P101</m_Target>
+		<m_blendInTime>0.5</m_blendInTime>
+		<m_speedScale>1</m_speedScale>
+		<m_Conditions x_name="9275b7c8-2682-5a58-a1ec-d150df6f3ae7">
+			<m_Name>walkinjury</m_Name>
+			<m_Type>NEQ</m_Type>
+			<m_Value>0</m_Value>
+		</m_Conditions>
+	</m_Transitions>
+	<m_Conditions x_name="0c0fabfc-0109-5c5d-828f-cf7a114df3fb">
+		<m_Name>Weapon</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>firearm</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWCarryRouteReady</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+</animNode>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="fbfaed4a-430e-557c-885e-532543fe63a0">
+	<m_Name>BiteFirearmFromLeft_TW_Contact_P101_F</m_Name>
+	<m_AnimName>Bob_BiteReact_Rifle_L</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_ConditionPriority>100</m_ConditionPriority>
+	<m_SpeedScale>1.12</m_SpeedScale>
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_P101</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="b75b7c53-0a7f-540a-b6fe-c1c39aacd263">
+		<m_Name>hitreaction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>BiteLEFT</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="89271613-e0a3-5a00-a807-2e1dde375ce1">
+		<m_Name>Weapon</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>firearm</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="37e21afa-102a-5435-a434-9906564904e7">
+		<m_Name>FromBehind</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Events x_name="6eca900a-8c83-5192-aa2d-a7d99ea2fb3b">
+		<m_EventName>PushAwayZombie</m_EventName>
+		<m_TimePc>0.47</m_TimePc>
+		<m_ParameterValue />
+	</m_Events>
+</animNode>

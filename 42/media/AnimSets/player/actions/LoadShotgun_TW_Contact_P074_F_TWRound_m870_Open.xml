@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="e3ed188d-34bc-59de-a90b-a2ddb1bca86a">
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_P074</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Name>LoadShotgun_TW_Contact_P074_F_TWRound_m870_Open</m_Name>
+	<m_AnimName>TWRound_P074_F_m870_Open</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_EarlyTransitionOut>false</m_EarlyTransitionOut>
+	<m_SpeedScale>ReloadSpeed</m_SpeedScale>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions x_name="ab43b6a1-d96a-54df-bb05-cee0b2b5ca21">
+		<m_Name>PerformingAction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>Reload</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="85447a70-b289-5971-8d54-c6effb1cea3f">
+		<m_Name>WeaponReloadType</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>shotgun</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="3403b74d-640b-519c-b92b-158463817f3e">
+		<m_Name>isLoading</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Events x_name="3c26613f-705b-5232-be8f-f941802fa6e1">
+		<m_EventName>loadFinished</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Events x_name="98e75c2e-a3d6-516a-a21c-1d504804e6fb">
+		<m_EventName>playReloadSound</m_EventName>
+		<m_TimePc>0.815</m_TimePc>
+		<m_ParameterValue>load</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="7514737f-80dc-5c89-8252-086e768368e3">
+		<m_EventName>playReloadSound</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>insertAmmoStart</m_ParameterValue>
+	</m_Events>
+	<m_ConditionPriority>200</m_ConditionPriority>
+	<m_Conditions>
+		<m_Name>TWRoundKind</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>m870</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWRoundFirst</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Events>
+		<m_EventName>TWRoundPropShow</m_EventName>
+		<m_TimePc>0.358</m_TimePc>
+		<m_ParameterValue>m870:Open</m_ParameterValue>
+	</m_Events>
+	<m_Events>
+		<m_EventName>TWRoundPropHide</m_EventName>
+		<m_TimePc>0.815</m_TimePc>
+		<m_ParameterValue>m870:Open</m_ParameterValue>
+	</m_Events>
+</animNode>

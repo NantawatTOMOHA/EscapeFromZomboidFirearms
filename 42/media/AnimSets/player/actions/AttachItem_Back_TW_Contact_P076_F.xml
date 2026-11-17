@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="7f7f07f6-36fe-5a77-814b-aa812b3cee4b">
+	<m_Name>AttachItem_Back_TW_Contact_P076_F</m_Name>
+	<m_AnimName>TW_Contact_P076_F_Equip_Rifle_Back</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_ConditionPriority>100</m_ConditionPriority>
+	<m_SpeedScale>AttachItemSpeed</m_SpeedScale>
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_P076</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="70872aaa-ca9e-5f82-a436-53e35f4f9896">
+		<m_Name>PerformingAction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>AttachItem</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="5156c591-5e4e-544f-9d41-02a8d9a15ab6">
+		<m_Name>AttachAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>back</m_Value>
+	</m_Conditions>
+	<m_Events x_name="44c6ba52-2fbc-59a0-bd58-f55a2a7c52e7">
+		<m_EventName>attachConnect</m_EventName>
+		<m_TimePc>0.5</m_TimePc>
+		<m_ParameterValue />
+	</m_Events>
+</animNode>

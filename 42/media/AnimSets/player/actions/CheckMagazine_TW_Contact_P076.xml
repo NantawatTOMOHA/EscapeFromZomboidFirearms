@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="4ce361c0-811d-578b-9f23-8142e851c487">
+	<m_Conditions>
+		<m_Name>TWMagCheck</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Name>CheckMagazine_TW_Contact_P076</m_Name>
+	<m_AnimName>TW_Contact_P076_Reload_Rifle_Check</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_Events x_name="e875d4ab-8a08-583b-9367-f0b0524e03ff">
+		<m_EventName>playReloadSound</m_EventName>
+		<m_TimePc>0.213</m_TimePc>
+		<m_ParameterValue>unload</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="431e4c8e-609e-5508-a7d3-469bcd6316b6">
+		<m_EventName>playReloadSound</m_EventName>
+		<m_TimePc>0.65</m_TimePc>
+		<m_ParameterValue>load</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="17f93b0b-71cf-5731-a165-0d0562179593">
+		<m_EventName>TWMagGrab</m_EventName>
+		<m_TimePc>0.145</m_TimePc>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Events x_name="5320955a-5887-5948-a4ad-bd01a7f2ba02">
+		<m_EventName>TWMagSeat</m_EventName>
+		<m_TimePc>0.65</m_TimePc>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Events x_name="dce01794-b376-5857-9520-4febcdcdfb58">
+		<m_EventName>TWMagCheckDone</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue />
+	</m_Events>
+	<m_ConditionPriority>110</m_ConditionPriority>
+	<m_EarlyTransitionOut>true</m_EarlyTransitionOut>
+	<m_SpeedScale>ReloadSpeed</m_SpeedScale>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_P076</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="1dd73fc4-1d12-5e97-b633-bfe582ee3a33">
+		<m_Name>PerformingAction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>Reload</m_Value>
+	</m_Conditions>
+</animNode>

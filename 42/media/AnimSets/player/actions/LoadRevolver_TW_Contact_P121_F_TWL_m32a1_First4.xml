@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="693aca71-b4d9-57ba-a0f3-3aec3d7b09ea">
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_P121</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Name>LoadRevolver_TW_Contact_P121_F_TWL_m32a1_First4</m_Name>
+	<m_AnimName>TWL_P121_F_m32a1_First4</m_AnimName>
+	<m_BlendTime>0.30</m_BlendTime>
+	<m_SpeedScale>ReloadSpeed</m_SpeedScale>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions x_name="f5e09cf4-ce28-51aa-82fc-ad17524c1235">
+		<m_Name>PerformingAction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>Reload</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="d17864eb-2020-5493-a560-686a32917d94">
+		<m_Name>WeaponReloadType</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>revolver</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="5c55bfa3-c2bd-5ea7-a831-f42a44998b8a">
+		<m_Name>isLoading</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Events x_name="2e433006-5817-5987-b8de-4a0ba4063f4f">
+		<m_EventName>loadFinished</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Events x_name="eac38984-4733-55d3-9417-357e1df49225">
+		<m_EventName>playReloadSound</m_EventName>
+		<m_TimePc>0.3</m_TimePc>
+		<m_ParameterValue>load</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="1f7856ae-1bc5-535f-80d1-d3586ecddcff">
+		<m_EventName>playReloadSound</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>insertAmmoStart</m_ParameterValue>
+	</m_Events>
+	<m_ConditionPriority>200</m_ConditionPriority>
+	<m_Conditions>
+		<m_Name>TWLauncherKind</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>m32a1</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWLauncherRound</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>4</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWLauncherFirst</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Events>
+		<m_EventName>TWLPropShow</m_EventName>
+		<m_TimePc>0.62</m_TimePc>
+		<m_ParameterValue>m32a1:First4</m_ParameterValue>
+	</m_Events>
+	<m_Events>
+		<m_EventName>TWLPropHide</m_EventName>
+		<m_TimePc>0.92</m_TimePc>
+		<m_ParameterValue>m32a1:First4</m_ParameterValue>
+	</m_Events>
+</animNode>

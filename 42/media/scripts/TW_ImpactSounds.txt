@@ -1,0 +1,365 @@
+module Base
+{
+    sound TW_Impact_GenericSoft
+    {
+        category = World,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW_Impact/generic_soft1.wav,
+            volume = 0.800000011920929,
+            pitch = 1.0,
+            distanceMax = 100,
+        }
+        clip
+        {
+            file = media/sound/TW_Impact/generic_soft2.wav,
+            volume = 0.800000011920929,
+            pitch = 1.0,
+            distanceMax = 100,
+        }
+        clip
+        {
+            file = media/sound/TW_Impact/generic_soft3.wav,
+            volume = 0.800000011920929,
+            pitch = 1.0,
+            distanceMax = 100,
+        }
+    }
+    sound TW_Impact_Concrete
+    {
+        category = World,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW_Impact/concrete1.wav,
+            volume = 0.6000000238418579,
+            pitch = 1.0,
+            distanceMax = 130,
+        }
+        clip
+        {
+            file = media/sound/TW_Impact/concrete2.wav,
+            volume = 0.6000000238418579,
+            pitch = 1.0,
+            distanceMax = 130,
+        }
+        clip
+        {
+            file = media/sound/TW_Impact/concrete3.wav,
+            volume = 0.6000000238418579,
+            pitch = 1.0,
+            distanceMax = 130,
+        }
+        clip
+        {
+            file = media/sound/TW_Impact/concrete4.wav,
+            volume = 0.6000000238418579,
+            pitch = 1.0,
+            distanceMax = 130,
+        }
+        clip
+        {
+            file = media/sound/TW_Impact/concrete5.wav,
+            volume = 0.6000000238418579,
+            pitch = 1.0,
+            distanceMax = 130,
+        }
+    }
+    sound TW_Impact_Wood
+    {
+        category = World,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW_Impact/wood1.wav,
+            volume = 0.800000011920929,
+            pitch = 1.0,
+            distanceMax = 110,
+        }
+        clip
+        {
+            file = media/sound/TW_Impact/wood2.wav,
+            volume = 0.800000011920929,
+            pitch = 1.0,
+            distanceMax = 110,
+        }
+        clip
+        {
+            file = media/sound/TW_Impact/wood3.wav,
+            volume = 0.800000011920929,
+            pitch = 1.0,
+            distanceMax = 110,
+        }
+        clip
+        {
+            file = media/sound/TW_Impact/wood4.wav,
+            volume = 0.800000011920929,
+            pitch = 1.0,
+            distanceMax = 110,
+        }
+        clip
+        {
+            file = media/sound/TW_Impact/wood5.wav,
+            volume = 0.800000011920929,
+            pitch = 1.0,
+            distanceMax = 110,
+        }
+    }
+    sound TW_Impact_Metal
+    {
+        category = World,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW_Impact/metal1.wav,
+            volume = 0.800000011920929,
+            pitch = 1.0,
+            distanceMax = 200,
+        }
+        clip
+        {
+            file = media/sound/TW_Impact/metal2.wav,
+            volume = 0.800000011920929,
+            pitch = 1.0,
+            distanceMax = 200,
+        }
+        clip
+        {
+            file = media/sound/TW_Impact/metal3.wav,
+            volume = 0.800000011920929,
+            pitch = 1.0,
+            distanceMax = 200,
+        }
+        clip
+        {
+            file = media/sound/TW_Impact/metal4.wav,
+            volume = 0.800000011920929,
+            pitch = 1.0,
+            distanceMax = 200,
+        }
+        clip
+        {
+            file = media/sound/TW_Impact/metal5.wav,
+            volume = 0.800000011920929,
+            pitch = 1.0,
+            distanceMax = 200,
+        }
+        clip
+        {
+            file = media/sound/TW_Impact/metal6.wav,
+            volume = 0.800000011920929,
+            pitch = 1.0,
+            distanceMax = 200,
+        }
+    }
+    sound TW_Impact_Plastic
+    {
+        category = World,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW_Impact/plastic1.wav,
+            volume = 0.800000011920929,
+            pitch = 1.0,
+            distanceMax = 100,
+        }
+        clip
+        {
+            file = media/sound/TW_Impact/plastic2.wav,
+            volume = 0.800000011920929,
+            pitch = 1.0,
+            distanceMax = 100,
+        }
+        clip
+        {
+            file = media/sound/TW_Impact/plastic3.wav,
+            volume = 0.800000011920929,
+            pitch = 1.0,
+            distanceMax = 100,
+        }
+        clip
+        {
+            file = media/sound/TW_Impact/plastic4.wav,
+            volume = 0.800000011920929,
+            pitch = 1.0,
+            distanceMax = 100,
+        }
+        clip
+        {
+            file = media/sound/TW_Impact/plastic5.wav,
+            volume = 0.800000011920929,
+            pitch = 1.0,
+            distanceMax = 100,
+        }
+    }
+    sound TW_Impact_Glass
+    {
+        category = World,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW_Impact/glass1.wav,
+            volume = 0.6000000238418579,
+            pitch = 1.0,
+            distanceMax = 100,
+        }
+        clip
+        {
+            file = media/sound/TW_Impact/glass2.wav,
+            volume = 0.6000000238418579,
+            pitch = 1.0,
+            distanceMax = 100,
+        }
+        clip
+        {
+            file = media/sound/TW_Impact/glass3.wav,
+            volume = 0.6000000238418579,
+            pitch = 1.0,
+            distanceMax = 100,
+        }
+        clip
+        {
+            file = media/sound/TW_Impact/glass4.wav,
+            volume = 0.6000000238418579,
+            pitch = 1.0,
+            distanceMax = 100,
+        }
+        clip
+        {
+            file = media/sound/TW_Impact/glass5.wav,
+            volume = 0.6000000238418579,
+            pitch = 1.0,
+            distanceMax = 100,
+        }
+    }
+    sound TW_Impact_Soil
+    {
+        category = World,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW_Impact/soil1.wav,
+            volume = 0.800000011920929,
+            pitch = 1.0,
+            distanceMax = 100,
+        }
+        clip
+        {
+            file = media/sound/TW_Impact/soil2.wav,
+            volume = 0.800000011920929,
+            pitch = 1.0,
+            distanceMax = 100,
+        }
+        clip
+        {
+            file = media/sound/TW_Impact/soil3.wav,
+            volume = 0.800000011920929,
+            pitch = 1.0,
+            distanceMax = 100,
+        }
+        clip
+        {
+            file = media/sound/TW_Impact/soil4.wav,
+            volume = 0.800000011920929,
+            pitch = 1.0,
+            distanceMax = 100,
+        }
+        clip
+        {
+            file = media/sound/TW_Impact/soil5.wav,
+            volume = 0.800000011920929,
+            pitch = 1.0,
+            distanceMax = 100,
+        }
+    }
+    sound TW_Impact_Ricochet
+    {
+        category = World,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW_Impact/ricochet1.wav,
+            volume = 0.800000011920929,
+            pitch = 1.0,
+            distanceMax = 75,
+        }
+        clip
+        {
+            file = media/sound/TW_Impact/ricochet2.wav,
+            volume = 0.800000011920929,
+            pitch = 1.0,
+            distanceMax = 75,
+        }
+        clip
+        {
+            file = media/sound/TW_Impact/ricochet3.wav,
+            volume = 0.800000011920929,
+            pitch = 1.0,
+            distanceMax = 75,
+        }
+        clip
+        {
+            file = media/sound/TW_Impact/ricochet4.wav,
+            volume = 0.800000011920929,
+            pitch = 1.0,
+            distanceMax = 75,
+        }
+        clip
+        {
+            file = media/sound/TW_Impact/ricochet5.wav,
+            volume = 0.800000011920929,
+            pitch = 1.0,
+            distanceMax = 75,
+        }
+        clip
+        {
+            file = media/sound/TW_Impact/ricochet6.wav,
+            volume = 0.800000011920929,
+            pitch = 1.0,
+            distanceMax = 75,
+        }
+        clip
+        {
+            file = media/sound/TW_Impact/ricochet7.wav,
+            volume = 0.800000011920929,
+            pitch = 1.0,
+            distanceMax = 75,
+        }
+        clip
+        {
+            file = media/sound/TW_Impact/ricochet13.wav,
+            volume = 0.800000011920929,
+            pitch = 1.0,
+            distanceMax = 75,
+        }
+        clip
+        {
+            file = media/sound/TW_Impact/ricochet12.wav,
+            volume = 0.800000011920929,
+            pitch = 1.0,
+            distanceMax = 75,
+        }
+        clip
+        {
+            file = media/sound/TW_Impact/ricochet11.wav,
+            volume = 0.800000011920929,
+            pitch = 1.0,
+            distanceMax = 75,
+        }
+        clip
+        {
+            file = media/sound/TW_Impact/ricochet10.wav,
+            volume = 0.800000011920929,
+            pitch = 1.0,
+            distanceMax = 75,
+        }
+        clip
+        {
+            file = media/sound/TW_Impact/ricochet9.wav,
+            volume = 0.800000011920929,
+            pitch = 1.0,
+            distanceMax = 75,
+        }
+    }
+}

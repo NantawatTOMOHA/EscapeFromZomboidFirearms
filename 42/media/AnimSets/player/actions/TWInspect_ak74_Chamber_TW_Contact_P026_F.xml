@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode x_name="4dbc50e3-9558-5a09-99d7-e01f82c25e69">
+	<m_Name>TWInspect_ak74_Chamber_TW_Contact_P026_F</m_Name>
+	<m_AnimName>TWInspect_ak74_Chamber_TW_Contact_P026_F</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.08</m_BlendTime>
+	<m_BlendOutTime>0.25</m_BlendOutTime>
+	<m_ConditionPriority>120</m_ConditionPriority>
+	<m_EarlyTransitionOut>true</m_EarlyTransitionOut>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions><m_Name>TWWeaponUtility</m_Name><m_Type>STRING</m_Type><m_StringValue>ak74:Chamber</m_StringValue></m_Conditions>
+	<m_Conditions><m_Name>GunworksGripAnim</m_Name><m_Type>STRING</m_Type><m_StringValue>TW_Contact_P026</m_StringValue></m_Conditions>
+	<m_Conditions><m_Name>TWGripFemale</m_Name><m_Type>BOOL</m_Type><m_Value>true</m_Value></m_Conditions>
+	<m_Conditions><m_Name>TWGripOwned</m_Name><m_Type>BOOL</m_Type><m_Value>true</m_Value></m_Conditions>
+	<m_Conditions><m_Name>PerformingAction</m_Name><m_Type>STRING</m_Type><m_StringValue>Reload</m_StringValue></m_Conditions>
+	<m_Events x_name="11630325-ee69-5b30-b343-2ea805eea87e"><m_EventName>TWUtilitySound</m_EventName><m_TimePc>0.006803</m_TimePc><m_ParameterValue>ak74:Chamber|1|SndHandOff</m_ParameterValue></m_Events>
+	<m_Events x_name="e69bf0d4-cab4-5a80-9d85-08addca8f26c"><m_EventName>TWUtilitySound</m_EventName><m_TimePc>0.229851</m_TimePc><m_ParameterValue>ak74:Chamber|2|SndChamberCheck_in</m_ParameterValue></m_Events>
+	<m_Events x_name="96f2b399-e499-5f5e-99a3-23e1ceebdafe"><m_EventName>TWUtilitySound</m_EventName><m_TimePc>0.44075</m_TimePc><m_ParameterValue>ak74:Chamber|3|SndChamberCheck_out</m_ParameterValue></m_Events>
+	<m_Events x_name="010991b2-0095-554e-ad0b-4482735ceb1b"><m_EventName>TWUtilitySound</m_EventName><m_TimePc>0.697994</m_TimePc><m_ParameterValue>ak74:Chamber|4|SndHandOn</m_ParameterValue></m_Events>
+	<m_Events x_name="339a3d32-3883-5568-90a3-004c06bf80cc"><m_EventName>TWUtilityDone</m_EventName><m_Time>End</m_Time><m_ParameterValue>ak74:Chamber</m_ParameterValue></m_Events>
+</animNode>

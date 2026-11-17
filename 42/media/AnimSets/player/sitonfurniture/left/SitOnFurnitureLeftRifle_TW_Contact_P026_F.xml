@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="9da9e503-acad-5b88-b4fd-7a0683e44ff9">
+	<m_Name>SitOnFurnitureLeftRifle_TW_Contact_P026_F</m_Name>
+	<m_AnimName>Bob_Seated_SitDown_L_Rifle</m_AnimName>
+	<m_DeferredBoneName>Bip01</m_DeferredBoneName>
+	<m_deferredBoneAxis>Z</m_deferredBoneAxis>
+	<m_useDeferedRotation>true</m_useDeferedRotation>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_ConditionPriority>100</m_ConditionPriority>
+	<m_maxTorsoTwist>0.00</m_maxTorsoTwist>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_P026</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="8488bc2f-ad2e-5b14-a84b-2d5318f145b5">
+		<m_Name>SitOnFurnitureDirection</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>Left</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="50d5807c-cadc-59e1-9007-d091bce23dc2">
+		<m_Name>SitOnFurnitureStarted</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Events x_name="fd5c88de-857f-518a-9bd4-d5175c717a87">
+		<m_EventName>SitOnFurnitureStarted</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Events x_name="6900d184-5f5f-5168-a073-a3b500f2e77d">
+		<m_EventName>PlaySitDownSound</m_EventName>
+		<m_TimePc>0.4</m_TimePc>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Events x_name="ff7a5014-1f9e-558b-b8a1-fbacfef382ef">
+		<m_EventName>FlagWhileAlive</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>hideEquippedHandL</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="98a27d1d-a703-5280-8ffc-3fea2147fe7f">
+		<m_EventName>FlagWhileAlive</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Conditions x_name="15a88e3c-149d-592a-881e-fb739844864e">
+		<m_Name>Weapon</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>firearm</m_Value>
+	</m_Conditions>
+</animNode>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="54e32fea-7471-5195-a511-14090ecde92c">
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_P101</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Name>UnloadRevolver_TW_Contact_P101_F_TWL_m32a1_Dump</m_Name>
+	<m_AnimName>TWL_P101_F_m32a1_Dump</m_AnimName>
+	<m_BlendTime>0.30</m_BlendTime>
+	<m_SpeedScale>ReloadSpeed</m_SpeedScale>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions x_name="d77cdbfc-7319-5730-8017-a7481bb6c0d4">
+		<m_Name>PerformingAction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>Reload</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="70e79847-6999-57d7-af72-45bc2ce66ca6">
+		<m_Name>WeaponReloadType</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>revolver</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="01c707d0-f8d8-5a34-bd71-4a470014ff31">
+		<m_Name>isUnloading</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Events x_name="9205a415-9a19-5e94-a76f-1566464ef0b2">
+		<m_EventName>unloadFinished</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Events x_name="3c4020ee-41b5-5556-8bed-ae72790d1dcc">
+		<m_EventName>playReloadSound</m_EventName>
+		<m_TimePc>0.1</m_TimePc>
+		<m_ParameterValue>unload</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="92f807d5-f6a0-53d7-8e18-033c8710bc7f">
+		<m_EventName>playReloadSound</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>ejectAmmoStart</m_ParameterValue>
+	</m_Events>
+	<m_ConditionPriority>200</m_ConditionPriority>
+	<m_Conditions>
+		<m_Name>TWLauncherKind</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>m32a1</m_StringValue>
+	</m_Conditions>
+</animNode>

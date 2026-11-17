@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="03758a62-6ec8-5c9b-938b-7eccf9125634">
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_P026</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWRackStyle</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>left</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>RackAiming</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Name>RackRifle_TW_Contact_P026_F__TWRackLeft</m_Name>
+	<m_AnimName>TW_Contact_P026_F_Reload_Rifle_RackLeft</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.10</m_BlendTime>
+	<m_EarlyTransitionOut>true</m_EarlyTransitionOut>
+	<m_SpeedScale>ReloadSpeed</m_SpeedScale>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions x_name="def773df-e9c6-5d80-9a9b-0331ec5eb96a">
+		<m_Name>PerformingAction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>Reload</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="7eec2b3c-89a3-5557-be50-a8cdcaecda78">
+		<m_Name>WeaponReloadType</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>boltaction</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="d294a4a2-9cbc-543e-a843-29ab7787eded">
+		<m_Name>isRacking</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Events x_name="d836a5f1-3abf-5cb0-a971-b0002a53de79">
+		<m_EventName>rackingFinished</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Events x_name="94d57c72-7131-5c55-9413-4f360e17d92d">
+		<m_EventName>playReloadSound</m_EventName>
+		<m_TimePc>0.5</m_TimePc>
+		<m_ParameterValue>rack</m_ParameterValue>
+		<m_Time>Start</m_Time>
+	</m_Events>
+	<m_Events x_name="92c5fc85-0fef-5a98-8dd3-19f71f96c7df">
+		<m_EventName>rackBullet</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue />
+	</m_Events>
+	<m_ConditionPriority>110</m_ConditionPriority>
+</animNode>

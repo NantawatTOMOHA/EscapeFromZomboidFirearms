@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="7476d0ef-5f0e-5757-adf5-4696513c3e86">
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_RSHG_V8</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Name>RackLeverAction_TW_Contact_RSHG_V8_F</m_Name>
+	<m_AnimName>Bob_Reload_Lever_Rack</m_AnimName>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_SpeedScale>ReloadSpeed</m_SpeedScale>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions x_name="f577e60e-ea12-54d9-8117-66cfc0bd2a7a">
+		<m_Name>PerformingAction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>Reload</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="2e09b180-4f78-5622-a06a-51e3993d9e5e">
+		<m_Name>WeaponReloadType</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>leveraction</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="1508cb71-609d-5ac0-8d64-9c2c31326ca5">
+		<m_Name>isRacking</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Events x_name="a1340339-d152-596c-b0bb-492bc650aac2">
+		<m_EventName>rackingFinished</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Events x_name="5ce19487-3edb-5da4-8c66-6b05273e6191">
+		<m_EventName>playReloadSound</m_EventName>
+		<m_TimePc>0.15</m_TimePc>
+		<m_ParameterValue>rack</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="c83a1418-5ee4-57d4-acec-51a18c0d7358">
+		<m_EventName>rackBullet</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Looped>false</m_Looped>
+	<m_EarlyTransitionOut>true</m_EarlyTransitionOut>
+	<m_ConditionPriority>100</m_ConditionPriority>
+</animNode>

@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="8a0a8965-d39c-5797-ba6e-25efdc11dfec">
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_P074</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Name>LoadRifleNoMag_TW_Contact_P074_TWRound_sks_Open</m_Name>
+	<m_AnimName>TWRound_P074_M_sks_Open</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_EarlyTransitionOut>false</m_EarlyTransitionOut>
+	<m_SpeedScale>ReloadSpeed</m_SpeedScale>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions x_name="2f47aa52-098f-58c5-8721-d94f9bdd9d32">
+		<m_Name>PerformingAction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>Reload</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="444f9b67-8fd3-59bd-b354-62063bbbb735">
+		<m_Name>WeaponReloadType</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>boltactionnomag</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="49ce77cd-9d76-53bb-bb7c-43746c008232">
+		<m_Name>isLoading</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Events x_name="2fc3e95a-63af-5f46-aa5b-4f15473c985c">
+		<m_EventName>loadFinished</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Events x_name="cc8fa2d7-8652-515f-a356-32b645b70826">
+		<m_EventName>playReloadSound</m_EventName>
+		<m_TimePc>0.749</m_TimePc>
+		<m_ParameterValue>load</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="a14075b8-c6c1-5a61-a241-230f8608f3c2">
+		<m_EventName>playReloadSound</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>insertAmmoStart</m_ParameterValue>
+	</m_Events>
+	<m_ConditionPriority>200</m_ConditionPriority>
+	<m_Conditions>
+		<m_Name>TWRoundKind</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>sks</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWRoundFirst</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Events>
+		<m_EventName>TWRoundPropShow</m_EventName>
+		<m_TimePc>0.529</m_TimePc>
+		<m_ParameterValue>sks:Open</m_ParameterValue>
+	</m_Events>
+	<m_Events>
+		<m_EventName>TWRoundPropHide</m_EventName>
+		<m_TimePc>0.749</m_TimePc>
+		<m_ParameterValue>sks:Open</m_ParameterValue>
+	</m_Events>
+</animNode>

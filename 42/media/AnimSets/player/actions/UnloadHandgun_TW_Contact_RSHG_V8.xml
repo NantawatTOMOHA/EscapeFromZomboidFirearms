@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="079d5a4d-6df2-5f3a-ae57-e92c83d83e93">
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_RSHG_V8</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Name>UnloadHandgun_TW_Contact_RSHG_V8</m_Name>
+	<m_AnimName>Bob_Reload_Handgun_Load</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_EarlyTransitionOut>true</m_EarlyTransitionOut>
+	<m_SpeedScale>ReloadSpeed</m_SpeedScale>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions x_name="d6627a13-5716-5850-a8f7-8b38671e751f">
+		<m_Name>PerformingAction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>Reload</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="52f188a9-0572-563d-9fbe-93679f0b26e2">
+		<m_Name>WeaponReloadType</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>handgun</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="5ec780ec-82e6-54d6-930e-e1c01b043695">
+		<m_Name>isUnloading</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Events x_name="f5475140-1ed0-5576-bb5f-4084a44a44ab">
+		<m_EventName>unloadFinished</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Events x_name="c4ecc913-56ba-5be2-99d6-fb8972f563b5">
+		<m_EventName>playReloadSound</m_EventName>
+		<m_TimePc>0.3</m_TimePc>
+		<m_ParameterValue>unload</m_ParameterValue>
+		<m_Time>Start</m_Time>
+	</m_Events>
+	<m_Events x_name="77647536-b611-563d-a1ef-798c9b7bcc52">
+		<m_EventName>playReloadSound</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>ejectAmmoStart</m_ParameterValue>
+	</m_Events>
+	<m_Transitions>
+		<m_Target>LoadHandgun</m_Target>
+		<m_blendInTime>0.2</m_blendInTime>
+		<m_blendOutTime>0.2</m_blendOutTime>
+	</m_Transitions>
+	<m_AnimReverse>true</m_AnimReverse>
+	<m_ConditionPriority>100</m_ConditionPriority>
+</animNode>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode x_name="bda550d2-3ac7-5133-83aa-0c5af0cfb839">
+	<m_Name>TWInspect_mp5_Inspect_TW_Contact_P026</m_Name>
+	<m_AnimName>TWInspect_mp5_Inspect_TW_Contact_P026</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.08</m_BlendTime>
+	<m_BlendOutTime>0.25</m_BlendOutTime>
+	<m_ConditionPriority>120</m_ConditionPriority>
+	<m_EarlyTransitionOut>true</m_EarlyTransitionOut>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions><m_Name>TWWeaponUtility</m_Name><m_Type>STRING</m_Type><m_StringValue>mp5:Inspect</m_StringValue></m_Conditions>
+	<m_Conditions><m_Name>GunworksGripAnim</m_Name><m_Type>STRING</m_Type><m_StringValue>TW_Contact_P026</m_StringValue></m_Conditions>
+	<m_Conditions><m_Name>TWGripFemale</m_Name><m_Type>BOOL</m_Type><m_Value>false</m_Value></m_Conditions>
+	<m_Conditions><m_Name>TWGripOwned</m_Name><m_Type>BOOL</m_Type><m_Value>true</m_Value></m_Conditions>
+	<m_Conditions><m_Name>PerformingAction</m_Name><m_Type>STRING</m_Type><m_StringValue>Reload</m_StringValue></m_Conditions>
+	<m_Events x_name="7644c82a-c464-5151-a294-529e5bc69c5c"><m_EventName>TWUtilitySound</m_EventName><m_TimePc>0.037878</m_TimePc><m_ParameterValue>mp5:Inspect|1|SndHandOff</m_ParameterValue></m_Events>
+	<m_Events x_name="df24fd2d-4bb4-5e62-b95c-1b3007e5508a"><m_EventName>TWUtilitySound</m_EventName><m_TimePc>0.868741</m_TimePc><m_ParameterValue>mp5:Inspect|2|SndHandOn</m_ParameterValue></m_Events>
+	<m_Events x_name="3afd6248-9281-5749-9313-0b20f24679bb"><m_EventName>TWUtilityDone</m_EventName><m_Time>End</m_Time><m_ParameterValue>mp5:Inspect</m_ParameterValue></m_Events>
+</animNode>

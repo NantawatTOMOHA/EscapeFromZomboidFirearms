@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="3c410c0b-c41e-5810-8b4a-5c24a923b639">
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_P076</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Name>LoadShotgun_TW_Contact_P076_F</m_Name>
+	<m_AnimName>Bob_Reload_Shotgun_Load</m_AnimName>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_EarlyTransitionOut>true</m_EarlyTransitionOut>
+	<m_SpeedScale>ReloadSpeed</m_SpeedScale>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions x_name="84130d16-583a-5ddc-a653-147235db6f45">
+		<m_Name>PerformingAction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>Reload</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="0645be0e-fb21-5959-926c-082ac5be041d">
+		<m_Name>WeaponReloadType</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>shotgun</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="4c25b342-4640-5514-bbc3-9dd7e7211b2b">
+		<m_Name>isLoading</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Events x_name="46adec42-03da-553b-9844-ce5f6a9e48ab">
+		<m_EventName>loadFinished</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Events x_name="5a9acf30-b80e-5fca-add0-004d084b6c62">
+		<m_EventName>playReloadSound</m_EventName>
+		<m_TimePc>0.3</m_TimePc>
+		<m_ParameterValue>load</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="6ec798fb-6fc5-5093-8f56-b36792004db1">
+		<m_EventName>playReloadSound</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>insertAmmoStart</m_ParameterValue>
+	</m_Events>
+	<m_ConditionPriority>100</m_ConditionPriority>
+</animNode>

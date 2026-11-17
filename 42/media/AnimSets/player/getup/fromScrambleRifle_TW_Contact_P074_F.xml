@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="a89cb5af-4aee-5122-b4cf-0c2d8ce9a6ac">
+	<m_Name>fromScrambleRifle_TW_Contact_P074_F</m_Name>
+	<m_AnimName>TW_Contact_P074_F_ScrambleFloorToIdle_Rifle</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.10</m_BlendTime>
+	<m_ConditionPriority>100</m_ConditionPriority>
+	<m_EarlyTransitionOut>true</m_EarlyTransitionOut>
+	<m_SpeedScale>0.80</m_SpeedScale>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_P074</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="320c112a-bfb0-5446-a08b-8aabaa8154f8">
+		<m_Name>fallOnFront</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="06cc3339-1010-5a21-9146-e0d4432b0404">
+		<m_Name>BumpDone</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="5365e58b-4916-509c-9a8d-8a67fb4254b5">
+		<m_Name>Weapon</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>firearm</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="e5336923-4aef-590e-a5a0-485fae42359c">
+		<m_Name>bOnFloor</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Transitions>
+		<m_Target>vaultOverSprintFail</m_Target>
+		<m_blendInTime>0.1</m_blendInTime>
+	</m_Transitions>
+</animNode>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode x_name="647ce8be-5270-5d0b-a01b-8f56abb92b08">
+	<m_Name>TWInspect_glock17_ModeCheck_TW_HGCarry_G006</m_Name>
+	<m_AnimName>TWInspect_glock17_ModeCheck_TW_HGCarry_G006</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.08</m_BlendTime>
+	<m_BlendOutTime>0.25</m_BlendOutTime>
+	<m_ConditionPriority>120</m_ConditionPriority>
+	<m_EarlyTransitionOut>true</m_EarlyTransitionOut>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions><m_Name>TWWeaponUtility</m_Name><m_Type>STRING</m_Type><m_StringValue>glock17:ModeCheck</m_StringValue></m_Conditions>
+	<m_Conditions><m_Name>TWCarryHandgunProfile</m_Name><m_Type>STRING</m_Type><m_StringValue>TW_HGCarry_G006</m_StringValue></m_Conditions>
+	<m_Conditions><m_Name>TWGripFemale</m_Name><m_Type>BOOL</m_Type><m_Value>false</m_Value></m_Conditions>
+	<m_Conditions><m_Name>TWGripOwned</m_Name><m_Type>BOOL</m_Type><m_Value>true</m_Value></m_Conditions>
+	<m_Conditions><m_Name>PerformingAction</m_Name><m_Type>STRING</m_Type><m_StringValue>Reload</m_StringValue></m_Conditions>
+	<m_Events x_name="64165baf-7b6c-525a-84a9-05ecb0697936"><m_EventName>TWUtilitySound</m_EventName><m_TimePc>0.034139</m_TimePc><m_ParameterValue>glock17:ModeCheck|1|SndHandOff</m_ParameterValue></m_Events>
+	<m_Events x_name="66890664-02e2-5a3e-898a-d790b50bfa71"><m_EventName>TWUtilitySound</m_EventName><m_TimePc>0.509918</m_TimePc><m_ParameterValue>glock17:ModeCheck|2|SndHandOn</m_ParameterValue></m_Events>
+	<m_Events x_name="9e10aea1-2a1f-52ac-b2c9-9ab09d64ae22"><m_EventName>TWUtilityDone</m_EventName><m_Time>End</m_Time><m_ParameterValue>glock17:ModeCheck</m_ParameterValue></m_Events>
+</animNode>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="1685ee52-b542-52b3-9884-2a8f58da7d9b">
+	<m_Name>Rifle_Bump_right_TW_Contact_P074_F</m_Name>
+	<m_AnimName>Bob_RunRifle_BumpR</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.10</m_BlendTime>
+	<m_ConditionPriority>100</m_ConditionPriority>
+	<m_BlendOutTime>0.25</m_BlendOutTime>
+	<m_EarlyTransitionOut>true</m_EarlyTransitionOut>
+	<m_SpeedScale>0.96</m_SpeedScale>
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_P074</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>BumpFall</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="2a52478b-db47-5489-8f83-62b0fb26a88a">
+		<m_Name>BumpType</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>right</m_Value>
+	</m_Conditions>
+	<m_Events x_name="6dcc83d3-5be9-5b4f-b558-3d10f89a1666">
+		<m_EventName>SetVariable</m_EventName>
+		<m_TimePc>0.5</m_TimePc>
+		<m_ParameterValue>BumpDone=true</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="658c5ea0-5343-5313-aa1c-0b8a2319968a">
+		<m_EventName>SetVariable</m_EventName>
+		<m_TimePc>0.5</m_TimePc>
+		<m_ParameterValue>BumpStaggered=false</m_ParameterValue>
+	</m_Events>
+	<m_Conditions x_name="9e0445a4-fd00-5751-8c1b-038be392a02e">
+		<m_Name>Weapon</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>firearm</m_Value>
+	</m_Conditions>
+</animNode>

@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="fb4ca0aa-9801-5ea1-9e16-5324636b1a0b">
+	<m_Conditions>
+		<m_Name>TWCarryHandgunProfile</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_HGCarry_G006</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Name>LoadHandgun_TW_HGCarry_G006_F</m_Name>
+	<m_AnimName>TW_HGCarry_G006_F_Reload_Handgun_Load</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_EarlyTransitionOut>true</m_EarlyTransitionOut>
+	<m_SpeedScale>ReloadSpeed</m_SpeedScale>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions x_name="e2a226f0-6cf0-5400-bfd1-66d683027d1c">
+		<m_Name>PerformingAction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>Reload</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="df7a9064-2eb7-569e-85e8-fd5db1978c23">
+		<m_Name>WeaponReloadType</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>handgun</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="86f69ff0-709c-505d-a53e-dec43cbff30c">
+		<m_Name>isLoading</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Events x_name="4c202f5d-bfe9-52f6-a4a5-fa058d902183">
+		<m_EventName>loadFinished</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Events x_name="15655b6a-192b-55fb-894c-4ed41322ce54">
+		<m_EventName>playReloadSound</m_EventName>
+		<m_TimePc>0.653</m_TimePc>
+		<m_ParameterValue>load</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="4d2b4fc6-aea9-5072-9499-9a6354aa2926">
+		<m_EventName>playReloadSound</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>insertAmmoStart</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="0e79b5f4-adf5-57c2-9102-0508460dc977">
+		<m_EventName>TWMagDraw</m_EventName>
+		<m_TimePc>0.137</m_TimePc>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Events x_name="e3609e90-aed4-50de-8950-8115d9f727f2">
+		<m_EventName>TWMagSeat</m_EventName>
+		<m_TimePc>0.653</m_TimePc>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Transitions>
+		<m_Target>RackHandgun</m_Target>
+		<m_blendInTime>0.2</m_blendInTime>
+		<m_blendOutTime>0.2</m_blendOutTime>
+	</m_Transitions>
+	<m_ConditionPriority>100</m_ConditionPriority>
+</animNode>

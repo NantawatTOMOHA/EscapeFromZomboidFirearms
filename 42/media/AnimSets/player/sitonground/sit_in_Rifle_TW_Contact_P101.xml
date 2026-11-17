@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="0814b827-1335-5b21-a711-9c7af4902beb">
+	<m_Name>sit_in_Rifle_TW_Contact_P101</m_Name>
+	<m_AnimName>Bob_SitGround_In_Rifle</m_AnimName>
+	<m_DeferredBoneName />
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_ConditionPriority>100</m_ConditionPriority>
+	<m_EarlyTransitionOut>true</m_EarlyTransitionOut>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Events x_name="c8ced6a4-5a2f-5187-80a7-eedaa550aa7d">
+		<m_EventName>SitGroundStarted</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Events x_name="02c03b1c-7e45-5d3b-a8c8-0eed4f04aca7">
+		<m_EventName>PlaySound</m_EventName>
+		<m_TimePc>0.1</m_TimePc>
+		<m_ParameterValue>SurfaceSitDown</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="ecbef380-bc63-58a7-95a7-d2767e859c38">
+		<m_EventName>FlagWhileAlive</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>hideEquippedHandL</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="f41ab16b-c913-510b-8e8a-df00abb1cba1">
+		<m_EventName>FlagWhileAlive</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_P101</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="bbaadec0-784d-54f0-872a-c0094db71662">
+		<m_Name>Weapon</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>firearm</m_Value>
+	</m_Conditions>
+</animNode>

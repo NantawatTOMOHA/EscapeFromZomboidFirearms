@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="043965c4-f07f-5615-bd11-c3d620e6940f">
+	<m_Name>FirearmSingle_TW_Contact_P076_TWTp</m_Name>
+	<m_AnimName>TW_Contact_P076_AttackRifle</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.05</m_BlendTime>
+	<m_ConditionPriority>101</m_ConditionPriority>
+	<m_BlendOutTime>0.15</m_BlendOutTime>
+	<m_EarlyTransitionOut>true</m_EarlyTransitionOut>
+	<m_SpeedScale>singleShootSpeed</m_SpeedScale>
+	<m_SpeedScaleRandomMultiplierMin>2.50</m_SpeedScaleRandomMultiplierMin>
+	<m_SpeedScaleRandomMultiplierMax>2.50</m_SpeedScaleRandomMultiplierMax>
+	<m_Scalar>verticalAimAngle</m_Scalar>
+	<m_Scalar2>recoilVarY</m_Scalar2>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_2DBlends referenceID="1">
+		<m_AnimName>TWTp_TW_Contact_P076_IdleAimRifle_Up75_1600_4800</m_AnimName>
+		<m_XPos>75.00</m_XPos>
+		<m_YPos>0.00</m_YPos>
+		<m_SpeedScale>1.00</m_SpeedScale>
+	</m_2DBlends>
+	<m_2DBlends referenceID="2">
+		<m_AnimName>TWTp_TW_Contact_P076_IdleAimRifle_Up45_1600_4800</m_AnimName>
+		<m_XPos>45.00</m_XPos>
+		<m_YPos>0.00</m_YPos>
+		<m_SpeedScale>1.00</m_SpeedScale>
+	</m_2DBlends>
+	<m_2DBlends referenceID="3">
+		<m_AnimName>TWTp_TW_Contact_P076_IdleAimRifle_1600_4800</m_AnimName>
+		<m_XPos>0.00</m_XPos>
+		<m_YPos>0.00</m_YPos>
+		<m_SpeedScale>1.00</m_SpeedScale>
+	</m_2DBlends>
+	<m_2DBlends referenceID="4">
+		<m_AnimName>TWTp_TW_Contact_P076_IdleAimRifle_Down_1600_4800</m_AnimName>
+		<m_XPos>-45.00</m_XPos>
+		<m_YPos>-0.22</m_YPos>
+		<m_SpeedScale>1.00</m_SpeedScale>
+	</m_2DBlends>
+	<m_2DBlends referenceID="5">
+		<m_AnimName>TWTp_TW_Contact_P076_IdleAimRifle_Down75_1600_4800</m_AnimName>
+		<m_XPos>-75.00</m_XPos>
+		<m_YPos>0.25</m_YPos>
+		<m_SpeedScale>1.00</m_SpeedScale>
+	</m_2DBlends>
+	<m_2DBlends referenceID="6">
+		<m_AnimName>TW_Contact_P076_IdleAimRifle</m_AnimName>
+		<m_XPos>0.00</m_XPos>
+		<m_YPos>1.00</m_YPos>
+		<m_SpeedScale>1.00</m_SpeedScale>
+	</m_2DBlends>
+	<m_Conditions>
+		<m_Name>TWTpRecoil</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_P076</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="aa2d6ba6-3782-50f2-a94d-bee16d63e0ed">
+		<m_Name>bDoShove</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="6982ca7d-071e-5283-bf78-30bb7e5dded5">
+		<m_Name>Weapon</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>firearm</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="333a31b0-a26f-5f33-9b6b-0188fd42402a">
+		<m_Name>RangedWeaponEmpty</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="cd1304d0-7ebc-5052-be62-5bb71454ad83">
+		<m_Name>FireMode</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>Single</m_Value>
+	</m_Conditions>
+	<m_Events x_name="f574eb6b-d7ee-5b56-8781-44b2ae521d3d">
+		<m_EventName>SetVariable</m_EventName>
+		<m_TimePc>0.0001</m_TimePc>
+		<m_ParameterValue>ZombieHitReaction=Shot</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="22b55665-d8dc-53ed-ab7f-3785cbb083ab">
+		<m_EventName>AttackCollisionCheck</m_EventName>
+		<m_TimePc>0.001</m_TimePc>
+		<m_ParameterValue>Shot</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="602c5951-d966-5c15-bbad-5b92df58a3c6">
+		<m_EventName>SetVariable</m_EventName>
+		<m_TimePc>0.9</m_TimePc>
+		<m_ParameterValue>ShotDone=true</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="5c3588dd-ee1a-5dca-ae13-3c03d79e31df">
+		<m_EventName>AttackAnim</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>TRUE</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="98218d2e-5efb-565c-8efb-183be91cc047">
+		<m_EventName>AttackAnim</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue>FALSE</m_ParameterValue>
+	</m_Events>
+	<m_2DBlendTri>
+		<node1>4</node1>
+		<node2>6</node2>
+		<node3>5</node3>
+	</m_2DBlendTri>
+	<m_2DBlendTri>
+		<node1>2</node1>
+		<node2>3</node2>
+		<node3>4</node3>
+	</m_2DBlendTri>
+	<m_2DBlendTri>
+		<node1>3</node1>
+		<node2>6</node2>
+		<node3>4</node3>
+	</m_2DBlendTri>
+	<m_2DBlendTri>
+		<node1>1</node1>
+		<node2>6</node2>
+		<node3>2</node3>
+	</m_2DBlendTri>
+	<m_Transitions>
+		<m_Target>IdleRifle</m_Target>
+		<m_AnimName>TW_Contact_P076_AimToIdle_Rifle</m_AnimName>
+		<m_blendInTime>0.5</m_blendInTime>
+		<m_blendOutTime>0.5</m_blendOutTime>
+		<m_speedScale>1.3</m_speedScale>
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>IdleRifle_TW_Contact_P076</m_Target>
+		<m_AnimName>TW_Contact_P076_AimToIdle_Rifle</m_AnimName>
+		<m_blendInTime>0.5</m_blendInTime>
+		<m_blendOutTime>0.5</m_blendOutTime>
+		<m_speedScale>1.3</m_speedScale>
+	</m_Transitions>
+	<m_SubStateBoneWeights>
+		<boneName>Bip01_Spine1</boneName>
+	</m_SubStateBoneWeights>
+	<m_SubStateBoneWeights>
+		<boneName>Bip01_Neck</boneName>
+	</m_SubStateBoneWeights>
+	<m_SubStateBoneWeights>
+		<boneName>Bip01_BackPack</boneName>
+	</m_SubStateBoneWeights>
+	<m_SubStateBoneWeights>
+		<boneName>Bip01_Prop1</boneName>
+	</m_SubStateBoneWeights>
+	<m_SubStateBoneWeights>
+		<boneName>Bip01_Prop2</boneName>
+	</m_SubStateBoneWeights>
+	<m_SubStateBoneWeights>
+		<boneName>Bip01_Spine</boneName>
+		<weight>0.40</weight>
+		<includeDescendants>false</includeDescendants>
+	</m_SubStateBoneWeights>
+	<m_SubStateBoneWeights>
+		<boneName>Bip01</boneName>
+		<weight>0.20</weight>
+		<includeDescendants>false</includeDescendants>
+	</m_SubStateBoneWeights>
+	<m_2DBlendTri>
+		<node1>3</node1>
+		<node2>2</node2>
+		<node3>6</node3>
+	</m_2DBlendTri>
+	<m_2DBlendTri>
+		<node1>4</node1>
+		<node2>1</node2>
+		<node3>2</node3>
+	</m_2DBlendTri>
+</animNode>

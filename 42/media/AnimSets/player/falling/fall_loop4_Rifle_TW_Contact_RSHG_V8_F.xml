@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="72d84a66-6479-58bf-9b0d-82058a69a5a2">
+	<m_Name>fall_loop4_Rifle_TW_Contact_RSHG_V8_F</m_Name>
+	<m_AnimName>Bob_FallIdle04_Rifle</m_AnimName>
+	<m_BlendTime>0.10</m_BlendTime>
+	<m_ConditionPriority>100</m_ConditionPriority>
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_RSHG_V8</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="b86231b1-5559-55f6-9624-fbd6cc354179">
+		<m_Name>Weapon</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>firearm</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="2f7d33de-58fe-5874-98ae-fdbbc877e56e">
+		<m_Name>fallSpeedSeverity</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>Lethal</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="db05f188-c53e-5698-85d7-2a6c6b01619d">
+		<m_Name>bFalling</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Transitions>
+		<m_Target>land_death</m_Target>
+		<m_blendInTime>0.1</m_blendInTime>
+		<m_blendOutTime>0.1</m_blendOutTime>
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>land_heavy2</m_Target>
+		<m_blendInTime>0.1</m_blendInTime>
+		<m_blendOutTime>0.1</m_blendOutTime>
+	</m_Transitions>
+</animNode>

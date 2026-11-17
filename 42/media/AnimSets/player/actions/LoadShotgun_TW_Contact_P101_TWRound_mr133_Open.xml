@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="48fb34fb-9e3f-5cc8-98d0-455174f1744a">
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_P101</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Name>LoadShotgun_TW_Contact_P101_TWRound_mr133_Open</m_Name>
+	<m_AnimName>TWRound_P101_M_mr133_Open</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_EarlyTransitionOut>false</m_EarlyTransitionOut>
+	<m_SpeedScale>ReloadSpeed</m_SpeedScale>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions x_name="fe14398e-b274-543b-97de-ea9b520f4e96">
+		<m_Name>PerformingAction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>Reload</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="421ee7e3-51f2-5852-a572-8e276a75dded">
+		<m_Name>WeaponReloadType</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>shotgun</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="28ab65dc-2a3f-5f1d-9efd-e74a7ded6f44">
+		<m_Name>isLoading</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Events x_name="20822312-2438-5937-9884-1980a5a77e11">
+		<m_EventName>loadFinished</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Events x_name="c53ae3e5-2487-537e-a8c5-748460167140">
+		<m_EventName>playReloadSound</m_EventName>
+		<m_TimePc>0.87</m_TimePc>
+		<m_ParameterValue>load</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="0e54f554-c428-5296-8843-dd9110357753">
+		<m_EventName>playReloadSound</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>insertAmmoStart</m_ParameterValue>
+	</m_Events>
+	<m_ConditionPriority>200</m_ConditionPriority>
+	<m_Conditions>
+		<m_Name>TWRoundKind</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>mr133</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWRoundFirst</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Events>
+		<m_EventName>TWRoundPropShow</m_EventName>
+		<m_TimePc>0.643</m_TimePc>
+		<m_ParameterValue>mr133:Open</m_ParameterValue>
+	</m_Events>
+	<m_Events>
+		<m_EventName>TWRoundPropHide</m_EventName>
+		<m_TimePc>0.87</m_TimePc>
+		<m_ParameterValue>mr133:Open</m_ParameterValue>
+	</m_Events>
+</animNode>

@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="dd5c9df8-551d-5fcb-826f-5a0548ec2510">
+	<m_Name>StompRifle_TW_Contact_P074</m_Name>
+	<m_Priority>4</m_Priority>
+	<m_AnimName>Bob_AttackFloorStamp_Rifle</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_ConditionPriority>100</m_ConditionPriority>
+	<m_EarlyTransitionOut>true</m_EarlyTransitionOut>
+	<m_SpeedScale>1.28</m_SpeedScale>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Events x_name="166535c1-ae5f-5732-8455-7db47f51fd78">
+		<m_EventName>SetVariable</m_EventName>
+		<m_TimePc>0.1</m_TimePc>
+		<m_ParameterValue>ZombieHitReaction=Floor</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="2489ed84-d8cb-5058-a7ce-67da86cb417b">
+		<m_EventName>AttackCollisionCheck</m_EventName>
+		<m_TimePc>0.33</m_TimePc>
+		<m_ParameterValue>Stomp</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="f50c04da-e1a8-5ea1-a05f-f622f10275eb">
+		<m_EventName>StompAnim</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>true</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="73f3e569-bddb-5817-82d9-146969268d92">
+		<m_EventName>StompAnim</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue>false</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="dfe8d32d-3193-52e9-91c0-0fa7796c7cd7">
+		<m_EventName>SetMeleeDelay</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue>5</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="5fffad4c-582d-5aab-95b4-205099623e3d">
+		<m_EventName>PlayerVoiceSound</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>MeleeStomp</m_ParameterValue>
+	</m_Events>
+	<m_SubStateBoneWeights>
+		<boneName>Dummy01</boneName>
+	</m_SubStateBoneWeights>
+	<m_SubStateBoneWeights>
+		<boneName>Translation_Data</boneName>
+	</m_SubStateBoneWeights>
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_P074</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="9085090d-09c0-53c2-b128-49549469337a">
+		<m_Name>Weapon</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>firearm</m_Value>
+	</m_Conditions>
+</animNode>

@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="9812a788-7be3-564b-944d-9fa89fc03e90">
+	<m_Name>climbFenceEndFirearm_TW_Contact_P076_F</m_Name>
+	<m_Priority>4</m_Priority>
+	<m_AnimName>Bob_VaultOver_End_Rifle</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.05</m_BlendTime>
+	<m_ConditionPriority>100</m_ConditionPriority>
+	<m_SpeedScale>1.04</m_SpeedScale>
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_P076</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="0ee9a0ab-b67e-56e0-a7e2-51ee36eb3b9b">
+		<m_Name>ClimbFenceStarted</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="63e264da-7dce-59a3-aaff-db738cde1a82">
+		<m_Name>ClimbFenceOutcome</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>success</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="fa4e9631-4048-55d9-b337-62f88c00502c">
+		<m_Name>ClimbFenceFinished</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Events x_name="964cd97c-c8a1-59d1-abdc-44f4c3f5157d">
+		<m_EventName>SetVariable</m_EventName>
+		<m_TimePc>0.7</m_TimePc>
+		<m_ParameterValue>ClimbFenceFinished=true</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="e32e748e-f131-52fc-b014-c8389d945864">
+		<m_EventName>PlaySound</m_EventName>
+		<m_TimePc>0.28</m_TimePc>
+		<m_ParameterValue>LandLight</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="0774b69c-747c-5100-bdad-2fae71bdf98b">
+		<m_EventName>PlayerVoiceSound</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>JumpHigh</m_ParameterValue>
+	</m_Events>
+	<m_Transitions>
+		<m_Target>climbFenceStart</m_Target>
+		<m_blendInTime>0.05</m_blendInTime>
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>Idle</m_Target>
+		<m_blendInTime>0.05</m_blendInTime>
+	</m_Transitions>
+	<m_Conditions x_name="e838714f-c47d-5b9a-adff-32b5e51abe49">
+		<m_Name>Weapon</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>firearm</m_Value>
+	</m_Conditions>
+</animNode>

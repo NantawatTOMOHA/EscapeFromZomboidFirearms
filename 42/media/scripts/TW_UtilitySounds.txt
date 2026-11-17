@@ -1,0 +1,3237 @@
+module Base
+{
+    sound TW_Utility_9A91_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_9A91_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_9A91_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_9A91_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_9A91_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_9A91_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_9A91_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AA12GEN1_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AA12GEN1_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AA12GEN1_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AA12GEN1_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AA12GEN2_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AA12GEN2_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AA12GEN2_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AA12GEN2_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_ADAR215_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_ADAR215_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_ADAR215_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_ADAR215_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_ADAR215_HandleIn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_ADAR215_HandleIn_1.wav, volume = 1.0, distanceMax = 30, }
+    }
+    sound TW_Utility_ADAR215_HandleOut
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_ADAR215_HandleOut_1.wav, volume = 1.0, distanceMax = 30, }
+    }
+    sound TW_Utility_ADAR215_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_ADAR215_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK101_ChamberCheck_in
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK101_ChamberCheck_in_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK101_ChamberCheck_out
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK101_ChamberCheck_out_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK101_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK101_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK101_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK101_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK101_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK101_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_AK101_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK102_ChamberCheck_in
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK102_ChamberCheck_in_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK102_ChamberCheck_out
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK102_ChamberCheck_out_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK102_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK102_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK102_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK102_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK102_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK102_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_AK102_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK103_ChamberCheck_in
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK103_ChamberCheck_in_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK103_ChamberCheck_out
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK103_ChamberCheck_out_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK103_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK103_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK103_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK103_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK103_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK103_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_AK103_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK104_ChamberCheck_in
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK104_ChamberCheck_in_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK104_ChamberCheck_out
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK104_ChamberCheck_out_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK104_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK104_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK104_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK104_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK104_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK104_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_AK104_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK105_ChamberCheck_in
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK105_ChamberCheck_in_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK105_ChamberCheck_out
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK105_ChamberCheck_out_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK105_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK105_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK105_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK105_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK105_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK105_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_AK105_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK12_ChamberCheck_in
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK12_ChamberCheck_in_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK12_ChamberCheck_out
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK12_ChamberCheck_out_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK12_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK12_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK12_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK12_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK12_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK12_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_AK12_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK50_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK50_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK50_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK50_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_AK50_HandOn_2.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_AK50_HandOn_3.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_AK50_HandOn_4.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK50_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK50_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_AK50_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK545_ChamberCheck_in
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK545_ChamberCheck_in_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK545_ChamberCheck_out
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK545_ChamberCheck_out_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK545_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK545_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK545_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK545_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK545_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK545_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_AK545_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK545SHORT_ChamberCheck_in
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK545SHORT_ChamberCheck_in_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK545SHORT_ChamberCheck_out
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK545SHORT_ChamberCheck_out_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK545SHORT_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK545SHORT_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK545SHORT_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK545SHORT_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK545SHORT_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK545SHORT_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_AK545SHORT_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK74_ChamberCheck_in
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK74_ChamberCheck_in_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK74_ChamberCheck_out
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK74_ChamberCheck_out_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK74_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK74_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK74_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK74_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK74_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK74_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_AK74_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK74M_ChamberCheck_in
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK74M_ChamberCheck_in_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK74M_ChamberCheck_out
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK74M_ChamberCheck_out_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK74M_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK74M_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK74M_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK74M_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK74M_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK74M_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_AK74M_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK74N_ChamberCheck_in
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK74N_ChamberCheck_in_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK74N_ChamberCheck_out
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK74N_ChamberCheck_out_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK74N_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK74N_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK74N_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK74N_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AK74N_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AK74N_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_AK74N_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKM_ChamberCheck_in
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKM_ChamberCheck_in_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKM_ChamberCheck_out
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKM_ChamberCheck_out_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKM_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKM_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKM_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKM_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKM_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKM_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_AKM_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKMN_ChamberCheck_in
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKMN_ChamberCheck_in_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKMN_ChamberCheck_out
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKMN_ChamberCheck_out_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKMN_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKMN_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKMN_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKMN_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKMN_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKMN_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_AKMN_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKMS_ChamberCheck_in
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKMS_ChamberCheck_in_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKMS_ChamberCheck_out
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKMS_ChamberCheck_out_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKMS_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKMS_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKMS_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKMS_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKMS_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKMS_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_AKMS_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKMSN_ChamberCheck_in
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKMSN_ChamberCheck_in_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKMSN_ChamberCheck_out
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKMSN_ChamberCheck_out_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKMSN_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKMSN_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKMSN_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKMSN_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKMSN_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKMSN_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_AKMSN_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKS74_ChamberCheck_in
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKS74_ChamberCheck_in_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKS74_ChamberCheck_out
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKS74_ChamberCheck_out_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKS74_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKS74_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKS74_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKS74_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKS74_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKS74_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_AKS74_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKS74N_ChamberCheck_in
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKS74N_ChamberCheck_in_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKS74N_ChamberCheck_out
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKS74N_ChamberCheck_out_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKS74N_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKS74N_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKS74N_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKS74N_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKS74N_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKS74N_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_AKS74N_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKS74U_ChamberCheck_in
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKS74U_ChamberCheck_in_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKS74U_ChamberCheck_out
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKS74U_ChamberCheck_out_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKS74U_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKS74U_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKS74U_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKS74U_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKS74U_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKS74U_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_AKS74U_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKS74UB_ChamberCheck_in
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKS74UB_ChamberCheck_in_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKS74UB_ChamberCheck_out
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKS74UB_ChamberCheck_out_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKS74UB_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKS74UB_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKS74UB_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKS74UB_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKS74UB_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKS74UB_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_AKS74UB_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKS74UN_ChamberCheck_in
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKS74UN_ChamberCheck_in_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKS74UN_ChamberCheck_out
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKS74UN_ChamberCheck_out_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKS74UN_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKS74UN_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKS74UN_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKS74UN_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AKS74UN_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AKS74UN_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_AKS74UN_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_APB_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_APB_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_APB_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_APB_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_APB_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_APB_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_APB_Try1
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_APB_Try1_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_APB_Try2
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_APB_Try2_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_APB_Try3
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_APB_Try3_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_APS_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_APS_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_APS_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_APS_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_APS_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_APS_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_APS_Try1
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_APS_Try1_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_APS_Try2
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_APS_Try2_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_APS_Try3
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_APS_Try3_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_ASH12_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_ASH12_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_ASH12_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_ASH12_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_ASH12_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_ASH12_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_ASVAL_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_ASVAL_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_ASVAL_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_ASVAL_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_ASVAL_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_ASVAL_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_ASVAL_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AUGA1_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AUGA1_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AUGA1_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AUGA1_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AUGA1_InCheck
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AUGA1_InCheck_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AUGA1_OutCheck
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AUGA1_OutCheck_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AUGA3_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AUGA3_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AUGA3_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AUGA3_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AUGA3_InCheck
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AUGA3_InCheck_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AUGA3_OutCheck
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AUGA3_OutCheck_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AUGA3BLK_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AUGA3BLK_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AUGA3BLK_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AUGA3BLK_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AUGA3BLK_InCheck
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AUGA3BLK_InCheck_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_AUGA3BLK_OutCheck
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_AUGA3BLK_OutCheck_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_DEAGLEL5_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_DEAGLEL5_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_DEAGLEL5_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_DEAGLEL5_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_DEAGLEL5_Try1
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_DEAGLEL5_Try1_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_DEAGLEL5_Try2
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_DEAGLEL5_Try2_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_DEAGLEL5_Try3
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_DEAGLEL5_Try3_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_DEAGLEL5357_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_DEAGLEL5357_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_DEAGLEL5357_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_DEAGLEL5357_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_DEAGLEL5357_Try1
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_DEAGLEL5357_Try1_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_DEAGLEL5357_Try2
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_DEAGLEL5357_Try2_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_DEAGLEL5357_Try3
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_DEAGLEL5357_Try3_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_DEAGLEL6_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_DEAGLEL6_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_DEAGLEL6_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_DEAGLEL6_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_DEAGLEL6_Try1
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_DEAGLEL6_Try1_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_DEAGLEL6_Try2
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_DEAGLEL6_Try2_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_DEAGLEL6_Try3
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_DEAGLEL6_Try3_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_DEAGLEL6WTS_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_DEAGLEL6WTS_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_DEAGLEL6WTS_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_DEAGLEL6WTS_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_DEAGLEL6WTS_Try1
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_DEAGLEL6WTS_Try1_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_DEAGLEL6WTS_Try2
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_DEAGLEL6WTS_Try2_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_DEAGLEL6WTS_Try3
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_DEAGLEL6WTS_Try3_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_DEAGLEMK19_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_DEAGLEMK19_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_DEAGLEMK19_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_DEAGLEMK19_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_DEAGLEMK19_Try1
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_DEAGLEMK19_Try1_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_DEAGLEMK19_Try2
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_DEAGLEMK19_Try2_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_DEAGLEMK19_Try3
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_DEAGLEMK19_Try3_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_FN57_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_FN57_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_FN57_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_FN57_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_FN57FDE_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_FN57FDE_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_FN57FDE_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_FN57FDE_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_G28_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_G28_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_G28_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_G28_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_G28_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_G28_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_G36_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_G36_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_G36_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_G36_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_G36_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_G36_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_GLOCK17_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_GLOCK17_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_GLOCK17_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_GLOCK17_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_GLOCK17_Try1
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_GLOCK17_Try1_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_GLOCK17_Try2
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_GLOCK17_Try2_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_GLOCK17_Try3
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_GLOCK17_Try3_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_GLOCK18C_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_GLOCK18C_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_GLOCK18C_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_GLOCK18C_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_GLOCK18C_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_GLOCK18C_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_GLOCK18C_Try1
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_GLOCK18C_Try1_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_GLOCK18C_Try2
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_GLOCK18C_Try2_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_GLOCK18C_Try3
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_GLOCK18C_Try3_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_GLOCK19X_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_GLOCK19X_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_GLOCK19X_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_GLOCK19X_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_GLOCK19X_Try1
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_GLOCK19X_Try1_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_GLOCK19X_Try2
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_GLOCK19X_Try2_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_GLOCK19X_Try3
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_GLOCK19X_Try3_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_HK416A5_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_HK416A5_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_HK416A5_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_HK416A5_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_HK416A5_HandleIn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_HK416A5_HandleIn_1.wav, volume = 1.0, distanceMax = 30, }
+    }
+    sound TW_Utility_HK416A5_HandleOut
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_HK416A5_HandleOut_1.wav, volume = 1.0, distanceMax = 30, }
+    }
+    sound TW_Utility_HK416A5_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_HK416A5_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_KEDR_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_KEDR_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_KEDR_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_KEDR_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_KEDR_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_KEDR_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_KEDR_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_KEDRB_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_KEDRB_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_KEDRB_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_KEDRB_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_KEDRB_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_KEDRB_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_KEDRB_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_M1911A1_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_M1911A1_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_M1911A1_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_M1911A1_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_M1A_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_M1A_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_M1A_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_M1A_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_M45A1_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_M45A1_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_M45A1_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_M45A1_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_M4A1_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_M4A1_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_M4A1_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_M4A1_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_M4A1_HandleIn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_M4A1_HandleIn_1.wav, volume = 1.0, distanceMax = 30, }
+    }
+    sound TW_Utility_M4A1_HandleOut
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_M4A1_HandleOut_1.wav, volume = 1.0, distanceMax = 30, }
+    }
+    sound TW_Utility_M4A1_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_M4A1_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_M60E6_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_M60E6_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_M60E6_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_M60E6_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_M60E6FDE_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_M60E6FDE_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_M60E6FDE_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_M60E6FDE_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_M9A3_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_M9A3_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_M9A3_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_M9A3_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MCX300_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MCX300_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MCX300_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MCX300_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MCX300_HandleIn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MCX300_HandleIn_1.wav, volume = 1.0, distanceMax = 30, }
+    }
+    sound TW_Utility_MCX300_HandleOut
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MCX300_HandleOut_1.wav, volume = 1.0, distanceMax = 30, }
+    }
+    sound TW_Utility_MCX300_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MCX300_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MDR556_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MDR556_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MDR556_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MDR556_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MDR556_HandleIn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MDR556_HandleIn_1.wav, volume = 1.0, distanceMax = 30, }
+    }
+    sound TW_Utility_MDR556_HandleOut
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MDR556_HandleOut_1.wav, volume = 1.0, distanceMax = 30, }
+    }
+    sound TW_Utility_MDR556_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MDR556_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MDR762_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MDR762_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MDR762_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MDR762_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MDR762_HandleIn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MDR762_HandleIn_1.wav, volume = 1.0, distanceMax = 30, }
+    }
+    sound TW_Utility_MDR762_HandleOut
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MDR762_HandleOut_1.wav, volume = 1.0, distanceMax = 30, }
+    }
+    sound TW_Utility_MDR762_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MDR762_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MK16_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MK16_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MK16_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MK16_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MK16_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MK16_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MK16FDE_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MK16FDE_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MK16FDE_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MK16FDE_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MK16FDE_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MK16FDE_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MK17_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MK17_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MK17_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MK17_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MK17_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MK17_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MK18MJOLNIR_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MK18MJOLNIR_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MK18MJOLNIR_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MK18MJOLNIR_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MK43_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MK43_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MK43_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MK43_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MK47_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MK47_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MK47_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MK47_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MK47_HandleIn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MK47_HandleIn_1.wav, volume = 1.0, distanceMax = 30, }
+    }
+    sound TW_Utility_MK47_HandleOut
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MK47_HandleOut_1.wav, volume = 1.0, distanceMax = 30, }
+    }
+    sound TW_Utility_MK47_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MK47_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MODEL1_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MODEL1_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MODEL1_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MODEL1_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MODEL1_HandleIn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MODEL1_HandleIn_1.wav, volume = 1.0, distanceMax = 30, }
+    }
+    sound TW_Utility_MODEL1_HandleOut
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MODEL1_HandleOut_1.wav, volume = 1.0, distanceMax = 30, }
+    }
+    sound TW_Utility_MODEL1_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MODEL1_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MP443_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MP443_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MP443_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MP443_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MP5_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MP5_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MP5_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MP5_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MP5_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MP5_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MP5K_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MP5K_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MP5K_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MP5K_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MP5K_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MP5K_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MP7A1_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MP7A1_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MP7A1_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MP7A1_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MP7A1_HandleIn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MP7A1_HandleIn_1.wav, volume = 1.0, distanceMax = 30, }
+    }
+    sound TW_Utility_MP7A1_HandleOut
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MP7A1_HandleOut_1.wav, volume = 1.0, distanceMax = 30, }
+    }
+    sound TW_Utility_MP7A1_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MP7A1_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_MP7A1_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MP7A2_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MP7A2_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MP7A2_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MP7A2_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MP7A2_HandleIn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MP7A2_HandleIn_1.wav, volume = 1.0, distanceMax = 30, }
+    }
+    sound TW_Utility_MP7A2_HandleOut
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MP7A2_HandleOut_1.wav, volume = 1.0, distanceMax = 30, }
+    }
+    sound TW_Utility_MP7A2_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MP7A2_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_MP7A2_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MP9_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MP9_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MP9_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MP9_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MP9_HandleIn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MP9_HandleIn_1.wav, volume = 1.0, distanceMax = 30, }
+    }
+    sound TW_Utility_MP9_HandleOut
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MP9_HandleOut_1.wav, volume = 1.0, distanceMax = 30, }
+    }
+    sound TW_Utility_MP9_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MP9_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_MP9_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MP9N_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MP9N_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MP9N_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MP9N_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MP9N_HandleIn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MP9N_HandleIn_1.wav, volume = 1.0, distanceMax = 30, }
+    }
+    sound TW_Utility_MP9N_HandleOut
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MP9N_HandleOut_1.wav, volume = 1.0, distanceMax = 30, }
+    }
+    sound TW_Utility_MP9N_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MP9N_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_MP9N_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MPX_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MPX_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MPX_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MPX_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_MPX_HandleIn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MPX_HandleIn_1.wav, volume = 1.0, distanceMax = 30, }
+    }
+    sound TW_Utility_MPX_HandleOut
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MPX_HandleOut_1.wav, volume = 1.0, distanceMax = 30, }
+    }
+    sound TW_Utility_MPX_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_MPX_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_P226R_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_P226R_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_P226R_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_P226R_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_P226R_Try1
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_P226R_Try1_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_P226R_Try2
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_P226R_Try2_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_P226R_Try3
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_P226R_Try3_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_P90_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_P90_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_P90_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_P90_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_P90_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_P90_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_PB_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_PB_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_PB_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_PB_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_PKM_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_PKM_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_PKM_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_PKM_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_PKP_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_PKP_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_PKP_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_PKP_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_PL15_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_PL15_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_PL15_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_PL15_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_PM_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_PM_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_PM_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_PM_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_PMT_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_PMT_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_PMT_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_PMT_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_PP1901_ChamberCheck_in
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_PP1901_ChamberCheck_in_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_PP1901_ChamberCheck_out
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_PP1901_ChamberCheck_out_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_PP1901_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_PP1901_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_PP1901_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_PP1901_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_PP1901_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_PP1901_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_PP1901_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_PP9KLIN_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_PP9KLIN_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_PP9KLIN_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_PP9KLIN_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_PP9KLIN_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_PP9KLIN_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_PP9KLIN_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_PPSH41_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_PPSH41_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_PPSH41_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_PPSH41_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_PPSH41_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_PPSH41_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_PPSH41_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_RD704_ChamberCheck_in
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_RD704_ChamberCheck_in_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_RD704_ChamberCheck_out
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_RD704_ChamberCheck_out_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_RD704_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_RD704_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_RD704_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_RD704_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_RD704_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_RD704_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_RD704_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_RFB_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_RFB_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_RFB_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_RFB_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_RPD_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_RPD_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_RPD_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_RPD_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_RPDN_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_RPDN_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_RPDN_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_RPDN_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_RPK16_ChamberCheck_in
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_RPK16_ChamberCheck_in_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_RPK16_ChamberCheck_out
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_RPK16_ChamberCheck_out_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_RPK16_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_RPK16_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_RPK16_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_RPK16_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_RPK16_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_RPK16_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_RPK16_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_RSASS_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_RSASS_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_RSASS_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_RSASS_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_RSASS_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_RSASS_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_SA58_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_SA58_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_SA58_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_SA58_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_SA58_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_SA58_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_SA58_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_SAIGA12K_ChamberCheck_in
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_SAIGA12K_ChamberCheck_in_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_SAIGA12K_ChamberCheck_out
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_SAIGA12K_ChamberCheck_out_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_SAIGA12K_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_SAIGA12K_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_SAIGA12K_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_SAIGA12K_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_SAIGA12K_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_SAIGA12K_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_SAIGA12K_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_SAIGA12KFA_ChamberCheck_in
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_SAIGA12KFA_ChamberCheck_in_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_SAIGA12KFA_ChamberCheck_out
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_SAIGA12KFA_ChamberCheck_out_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_SAIGA12KFA_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_SAIGA12KFA_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_SAIGA12KFA_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_SAIGA12KFA_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_SAIGA12KFA_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_SAIGA12KFA_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_SAIGA12KFA_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_SAIGA9_ChamberCheck_in
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_SAIGA9_ChamberCheck_in_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_SAIGA9_ChamberCheck_out
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_SAIGA9_ChamberCheck_out_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_SAIGA9_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_SAIGA9_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_SAIGA9_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_SAIGA9_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_SAIGA9_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_SAIGA9_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_SAIGA9_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_SCARH_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_SCARH_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_SCARH_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_SCARH_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_SCARH_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_SCARH_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_SPEAR68_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_SPEAR68_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_SPEAR68_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_SPEAR68_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_SPEAR68_HandleIn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_SPEAR68_HandleIn_1.wav, volume = 1.0, distanceMax = 30, }
+    }
+    sound TW_Utility_SPEAR68_HandleOut
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_SPEAR68_HandleOut_1.wav, volume = 1.0, distanceMax = 30, }
+    }
+    sound TW_Utility_SPEAR68_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_SPEAR68_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_SR1MP_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_SR1MP_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_SR1MP_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_SR1MP_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_SR25_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_SR25_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_SR25_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_SR25_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_SR25_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_SR25_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_SR2M_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_SR2M_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_SR3M_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_SR3M_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_SR3M_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_SR3M_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_SR3M_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_SR3M_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_SR3M_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_STM9_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_STM9_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_STM9_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_STM9_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_STM9_HandleIn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_STM9_HandleIn_1.wav, volume = 1.0, distanceMax = 30, }
+    }
+    sound TW_Utility_STM9_HandleOut
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_STM9_HandleOut_1.wav, volume = 1.0, distanceMax = 30, }
+    }
+    sound TW_Utility_STM9_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_STM9_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_SVDS_ChamberCheck_in
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_SVDS_ChamberCheck_in_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_SVDS_ChamberCheck_out
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_SVDS_ChamberCheck_out_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_SVDS_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_SVDS_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_SVDS_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_SVDS_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_TT_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_TT_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_TT_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_TT_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_TT_Try1
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_TT_Try1_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_TT_Try2
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_TT_Try2_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_TT_Try3
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_TT_Try3_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_TTGOLD_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_TTGOLD_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_TTGOLD_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_TTGOLD_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_TTGOLD_Try1
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_TTGOLD_Try1_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_TTGOLD_Try2
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_TTGOLD_Try2_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_TTGOLD_Try3
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_TTGOLD_Try3_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_TX15_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_TX15_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_TX15_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_TX15_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_TX15_HandleIn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_TX15_HandleIn_1.wav, volume = 1.0, distanceMax = 30, }
+    }
+    sound TW_Utility_TX15_HandleOut
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_TX15_HandleOut_1.wav, volume = 1.0, distanceMax = 30, }
+    }
+    sound TW_Utility_TX15_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_TX15_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_UMP45_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_UMP45_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_UMP45_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_UMP45_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_UMP45_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_UMP45_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_USP45_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_USP45_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_USP45_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_USP45_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_UZI_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_UZI_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_UZI_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_UZI_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_UZI_HandleIn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_UZI_HandleIn_1.wav, volume = 1.0, distanceMax = 30, }
+    }
+    sound TW_Utility_UZI_HandleOut
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_UZI_HandleOut_1.wav, volume = 1.0, distanceMax = 30, }
+    }
+    sound TW_Utility_UZI_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_UZI_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_UZI_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_UZIPROPISTOL_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_UZIPROPISTOL_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_UZIPROPISTOL_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_UZIPROPISTOL_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_UZIPROPISTOL_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_UZIPROPISTOL_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_UZIPROSMG_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_UZIPROSMG_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_UZIPROSMG_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_UZIPROSMG_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_UZIPROSMG_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_UZIPROSMG_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_VECTOR45_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_VECTOR45_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_VECTOR45_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_VECTOR45_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_VECTOR45_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_VECTOR45_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_VECTOR9_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_VECTOR9_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_VECTOR9_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_VECTOR9_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_VECTOR9_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_VECTOR9_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_VELOCIRAPTOR_ChamberCheck_in
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_VELOCIRAPTOR_ChamberCheck_in_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_VELOCIRAPTOR_ChamberCheck_out
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_VELOCIRAPTOR_ChamberCheck_out_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_VELOCIRAPTOR_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_VELOCIRAPTOR_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_VELOCIRAPTOR_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_VELOCIRAPTOR_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_VELOCIRAPTOR_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_VELOCIRAPTOR_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_VELOCIRAPTOR_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_VPO101_ChamberCheck_in
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_VPO101_ChamberCheck_in_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_VPO101_ChamberCheck_out
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_VPO101_ChamberCheck_out_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_VPO101_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_VPO101_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_VPO101_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_VPO101_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_VPO101_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_VPO101_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_VPO101_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_VPO136_ChamberCheck_in
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_VPO136_ChamberCheck_in_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_VPO136_ChamberCheck_out
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_VPO136_ChamberCheck_out_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_VPO136_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_VPO136_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_VPO136_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_VPO136_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_VPO136_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_VPO136_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_VPO136_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_VPO209_ChamberCheck_in
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_VPO209_ChamberCheck_in_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_VPO209_ChamberCheck_out
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_VPO209_ChamberCheck_out_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_VPO209_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_VPO209_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_VPO209_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_VPO209_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_VPO209_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_VPO209_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_VPO209_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_VSK94_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_VSK94_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_VSK94_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_VSK94_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_VSK94_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_VSK94_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_VSK94_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_VSS_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_VSS_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_VSS_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_VSS_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_VSS_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_VSS_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+        clip { file = media/sound/TW/TW_Utility_VSS_Selector_2.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_X17_HandOff
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_X17_HandOff_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_X17_HandOn
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_X17_HandOn_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+    sound TW_Utility_X17_Selector
+    {
+        category = Item,
+        is3D = true,
+        loop = false,
+        clip { file = media/sound/TW/TW_Utility_X17_Selector_1.wav, volume = 1.0, distanceMax = 20, }
+    }
+}

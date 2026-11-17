@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf8'?>
+<animNode x_name="ca6813e0-cf7b-5e2d-82c7-99d56bbf3d2f">
+	<m_Name>SitOnFurnitureIdleRifle_TW_Contact_P074</m_Name>
+	<m_AnimName>Bob_SatChair_rifle</m_AnimName>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_ConditionPriority>100</m_ConditionPriority>
+	<m_BlendOutTime>0.10</m_BlendOutTime>
+	<m_SpeedScale>0.48</m_SpeedScale>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_P074</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="042f30a3-f508-525f-beba-da56ff759c11">
+		<m_Name>SitOnFurnitureAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>Idle</m_Value>
+	</m_Conditions>
+	<m_Events x_name="42e06d7f-c53b-5f5a-b725-0f729da7df0c">
+		<m_EventName>FlagWhileAlive</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>hideEquippedHandL</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="bc41f651-8bff-5c02-ad47-b9c9bae96afc">
+		<m_EventName>FlagWhileAlive</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Conditions x_name="12665a31-d8dc-5f6d-ae20-433ead4cc26e">
+		<m_Name>Weapon</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>firearm</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWCarryRouteReady</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+</animNode>

@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='utf8'?>
+<animNode x_name="ce2f8c19-cbdb-59d4-a7ca-51d62562b45b">
+	<m_Name>sneakIdleLowRifle_TW_Contact_P101_F</m_Name>
+	<m_AnimName>TW_Contact_P101_F_IdleLowSneak_Shotgun</m_AnimName>
+	<m_BlendTime>0.40</m_BlendTime>
+	<m_ConditionPriority>100</m_ConditionPriority>
+	<m_SpeedScale>0.48</m_SpeedScale>
+	<m_maxTorsoTwist>70.00</m_maxTorsoTwist>
+	<m_Scalar>IdleSpeed</m_Scalar>
+	<m_Scalar2>IdleSpeed</m_Scalar2>
+	<m_2DBlends referenceID="1">
+		<m_AnimName>TW_Contact_P101_F_IdleLowSneak_Shotgun</m_AnimName>
+		<m_XPos>0.00</m_XPos>
+		<m_YPos>0.00</m_YPos>
+		<m_SpeedScale>0.80</m_SpeedScale>
+	</m_2DBlends>
+	<m_2DBlends referenceID="2">
+		<m_AnimName>TW_Contact_P101_F_IdleSneakLow_Rifle_HBreathing</m_AnimName>
+		<m_XPos>0.00</m_XPos>
+		<m_YPos>1.00</m_YPos>
+		<m_SpeedScale>0.80</m_SpeedScale>
+	</m_2DBlends>
+	<m_2DBlends referenceID="3">
+		<m_AnimName>TW_Contact_P101_F_IdleLowSneak_Shotgun</m_AnimName>
+		<m_XPos>0.00</m_XPos>
+		<m_YPos>0.04</m_YPos>
+		<m_SpeedScale>0.80</m_SpeedScale>
+	</m_2DBlends>
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_P101</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="9781b301-2d4c-53d6-9d98-f4259c9ba3a6">
+		<m_Name>sneaking</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="613c7774-f40d-508c-889c-37592c7bb605">
+		<m_Name>isTurning90</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="d2f61d0a-1f96-52e1-bf26-b388e260b9b3">
+		<m_Name>isTurningAround</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_2DBlendTri>
+		<node1>1</node1>
+		<node2>2</node2>
+		<node3>3</node3>
+	</m_2DBlendTri>
+	<m_Transitions>
+		<m_Target>sneakWalkLowRifle</m_Target>
+		<m_blendInTime>0.3</m_blendInTime>
+		<m_blendOutTime>0.3</m_blendOutTime>
+		<m_Conditions x_name="56c57704-613d-5a34-94e5-3493dbb3fb01">
+			<m_Name>isTurningAround</m_Name>
+			<m_Type>BOOL</m_Type>
+			<m_Value>false</m_Value>
+		</m_Conditions>
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>sneakRun</m_Target>
+		<m_AnimName>Bob_SneakToSneakRun</m_AnimName>
+		<m_blendInTime>0.1</m_blendInTime>
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>aim_default</m_Target>
+		<m_AnimName>Bob_IdleToAim_1Hand</m_AnimName>
+		<m_blendInTime>0.3</m_blendInTime>
+		<m_speedScale>1.3</m_speedScale>
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>defaultSprint</m_Target>
+		<m_AnimName>Bob_IdleToSprint</m_AnimName>
+		<m_blendInTime>0.5</m_blendInTime>
+		<m_Conditions x_name="92c53d58-29a6-54c1-9dc4-c53cb0d85c4e">
+			<m_Name>isTurningAround</m_Name>
+			<m_Type>BOOL</m_Type>
+			<m_Value>false</m_Value>
+		</m_Conditions>
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>climbFenceStart</m_Target>
+		<m_blendInTime>0.1</m_blendInTime>
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>turn_idle_sneak</m_Target>
+		<m_blendInTime>0.1</m_blendInTime>
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>IdleRifle</m_Target>
+		<m_blendInTime>0.35</m_blendInTime>
+		<m_blendOutTime>0.35</m_blendOutTime>
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>IdleRifle_TW_Contact_P101_F</m_Target>
+		<m_blendInTime>0.35</m_blendInTime>
+		<m_blendOutTime>0.35</m_blendOutTime>
+	</m_Transitions>
+	<m_Conditions x_name="14c71a80-5cbe-57e9-885b-51989bd32a96">
+		<m_Name>nearWallCrouching</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="4d0c59d2-cceb-5b96-8c2d-7d0d04cbc288">
+		<m_Name>Weapon</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>firearm</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWCarryRouteReady</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+</animNode>

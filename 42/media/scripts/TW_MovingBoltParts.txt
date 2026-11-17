@@ -1,0 +1,59 @@
+module EscapeFromZomboidFirearms
+{
+    model MB_62811cd7308cb521f87a8f99_body
+    {
+        mesh = TW/Moving/62811cd7308cb521f87a8f99_body,
+        texture = TW/925834cb9ab3,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model MB_62811cd7308cb521f87a8f99_handle
+    {
+        mesh = TW/Moving/62811cd7308cb521f87a8f99_handle,
+        texture = TW/925834cb9ab3,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model MB_673cb4054ff4aa8f86076f4a_body
+    {
+        mesh = TW/Moving/673cb4054ff4aa8f86076f4a_body,
+        texture = TW/3ee5b01a609c,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model MB_673cb4054ff4aa8f86076f4a_handle
+    {
+        mesh = TW/Moving/673cb4054ff4aa8f86076f4a_handle,
+        texture = TW/3ee5b01a609c,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+}

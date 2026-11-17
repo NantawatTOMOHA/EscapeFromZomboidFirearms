@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="da6fa8a5-fc82-5ada-9c04-71ca948d473a">
+	<m_Name>LoadRifleNoMag_TWRound_mosin_First</m_Name>
+	<m_AnimName>Bob_Reload_Shotgun_Load</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_EarlyTransitionOut>false</m_EarlyTransitionOut>
+	<m_SpeedScale>TWRoundSpeed</m_SpeedScale>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions x_name="51a7f99e-eaf4-563c-83ba-c45987d57fb0">
+		<m_Name>PerformingAction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>Reload</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="35584e51-9ae6-5b14-803f-69163992b510">
+		<m_Name>WeaponReloadType</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>boltactionnomag</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="1dddba3b-1d1e-5f2c-b4b9-120ef2047942">
+		<m_Name>isLoading</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Events x_name="b585af60-d01d-5810-9a3b-422bb5e3e3e2">
+		<m_EventName>loadFinished</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Events x_name="fb42a623-1fbc-509f-86c2-ebc33a710614">
+		<m_EventName>playReloadSound</m_EventName>
+		<m_TimePc>0.01</m_TimePc>
+		<m_ParameterValue>load</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="093d0627-2fe5-59be-8ac3-c8eef36e4e52">
+		<m_EventName>playReloadSound</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>insertAmmoStart</m_ParameterValue>
+	</m_Events>
+	<m_ConditionPriority>150</m_ConditionPriority>
+	<m_Conditions>
+		<m_Name>TWRoundKind</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>mosin</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWRoundFirst</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+</animNode>

@@ -1,0 +1,891 @@
+module EscapeFromZomboidFirearms
+{
+    fixing Fix 9A91
+    {
+        Require = EscapeFromZomboidFirearms.9A91,
+        Fixer = EscapeFromZomboidFirearms.9A91; Aiming=5,
+    }
+
+    fixing Fix AA12GEN1
+    {
+        Require = EscapeFromZomboidFirearms.AA12GEN1,
+        Fixer = EscapeFromZomboidFirearms.AA12GEN1; Aiming=2,
+    }
+
+    fixing Fix AA12GEN2
+    {
+        Require = EscapeFromZomboidFirearms.AA12GEN2,
+        Fixer = EscapeFromZomboidFirearms.AA12GEN2; Aiming=2,
+    }
+
+    fixing Fix ADAR215
+    {
+        Require = EscapeFromZomboidFirearms.ADAR215,
+        Fixer = EscapeFromZomboidFirearms.ADAR215; Aiming=5,
+    }
+
+    fixing Fix AK101
+    {
+        Require = EscapeFromZomboidFirearms.AK101,
+        Fixer = EscapeFromZomboidFirearms.AK101; Aiming=5,
+    }
+
+    fixing Fix AK102
+    {
+        Require = EscapeFromZomboidFirearms.AK102,
+        Fixer = EscapeFromZomboidFirearms.AK102; Aiming=5,
+    }
+
+    fixing Fix AK103
+    {
+        Require = EscapeFromZomboidFirearms.AK103,
+        Fixer = EscapeFromZomboidFirearms.AK103; Aiming=5,
+    }
+
+    fixing Fix AK104
+    {
+        Require = EscapeFromZomboidFirearms.AK104,
+        Fixer = EscapeFromZomboidFirearms.AK104; Aiming=5,
+    }
+
+    fixing Fix AK105
+    {
+        Require = EscapeFromZomboidFirearms.AK105,
+        Fixer = EscapeFromZomboidFirearms.AK105; Aiming=5,
+    }
+
+    fixing Fix AK12
+    {
+        Require = EscapeFromZomboidFirearms.AK12,
+        Fixer = EscapeFromZomboidFirearms.AK12; Aiming=5,
+    }
+
+    fixing Fix AK50
+    {
+        Require = EscapeFromZomboidFirearms.AK50,
+        Fixer = EscapeFromZomboidFirearms.AK50; Aiming=5,
+    }
+
+    fixing Fix AK545
+    {
+        Require = EscapeFromZomboidFirearms.AK545,
+        Fixer = EscapeFromZomboidFirearms.AK545; Aiming=5,
+    }
+
+    fixing Fix AK545SHORT
+    {
+        Require = EscapeFromZomboidFirearms.AK545SHORT,
+        Fixer = EscapeFromZomboidFirearms.AK545SHORT; Aiming=5,
+    }
+
+    fixing Fix AK74
+    {
+        Require = EscapeFromZomboidFirearms.AK74,
+        Fixer = EscapeFromZomboidFirearms.AK74; Aiming=5,
+    }
+
+    fixing Fix AK74M
+    {
+        Require = EscapeFromZomboidFirearms.AK74M,
+        Fixer = EscapeFromZomboidFirearms.AK74M; Aiming=5,
+    }
+
+    fixing Fix AK74N
+    {
+        Require = EscapeFromZomboidFirearms.AK74N,
+        Fixer = EscapeFromZomboidFirearms.AK74N; Aiming=5,
+    }
+
+    fixing Fix AKM
+    {
+        Require = EscapeFromZomboidFirearms.AKM,
+        Fixer = EscapeFromZomboidFirearms.AKM; Aiming=5,
+    }
+
+    fixing Fix AKMN
+    {
+        Require = EscapeFromZomboidFirearms.AKMN,
+        Fixer = EscapeFromZomboidFirearms.AKMN; Aiming=5,
+    }
+
+    fixing Fix AKMS
+    {
+        Require = EscapeFromZomboidFirearms.AKMS,
+        Fixer = EscapeFromZomboidFirearms.AKMS; Aiming=5,
+    }
+
+    fixing Fix AKMSN
+    {
+        Require = EscapeFromZomboidFirearms.AKMSN,
+        Fixer = EscapeFromZomboidFirearms.AKMSN; Aiming=5,
+    }
+
+    fixing Fix AKS74
+    {
+        Require = EscapeFromZomboidFirearms.AKS74,
+        Fixer = EscapeFromZomboidFirearms.AKS74; Aiming=5,
+    }
+
+    fixing Fix AKS74N
+    {
+        Require = EscapeFromZomboidFirearms.AKS74N,
+        Fixer = EscapeFromZomboidFirearms.AKS74N; Aiming=5,
+    }
+
+    fixing Fix AKS74U
+    {
+        Require = EscapeFromZomboidFirearms.AKS74U,
+        Fixer = EscapeFromZomboidFirearms.AKS74U; Aiming=5,
+    }
+
+    fixing Fix AKS74UB
+    {
+        Require = EscapeFromZomboidFirearms.AKS74UB,
+        Fixer = EscapeFromZomboidFirearms.AKS74UB; Aiming=5,
+    }
+
+    fixing Fix AKS74UN
+    {
+        Require = EscapeFromZomboidFirearms.AKS74UN,
+        Fixer = EscapeFromZomboidFirearms.AKS74UN; Aiming=5,
+    }
+
+    fixing Fix APB
+    {
+        Require = EscapeFromZomboidFirearms.APB,
+        Fixer = EscapeFromZomboidFirearms.APB; Aiming=3,
+    }
+
+    fixing Fix APS
+    {
+        Require = EscapeFromZomboidFirearms.APS,
+        Fixer = EscapeFromZomboidFirearms.APS; Aiming=3,
+    }
+
+    fixing Fix ASH12
+    {
+        Require = EscapeFromZomboidFirearms.ASH12,
+        Fixer = EscapeFromZomboidFirearms.ASH12; Aiming=5,
+    }
+
+    fixing Fix ASVAL
+    {
+        Require = EscapeFromZomboidFirearms.ASVAL,
+        Fixer = EscapeFromZomboidFirearms.ASVAL; Aiming=5,
+    }
+
+    fixing Fix AUGA1
+    {
+        Require = EscapeFromZomboidFirearms.AUGA1,
+        Fixer = EscapeFromZomboidFirearms.AUGA1; Aiming=5,
+    }
+
+    fixing Fix AUGA3
+    {
+        Require = EscapeFromZomboidFirearms.AUGA3,
+        Fixer = EscapeFromZomboidFirearms.AUGA3; Aiming=5,
+    }
+
+    fixing Fix AUGA3BLK
+    {
+        Require = EscapeFromZomboidFirearms.AUGA3BLK,
+        Fixer = EscapeFromZomboidFirearms.AUGA3BLK; Aiming=5,
+    }
+
+    fixing Fix AVT40
+    {
+        Require = EscapeFromZomboidFirearms.AVT40,
+        Fixer = EscapeFromZomboidFirearms.AVT40; Aiming=5,
+    }
+
+    fixing Fix AXMC
+    {
+        Require = EscapeFromZomboidFirearms.AXMC,
+        Fixer = EscapeFromZomboidFirearms.AXMC; Aiming=4,
+    }
+
+    fixing Fix CR200DS
+    {
+        Require = EscapeFromZomboidFirearms.CR200DS,
+        Fixer = EscapeFromZomboidFirearms.CR200DS; Aiming=3,
+    }
+
+    fixing Fix CR50DS
+    {
+        Require = EscapeFromZomboidFirearms.CR50DS,
+        Fixer = EscapeFromZomboidFirearms.CR50DS; Aiming=3,
+    }
+
+    fixing Fix DEAGLEL5
+    {
+        Require = EscapeFromZomboidFirearms.DEAGLEL5,
+        Fixer = EscapeFromZomboidFirearms.DEAGLEL5; Aiming=3,
+    }
+
+    fixing Fix DEAGLEL5357
+    {
+        Require = EscapeFromZomboidFirearms.DEAGLEL5357,
+        Fixer = EscapeFromZomboidFirearms.DEAGLEL5357; Aiming=3,
+    }
+
+    fixing Fix DEAGLEL6
+    {
+        Require = EscapeFromZomboidFirearms.DEAGLEL6,
+        Fixer = EscapeFromZomboidFirearms.DEAGLEL6; Aiming=3,
+    }
+
+    fixing Fix DEAGLEL6WTS
+    {
+        Require = EscapeFromZomboidFirearms.DEAGLEL6WTS,
+        Fixer = EscapeFromZomboidFirearms.DEAGLEL6WTS; Aiming=3,
+    }
+
+    fixing Fix DEAGLEMK19
+    {
+        Require = EscapeFromZomboidFirearms.DEAGLEMK19,
+        Fixer = EscapeFromZomboidFirearms.DEAGLEMK19; Aiming=3,
+    }
+
+    fixing Fix DVL10
+    {
+        Require = EscapeFromZomboidFirearms.DVL10,
+        Fixer = EscapeFromZomboidFirearms.DVL10; Aiming=4,
+    }
+
+    fixing Fix FN40GL
+    {
+        Require = EscapeFromZomboidFirearms.FN40GL,
+        Fixer = EscapeFromZomboidFirearms.FN40GL; Aiming=3,
+    }
+
+    fixing Fix FN57
+    {
+        Require = EscapeFromZomboidFirearms.FN57,
+        Fixer = EscapeFromZomboidFirearms.FN57; Aiming=3,
+    }
+
+    fixing Fix FN57FDE
+    {
+        Require = EscapeFromZomboidFirearms.FN57FDE,
+        Fixer = EscapeFromZomboidFirearms.FN57FDE; Aiming=3,
+    }
+
+    fixing Fix G28
+    {
+        Require = EscapeFromZomboidFirearms.G28,
+        Fixer = EscapeFromZomboidFirearms.G28; Aiming=5,
+    }
+
+    fixing Fix G36
+    {
+        Require = EscapeFromZomboidFirearms.G36,
+        Fixer = EscapeFromZomboidFirearms.G36; Aiming=5,
+    }
+
+    fixing Fix GLOCK17
+    {
+        Require = EscapeFromZomboidFirearms.GLOCK17,
+        Fixer = EscapeFromZomboidFirearms.GLOCK17; Aiming=3,
+    }
+
+    fixing Fix GLOCK18C
+    {
+        Require = EscapeFromZomboidFirearms.GLOCK18C,
+        Fixer = EscapeFromZomboidFirearms.GLOCK18C; Aiming=3,
+    }
+
+    fixing Fix GLOCK19X
+    {
+        Require = EscapeFromZomboidFirearms.GLOCK19X,
+        Fixer = EscapeFromZomboidFirearms.GLOCK19X; Aiming=3,
+    }
+
+    fixing Fix HK416A5
+    {
+        Require = EscapeFromZomboidFirearms.HK416A5,
+        Fixer = EscapeFromZomboidFirearms.HK416A5; Aiming=5,
+    }
+
+    fixing Fix KEDR
+    {
+        Require = EscapeFromZomboidFirearms.KEDR,
+        Fixer = EscapeFromZomboidFirearms.KEDR; Aiming=5,
+    }
+
+    fixing Fix KEDRB
+    {
+        Require = EscapeFromZomboidFirearms.KEDRB,
+        Fixer = EscapeFromZomboidFirearms.KEDRB; Aiming=5,
+    }
+
+    fixing Fix KS23M
+    {
+        Require = EscapeFromZomboidFirearms.KS23M,
+        Fixer = EscapeFromZomboidFirearms.KS23M; Aiming=2,
+    }
+
+    fixing Fix M1911A1
+    {
+        Require = EscapeFromZomboidFirearms.M1911A1,
+        Fixer = EscapeFromZomboidFirearms.M1911A1; Aiming=3,
+    }
+
+    fixing Fix M1A
+    {
+        Require = EscapeFromZomboidFirearms.M1A,
+        Fixer = EscapeFromZomboidFirearms.M1A; Aiming=5,
+    }
+
+    fixing Fix M3S90
+    {
+        Require = EscapeFromZomboidFirearms.M3S90,
+        Fixer = EscapeFromZomboidFirearms.M3S90; Aiming=2,
+    }
+
+    fixing Fix M45A1
+    {
+        Require = EscapeFromZomboidFirearms.M45A1,
+        Fixer = EscapeFromZomboidFirearms.M45A1; Aiming=3,
+    }
+
+    fixing Fix M4A1
+    {
+        Require = EscapeFromZomboidFirearms.M4A1,
+        Fixer = EscapeFromZomboidFirearms.M4A1; Aiming=5,
+    }
+
+    fixing Fix M590A1
+    {
+        Require = EscapeFromZomboidFirearms.M590A1,
+        Fixer = EscapeFromZomboidFirearms.M590A1; Aiming=2,
+    }
+
+    fixing Fix M60E6
+    {
+        Require = EscapeFromZomboidFirearms.M60E6,
+        Fixer = EscapeFromZomboidFirearms.M60E6; Aiming=5,
+    }
+
+    fixing Fix M60E6FDE
+    {
+        Require = EscapeFromZomboidFirearms.M60E6FDE,
+        Fixer = EscapeFromZomboidFirearms.M60E6FDE; Aiming=5,
+    }
+
+    fixing Fix M700
+    {
+        Require = EscapeFromZomboidFirearms.M700,
+        Fixer = EscapeFromZomboidFirearms.M700; Aiming=4,
+    }
+
+    fixing Fix M870
+    {
+        Require = EscapeFromZomboidFirearms.M870,
+        Fixer = EscapeFromZomboidFirearms.M870; Aiming=2,
+    }
+
+    fixing Fix M9A3
+    {
+        Require = EscapeFromZomboidFirearms.M9A3,
+        Fixer = EscapeFromZomboidFirearms.M9A3; Aiming=3,
+    }
+
+    fixing Fix MCX300
+    {
+        Require = EscapeFromZomboidFirearms.MCX300,
+        Fixer = EscapeFromZomboidFirearms.MCX300; Aiming=5,
+    }
+
+    fixing Fix MDR556
+    {
+        Require = EscapeFromZomboidFirearms.MDR556,
+        Fixer = EscapeFromZomboidFirearms.MDR556; Aiming=5,
+    }
+
+    fixing Fix MDR762
+    {
+        Require = EscapeFromZomboidFirearms.MDR762,
+        Fixer = EscapeFromZomboidFirearms.MDR762; Aiming=5,
+    }
+
+    fixing Fix MK16
+    {
+        Require = EscapeFromZomboidFirearms.MK16,
+        Fixer = EscapeFromZomboidFirearms.MK16; Aiming=5,
+    }
+
+    fixing Fix MK16FDE
+    {
+        Require = EscapeFromZomboidFirearms.MK16FDE,
+        Fixer = EscapeFromZomboidFirearms.MK16FDE; Aiming=5,
+    }
+
+    fixing Fix MK17
+    {
+        Require = EscapeFromZomboidFirearms.MK17,
+        Fixer = EscapeFromZomboidFirearms.MK17; Aiming=5,
+    }
+
+    fixing Fix MK18MJOLNIR
+    {
+        Require = EscapeFromZomboidFirearms.MK18MJOLNIR,
+        Fixer = EscapeFromZomboidFirearms.MK18MJOLNIR; Aiming=5,
+    }
+
+    fixing Fix MK43
+    {
+        Require = EscapeFromZomboidFirearms.MK43,
+        Fixer = EscapeFromZomboidFirearms.MK43; Aiming=5,
+    }
+
+    fixing Fix MK47
+    {
+        Require = EscapeFromZomboidFirearms.MK47,
+        Fixer = EscapeFromZomboidFirearms.MK47; Aiming=5,
+    }
+
+    fixing Fix MODEL1
+    {
+        Require = EscapeFromZomboidFirearms.MODEL1,
+        Fixer = EscapeFromZomboidFirearms.MODEL1; Aiming=5,
+    }
+
+    fixing Fix MOSIN
+    {
+        Require = EscapeFromZomboidFirearms.MOSIN,
+        Fixer = EscapeFromZomboidFirearms.MOSIN; Aiming=4,
+    }
+
+    fixing Fix MOSINSNIPER
+    {
+        Require = EscapeFromZomboidFirearms.MOSINSNIPER,
+        Fixer = EscapeFromZomboidFirearms.MOSINSNIPER; Aiming=4,
+    }
+
+    fixing Fix MP133
+    {
+        Require = EscapeFromZomboidFirearms.MP133,
+        Fixer = EscapeFromZomboidFirearms.MP133; Aiming=2,
+    }
+
+    fixing Fix MP153
+    {
+        Require = EscapeFromZomboidFirearms.MP153,
+        Fixer = EscapeFromZomboidFirearms.MP153; Aiming=2,
+    }
+
+    fixing Fix MP155
+    {
+        Require = EscapeFromZomboidFirearms.MP155,
+        Fixer = EscapeFromZomboidFirearms.MP155; Aiming=2,
+    }
+
+    fixing Fix MP18
+    {
+        Require = EscapeFromZomboidFirearms.MP18,
+        Fixer = EscapeFromZomboidFirearms.MP18; Aiming=2,
+    }
+
+    fixing Fix MP431C
+    {
+        Require = EscapeFromZomboidFirearms.MP431C,
+        Fixer = EscapeFromZomboidFirearms.MP431C; Aiming=2,
+    }
+
+    fixing Fix MP43SAWED
+    {
+        Require = EscapeFromZomboidFirearms.MP43SAWED,
+        Fixer = EscapeFromZomboidFirearms.MP43SAWED; Aiming=2,
+    }
+
+    fixing Fix MP443
+    {
+        Require = EscapeFromZomboidFirearms.MP443,
+        Fixer = EscapeFromZomboidFirearms.MP443; Aiming=3,
+    }
+
+    fixing Fix MP5
+    {
+        Require = EscapeFromZomboidFirearms.MP5,
+        Fixer = EscapeFromZomboidFirearms.MP5; Aiming=5,
+    }
+
+    fixing Fix MP5K
+    {
+        Require = EscapeFromZomboidFirearms.MP5K,
+        Fixer = EscapeFromZomboidFirearms.MP5K; Aiming=5,
+    }
+
+    fixing Fix MP7A1
+    {
+        Require = EscapeFromZomboidFirearms.MP7A1,
+        Fixer = EscapeFromZomboidFirearms.MP7A1; Aiming=5,
+    }
+
+    fixing Fix MP7A2
+    {
+        Require = EscapeFromZomboidFirearms.MP7A2,
+        Fixer = EscapeFromZomboidFirearms.MP7A2; Aiming=5,
+    }
+
+    fixing Fix MP9
+    {
+        Require = EscapeFromZomboidFirearms.MP9,
+        Fixer = EscapeFromZomboidFirearms.MP9; Aiming=5,
+    }
+
+    fixing Fix MP9N
+    {
+        Require = EscapeFromZomboidFirearms.MP9N,
+        Fixer = EscapeFromZomboidFirearms.MP9N; Aiming=5,
+    }
+
+    fixing Fix MPX
+    {
+        Require = EscapeFromZomboidFirearms.MPX,
+        Fixer = EscapeFromZomboidFirearms.MPX; Aiming=5,
+    }
+
+    fixing Fix MSGL
+    {
+        Require = EscapeFromZomboidFirearms.MSGL,
+        Fixer = EscapeFromZomboidFirearms.MSGL; Aiming=3,
+    }
+
+    fixing Fix MTS255
+    {
+        Require = EscapeFromZomboidFirearms.MTS255,
+        Fixer = EscapeFromZomboidFirearms.MTS255; Aiming=3,
+    }
+
+    fixing Fix OPSKS
+    {
+        Require = EscapeFromZomboidFirearms.OPSKS,
+        Fixer = EscapeFromZomboidFirearms.OPSKS; Aiming=5,
+    }
+
+    fixing Fix P226R
+    {
+        Require = EscapeFromZomboidFirearms.P226R,
+        Fixer = EscapeFromZomboidFirearms.P226R; Aiming=3,
+    }
+
+    fixing Fix P90
+    {
+        Require = EscapeFromZomboidFirearms.P90,
+        Fixer = EscapeFromZomboidFirearms.P90; Aiming=5,
+    }
+
+    fixing Fix PB
+    {
+        Require = EscapeFromZomboidFirearms.PB,
+        Fixer = EscapeFromZomboidFirearms.PB; Aiming=3,
+    }
+
+    fixing Fix PKM
+    {
+        Require = EscapeFromZomboidFirearms.PKM,
+        Fixer = EscapeFromZomboidFirearms.PKM; Aiming=5,
+    }
+
+    fixing Fix PKP
+    {
+        Require = EscapeFromZomboidFirearms.PKP,
+        Fixer = EscapeFromZomboidFirearms.PKP; Aiming=5,
+    }
+
+    fixing Fix PL15
+    {
+        Require = EscapeFromZomboidFirearms.PL15,
+        Fixer = EscapeFromZomboidFirearms.PL15; Aiming=3,
+    }
+
+    fixing Fix PM
+    {
+        Require = EscapeFromZomboidFirearms.PM,
+        Fixer = EscapeFromZomboidFirearms.PM; Aiming=3,
+    }
+
+    fixing Fix PMT
+    {
+        Require = EscapeFromZomboidFirearms.PMT,
+        Fixer = EscapeFromZomboidFirearms.PMT; Aiming=3,
+    }
+
+    fixing Fix PP1901
+    {
+        Require = EscapeFromZomboidFirearms.PP1901,
+        Fixer = EscapeFromZomboidFirearms.PP1901; Aiming=5,
+    }
+
+    fixing Fix PP9KLIN
+    {
+        Require = EscapeFromZomboidFirearms.PP9KLIN,
+        Fixer = EscapeFromZomboidFirearms.PP9KLIN; Aiming=5,
+    }
+
+    fixing Fix PPSH41
+    {
+        Require = EscapeFromZomboidFirearms.PPSH41,
+        Fixer = EscapeFromZomboidFirearms.PPSH41; Aiming=5,
+    }
+
+    fixing Fix RD704
+    {
+        Require = EscapeFromZomboidFirearms.RD704,
+        Fixer = EscapeFromZomboidFirearms.RD704; Aiming=5,
+    }
+
+    fixing Fix RFB
+    {
+        Require = EscapeFromZomboidFirearms.RFB,
+        Fixer = EscapeFromZomboidFirearms.RFB; Aiming=5,
+    }
+
+    fixing Fix RPD
+    {
+        Require = EscapeFromZomboidFirearms.RPD,
+        Fixer = EscapeFromZomboidFirearms.RPD; Aiming=5,
+    }
+
+    fixing Fix RPDN
+    {
+        Require = EscapeFromZomboidFirearms.RPDN,
+        Fixer = EscapeFromZomboidFirearms.RPDN; Aiming=5,
+    }
+
+    fixing Fix RPK16
+    {
+        Require = EscapeFromZomboidFirearms.RPK16,
+        Fixer = EscapeFromZomboidFirearms.RPK16; Aiming=5,
+    }
+
+    fixing Fix RSASS
+    {
+        Require = EscapeFromZomboidFirearms.RSASS,
+        Fixer = EscapeFromZomboidFirearms.RSASS; Aiming=5,
+    }
+
+    fixing Fix RSH12
+    {
+        Require = EscapeFromZomboidFirearms.RSH12,
+        Fixer = EscapeFromZomboidFirearms.RSH12; Aiming=3,
+    }
+
+    fixing Fix SA58
+    {
+        Require = EscapeFromZomboidFirearms.SA58,
+        Fixer = EscapeFromZomboidFirearms.SA58; Aiming=5,
+    }
+
+    fixing Fix SAIGA12K
+    {
+        Require = EscapeFromZomboidFirearms.SAIGA12K,
+        Fixer = EscapeFromZomboidFirearms.SAIGA12K; Aiming=2,
+    }
+
+    fixing Fix SAIGA12KFA
+    {
+        Require = EscapeFromZomboidFirearms.SAIGA12KFA,
+        Fixer = EscapeFromZomboidFirearms.SAIGA12KFA; Aiming=2,
+    }
+
+    fixing Fix SAIGA9
+    {
+        Require = EscapeFromZomboidFirearms.SAIGA9,
+        Fixer = EscapeFromZomboidFirearms.SAIGA9; Aiming=5,
+    }
+
+    fixing Fix SCARH
+    {
+        Require = EscapeFromZomboidFirearms.SCARH,
+        Fixer = EscapeFromZomboidFirearms.SCARH; Aiming=5,
+    }
+
+    fixing Fix SKS
+    {
+        Require = EscapeFromZomboidFirearms.SKS,
+        Fixer = EscapeFromZomboidFirearms.SKS; Aiming=5,
+    }
+
+    fixing Fix SPEAR68
+    {
+        Require = EscapeFromZomboidFirearms.SPEAR68,
+        Fixer = EscapeFromZomboidFirearms.SPEAR68; Aiming=5,
+    }
+
+    fixing Fix SR1MP
+    {
+        Require = EscapeFromZomboidFirearms.SR1MP,
+        Fixer = EscapeFromZomboidFirearms.SR1MP; Aiming=3,
+    }
+
+    fixing Fix SR25
+    {
+        Require = EscapeFromZomboidFirearms.SR25,
+        Fixer = EscapeFromZomboidFirearms.SR25; Aiming=5,
+    }
+
+    fixing Fix SR2M
+    {
+        Require = EscapeFromZomboidFirearms.SR2M,
+        Fixer = EscapeFromZomboidFirearms.SR2M; Aiming=5,
+    }
+
+    fixing Fix SR3M
+    {
+        Require = EscapeFromZomboidFirearms.SR3M,
+        Fixer = EscapeFromZomboidFirearms.SR3M; Aiming=5,
+    }
+
+    fixing Fix STM9
+    {
+        Require = EscapeFromZomboidFirearms.STM9,
+        Fixer = EscapeFromZomboidFirearms.STM9; Aiming=5,
+    }
+
+    fixing Fix SV98
+    {
+        Require = EscapeFromZomboidFirearms.SV98,
+        Fixer = EscapeFromZomboidFirearms.SV98; Aiming=4,
+    }
+
+    fixing Fix SVDS
+    {
+        Require = EscapeFromZomboidFirearms.SVDS,
+        Fixer = EscapeFromZomboidFirearms.SVDS; Aiming=5,
+    }
+
+    fixing Fix SVT40
+    {
+        Require = EscapeFromZomboidFirearms.SVT40,
+        Fixer = EscapeFromZomboidFirearms.SVT40; Aiming=5,
+    }
+
+    fixing Fix T5000M
+    {
+        Require = EscapeFromZomboidFirearms.T5000M,
+        Fixer = EscapeFromZomboidFirearms.T5000M; Aiming=4,
+    }
+
+    fixing Fix TOZ106
+    {
+        Require = EscapeFromZomboidFirearms.TOZ106,
+        Fixer = EscapeFromZomboidFirearms.TOZ106; Aiming=2,
+    }
+
+    fixing Fix TRGM10
+    {
+        Require = EscapeFromZomboidFirearms.TRGM10,
+        Fixer = EscapeFromZomboidFirearms.TRGM10; Aiming=4,
+    }
+
+    fixing Fix TT
+    {
+        Require = EscapeFromZomboidFirearms.TT,
+        Fixer = EscapeFromZomboidFirearms.TT; Aiming=3,
+    }
+
+    fixing Fix TTGOLD
+    {
+        Require = EscapeFromZomboidFirearms.TTGOLD,
+        Fixer = EscapeFromZomboidFirearms.TTGOLD; Aiming=3,
+    }
+
+    fixing Fix TX15
+    {
+        Require = EscapeFromZomboidFirearms.TX15,
+        Fixer = EscapeFromZomboidFirearms.TX15; Aiming=5,
+    }
+
+    fixing Fix UMP45
+    {
+        Require = EscapeFromZomboidFirearms.UMP45,
+        Fixer = EscapeFromZomboidFirearms.UMP45; Aiming=5,
+    }
+
+    fixing Fix USP45
+    {
+        Require = EscapeFromZomboidFirearms.USP45,
+        Fixer = EscapeFromZomboidFirearms.USP45; Aiming=3,
+    }
+
+    fixing Fix UZI
+    {
+        Require = EscapeFromZomboidFirearms.UZI,
+        Fixer = EscapeFromZomboidFirearms.UZI; Aiming=5,
+    }
+
+    fixing Fix UZIPROPISTOL
+    {
+        Require = EscapeFromZomboidFirearms.UZIPROPISTOL,
+        Fixer = EscapeFromZomboidFirearms.UZIPROPISTOL; Aiming=5,
+    }
+
+    fixing Fix UZIPROSMG
+    {
+        Require = EscapeFromZomboidFirearms.UZIPROSMG,
+        Fixer = EscapeFromZomboidFirearms.UZIPROSMG; Aiming=5,
+    }
+
+    fixing Fix VECTOR45
+    {
+        Require = EscapeFromZomboidFirearms.VECTOR45,
+        Fixer = EscapeFromZomboidFirearms.VECTOR45; Aiming=5,
+    }
+
+    fixing Fix VECTOR9
+    {
+        Require = EscapeFromZomboidFirearms.VECTOR9,
+        Fixer = EscapeFromZomboidFirearms.VECTOR9; Aiming=5,
+    }
+
+    fixing Fix VELOCIRAPTOR
+    {
+        Require = EscapeFromZomboidFirearms.VELOCIRAPTOR,
+        Fixer = EscapeFromZomboidFirearms.VELOCIRAPTOR; Aiming=5,
+    }
+
+    fixing Fix VPO101
+    {
+        Require = EscapeFromZomboidFirearms.VPO101,
+        Fixer = EscapeFromZomboidFirearms.VPO101; Aiming=5,
+    }
+
+    fixing Fix VPO136
+    {
+        Require = EscapeFromZomboidFirearms.VPO136,
+        Fixer = EscapeFromZomboidFirearms.VPO136; Aiming=5,
+    }
+
+    fixing Fix VPO209
+    {
+        Require = EscapeFromZomboidFirearms.VPO209,
+        Fixer = EscapeFromZomboidFirearms.VPO209; Aiming=5,
+    }
+
+    fixing Fix VPO215
+    {
+        Require = EscapeFromZomboidFirearms.VPO215,
+        Fixer = EscapeFromZomboidFirearms.VPO215; Aiming=4,
+    }
+
+    fixing Fix VSK94
+    {
+        Require = EscapeFromZomboidFirearms.VSK94,
+        Fixer = EscapeFromZomboidFirearms.VSK94; Aiming=5,
+    }
+
+    fixing Fix VSS
+    {
+        Require = EscapeFromZomboidFirearms.VSS,
+        Fixer = EscapeFromZomboidFirearms.VSS; Aiming=5,
+    }
+
+    fixing Fix X17
+    {
+        Require = EscapeFromZomboidFirearms.X17,
+        Fixer = EscapeFromZomboidFirearms.X17; Aiming=5,
+    }
+
+}

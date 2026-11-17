@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode x_name="09aecdcb-0ef6-5fcf-a7cc-bf45eeeafcd4">
+	<m_Name>TWInspect_m4a1_Chamber_TW_Contact_P074</m_Name>
+	<m_AnimName>TWInspect_m4a1_Chamber_TW_Contact_P074</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.08</m_BlendTime>
+	<m_BlendOutTime>0.25</m_BlendOutTime>
+	<m_ConditionPriority>120</m_ConditionPriority>
+	<m_EarlyTransitionOut>true</m_EarlyTransitionOut>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions><m_Name>TWWeaponUtility</m_Name><m_Type>STRING</m_Type><m_StringValue>m4a1:Chamber</m_StringValue></m_Conditions>
+	<m_Conditions><m_Name>GunworksGripAnim</m_Name><m_Type>STRING</m_Type><m_StringValue>TW_Contact_P074</m_StringValue></m_Conditions>
+	<m_Conditions><m_Name>TWGripFemale</m_Name><m_Type>BOOL</m_Type><m_Value>false</m_Value></m_Conditions>
+	<m_Conditions><m_Name>TWGripOwned</m_Name><m_Type>BOOL</m_Type><m_Value>true</m_Value></m_Conditions>
+	<m_Conditions><m_Name>PerformingAction</m_Name><m_Type>STRING</m_Type><m_StringValue>Reload</m_StringValue></m_Conditions>
+	<m_Events x_name="529fe2d8-0019-5b92-8a95-d583b7715e3a"><m_EventName>TWUtilitySound</m_EventName><m_TimePc>0.010195</m_TimePc><m_ParameterValue>m4a1:Chamber|1|SndHandOff</m_ParameterValue></m_Events>
+	<m_Events x_name="9034b2da-78f7-5540-b385-95f44b3bcfe7"><m_EventName>TWUtilitySound</m_EventName><m_TimePc>0.237882</m_TimePc><m_ParameterValue>m4a1:Chamber|2|SndHandleOut</m_ParameterValue></m_Events>
+	<m_Events x_name="496f5570-e0ae-5501-a06a-2b472d909427"><m_EventName>TWUtilitySound</m_EventName><m_TimePc>0.466542</m_TimePc><m_ParameterValue>m4a1:Chamber|3|SndHandleIn</m_ParameterValue></m_Events>
+	<m_Events x_name="2ea968e8-0751-5fd8-9593-b4d51bbd64e6"><m_EventName>TWUtilitySound</m_EventName><m_TimePc>0.752486</m_TimePc><m_ParameterValue>m4a1:Chamber|4|SndHandOn</m_ParameterValue></m_Events>
+	<m_Events x_name="f8586ed0-b2de-5791-a166-72a46ee8bddc"><m_EventName>TWUtilityDone</m_EventName><m_Time>End</m_Time><m_ParameterValue>m4a1:Chamber</m_ParameterValue></m_Events>
+</animNode>

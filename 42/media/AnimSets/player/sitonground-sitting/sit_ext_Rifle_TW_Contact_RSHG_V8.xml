@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf8'?>
+<animNode x_name="e8ff73b7-f6c7-516e-adca-e3baeead1994">
+	<m_Name>sit_ext_Rifle_TW_Contact_RSHG_V8</m_Name>
+	<m_Priority>10</m_Priority>
+	<m_AnimName>TW_Contact_RSHG_V8_SitGround_ActionIdle_Rifle</m_AnimName>
+	<m_DeferredBoneName />
+	<m_BlendTime>0.30</m_BlendTime>
+	<m_ConditionPriority>100</m_ConditionPriority>
+	<m_SpeedScale>0.30</m_SpeedScale>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_RSHG_V8</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="31583e9d-5fb5-5052-b4ab-c7fe9394a591">
+		<m_Name>ExtPlaying</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Transitions>
+		<m_Target>sit_loop_rifle</m_Target>
+		<m_AnimName>Bob_ActionToSitIdle_rifle</m_AnimName>
+		<m_blendInTime>0.3</m_blendInTime>
+		<m_speedScale>1</m_speedScale>
+	</m_Transitions>
+	<m_Conditions x_name="91c6cf8a-d305-55be-a8f2-3cf4dc46ed1e">
+		<m_Name>Weapon</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>firearm</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWCarryRouteReady</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+</animNode>

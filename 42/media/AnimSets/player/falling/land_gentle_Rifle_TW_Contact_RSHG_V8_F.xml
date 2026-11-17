@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="79bab1b4-42c4-5a39-8928-7f883b51ed11">
+	<m_Name>land_gentle_Rifle_TW_Contact_RSHG_V8_F</m_Name>
+	<m_AnimName>Bob_FallLanding_Heavy_Rifle</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.10</m_BlendTime>
+	<m_ConditionPriority>100</m_ConditionPriority>
+	<m_BlendOutTime>0.20</m_BlendOutTime>
+	<m_EarlyTransitionOut>true</m_EarlyTransitionOut>
+	<m_SpeedScale>0.80</m_SpeedScale>
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_RSHG_V8</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="f0290db3-84bb-52ea-8326-cc1ceadab59c">
+		<m_Name>bDead</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="b76545fe-6542-54bf-8ffb-308f67878ed1">
+		<m_Name>bFalling</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="77943aef-e8a5-58b0-94b8-f4af2f915ada">
+		<m_Name>bHardFall</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="bd307faf-6364-5398-9923-b08e6d23ce12">
+		<m_Name>bHardFall2</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="035fddd4-353f-54fa-a740-97cef27d3d63">
+		<m_Name>Weapon</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>firearm</m_Value>
+	</m_Conditions>
+	<m_Events x_name="615b40d1-1c12-5864-968d-5685b98b2e32">
+		<m_EventName>SetVariable</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue>bLandAnimFinished=true</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="d8ff8e99-4ce2-578c-bf6b-c4e8b66f3581">
+		<m_EventName>PlaySound</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>LandLight</m_ParameterValue>
+	</m_Events>
+</animNode>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="813153b1-4bb5-5354-aabf-5a6e0f019815">
+	<m_Name>vaultOverRunFailFirearm_TW_Contact_P121_F</m_Name>
+	<m_Priority>4</m_Priority>
+	<m_AnimName>Bob_ValultOver_RunFail_Rifle</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.05</m_BlendTime>
+	<m_ConditionPriority>100</m_ConditionPriority>
+	<m_BlendOutTime>0.35</m_BlendOutTime>
+	<m_SpeedScale>0.80</m_SpeedScale>
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_P121</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="16d738c9-87c5-59fd-8c51-d2768485d82b">
+		<m_Name>ClimbFenceStarted</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="335cf046-5828-513a-87f2-38370d6c94c0">
+		<m_Name>VaultOverRun</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="e4e0b9a9-4889-5099-941a-89a3fc1f5365">
+		<m_Name>ClimbFenceOutcome</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>fall</m_Value>
+	</m_Conditions>
+	<m_Events x_name="9095c959-60ab-5333-a5d2-d90c239e75e6">
+		<m_EventName>VaultOverStarted</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Events x_name="8a352537-ec6e-5619-b1a5-c8a872598c28">
+		<m_EventName>SetVariable</m_EventName>
+		<m_TimePc>0.5</m_TimePc>
+		<m_ParameterValue>ClimbFenceFinished=true</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="3a1b2caf-4a2b-5535-ac67-e2a0191932c0">
+		<m_EventName>SetCollidable</m_EventName>
+		<m_TimePc>0.5</m_TimePc>
+		<m_ParameterValue>true</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="4eb61f0f-7a79-5741-a2b9-6668a20d0821">
+		<m_EventName>FallenOnKnees</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Events x_name="4ff5d07e-8c58-5383-a497-643d5efcee7f">
+		<m_EventName>PlayTripSound</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>TripOverObstacle</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="f33bd114-f44c-54e8-bbdd-ee68440d1bc1">
+		<m_EventName>PlaySound</m_EventName>
+		<m_TimePc>0.45</m_TimePc>
+		<m_ParameterValue>FallLight</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="705bf383-5927-5332-968f-c2293e6e46c0">
+		<m_EventName>PlayerVoiceSound</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>PainFromFallLow</m_ParameterValue>
+	</m_Events>
+	<m_Conditions x_name="5337b524-637d-5c90-a98a-033752ff7ef2">
+		<m_Name>Weapon</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>firearm</m_Value>
+	</m_Conditions>
+	<m_Transitions>
+		<m_Target>runRifle</m_Target>
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>runRifle_TW_Contact_P121_F</m_Target>
+	</m_Transitions>
+</animNode>

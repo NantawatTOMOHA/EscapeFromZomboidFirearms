@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf8'?>
+<animNode x_name="aca36843-6b5f-5522-9439-f52688034aa4">
+	<m_Name>sit_loop_Rifle_TW_Contact_P026</m_Name>
+	<m_AnimName>TW_Contact_P026_SitGround_Idle_Rifle</m_AnimName>
+	<m_DeferredBoneName />
+	<m_BlendTime>0.30</m_BlendTime>
+	<m_ConditionPriority>100</m_ConditionPriority>
+	<m_BlendOutTime>-1.00</m_BlendOutTime>
+	<m_SpeedScale>0.50</m_SpeedScale>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Events x_name="4b6b37c5-f3ee-59a0-b981-bdd23fc18361">
+		<m_EventName>FlagWhileAlive</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>hideEquippedHandL</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="dc8239b1-d46f-5b0f-9d21-3ca6fe78adce">
+		<m_EventName>FlagWhileAlive</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Transitions>
+		<m_Target>sit_action</m_Target>
+		<m_AnimName>Bob_SitGround_toActionIdle</m_AnimName>
+		<m_blendOutTime>0.5</m_blendOutTime>
+		<m_speedScale>1</m_speedScale>
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>sit_ext_rifle</m_Target>
+		<m_blendInTime>0.5</m_blendInTime>
+		<m_blendOutTime>0.5</m_blendOutTime>
+		<m_speedScale>1</m_speedScale>
+	</m_Transitions>
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_P026</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="4af59164-9f5b-5f49-b0aa-96bdda7472ad">
+		<m_Name>Weapon</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>firearm</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWCarryRouteReady</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+</animNode>

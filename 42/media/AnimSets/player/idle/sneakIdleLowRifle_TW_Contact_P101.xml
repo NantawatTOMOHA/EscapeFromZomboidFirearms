@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='utf8'?>
+<animNode x_name="5a8589b3-5117-5c57-b09f-263580525412">
+	<m_Name>sneakIdleLowRifle_TW_Contact_P101</m_Name>
+	<m_AnimName>TW_Contact_P101_IdleLowSneak_Shotgun</m_AnimName>
+	<m_BlendTime>0.40</m_BlendTime>
+	<m_ConditionPriority>100</m_ConditionPriority>
+	<m_SpeedScale>0.48</m_SpeedScale>
+	<m_maxTorsoTwist>70.00</m_maxTorsoTwist>
+	<m_Scalar>IdleSpeed</m_Scalar>
+	<m_Scalar2>IdleSpeed</m_Scalar2>
+	<m_2DBlends referenceID="1">
+		<m_AnimName>TW_Contact_P101_IdleLowSneak_Shotgun</m_AnimName>
+		<m_XPos>0.00</m_XPos>
+		<m_YPos>0.00</m_YPos>
+		<m_SpeedScale>0.80</m_SpeedScale>
+	</m_2DBlends>
+	<m_2DBlends referenceID="2">
+		<m_AnimName>TW_Contact_P101_IdleSneakLow_Rifle_HBreathing</m_AnimName>
+		<m_XPos>0.00</m_XPos>
+		<m_YPos>1.00</m_YPos>
+		<m_SpeedScale>0.80</m_SpeedScale>
+	</m_2DBlends>
+	<m_2DBlends referenceID="3">
+		<m_AnimName>TW_Contact_P101_IdleLowSneak_Shotgun</m_AnimName>
+		<m_XPos>0.00</m_XPos>
+		<m_YPos>0.04</m_YPos>
+		<m_SpeedScale>0.80</m_SpeedScale>
+	</m_2DBlends>
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_P101</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="3f6e5629-a471-5e59-9c0c-c96cc8d208fe">
+		<m_Name>sneaking</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="ef6b753f-e530-5f08-8423-4852d895f93a">
+		<m_Name>isTurning90</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="88e5a3c5-a4eb-5556-8403-2d1f805dfa99">
+		<m_Name>isTurningAround</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_2DBlendTri>
+		<node1>1</node1>
+		<node2>2</node2>
+		<node3>3</node3>
+	</m_2DBlendTri>
+	<m_Transitions>
+		<m_Target>sneakWalkLowRifle</m_Target>
+		<m_blendInTime>0.3</m_blendInTime>
+		<m_blendOutTime>0.3</m_blendOutTime>
+		<m_Conditions x_name="8288a41b-8f98-5b48-9529-cf1f1cdb6011">
+			<m_Name>isTurningAround</m_Name>
+			<m_Type>BOOL</m_Type>
+			<m_Value>false</m_Value>
+		</m_Conditions>
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>sneakRun</m_Target>
+		<m_AnimName>Bob_SneakToSneakRun</m_AnimName>
+		<m_blendInTime>0.1</m_blendInTime>
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>aim_default</m_Target>
+		<m_AnimName>Bob_IdleToAim_1Hand</m_AnimName>
+		<m_blendInTime>0.3</m_blendInTime>
+		<m_speedScale>1.3</m_speedScale>
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>defaultSprint</m_Target>
+		<m_AnimName>Bob_IdleToSprint</m_AnimName>
+		<m_blendInTime>0.5</m_blendInTime>
+		<m_Conditions x_name="a4ce03d0-e56d-519c-9250-c8e0995fa6c6">
+			<m_Name>isTurningAround</m_Name>
+			<m_Type>BOOL</m_Type>
+			<m_Value>false</m_Value>
+		</m_Conditions>
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>climbFenceStart</m_Target>
+		<m_blendInTime>0.1</m_blendInTime>
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>turn_idle_sneak</m_Target>
+		<m_blendInTime>0.1</m_blendInTime>
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>IdleRifle</m_Target>
+		<m_blendInTime>0.35</m_blendInTime>
+		<m_blendOutTime>0.35</m_blendOutTime>
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>IdleRifle_TW_Contact_P101</m_Target>
+		<m_blendInTime>0.35</m_blendInTime>
+		<m_blendOutTime>0.35</m_blendOutTime>
+	</m_Transitions>
+	<m_Conditions x_name="20ba59c1-bef0-59e1-9e79-232245201412">
+		<m_Name>nearWallCrouching</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="e9e13619-304f-5f7a-acab-ded44bdc5b5f">
+		<m_Name>Weapon</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>firearm</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWCarryRouteReady</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+</animNode>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="477b57bb-4644-5c5e-8988-24f40c33cf3f">
+	<m_Name>land_gentle_Rifle_TW_Contact_P121_F</m_Name>
+	<m_AnimName>Bob_FallLanding_Heavy_Rifle</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.10</m_BlendTime>
+	<m_ConditionPriority>100</m_ConditionPriority>
+	<m_BlendOutTime>0.20</m_BlendOutTime>
+	<m_EarlyTransitionOut>true</m_EarlyTransitionOut>
+	<m_SpeedScale>0.80</m_SpeedScale>
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_P121</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="ba5dc8ed-9676-51ab-9835-d300c8903366">
+		<m_Name>bDead</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="51ccefd2-d47b-552d-92d1-977ee8478b65">
+		<m_Name>bFalling</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="05e96403-1a79-5606-ad64-fd9448236004">
+		<m_Name>bHardFall</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="6713ad62-2a2a-5789-83dc-c1d5be9bd796">
+		<m_Name>bHardFall2</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="912f6969-09a0-596a-9e60-beeadf30ddd4">
+		<m_Name>Weapon</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>firearm</m_Value>
+	</m_Conditions>
+	<m_Events x_name="9a7ef2ce-956a-5884-b26b-427f92b68d40">
+		<m_EventName>SetVariable</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue>bLandAnimFinished=true</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="df980e27-04b4-57ce-a99e-29bd1773cb27">
+		<m_EventName>PlaySound</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>LandLight</m_ParameterValue>
+	</m_Events>
+</animNode>

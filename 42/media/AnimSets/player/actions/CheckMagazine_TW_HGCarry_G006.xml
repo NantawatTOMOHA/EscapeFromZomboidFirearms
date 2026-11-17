@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="437ce97e-4515-5da4-aec3-8e65708e6b83">
+	<m_Conditions>
+		<m_Name>TWCarryHandgunProfile</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_HGCarry_G006</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWMagCheck</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Name>CheckMagazine_TW_HGCarry_G006</m_Name>
+	<m_AnimName>TW_HGCarry_G006_Reload_Handgun_Check</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_EarlyTransitionOut>true</m_EarlyTransitionOut>
+	<m_SpeedScale>ReloadSpeed</m_SpeedScale>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions x_name="7d4fba1c-1990-5f52-a931-e22290302e03">
+		<m_Name>PerformingAction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>Reload</m_Value>
+	</m_Conditions>
+	<m_Events x_name="c5d0cd3d-94f1-5de9-8f6e-46830accc266">
+		<m_EventName>playReloadSound</m_EventName>
+		<m_TimePc>0.085</m_TimePc>
+		<m_ParameterValue>unload</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="db3312c0-80ee-5182-bbbd-0552e1dd2a9f">
+		<m_EventName>playReloadSound</m_EventName>
+		<m_TimePc>0.822</m_TimePc>
+		<m_ParameterValue>load</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="128f7842-ca7f-55ed-8242-b2e21418eded">
+		<m_EventName>TWMagGrab</m_EventName>
+		<m_TimePc>0.085</m_TimePc>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Events x_name="4efe66ba-066c-5681-bab6-2be1f9e4d70d">
+		<m_EventName>TWMagSeat</m_EventName>
+		<m_TimePc>0.822</m_TimePc>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Events x_name="3849ca15-5532-5957-a036-b8e79873d908">
+		<m_EventName>TWMagCheckDone</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue />
+	</m_Events>
+	<m_ConditionPriority>110</m_ConditionPriority>
+</animNode>

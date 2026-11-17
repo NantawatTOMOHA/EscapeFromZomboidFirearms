@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="e56035f5-a7d2-5a8c-a227-d3695f393d31">
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_P121</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Name>UnloadHandgun_TW_Contact_P121</m_Name>
+	<m_AnimName>TW_Contact_P121_Reload_Rifle_Unload</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_EarlyTransitionOut>true</m_EarlyTransitionOut>
+	<m_SpeedScale>ReloadSpeed</m_SpeedScale>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions x_name="f6ea2901-4317-5a82-8c0c-1697b7b57386">
+		<m_Name>PerformingAction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>Reload</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="69f98d86-7de8-58ec-a9fd-d9d99ebf002d">
+		<m_Name>WeaponReloadType</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>handgun</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="9be7f4c6-8b60-5fc1-b2d0-74df63d10e4c">
+		<m_Name>isUnloading</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Events x_name="ac6647ac-d881-5cda-8d6f-951f78598a07">
+		<m_EventName>unloadFinished</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Events x_name="81224e80-b6b0-5e31-97ba-50c452a1d898">
+		<m_EventName>playReloadSound</m_EventName>
+		<m_TimePc>0.36</m_TimePc>
+		<m_ParameterValue>unload</m_ParameterValue>
+		<m_Time>Start</m_Time>
+	</m_Events>
+	<m_Events x_name="99a327d5-77d8-5359-adbf-c2115c4388c2">
+		<m_EventName>playReloadSound</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>ejectAmmoStart</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="e36d62f0-04aa-5e78-ac84-d366f2ef25fa">
+		<m_EventName>TWMagGrab</m_EventName>
+		<m_TimePc>0.23</m_TimePc>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Events x_name="6d74da65-8386-5972-92c5-72a97ed17d52">
+		<m_EventName>TWMagStow</m_EventName>
+		<m_TimePc>0.793</m_TimePc>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Transitions>
+		<m_Target>LoadHandgun</m_Target>
+		<m_blendInTime>0.2</m_blendInTime>
+		<m_blendOutTime>0.2</m_blendOutTime>
+	</m_Transitions>
+	<m_ConditionPriority>100</m_ConditionPriority>
+</animNode>

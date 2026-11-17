@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="bc17800d-391b-5cfb-8f93-0d1d9cab6c97">
+	<m_Conditions>
+		<m_Name>TWMagCheck</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Name>CheckMagazine_TW_Contact_P101_F</m_Name>
+	<m_AnimName>TW_Contact_P101_F_Reload_Rifle_Check</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_Events x_name="6539db5e-79ee-509b-bdab-d0e80ab93b0c">
+		<m_EventName>playReloadSound</m_EventName>
+		<m_TimePc>0.232</m_TimePc>
+		<m_ParameterValue>unload</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="244d325d-d067-5c81-bd57-53c3a2a4300a">
+		<m_EventName>playReloadSound</m_EventName>
+		<m_TimePc>0.777</m_TimePc>
+		<m_ParameterValue>load</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="38fc113a-5c4a-50cf-8c31-78f5688c7e4f">
+		<m_EventName>TWMagGrab</m_EventName>
+		<m_TimePc>0.147</m_TimePc>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Events x_name="e8c7bbe8-faf5-52c2-b9fa-af4de6d1cd4e">
+		<m_EventName>TWMagSeat</m_EventName>
+		<m_TimePc>0.777</m_TimePc>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Events x_name="fb62c5aa-9a95-57e2-b141-65acee06b0e0">
+		<m_EventName>TWMagCheckDone</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue />
+	</m_Events>
+	<m_ConditionPriority>110</m_ConditionPriority>
+	<m_EarlyTransitionOut>true</m_EarlyTransitionOut>
+	<m_SpeedScale>ReloadSpeed</m_SpeedScale>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_P101</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="f6e183eb-d125-5211-be74-be09f27e6b18">
+		<m_Name>PerformingAction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>Reload</m_Value>
+	</m_Conditions>
+</animNode>

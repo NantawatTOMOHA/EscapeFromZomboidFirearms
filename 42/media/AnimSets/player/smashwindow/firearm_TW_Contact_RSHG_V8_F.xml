@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="84a078e6-3a2e-5bba-a616-74e8d78620c8">
+	<m_Name>firearm_TW_Contact_RSHG_V8_F</m_Name>
+	<m_AnimName>Bob_AttackRifleButt02_Hit</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_ConditionPriority>100</m_ConditionPriority>
+	<m_SpeedScale>0.80</m_SpeedScale>
+	<m_Events x_name="bf947191-4786-5474-9681-1eebcf68ffa1">
+		<m_EventName>AttackCollisionCheck</m_EventName>
+		<m_TimePc>0.35</m_TimePc>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_RSHG_V8</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="a4eb7228-def8-5124-af05-3d07fcc826a2">
+		<m_Name>Weapon</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>firearm</m_Value>
+	</m_Conditions>
+</animNode>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>TW_HI_Leg_bk2w</m_Name>
+	<m_Priority>5</m_Priority>
+	<m_ConditionPriority>110</m_ConditionPriority>
+	<m_AnimName>HI_BackToWalk</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_SpeedScale>1.00</m_SpeedScale>
+	<m_maxTorsoTwist>0.00</m_maxTorsoTwist>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions>
+		<m_Name>TWHIFloor</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>aim</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>false</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>HIPose</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>bk2w</m_Value>
+	</m_Conditions>
+</animNode>

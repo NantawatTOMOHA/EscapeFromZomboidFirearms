@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="f0ce4d1b-1fa0-5e3c-ba92-eacbeef41ffc">
+	<m_Conditions>
+		<m_Name>TWCarryHandgunProfile</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_HGCarry_G006</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWMagCheck</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Name>CheckMagazine_TW_HGCarry_G006_F</m_Name>
+	<m_AnimName>TW_HGCarry_G006_F_Reload_Handgun_Check</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_EarlyTransitionOut>true</m_EarlyTransitionOut>
+	<m_SpeedScale>ReloadSpeed</m_SpeedScale>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions x_name="1512b3b2-b6a6-5e70-b60f-0706600460ec">
+		<m_Name>PerformingAction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>Reload</m_Value>
+	</m_Conditions>
+	<m_Events x_name="a7a52854-eb38-5903-a69e-14ea27dcc6e1">
+		<m_EventName>playReloadSound</m_EventName>
+		<m_TimePc>0.085</m_TimePc>
+		<m_ParameterValue>unload</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="fb36b5d8-aea5-5e52-b717-2ad3ccb3861c">
+		<m_EventName>playReloadSound</m_EventName>
+		<m_TimePc>0.822</m_TimePc>
+		<m_ParameterValue>load</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="090e4a97-570a-5b16-973b-74ee32a9a963">
+		<m_EventName>TWMagGrab</m_EventName>
+		<m_TimePc>0.085</m_TimePc>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Events x_name="be69b110-4ac5-54bd-983e-bbd906ba1977">
+		<m_EventName>TWMagSeat</m_EventName>
+		<m_TimePc>0.822</m_TimePc>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Events x_name="c60cb444-baa8-5560-bb1f-b9187098d19c">
+		<m_EventName>TWMagCheckDone</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue />
+	</m_Events>
+	<m_ConditionPriority>110</m_ConditionPriority>
+</animNode>

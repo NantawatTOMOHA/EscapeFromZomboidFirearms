@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode x_name="61f00ee6-10d8-52d6-9666-4185912503c6">
+	<m_Name>TWInspect_glock17_Chamber_TW_HGCarry_G006</m_Name>
+	<m_AnimName>TWInspect_glock17_Chamber_TW_HGCarry_G006</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.08</m_BlendTime>
+	<m_BlendOutTime>0.25</m_BlendOutTime>
+	<m_ConditionPriority>120</m_ConditionPriority>
+	<m_EarlyTransitionOut>true</m_EarlyTransitionOut>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_Conditions><m_Name>TWWeaponUtility</m_Name><m_Type>STRING</m_Type><m_StringValue>glock17:Chamber</m_StringValue></m_Conditions>
+	<m_Conditions><m_Name>TWCarryHandgunProfile</m_Name><m_Type>STRING</m_Type><m_StringValue>TW_HGCarry_G006</m_StringValue></m_Conditions>
+	<m_Conditions><m_Name>TWGripFemale</m_Name><m_Type>BOOL</m_Type><m_Value>false</m_Value></m_Conditions>
+	<m_Conditions><m_Name>TWGripOwned</m_Name><m_Type>BOOL</m_Type><m_Value>true</m_Value></m_Conditions>
+	<m_Conditions><m_Name>PerformingAction</m_Name><m_Type>STRING</m_Type><m_StringValue>Reload</m_StringValue></m_Conditions>
+	<m_Events x_name="91038126-342f-5af8-99a8-50bc67047999"><m_EventName>TWUtilitySound</m_EventName><m_TimePc>0.014938</m_TimePc><m_ParameterValue>glock17:Chamber|1|SndHandOff</m_ParameterValue></m_Events>
+	<m_Events x_name="bcab34ec-8a2b-50eb-9c92-2550d425d931"><m_EventName>TWUtilitySound</m_EventName><m_TimePc>0.182581</m_TimePc><m_ParameterValue>glock17:Chamber|2|SndHandOn</m_ParameterValue></m_Events>
+	<m_Events x_name="f627c2a0-1d98-592f-8525-104091d52e85"><m_EventName>TWUtilitySound</m_EventName><m_TimePc>0.253954</m_TimePc><m_ParameterValue>glock17:Chamber|3|SndTry1</m_ParameterValue></m_Events>
+	<m_Events x_name="21a1a3a2-4927-5416-9c23-84007d073e36"><m_EventName>TWUtilitySound</m_EventName><m_TimePc>0.317027</m_TimePc><m_ParameterValue>glock17:Chamber|4|SndTry2</m_ParameterValue></m_Events>
+	<m_Events x_name="f68b118b-ea5d-5ef0-a905-d9eb8f827a63"><m_EventName>TWUtilitySound</m_EventName><m_TimePc>0.56184</m_TimePc><m_ParameterValue>glock17:Chamber|5|SndTry3</m_ParameterValue></m_Events>
+	<m_Events x_name="d8cb73b9-dbbe-526f-b67c-2eec9566e549"><m_EventName>TWUtilitySound</m_EventName><m_TimePc>0.594418</m_TimePc><m_ParameterValue>glock17:Chamber|6|SndHandOff</m_ParameterValue></m_Events>
+	<m_Events x_name="361694a2-e682-538e-97b4-cb2e85fb8677"><m_EventName>TWUtilitySound</m_EventName><m_TimePc>0.695467</m_TimePc><m_ParameterValue>glock17:Chamber|7|SndHandOn</m_ParameterValue></m_Events>
+	<m_Events x_name="e48aa253-7176-50b7-919b-7daa579e7e55"><m_EventName>TWUtilityDone</m_EventName><m_Time>End</m_Time><m_ParameterValue>glock17:Chamber</m_ParameterValue></m_Events>
+</animNode>

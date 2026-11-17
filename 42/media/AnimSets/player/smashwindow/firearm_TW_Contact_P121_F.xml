@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode x_name="9afad5e0-09ef-54bb-a3d6-0c53bcaad483">
+	<m_Name>firearm_TW_Contact_P121_F</m_Name>
+	<m_AnimName>Bob_AttackRifleButt02_Hit</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_ConditionPriority>100</m_ConditionPriority>
+	<m_SpeedScale>0.80</m_SpeedScale>
+	<m_Events x_name="dc426399-f21c-530b-9c11-12d98b83f45e">
+		<m_EventName>AttackCollisionCheck</m_EventName>
+		<m_TimePc>0.35</m_TimePc>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Conditions>
+		<m_Name>GunworksGripAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>TW_Contact_P121</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripOwned</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWGripFemale</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="86e49231-3cb2-530f-a63c-917a5e0eb722">
+		<m_Name>Weapon</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>firearm</m_Value>
+	</m_Conditions>
+</animNode>

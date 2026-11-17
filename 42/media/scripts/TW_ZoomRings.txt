@@ -1,0 +1,479 @@
+module EscapeFromZomboidFirearms
+{
+    model ZR_56ea70acd2720b844b8b4594_base_body
+    {
+        mesh = TW/ZoomRings/56ea70acd2720b844b8b4594_base_body,
+        texture = TW/0c8a03c3ac2c,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model ZR_56ea70acd2720b844b8b4594_base_ring
+    {
+        mesh = TW/ZoomRings/56ea70acd2720b844b8b4594_base_ring,
+        texture = TW/0c8a03c3ac2c,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model ZR_57c5ac0824597754771e88a9_base_body
+    {
+        mesh = TW/ZoomRings/57c5ac0824597754771e88a9_base_body,
+        texture = TW/fe85b4398443,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model ZR_57c5ac0824597754771e88a9_base_ring
+    {
+        mesh = TW/ZoomRings/57c5ac0824597754771e88a9_base_ring,
+        texture = TW/fe85b4398443,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model ZR_5a37cb10c4a282329a73b4e7_base_body
+    {
+        mesh = TW/ZoomRings/5a37cb10c4a282329a73b4e7_base_body,
+        texture = TW/f463628c2c21,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model ZR_5a37cb10c4a282329a73b4e7_base_ring
+    {
+        mesh = TW/ZoomRings/5a37cb10c4a282329a73b4e7_base_ring,
+        texture = TW/f463628c2c21,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model ZR_5aa66be6e5b5b0214e506e97_base_body
+    {
+        mesh = TW/ZoomRings/5aa66be6e5b5b0214e506e97_base_body,
+        texture = TW/6ece385dbb1f,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model ZR_5aa66be6e5b5b0214e506e97_base_ring
+    {
+        mesh = TW/ZoomRings/5aa66be6e5b5b0214e506e97_base_ring,
+        texture = TW/6ece385dbb1f,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model ZR_5b2388675acfc4771e1be0be_base_body
+    {
+        mesh = TW/ZoomRings/5b2388675acfc4771e1be0be_base_body,
+        texture = TW/0c60fac2c805,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model ZR_5b2388675acfc4771e1be0be_base_ring
+    {
+        mesh = TW/ZoomRings/5b2388675acfc4771e1be0be_base_ring,
+        texture = TW/0c60fac2c805,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model ZR_5b3b99475acfc432ff4dcbee_base_body
+    {
+        mesh = TW/ZoomRings/5b3b99475acfc432ff4dcbee_base_body,
+        texture = TW/db2c6d200d32,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model ZR_5b3b99475acfc432ff4dcbee_base_ring
+    {
+        mesh = TW/ZoomRings/5b3b99475acfc432ff4dcbee_base_ring,
+        texture = TW/db2c6d200d32,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model ZR_5d0a3a58d7ad1a669c15ca14_base_body
+    {
+        mesh = TW/ZoomRings/5d0a3a58d7ad1a669c15ca14_base_body,
+        texture = TW/78f1784ed1a5,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model ZR_5d0a3a58d7ad1a669c15ca14_base_ring
+    {
+        mesh = TW/ZoomRings/5d0a3a58d7ad1a669c15ca14_base_ring,
+        texture = TW/78f1784ed1a5,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model ZR_5d0a3a58d7ad1a669c15ca14_mode1_body
+    {
+        mesh = TW/ZoomRings/5d0a3a58d7ad1a669c15ca14_mode1_body,
+        texture = TW/78f1784ed1a5,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model ZR_5d0a3a58d7ad1a669c15ca14_mode1_ring
+    {
+        mesh = TW/ZoomRings/5d0a3a58d7ad1a669c15ca14_mode1_ring,
+        texture = TW/78f1784ed1a5,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model ZR_5d0a3e8cd7ad1a6f6a3d35bd_base_body
+    {
+        mesh = TW/ZoomRings/5d0a3e8cd7ad1a6f6a3d35bd_base_body,
+        texture = TW/da690c6d2988,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model ZR_5d0a3e8cd7ad1a6f6a3d35bd_base_ring
+    {
+        mesh = TW/ZoomRings/5d0a3e8cd7ad1a6f6a3d35bd_base_ring,
+        texture = TW/da690c6d2988,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model ZR_5d0a3e8cd7ad1a6f6a3d35bd_mode1_body
+    {
+        mesh = TW/ZoomRings/5d0a3e8cd7ad1a6f6a3d35bd_mode1_body,
+        texture = TW/da690c6d2988,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model ZR_5d0a3e8cd7ad1a6f6a3d35bd_mode1_ring
+    {
+        mesh = TW/ZoomRings/5d0a3e8cd7ad1a6f6a3d35bd_mode1_ring,
+        texture = TW/da690c6d2988,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model ZR_5dfe6104585a0c3e995c7b82_base_body
+    {
+        mesh = TW/ZoomRings/5dfe6104585a0c3e995c7b82_base_body,
+        texture = TW/ca28fa43f06a,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model ZR_5dfe6104585a0c3e995c7b82_base_ring
+    {
+        mesh = TW/ZoomRings/5dfe6104585a0c3e995c7b82_base_ring,
+        texture = TW/ca28fa43f06a,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model ZR_61714eec290d254f5e6b2ffc_base_body
+    {
+        mesh = TW/ZoomRings/61714eec290d254f5e6b2ffc_base_body,
+        texture = TW/8aef29db353b,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model ZR_61714eec290d254f5e6b2ffc_base_ring
+    {
+        mesh = TW/ZoomRings/61714eec290d254f5e6b2ffc_base_ring,
+        texture = TW/8aef29db353b,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model ZR_617151c1d92c473c770214ab_base_body
+    {
+        mesh = TW/ZoomRings/617151c1d92c473c770214ab_base_body,
+        texture = TW/788309c3aed0,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model ZR_617151c1d92c473c770214ab_base_ring
+    {
+        mesh = TW/ZoomRings/617151c1d92c473c770214ab_base_ring,
+        texture = TW/788309c3aed0,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model ZR_618ba27d9008e4636a67f61d_base_body
+    {
+        mesh = TW/ZoomRings/618ba27d9008e4636a67f61d_base_body,
+        texture = TW/da84d22e1a38,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model ZR_618ba27d9008e4636a67f61d_base_ring
+    {
+        mesh = TW/ZoomRings/618ba27d9008e4636a67f61d_base_ring,
+        texture = TW/da84d22e1a38,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model ZR_62850c28da09541f43158cca_base_body
+    {
+        mesh = TW/ZoomRings/62850c28da09541f43158cca_base_body,
+        texture = TW/e13d450d02b1,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model ZR_62850c28da09541f43158cca_base_ring
+    {
+        mesh = TW/ZoomRings/62850c28da09541f43158cca_base_ring,
+        texture = TW/e13d450d02b1,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model ZR_6567e7681265c8a131069b0f_base_body
+    {
+        mesh = TW/ZoomRings/6567e7681265c8a131069b0f_base_body,
+        texture = TW/b61846a1535c,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model ZR_6567e7681265c8a131069b0f_base_ring
+    {
+        mesh = TW/ZoomRings/6567e7681265c8a131069b0f_base_ring,
+        texture = TW/b61846a1535c,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model ZR_676175789dcee773150c6925_base_body
+    {
+        mesh = TW/ZoomRings/676175789dcee773150c6925_base_body,
+        texture = TW/17e2b165d237,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model ZR_676175789dcee773150c6925_base_ring
+    {
+        mesh = TW/ZoomRings/676175789dcee773150c6925_base_ring,
+        texture = TW/17e2b165d237,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+}

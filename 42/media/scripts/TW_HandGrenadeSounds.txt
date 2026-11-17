@@ -1,0 +1,1134 @@
+module Base
+{
+    sound TW_HG_5448be9a4bdc2dfd2f8b456a_SndDraw
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_b9cc411cbb31211c.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_5448be9a4bdc2dfd2f8b456a_SndFuse
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_ab38dbc912d509f9.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+        clip
+        {
+            file = media/sound/TW/HG_6d2359d6784be4e9.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+        clip
+        {
+            file = media/sound/TW/HG_468bd196f9edfed8.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_5448be9a4bdc2dfd2f8b456a_SndHolster
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_73aac6658942b1b6.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_5448be9a4bdc2dfd2f8b456a_SndLever
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_df5e54dafe72cdf2.wav,
+            volume = 1.0,
+            distanceMax = 14,
+        }
+    }
+    sound TW_HG_5448be9a4bdc2dfd2f8b456a_SndPin
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_41f3092aca1a2a4a.wav,
+            volume = 1.0,
+            distanceMax = 14,
+        }
+    }
+    sound TW_HG_5448be9a4bdc2dfd2f8b456a_SndThrow
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_d9e0247d1faa5b30.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_5710c24ad2720bc3458b45a3_SndDraw
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_b9cc411cbb31211c.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_5710c24ad2720bc3458b45a3_SndFuse
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_9c8f3ea941cc51c2.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+        clip
+        {
+            file = media/sound/TW/HG_4f3fd3b24832d54d.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+        clip
+        {
+            file = media/sound/TW/HG_bc04e62fa24a2102.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_5710c24ad2720bc3458b45a3_SndHolster
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_73aac6658942b1b6.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_5710c24ad2720bc3458b45a3_SndLever
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_df5e54dafe72cdf2.wav,
+            volume = 1.0,
+            distanceMax = 14,
+        }
+    }
+    sound TW_HG_5710c24ad2720bc3458b45a3_SndPin
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_41f3092aca1a2a4a.wav,
+            volume = 1.0,
+            distanceMax = 14,
+        }
+    }
+    sound TW_HG_5710c24ad2720bc3458b45a3_SndThrow
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_d9e0247d1faa5b30.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_58d3db5386f77426186285a0_SndDraw
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_b9cc411cbb31211c.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_58d3db5386f77426186285a0_SndHolster
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_73aac6658942b1b6.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_58d3db5386f77426186285a0_SndLever
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_df5e54dafe72cdf2.wav,
+            volume = 1.0,
+            distanceMax = 14,
+        }
+    }
+    sound TW_HG_58d3db5386f77426186285a0_SndPin
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_41f3092aca1a2a4a.wav,
+            volume = 1.0,
+            distanceMax = 14,
+        }
+    }
+    sound TW_HG_58d3db5386f77426186285a0_SndThrow
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_d9e0247d1faa5b30.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_5a0c27731526d80618476ac4_SndDraw
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_b9cc411cbb31211c.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_5a0c27731526d80618476ac4_SndFuse
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_918e34757809b197.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+        clip
+        {
+            file = media/sound/TW/HG_68a40a7ff7ace95b.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+        clip
+        {
+            file = media/sound/TW/HG_8facffd4d0d5344f.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_5a0c27731526d80618476ac4_SndHolster
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_73aac6658942b1b6.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_5a0c27731526d80618476ac4_SndLever
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_df5e54dafe72cdf2.wav,
+            volume = 1.0,
+            distanceMax = 14,
+        }
+    }
+    sound TW_HG_5a0c27731526d80618476ac4_SndPin
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_41f3092aca1a2a4a.wav,
+            volume = 1.0,
+            distanceMax = 14,
+        }
+    }
+    sound TW_HG_5a0c27731526d80618476ac4_SndThrow
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_d9e0247d1faa5b30.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_5a2a57cfc4a2826c6e06d44a_disarm1
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_de14bdcb11b2a684.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_5a2a57cfc4a2826c6e06d44a_disarm2
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_fe1078fe201e35df.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_5a2a57cfc4a2826c6e06d44a_firston
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_36bb8f13cb55ba54.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_5a2a57cfc4a2826c6e06d44a_ignition
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_7e3d1da2b3b6c4fa.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_5a2a57cfc4a2826c6e06d44a_secondon
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_accbb348528393d8.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_5a2a57cfc4a2826c6e06d44a_throw
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_86b5ee363be5e8b3.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_5e32f56fcb6d5863cc5e5ee4_SndDraw
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_b9cc411cbb31211c.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_5e32f56fcb6d5863cc5e5ee4_SndFuse
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_5b58de5f15859f95.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+        clip
+        {
+            file = media/sound/TW/HG_a16e4de373cf1500.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+        clip
+        {
+            file = media/sound/TW/HG_b69661f64cdc8f6d.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_5e32f56fcb6d5863cc5e5ee4_SndHolster
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_73aac6658942b1b6.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_5e32f56fcb6d5863cc5e5ee4_SndLever
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_df5e54dafe72cdf2.wav,
+            volume = 1.0,
+            distanceMax = 14,
+        }
+    }
+    sound TW_HG_5e32f56fcb6d5863cc5e5ee4_SndPin
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_41f3092aca1a2a4a.wav,
+            volume = 1.0,
+            distanceMax = 14,
+        }
+    }
+    sound TW_HG_5e32f56fcb6d5863cc5e5ee4_SndThrow
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_d9e0247d1faa5b30.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_5e340dcdcb6d5863cc5e5efb_SndDraw
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_b9cc411cbb31211c.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_5e340dcdcb6d5863cc5e5efb_SndFuse
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_3a33b41c12de511d.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+        clip
+        {
+            file = media/sound/TW/HG_f4e7006343d05390.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+        clip
+        {
+            file = media/sound/TW/HG_b39b6922a3eacf4d.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_5e340dcdcb6d5863cc5e5efb_SndHolster
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_73aac6658942b1b6.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_5e340dcdcb6d5863cc5e5efb_SndLever
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_df5e54dafe72cdf2.wav,
+            volume = 1.0,
+            distanceMax = 14,
+        }
+    }
+    sound TW_HG_5e340dcdcb6d5863cc5e5efb_SndPin
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_41f3092aca1a2a4a.wav,
+            volume = 1.0,
+            distanceMax = 14,
+        }
+    }
+    sound TW_HG_5e340dcdcb6d5863cc5e5efb_SndThrow
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_d9e0247d1faa5b30.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_617aa4dd8166f034d57de9c5_SndDraw
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_b9cc411cbb31211c.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_617aa4dd8166f034d57de9c5_SndFuse
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_d091c4e7348fe2a9.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+        clip
+        {
+            file = media/sound/TW/HG_2aa779ba5d6b5c73.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+        clip
+        {
+            file = media/sound/TW/HG_445520255773fe5b.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_617aa4dd8166f034d57de9c5_SndHolster
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_73aac6658942b1b6.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_617aa4dd8166f034d57de9c5_SndLever
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_df5e54dafe72cdf2.wav,
+            volume = 1.0,
+            distanceMax = 14,
+        }
+    }
+    sound TW_HG_617aa4dd8166f034d57de9c5_SndPin
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_41f3092aca1a2a4a.wav,
+            volume = 1.0,
+            distanceMax = 14,
+        }
+    }
+    sound TW_HG_617aa4dd8166f034d57de9c5_SndThrow
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_d9e0247d1faa5b30.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_617fd91e5539a84ec44ce155_SndDraw
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_b9cc411cbb31211c.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_617fd91e5539a84ec44ce155_SndFuse
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_75e6cb64c844f863.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+        clip
+        {
+            file = media/sound/TW/HG_39f2bd794f1439c4.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+        clip
+        {
+            file = media/sound/TW/HG_912ca775b29f9fed.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_617fd91e5539a84ec44ce155_SndHolster
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_73aac6658942b1b6.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_617fd91e5539a84ec44ce155_SndLever
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_df5e54dafe72cdf2.wav,
+            volume = 1.0,
+            distanceMax = 14,
+        }
+    }
+    sound TW_HG_617fd91e5539a84ec44ce155_SndPin
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_41f3092aca1a2a4a.wav,
+            volume = 1.0,
+            distanceMax = 14,
+        }
+    }
+    sound TW_HG_617fd91e5539a84ec44ce155_SndThrow
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_d9e0247d1faa5b30.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_618a431df1eb8e24b8741deb_SndDraw
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_b9cc411cbb31211c.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_618a431df1eb8e24b8741deb_SndFuse
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_6215c6e94cf2480c.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+        clip
+        {
+            file = media/sound/TW/HG_bd06123ea5fb3100.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+        clip
+        {
+            file = media/sound/TW/HG_0f3b03352b3e5ab4.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_618a431df1eb8e24b8741deb_SndHolster
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_73aac6658942b1b6.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_618a431df1eb8e24b8741deb_SndLever
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_df5e54dafe72cdf2.wav,
+            volume = 1.0,
+            distanceMax = 14,
+        }
+    }
+    sound TW_HG_618a431df1eb8e24b8741deb_SndPin
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_41f3092aca1a2a4a.wav,
+            volume = 1.0,
+            distanceMax = 14,
+        }
+    }
+    sound TW_HG_618a431df1eb8e24b8741deb_SndThrow
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_d9e0247d1faa5b30.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_619256e5f8af2c1a4e1f5d92_SndDraw
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_b9cc411cbb31211c.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_619256e5f8af2c1a4e1f5d92_SndFuse
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_fffd0338f5ec1fcd.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+        clip
+        {
+            file = media/sound/TW/HG_20b894262f859a87.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+        clip
+        {
+            file = media/sound/TW/HG_d01a78c941065540.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_619256e5f8af2c1a4e1f5d92_SndHolster
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_73aac6658942b1b6.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_619256e5f8af2c1a4e1f5d92_SndLever
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_df5e54dafe72cdf2.wav,
+            volume = 1.0,
+            distanceMax = 14,
+        }
+    }
+    sound TW_HG_619256e5f8af2c1a4e1f5d92_SndPin
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_41f3092aca1a2a4a.wav,
+            volume = 1.0,
+            distanceMax = 14,
+        }
+    }
+    sound TW_HG_619256e5f8af2c1a4e1f5d92_SndThrow
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_d9e0247d1faa5b30.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_66dae7cbeb28f0f96809f325_SndDraw
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_b9cc411cbb31211c.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_66dae7cbeb28f0f96809f325_SndFuse
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_dba299fef4bc4097.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+        clip
+        {
+            file = media/sound/TW/HG_89e559a77146a8eb.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+        clip
+        {
+            file = media/sound/TW/HG_ae2fe29014ab9812.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_66dae7cbeb28f0f96809f325_SndHolster
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_73aac6658942b1b6.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_66dae7cbeb28f0f96809f325_SndLever
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_df5e54dafe72cdf2.wav,
+            volume = 1.0,
+            distanceMax = 14,
+        }
+    }
+    sound TW_HG_66dae7cbeb28f0f96809f325_SndPin
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_41f3092aca1a2a4a.wav,
+            volume = 1.0,
+            distanceMax = 14,
+        }
+    }
+    sound TW_HG_66dae7cbeb28f0f96809f325_SndThrow
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_d9e0247d1faa5b30.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_Flashbang
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_3c51bd748a69f725.wav,
+            volume = 1.0,
+            distanceMax = 300,
+        }
+    }
+    sound TW_HG_GrenadeDropSoundBank
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_c3aa681632e0d812.wav,
+            volume = 1.0,
+            distanceMax = 55,
+        }
+        clip
+        {
+            file = media/sound/TW/HG_a85c8bd74ddd4cb9.wav,
+            volume = 1.0,
+            distanceMax = 55,
+        }
+        clip
+        {
+            file = media/sound/TW/HG_b586cd43859619b6.wav,
+            volume = 1.0,
+            distanceMax = 55,
+        }
+    }
+    sound TW_HG_Grenade_new
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_ca5d658059e13561.wav,
+            volume = 1.0,
+            distanceMax = 1000,
+        }
+        clip
+        {
+            file = media/sound/TW/HG_81b99d7404215432.wav,
+            volume = 1.0,
+            distanceMax = 1000,
+        }
+        clip
+        {
+            file = media/sound/TW/HG_6fea1f7e6ff9c8ba.wav,
+            volume = 1.0,
+            distanceMax = 1000,
+        }
+        clip
+        {
+            file = media/sound/TW/HG_efc3fd9da4b62eac.wav,
+            volume = 1.0,
+            distanceMax = 1000,
+        }
+    }
+    sound TW_HG_Grenade_new2
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_db7953916d503075.wav,
+            volume = 1.0,
+            distanceMax = 1000,
+        }
+        clip
+        {
+            file = media/sound/TW/HG_0ba67701176d2521.wav,
+            volume = 1.0,
+            distanceMax = 1000,
+        }
+    }
+    sound TW_HG_SmokeGrenadeCollisions
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_28d13b279884ef67.wav,
+            volume = 1.0,
+            distanceMax = 55,
+        }
+        clip
+        {
+            file = media/sound/TW/HG_d00198af44d2419e.wav,
+            volume = 1.0,
+            distanceMax = 55,
+        }
+        clip
+        {
+            file = media/sound/TW/HG_085510a208481839.wav,
+            volume = 1.0,
+            distanceMax = 55,
+        }
+        clip
+        {
+            file = media/sound/TW/HG_b38352afcf1666f7.wav,
+            volume = 1.0,
+            distanceMax = 55,
+        }
+    }
+    sound TW_HG_SmokeGrenadeM18Collisions
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_1fb95398c12813c2.wav,
+            volume = 1.0,
+            distanceMax = 55,
+        }
+        clip
+        {
+            file = media/sound/TW/HG_14ac44c1c9b8c83e.wav,
+            volume = 1.0,
+            distanceMax = 55,
+        }
+        clip
+        {
+            file = media/sound/TW/HG_69fbda37735198b9.wav,
+            volume = 1.0,
+            distanceMax = 55,
+        }
+    }
+    sound TW_HG_StunGrenadeCollisions
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_9cf0b411f9c1f402.wav,
+            volume = 1.0,
+            distanceMax = 55,
+        }
+        clip
+        {
+            file = media/sound/TW/HG_765e3766d25c7525.wav,
+            volume = 1.0,
+            distanceMax = 55,
+        }
+        clip
+        {
+            file = media/sound/TW/HG_9aeb213a8094dac2.wav,
+            volume = 1.0,
+            distanceMax = 55,
+        }
+        clip
+        {
+            file = media/sound/TW/HG_bedee79a52b32e4a.wav,
+            volume = 1.0,
+            distanceMax = 55,
+        }
+    }
+    sound TW_HG_StunGrenadeM7920Collisions
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_d03d80289371eeb5.wav,
+            volume = 1.0,
+            distanceMax = 55,
+        }
+        clip
+        {
+            file = media/sound/TW/HG_1c049a81d22064da.wav,
+            volume = 1.0,
+            distanceMax = 55,
+        }
+        clip
+        {
+            file = media/sound/TW/HG_3688acff0584a0e2.wav,
+            volume = 1.0,
+            distanceMax = 55,
+        }
+    }
+    sound TW_HG_grenade_smoke_end
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_04e7d3fe53b2c238.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_grenade_smoke_loop
+    {
+        category = Item,
+        is3D = true,
+        loop = true,
+        clip
+        {
+            file = media/sound/TW/HG_36bd867c93e3d6cf.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_grenade_smoke_russian_loop
+    {
+        category = Item,
+        is3D = true,
+        loop = true,
+        clip
+        {
+            file = media/sound/TW/HG_dcab82ff8a6ad03d.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+    sound TW_HG_grenade_smoke_start
+    {
+        category = Item,
+        is3D = true,
+        clip
+        {
+            file = media/sound/TW/HG_30b87af609b28313.wav,
+            volume = 1.0,
+            distanceMax = 30,
+        }
+    }
+}

@@ -1,0 +1,10 @@
+name=Escape From Zomboid Firearms
+id=EscapeFromZomboidFirearms
+author=Manul
+require=SWMG,ZombieBuddy
+loadModAfter=SWMG,BritaGunworksLocal,ZombieBuddy,Viewpoint
+versionMin=42.22
+versionMax=42.22
+modversion=1.1.6
+poster=poster.png
+description=149 weapons of vanilla Escape from Tarkov with every vanilla part that fits them, Tarkov rounds of every calibre, Tarkov tactical devices and lasers.

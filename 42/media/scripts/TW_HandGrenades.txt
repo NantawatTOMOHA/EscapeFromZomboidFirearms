@@ -1,0 +1,1131 @@
+module EscapeFromZomboidFirearms
+{
+    model MHG_5448be9a4bdc2dfd2f8b456a
+    {
+        mesh = TW/HandGrenades/5448be9a4bdc2dfd2f8b456a,
+        texture = TW/HandGrenades/cc20b9126e54,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+        attachment world
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model MHG_5448be9a4bdc2dfd2f8b456a_Ground
+    {
+        mesh = TW/HandGrenades/5448be9a4bdc2dfd2f8b456a,
+        texture = TW/HandGrenades/cc20b9126e54,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+        attachment world
+        {
+            offset = -0.00915649 0.20277367 -0.01009891,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model MHG_5448be9a4bdc2dfd2f8b456a_Air
+    {
+        mesh = TW/HandGrenades/5448be9a4bdc2dfd2f8b456a,
+        texture = TW/HandGrenades/cc20b9126e54,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+        attachment world
+        {
+            offset = -0.00915649 0.22318361 -0.01009891,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model MHG_5710c24ad2720bc3458b45a3
+    {
+        mesh = TW/HandGrenades/5710c24ad2720bc3458b45a3,
+        texture = TW/HandGrenades/71421581867b,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+        attachment world
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model MHG_5710c24ad2720bc3458b45a3_Ground
+    {
+        mesh = TW/HandGrenades/5710c24ad2720bc3458b45a3,
+        texture = TW/HandGrenades/71421581867b,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+        attachment world
+        {
+            offset = -0.01152440 0.20382212 -0.01763835,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model MHG_5710c24ad2720bc3458b45a3_Air
+    {
+        mesh = TW/HandGrenades/5710c24ad2720bc3458b45a3,
+        texture = TW/HandGrenades/71421581867b,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+        attachment world
+        {
+            offset = -0.01152440 0.22523418 -0.01763835,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model MHG_58d3db5386f77426186285a0
+    {
+        mesh = TW/HandGrenades/58d3db5386f77426186285a0,
+        texture = TW/HandGrenades/70c6748abf41,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+        attachment world
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model MHG_58d3db5386f77426186285a0_Ground
+    {
+        mesh = TW/HandGrenades/58d3db5386f77426186285a0,
+        texture = TW/HandGrenades/70c6748abf41,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+        attachment world
+        {
+            offset = -0.00916702 0.20261391 -0.01119787,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model MHG_58d3db5386f77426186285a0_Air
+    {
+        mesh = TW/HandGrenades/58d3db5386f77426186285a0,
+        texture = TW/HandGrenades/70c6748abf41,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+        attachment world
+        {
+            offset = -0.00916702 0.22368123 -0.01119787,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model MHG_5a0c27731526d80618476ac4
+    {
+        mesh = TW/HandGrenades/5a0c27731526d80618476ac4,
+        texture = TW/HandGrenades/a6d0cc2378b6,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+        attachment world
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model MHG_5a0c27731526d80618476ac4_Ground
+    {
+        mesh = TW/HandGrenades/5a0c27731526d80618476ac4,
+        texture = TW/HandGrenades/a6d0cc2378b6,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+        attachment world
+        {
+            offset = -0.01026648 0.20172867 -0.01142274,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model MHG_5a0c27731526d80618476ac4_Air
+    {
+        mesh = TW/HandGrenades/5a0c27731526d80618476ac4,
+        texture = TW/HandGrenades/a6d0cc2378b6,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+        attachment world
+        {
+            offset = -0.01026648 0.22292560 -0.01142274,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model MHG_5a2a57cfc4a2826c6e06d44a
+    {
+        mesh = TW/HandGrenades/5a2a57cfc4a2826c6e06d44a,
+        texture = TW/HandGrenades/e25a3a7c12ef,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+        attachment world
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model MHG_5a2a57cfc4a2826c6e06d44a_Ground
+    {
+        mesh = TW/HandGrenades/5a2a57cfc4a2826c6e06d44a,
+        texture = TW/HandGrenades/e25a3a7c12ef,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+        attachment world
+        {
+            offset = 0.02737384 0.19904841 -0.03122269,
+            rotate = 0.00000000 0.00000000 90.00000000,
+        }
+    }
+
+    model MHG_5a2a57cfc4a2826c6e06d44a_Air
+    {
+        mesh = TW/HandGrenades/5a2a57cfc4a2826c6e06d44a,
+        texture = TW/HandGrenades/e25a3a7c12ef,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+        attachment world
+        {
+            offset = -0.00389360 0.19904841 -0.03122269,
+            rotate = 0.00000000 0.00000000 90.00000000,
+        }
+    }
+
+    model MHG_5e32f56fcb6d5863cc5e5ee4
+    {
+        mesh = TW/HandGrenades/5e32f56fcb6d5863cc5e5ee4,
+        texture = TW/HandGrenades/7f0f27b29b45,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+        attachment world
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model MHG_5e32f56fcb6d5863cc5e5ee4_Ground
+    {
+        mesh = TW/HandGrenades/5e32f56fcb6d5863cc5e5ee4,
+        texture = TW/HandGrenades/7f0f27b29b45,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+        attachment world
+        {
+            offset = -0.00929684 0.21089855 -0.01413508,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model MHG_5e32f56fcb6d5863cc5e5ee4_Air
+    {
+        mesh = TW/HandGrenades/5e32f56fcb6d5863cc5e5ee4,
+        texture = TW/HandGrenades/7f0f27b29b45,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+        attachment world
+        {
+            offset = -0.00929684 0.22416025 -0.01413508,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model MHG_5e340dcdcb6d5863cc5e5efb
+    {
+        mesh = TW/HandGrenades/5e340dcdcb6d5863cc5e5efb,
+        texture = TW/HandGrenades/3f060bf59eaf,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+        attachment world
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model MHG_5e340dcdcb6d5863cc5e5efb_Ground
+    {
+        mesh = TW/HandGrenades/5e340dcdcb6d5863cc5e5efb,
+        texture = TW/HandGrenades/3f060bf59eaf,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+        attachment world
+        {
+            offset = -0.00754290 0.20965519 -0.00802376,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model MHG_5e340dcdcb6d5863cc5e5efb_Air
+    {
+        mesh = TW/HandGrenades/5e340dcdcb6d5863cc5e5efb,
+        texture = TW/HandGrenades/3f060bf59eaf,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+        attachment world
+        {
+            offset = -0.00754290 0.22352305 -0.00802376,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model MHG_617aa4dd8166f034d57de9c5
+    {
+        mesh = TW/HandGrenades/617aa4dd8166f034d57de9c5,
+        texture = TW/HandGrenades/2912d0a67b51,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+        attachment world
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model MHG_617aa4dd8166f034d57de9c5_Ground
+    {
+        mesh = TW/HandGrenades/617aa4dd8166f034d57de9c5,
+        texture = TW/HandGrenades/2912d0a67b51,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+        attachment world
+        {
+            offset = -0.01732299 0.20196732 -0.02546735,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model MHG_617aa4dd8166f034d57de9c5_Air
+    {
+        mesh = TW/HandGrenades/617aa4dd8166f034d57de9c5,
+        texture = TW/HandGrenades/2912d0a67b51,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+        attachment world
+        {
+            offset = -0.01732299 0.22389788 -0.02546735,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model MHG_617fd91e5539a84ec44ce155
+    {
+        mesh = TW/HandGrenades/617fd91e5539a84ec44ce155,
+        texture = TW/HandGrenades/06a998cd8176,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+        attachment world
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model MHG_617fd91e5539a84ec44ce155_Ground
+    {
+        mesh = TW/HandGrenades/617fd91e5539a84ec44ce155,
+        texture = TW/HandGrenades/06a998cd8176,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+        attachment world
+        {
+            offset = -0.00813411 0.20427849 -0.01044053,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model MHG_617fd91e5539a84ec44ce155_Air
+    {
+        mesh = TW/HandGrenades/617fd91e5539a84ec44ce155,
+        texture = TW/HandGrenades/06a998cd8176,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+        attachment world
+        {
+            offset = -0.00813411 0.22337036 -0.01044053,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model MHG_618a431df1eb8e24b8741deb
+    {
+        mesh = TW/HandGrenades/618a431df1eb8e24b8741deb,
+        texture = TW/HandGrenades/1ed132b06c55,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+        attachment world
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model MHG_618a431df1eb8e24b8741deb_Ground
+    {
+        mesh = TW/HandGrenades/618a431df1eb8e24b8741deb,
+        texture = TW/HandGrenades/1ed132b06c55,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+        attachment world
+        {
+            offset = -0.00825935 0.20337825 -0.01068534,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model MHG_618a431df1eb8e24b8741deb_Air
+    {
+        mesh = TW/HandGrenades/618a431df1eb8e24b8741deb,
+        texture = TW/HandGrenades/1ed132b06c55,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+        attachment world
+        {
+            offset = -0.00825935 0.22305184 -0.01068534,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model MHG_619256e5f8af2c1a4e1f5d92
+    {
+        mesh = TW/HandGrenades/619256e5f8af2c1a4e1f5d92,
+        texture = TW/HandGrenades/8e66e4b6688a,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+        attachment world
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model MHG_619256e5f8af2c1a4e1f5d92_Ground
+    {
+        mesh = TW/HandGrenades/619256e5f8af2c1a4e1f5d92,
+        texture = TW/HandGrenades/8e66e4b6688a,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+        attachment world
+        {
+            offset = -0.01557931 0.20412426 -0.02076789,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model MHG_619256e5f8af2c1a4e1f5d92_Air
+    {
+        mesh = TW/HandGrenades/619256e5f8af2c1a4e1f5d92,
+        texture = TW/HandGrenades/8e66e4b6688a,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+        attachment world
+        {
+            offset = -0.01557931 0.22390434 -0.02076789,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model MHG_66dae7cbeb28f0f96809f325
+    {
+        mesh = TW/HandGrenades/66dae7cbeb28f0f96809f325,
+        texture = TW/HandGrenades/6bfd29af3649,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+        attachment world
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+    }
+
+    model MHG_66dae7cbeb28f0f96809f325_Ground
+    {
+        mesh = TW/HandGrenades/66dae7cbeb28f0f96809f325,
+        texture = TW/HandGrenades/6bfd29af3649,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+        attachment world
+        {
+            offset = 0.00545436 0.21815994 -0.00697387,
+            rotate = 0.00000000 0.00000000 90.00000000,
+        }
+    }
+
+    model MHG_66dae7cbeb28f0f96809f325_Air
+    {
+        mesh = TW/HandGrenades/66dae7cbeb28f0f96809f325,
+        texture = TW/HandGrenades/6bfd29af3649,
+        shader = basicEffect,
+        static = true,
+        scale = 1.0,
+        attachment origin
+        {
+            offset = 0.00000000 0.00000000 0.00000000,
+            rotate = 0.00000000 0.00000000 0.00000000,
+        }
+        attachment world
+        {
+            offset = -0.00813469 0.21815994 -0.00697387,
+            rotate = 0.00000000 0.00000000 90.00000000,
+        }
+    }
+
+    item HG_5448be9a4bdc2dfd2f8b456a
+    {
+        ItemType = base:weapon,
+        DisplayName = RGD-5 hand grenade,
+        DisplayCategory = Explosives,
+        Weight = 0.31,
+        Icon = TW_5448be9a4bdc2dfd2f8b456a,
+        WeaponSprite = EscapeFromZomboidFirearms.MHG_5448be9a4bdc2dfd2f8b456a,
+        WorldStaticModel = EscapeFromZomboidFirearms.MHG_5448be9a4bdc2dfd2f8b456a_Ground,
+        Categories = Improvised,
+        SwingAnim = Throw,
+        WeaponLength = 0.1,
+        MinDamage = 0,
+        MaxDamage = 0,
+        MinRange = 0,
+        MaxRange = 0,
+        ExplosionPower = 0,
+        ExplosionRange = 0,
+        SmokeRange = 0,
+        FireRange = 0,
+        NoiseRange = 0,
+        UseEndurance = false,
+        ConditionMax = 1,
+        CanBePlaced = true,
+    }
+
+    item HGV_5448be9a4bdc2dfd2f8b456a
+    {
+        ItemType = base:normal,
+        DisplayName = RGD-5 hand grenade,
+        DisplayCategory = Junk,
+        Weight = 0,
+        Icon = TW_5448be9a4bdc2dfd2f8b456a,
+        WorldStaticModel = EscapeFromZomboidFirearms.MHG_5448be9a4bdc2dfd2f8b456a_Air,
+        hidden = true,
+    }
+
+    item HG_5710c24ad2720bc3458b45a3
+    {
+        ItemType = base:weapon,
+        DisplayName = F-1 hand grenade,
+        DisplayCategory = Explosives,
+        Weight = 0.6,
+        Icon = TW_5710c24ad2720bc3458b45a3,
+        WeaponSprite = EscapeFromZomboidFirearms.MHG_5710c24ad2720bc3458b45a3,
+        WorldStaticModel = EscapeFromZomboidFirearms.MHG_5710c24ad2720bc3458b45a3_Ground,
+        Categories = Improvised,
+        SwingAnim = Throw,
+        WeaponLength = 0.1,
+        MinDamage = 0,
+        MaxDamage = 0,
+        MinRange = 0,
+        MaxRange = 0,
+        ExplosionPower = 0,
+        ExplosionRange = 0,
+        SmokeRange = 0,
+        FireRange = 0,
+        NoiseRange = 0,
+        UseEndurance = false,
+        ConditionMax = 1,
+        CanBePlaced = true,
+    }
+
+    item HGV_5710c24ad2720bc3458b45a3
+    {
+        ItemType = base:normal,
+        DisplayName = F-1 hand grenade,
+        DisplayCategory = Junk,
+        Weight = 0,
+        Icon = TW_5710c24ad2720bc3458b45a3,
+        WorldStaticModel = EscapeFromZomboidFirearms.MHG_5710c24ad2720bc3458b45a3_Air,
+        hidden = true,
+    }
+
+    item HG_58d3db5386f77426186285a0
+    {
+        ItemType = base:weapon,
+        DisplayName = M67 hand grenade,
+        DisplayCategory = Explosives,
+        Weight = 0.396,
+        Icon = TW_58d3db5386f77426186285a0,
+        WeaponSprite = EscapeFromZomboidFirearms.MHG_58d3db5386f77426186285a0,
+        WorldStaticModel = EscapeFromZomboidFirearms.MHG_58d3db5386f77426186285a0_Ground,
+        Categories = Improvised,
+        SwingAnim = Throw,
+        WeaponLength = 0.1,
+        MinDamage = 0,
+        MaxDamage = 0,
+        MinRange = 0,
+        MaxRange = 0,
+        ExplosionPower = 0,
+        ExplosionRange = 0,
+        SmokeRange = 0,
+        FireRange = 0,
+        NoiseRange = 0,
+        UseEndurance = false,
+        ConditionMax = 1,
+        CanBePlaced = true,
+    }
+
+    item HGV_58d3db5386f77426186285a0
+    {
+        ItemType = base:normal,
+        DisplayName = M67 hand grenade,
+        DisplayCategory = Junk,
+        Weight = 0,
+        Icon = TW_58d3db5386f77426186285a0,
+        WorldStaticModel = EscapeFromZomboidFirearms.MHG_58d3db5386f77426186285a0_Air,
+        hidden = true,
+    }
+
+    item HG_5a0c27731526d80618476ac4
+    {
+        ItemType = base:weapon,
+        DisplayName = Zarya stun grenade,
+        DisplayCategory = Explosives,
+        Weight = 0.175,
+        Icon = TW_5a0c27731526d80618476ac4,
+        WeaponSprite = EscapeFromZomboidFirearms.MHG_5a0c27731526d80618476ac4,
+        WorldStaticModel = EscapeFromZomboidFirearms.MHG_5a0c27731526d80618476ac4_Ground,
+        Categories = Improvised,
+        SwingAnim = Throw,
+        WeaponLength = 0.1,
+        MinDamage = 0,
+        MaxDamage = 0,
+        MinRange = 0,
+        MaxRange = 0,
+        ExplosionPower = 0,
+        ExplosionRange = 0,
+        SmokeRange = 0,
+        FireRange = 0,
+        NoiseRange = 0,
+        UseEndurance = false,
+        ConditionMax = 1,
+        CanBePlaced = true,
+    }
+
+    item HGV_5a0c27731526d80618476ac4
+    {
+        ItemType = base:normal,
+        DisplayName = Zarya stun grenade,
+        DisplayCategory = Junk,
+        Weight = 0,
+        Icon = TW_5a0c27731526d80618476ac4,
+        WorldStaticModel = EscapeFromZomboidFirearms.MHG_5a0c27731526d80618476ac4_Air,
+        hidden = true,
+    }
+
+    item HG_5a2a57cfc4a2826c6e06d44a
+    {
+        ItemType = base:weapon,
+        DisplayName = RDG-2B smoke grenade,
+        DisplayCategory = Explosives,
+        Weight = 0.6,
+        Icon = TW_5a2a57cfc4a2826c6e06d44a,
+        WeaponSprite = EscapeFromZomboidFirearms.MHG_5a2a57cfc4a2826c6e06d44a,
+        WorldStaticModel = EscapeFromZomboidFirearms.MHG_5a2a57cfc4a2826c6e06d44a_Ground,
+        Categories = Improvised,
+        SwingAnim = Throw,
+        WeaponLength = 0.1,
+        MinDamage = 0,
+        MaxDamage = 0,
+        MinRange = 0,
+        MaxRange = 0,
+        ExplosionPower = 0,
+        ExplosionRange = 0,
+        SmokeRange = 0,
+        FireRange = 0,
+        NoiseRange = 0,
+        UseEndurance = false,
+        ConditionMax = 1,
+        CanBePlaced = true,
+    }
+
+    item HGV_5a2a57cfc4a2826c6e06d44a
+    {
+        ItemType = base:normal,
+        DisplayName = RDG-2B smoke grenade,
+        DisplayCategory = Junk,
+        Weight = 0,
+        Icon = TW_5a2a57cfc4a2826c6e06d44a,
+        WorldStaticModel = EscapeFromZomboidFirearms.MHG_5a2a57cfc4a2826c6e06d44a_Air,
+        hidden = true,
+    }
+
+    item HG_5e32f56fcb6d5863cc5e5ee4
+    {
+        ItemType = base:weapon,
+        DisplayName = VOG-17 Khattabka improvised hand grenade,
+        DisplayCategory = Explosives,
+        Weight = 0.28,
+        Icon = TW_5e32f56fcb6d5863cc5e5ee4,
+        WeaponSprite = EscapeFromZomboidFirearms.MHG_5e32f56fcb6d5863cc5e5ee4,
+        WorldStaticModel = EscapeFromZomboidFirearms.MHG_5e32f56fcb6d5863cc5e5ee4_Ground,
+        Categories = Improvised,
+        SwingAnim = Throw,
+        WeaponLength = 0.1,
+        MinDamage = 0,
+        MaxDamage = 0,
+        MinRange = 0,
+        MaxRange = 0,
+        ExplosionPower = 0,
+        ExplosionRange = 0,
+        SmokeRange = 0,
+        FireRange = 0,
+        NoiseRange = 0,
+        UseEndurance = false,
+        ConditionMax = 1,
+        CanBePlaced = true,
+    }
+
+    item HGV_5e32f56fcb6d5863cc5e5ee4
+    {
+        ItemType = base:normal,
+        DisplayName = VOG-17 Khattabka improvised hand grenade,
+        DisplayCategory = Junk,
+        Weight = 0,
+        Icon = TW_5e32f56fcb6d5863cc5e5ee4,
+        WorldStaticModel = EscapeFromZomboidFirearms.MHG_5e32f56fcb6d5863cc5e5ee4_Air,
+        hidden = true,
+    }
+
+    item HG_5e340dcdcb6d5863cc5e5efb
+    {
+        ItemType = base:weapon,
+        DisplayName = VOG-25 Khattabka improvised hand grenade,
+        DisplayCategory = Explosives,
+        Weight = 0.25,
+        Icon = TW_5e340dcdcb6d5863cc5e5efb,
+        WeaponSprite = EscapeFromZomboidFirearms.MHG_5e340dcdcb6d5863cc5e5efb,
+        WorldStaticModel = EscapeFromZomboidFirearms.MHG_5e340dcdcb6d5863cc5e5efb_Ground,
+        Categories = Improvised,
+        SwingAnim = Throw,
+        WeaponLength = 0.1,
+        MinDamage = 0,
+        MaxDamage = 0,
+        MinRange = 0,
+        MaxRange = 0,
+        ExplosionPower = 0,
+        ExplosionRange = 0,
+        SmokeRange = 0,
+        FireRange = 0,
+        NoiseRange = 0,
+        UseEndurance = false,
+        ConditionMax = 1,
+        CanBePlaced = true,
+    }
+
+    item HGV_5e340dcdcb6d5863cc5e5efb
+    {
+        ItemType = base:normal,
+        DisplayName = VOG-25 Khattabka improvised hand grenade,
+        DisplayCategory = Junk,
+        Weight = 0,
+        Icon = TW_5e340dcdcb6d5863cc5e5efb,
+        WorldStaticModel = EscapeFromZomboidFirearms.MHG_5e340dcdcb6d5863cc5e5efb_Air,
+        hidden = true,
+    }
+
+    item HG_617aa4dd8166f034d57de9c5
+    {
+        ItemType = base:weapon,
+        DisplayName = M18 smoke grenade (Green),
+        DisplayCategory = Explosives,
+        Weight = 0.539,
+        Icon = TW_617aa4dd8166f034d57de9c5,
+        WeaponSprite = EscapeFromZomboidFirearms.MHG_617aa4dd8166f034d57de9c5,
+        WorldStaticModel = EscapeFromZomboidFirearms.MHG_617aa4dd8166f034d57de9c5_Ground,
+        Categories = Improvised,
+        SwingAnim = Throw,
+        WeaponLength = 0.1,
+        MinDamage = 0,
+        MaxDamage = 0,
+        MinRange = 0,
+        MaxRange = 0,
+        ExplosionPower = 0,
+        ExplosionRange = 0,
+        SmokeRange = 0,
+        FireRange = 0,
+        NoiseRange = 0,
+        UseEndurance = false,
+        ConditionMax = 1,
+        CanBePlaced = true,
+    }
+
+    item HGV_617aa4dd8166f034d57de9c5
+    {
+        ItemType = base:normal,
+        DisplayName = M18 smoke grenade (Green),
+        DisplayCategory = Junk,
+        Weight = 0,
+        Icon = TW_617aa4dd8166f034d57de9c5,
+        WorldStaticModel = EscapeFromZomboidFirearms.MHG_617aa4dd8166f034d57de9c5_Air,
+        hidden = true,
+    }
+
+    item HG_617fd91e5539a84ec44ce155
+    {
+        ItemType = base:weapon,
+        DisplayName = RGN hand grenade,
+        DisplayCategory = Explosives,
+        Weight = 0.31,
+        Icon = TW_617fd91e5539a84ec44ce155,
+        WeaponSprite = EscapeFromZomboidFirearms.MHG_617fd91e5539a84ec44ce155,
+        WorldStaticModel = EscapeFromZomboidFirearms.MHG_617fd91e5539a84ec44ce155_Ground,
+        Categories = Improvised,
+        SwingAnim = Throw,
+        WeaponLength = 0.1,
+        MinDamage = 0,
+        MaxDamage = 0,
+        MinRange = 0,
+        MaxRange = 0,
+        ExplosionPower = 0,
+        ExplosionRange = 0,
+        SmokeRange = 0,
+        FireRange = 0,
+        NoiseRange = 0,
+        UseEndurance = false,
+        ConditionMax = 1,
+        CanBePlaced = true,
+    }
+
+    item HGV_617fd91e5539a84ec44ce155
+    {
+        ItemType = base:normal,
+        DisplayName = RGN hand grenade,
+        DisplayCategory = Junk,
+        Weight = 0,
+        Icon = TW_617fd91e5539a84ec44ce155,
+        WorldStaticModel = EscapeFromZomboidFirearms.MHG_617fd91e5539a84ec44ce155_Air,
+        hidden = true,
+    }
+
+    item HG_618a431df1eb8e24b8741deb
+    {
+        ItemType = base:weapon,
+        DisplayName = RGO hand grenade,
+        DisplayCategory = Explosives,
+        Weight = 0.53,
+        Icon = TW_618a431df1eb8e24b8741deb,
+        WeaponSprite = EscapeFromZomboidFirearms.MHG_618a431df1eb8e24b8741deb,
+        WorldStaticModel = EscapeFromZomboidFirearms.MHG_618a431df1eb8e24b8741deb_Ground,
+        Categories = Improvised,
+        SwingAnim = Throw,
+        WeaponLength = 0.1,
+        MinDamage = 0,
+        MaxDamage = 0,
+        MinRange = 0,
+        MaxRange = 0,
+        ExplosionPower = 0,
+        ExplosionRange = 0,
+        SmokeRange = 0,
+        FireRange = 0,
+        NoiseRange = 0,
+        UseEndurance = false,
+        ConditionMax = 1,
+        CanBePlaced = true,
+    }
+
+    item HGV_618a431df1eb8e24b8741deb
+    {
+        ItemType = base:normal,
+        DisplayName = RGO hand grenade,
+        DisplayCategory = Junk,
+        Weight = 0,
+        Icon = TW_618a431df1eb8e24b8741deb,
+        WorldStaticModel = EscapeFromZomboidFirearms.MHG_618a431df1eb8e24b8741deb_Air,
+        hidden = true,
+    }
+
+    item HG_619256e5f8af2c1a4e1f5d92
+    {
+        ItemType = base:weapon,
+        DisplayName = Model 7290 Flash Bang grenade,
+        DisplayCategory = Explosives,
+        Weight = 0.42,
+        Icon = TW_619256e5f8af2c1a4e1f5d92,
+        WeaponSprite = EscapeFromZomboidFirearms.MHG_619256e5f8af2c1a4e1f5d92,
+        WorldStaticModel = EscapeFromZomboidFirearms.MHG_619256e5f8af2c1a4e1f5d92_Ground,
+        Categories = Improvised,
+        SwingAnim = Throw,
+        WeaponLength = 0.1,
+        MinDamage = 0,
+        MaxDamage = 0,
+        MinRange = 0,
+        MaxRange = 0,
+        ExplosionPower = 0,
+        ExplosionRange = 0,
+        SmokeRange = 0,
+        FireRange = 0,
+        NoiseRange = 0,
+        UseEndurance = false,
+        ConditionMax = 1,
+        CanBePlaced = true,
+    }
+
+    item HGV_619256e5f8af2c1a4e1f5d92
+    {
+        ItemType = base:normal,
+        DisplayName = Model 7290 Flash Bang grenade,
+        DisplayCategory = Junk,
+        Weight = 0,
+        Icon = TW_619256e5f8af2c1a4e1f5d92,
+        WorldStaticModel = EscapeFromZomboidFirearms.MHG_619256e5f8af2c1a4e1f5d92_Air,
+        hidden = true,
+    }
+
+    item HG_66dae7cbeb28f0f96809f325
+    {
+        ItemType = base:weapon,
+        DisplayName = V40 Mini-Grenade,
+        DisplayCategory = Explosives,
+        Weight = 0.136,
+        Icon = TW_66dae7cbeb28f0f96809f325,
+        WeaponSprite = EscapeFromZomboidFirearms.MHG_66dae7cbeb28f0f96809f325,
+        WorldStaticModel = EscapeFromZomboidFirearms.MHG_66dae7cbeb28f0f96809f325_Ground,
+        Categories = Improvised,
+        SwingAnim = Throw,
+        WeaponLength = 0.1,
+        MinDamage = 0,
+        MaxDamage = 0,
+        MinRange = 0,
+        MaxRange = 0,
+        ExplosionPower = 0,
+        ExplosionRange = 0,
+        SmokeRange = 0,
+        FireRange = 0,
+        NoiseRange = 0,
+        UseEndurance = false,
+        ConditionMax = 1,
+        CanBePlaced = true,
+    }
+
+    item HGV_66dae7cbeb28f0f96809f325
+    {
+        ItemType = base:normal,
+        DisplayName = V40 Mini-Grenade,
+        DisplayCategory = Junk,
+        Weight = 0,
+        Icon = TW_66dae7cbeb28f0f96809f325,
+        WorldStaticModel = EscapeFromZomboidFirearms.MHG_66dae7cbeb28f0f96809f325_Air,
+        hidden = true,
+    }
+
+}

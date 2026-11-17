@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>TW_HI_F_TWManual_TW_Unload</m_Name>
+	<m_ConditionPriority>510</m_ConditionPriority>
+	<m_AnimName>HI_Prone_Reload_Shotgun_Load</m_AnimName>
+	<m_deferredBoneAxis>Y</m_deferredBoneAxis>
+	<m_Looped>true</m_Looped>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_EarlyTransitionOut>false</m_EarlyTransitionOut>
+	<m_SpeedScale>TWManualSpeed</m_SpeedScale>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_Conditions>
+		<m_Name>PerformingAction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>Reload</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>isUnloading</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_BoolValue>true</m_BoolValue>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>TWManualKind</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>unload</m_StringValue>
+	</m_Conditions>
+	<m_Events>
+		<m_EventName>playReloadSound</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>ejectAmmoStart</m_ParameterValue>
+	</m_Events>
+	<m_Events>
+		<m_EventName>playReloadSound</m_EventName>
+		<m_TimePc>0.45</m_TimePc>
+		<m_ParameterValue>unload</m_ParameterValue>
+	</m_Events>
+	<m_Events>
+		<m_EventName>unloadFinished</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue />
+	</m_Events>
+	<m_GUID>8f3e42d0-74c9-4e11-9a51-272800000002</m_GUID>
+	<m_Conditions>
+		<m_Name>TWHIFloor</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions>
+		<m_Name>HIPose</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>prone</m_Value>
+	</m_Conditions>
+</animNode>

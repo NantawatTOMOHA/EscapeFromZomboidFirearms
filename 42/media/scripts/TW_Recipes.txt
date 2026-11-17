@@ -1,0 +1,2947 @@
+module EscapeFromZomboidFirearms
+{
+    craftRecipe TW_OpenAB_5e81f423763d9f754677bf2e
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5e81f423763d9f754677bf2e] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 50 EscapeFromZomboidFirearms.A_5e81f423763d9f754677bf2e,
+        }
+    }
+
+    craftRecipe TW_PackAB_5e81f423763d9f754677bf2e
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 50 [EscapeFromZomboidFirearms.A_5e81f423763d9f754677bf2e] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5e81f423763d9f754677bf2e,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5efb0cabfb3e451d70735af5
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5efb0cabfb3e451d70735af5] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 50 EscapeFromZomboidFirearms.A_5efb0cabfb3e451d70735af5,
+        }
+    }
+
+    craftRecipe TW_PackAB_5efb0cabfb3e451d70735af5
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 50 [EscapeFromZomboidFirearms.A_5efb0cabfb3e451d70735af5] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5efb0cabfb3e451d70735af5,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5ea2a8e200685063ec28c05a
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5ea2a8e200685063ec28c05a] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 50 EscapeFromZomboidFirearms.A_5ea2a8e200685063ec28c05a,
+        }
+    }
+
+    craftRecipe TW_PackAB_5ea2a8e200685063ec28c05a
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 50 [EscapeFromZomboidFirearms.A_5ea2a8e200685063ec28c05a] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5ea2a8e200685063ec28c05a,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5d2f2ab648f03550091993ca
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5d2f2ab648f03550091993ca] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 10 EscapeFromZomboidFirearms.A_5d2f2ab648f03550091993ca,
+        }
+    }
+
+    craftRecipe TW_PackAB_5d2f2ab648f03550091993ca
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 10 [EscapeFromZomboidFirearms.A_5d2f2ab648f03550091993ca] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5d2f2ab648f03550091993ca,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5cde8864d7f00c0010373be1
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5cde8864d7f00c0010373be1] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 10 EscapeFromZomboidFirearms.A_5cde8864d7f00c0010373be1,
+        }
+    }
+
+    craftRecipe TW_PackAB_5cde8864d7f00c0010373be1
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 10 [EscapeFromZomboidFirearms.A_5cde8864d7f00c0010373be1] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5cde8864d7f00c0010373be1,
+        }
+    }
+
+    craftRecipe TW_OpenAB_66a0d1f88486c69fce00fdf6
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_66a0d1f88486c69fce00fdf6] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 20 EscapeFromZomboidFirearms.A_66a0d1f88486c69fce00fdf6,
+        }
+    }
+
+    craftRecipe TW_PackAB_66a0d1f88486c69fce00fdf6
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 20 [EscapeFromZomboidFirearms.A_66a0d1f88486c69fce00fdf6] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_66a0d1f88486c69fce00fdf6,
+        }
+    }
+
+    craftRecipe TW_OpenAB_66a0d1e0ed648d72fe064d06
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_66a0d1e0ed648d72fe064d06] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 20 EscapeFromZomboidFirearms.A_66a0d1e0ed648d72fe064d06,
+        }
+    }
+
+    craftRecipe TW_PackAB_66a0d1e0ed648d72fe064d06
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 20 [EscapeFromZomboidFirearms.A_66a0d1e0ed648d72fe064d06] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_66a0d1e0ed648d72fe064d06,
+        }
+    }
+
+    craftRecipe TW_OpenAB_668fe62ac62660a5d8071446
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_668fe62ac62660a5d8071446] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 20 EscapeFromZomboidFirearms.A_668fe62ac62660a5d8071446,
+        }
+    }
+
+    craftRecipe TW_PackAB_668fe62ac62660a5d8071446
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 20 [EscapeFromZomboidFirearms.A_668fe62ac62660a5d8071446] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_668fe62ac62660a5d8071446,
+        }
+    }
+
+    craftRecipe TW_OpenAB_66a0d1c87d0d369e270bb9de
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_66a0d1c87d0d369e270bb9de] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 20 EscapeFromZomboidFirearms.A_66a0d1c87d0d369e270bb9de,
+        }
+    }
+
+    craftRecipe TW_PackAB_66a0d1c87d0d369e270bb9de
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 20 [EscapeFromZomboidFirearms.A_66a0d1c87d0d369e270bb9de] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_66a0d1c87d0d369e270bb9de,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5cadf6ddae9215051e1c23b2
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5cadf6ddae9215051e1c23b2] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 10 EscapeFromZomboidFirearms.A_5cadf6ddae9215051e1c23b2,
+        }
+    }
+
+    craftRecipe TW_PackAB_5cadf6ddae9215051e1c23b2
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 10 [EscapeFromZomboidFirearms.A_5cadf6ddae9215051e1c23b2] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5cadf6ddae9215051e1c23b2,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5cadf6eeae921500134b2799
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5cadf6eeae921500134b2799] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 10 EscapeFromZomboidFirearms.A_5cadf6eeae921500134b2799,
+        }
+    }
+
+    craftRecipe TW_PackAB_5cadf6eeae921500134b2799
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 10 [EscapeFromZomboidFirearms.A_5cadf6eeae921500134b2799] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5cadf6eeae921500134b2799,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5cadf6e5ae921500113bb973
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5cadf6e5ae921500113bb973] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 10 EscapeFromZomboidFirearms.A_5cadf6e5ae921500113bb973,
+        }
+    }
+
+    craftRecipe TW_PackAB_5cadf6e5ae921500113bb973
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 10 [EscapeFromZomboidFirearms.A_5cadf6e5ae921500113bb973] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5cadf6e5ae921500113bb973,
+        }
+    }
+
+    craftRecipe TW_OpenAB_67dc212493ce32834b0fa446
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_67dc212493ce32834b0fa446] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 5 EscapeFromZomboidFirearms.A_67dc212493ce32834b0fa446,
+        }
+    }
+
+    craftRecipe TW_PackAB_67dc212493ce32834b0fa446
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 5 [EscapeFromZomboidFirearms.A_67dc212493ce32834b0fa446] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_67dc212493ce32834b0fa446,
+        }
+    }
+
+    craftRecipe TW_OpenAB_67dc255ee3028a8b120efc48
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_67dc255ee3028a8b120efc48] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 5 EscapeFromZomboidFirearms.A_67dc255ee3028a8b120efc48,
+        }
+    }
+
+    craftRecipe TW_PackAB_67dc255ee3028a8b120efc48
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 5 [EscapeFromZomboidFirearms.A_67dc255ee3028a8b120efc48] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_67dc255ee3028a8b120efc48,
+        }
+    }
+
+    craftRecipe TW_OpenAB_67dc2648ba5b79876906a166
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_67dc2648ba5b79876906a166] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 5 EscapeFromZomboidFirearms.A_67dc2648ba5b79876906a166,
+        }
+    }
+
+    craftRecipe TW_PackAB_67dc2648ba5b79876906a166
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 5 [EscapeFromZomboidFirearms.A_67dc2648ba5b79876906a166] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_67dc2648ba5b79876906a166,
+        }
+    }
+
+    craftRecipe TW_OpenAB_67d41936f378a36c4706eeb9
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_67d41936f378a36c4706eeb9] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 5 EscapeFromZomboidFirearms.A_67d41936f378a36c4706eeb9,
+        }
+    }
+
+    craftRecipe TW_PackAB_67d41936f378a36c4706eeb9
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 5 [EscapeFromZomboidFirearms.A_67d41936f378a36c4706eeb9] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_67d41936f378a36c4706eeb9,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5d6e67fba4b9361bc73bc779
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5d6e67fba4b9361bc73bc779] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 25 EscapeFromZomboidFirearms.A_5d6e67fba4b9361bc73bc779,
+        }
+    }
+
+    craftRecipe TW_PackAB_5d6e67fba4b9361bc73bc779
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 25 [EscapeFromZomboidFirearms.A_5d6e67fba4b9361bc73bc779] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5d6e67fba4b9361bc73bc779,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5d6e6911a4b9361bd5780d52
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5d6e6911a4b9361bd5780d52] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 25 EscapeFromZomboidFirearms.A_5d6e6911a4b9361bd5780d52,
+        }
+    }
+
+    craftRecipe TW_PackAB_5d6e6911a4b9361bd5780d52
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 25 [EscapeFromZomboidFirearms.A_5d6e6911a4b9361bd5780d52] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5d6e6911a4b9361bd5780d52,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5c0d591486f7744c505b416f
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5c0d591486f7744c505b416f] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 5 EscapeFromZomboidFirearms.A_5c0d591486f7744c505b416f,
+        }
+    }
+
+    craftRecipe TW_PackAB_5c0d591486f7744c505b416f
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 5 [EscapeFromZomboidFirearms.A_5c0d591486f7744c505b416f] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5c0d591486f7744c505b416f,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5d6e68a8a4b9360b6c0d54e2
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5d6e68a8a4b9360b6c0d54e2] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 25 EscapeFromZomboidFirearms.A_5d6e68a8a4b9360b6c0d54e2,
+        }
+    }
+
+    craftRecipe TW_PackAB_5d6e68a8a4b9360b6c0d54e2
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 25 [EscapeFromZomboidFirearms.A_5d6e68a8a4b9360b6c0d54e2] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5d6e68a8a4b9360b6c0d54e2,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5a38ebd9c4a282000d722a5b
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5a38ebd9c4a282000d722a5b] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 25 EscapeFromZomboidFirearms.A_5a38ebd9c4a282000d722a5b,
+        }
+    }
+
+    craftRecipe TW_PackAB_5a38ebd9c4a282000d722a5b
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 25 [EscapeFromZomboidFirearms.A_5a38ebd9c4a282000d722a5b] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5a38ebd9c4a282000d722a5b,
+        }
+    }
+
+    craftRecipe TW_OpenAB_6601380580e77cfd080e3418
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_6601380580e77cfd080e3418] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 25 EscapeFromZomboidFirearms.A_6601380580e77cfd080e3418,
+        }
+    }
+
+    craftRecipe TW_PackAB_6601380580e77cfd080e3418
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 25 [EscapeFromZomboidFirearms.A_6601380580e77cfd080e3418] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_6601380580e77cfd080e3418,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5d6e6a5fa4b93614ec501745
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5d6e6a5fa4b93614ec501745] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 25 EscapeFromZomboidFirearms.A_5d6e6a5fa4b93614ec501745,
+        }
+    }
+
+    craftRecipe TW_PackAB_5d6e6a5fa4b93614ec501745
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 25 [EscapeFromZomboidFirearms.A_5d6e6a5fa4b93614ec501745] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5d6e6a5fa4b93614ec501745,
+        }
+    }
+
+    craftRecipe TW_OpenAB_660137d8481cc6907a0c5cda
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_660137d8481cc6907a0c5cda] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 25 EscapeFromZomboidFirearms.A_660137d8481cc6907a0c5cda,
+        }
+    }
+
+    craftRecipe TW_PackAB_660137d8481cc6907a0c5cda
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 25 [EscapeFromZomboidFirearms.A_660137d8481cc6907a0c5cda] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_660137d8481cc6907a0c5cda,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5f647f31b6238e5dd066e196
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5f647f31b6238e5dd066e196] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 5 EscapeFromZomboidFirearms.A_5f647f31b6238e5dd066e196,
+        }
+    }
+
+    craftRecipe TW_PackAB_5f647f31b6238e5dd066e196
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 5 [EscapeFromZomboidFirearms.A_5f647f31b6238e5dd066e196] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5f647f31b6238e5dd066e196,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5e85aa1a988a8701445df1f5
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5e85aa1a988a8701445df1f5] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 5 EscapeFromZomboidFirearms.A_5e85aa1a988a8701445df1f5,
+        }
+    }
+
+    craftRecipe TW_PackAB_5e85aa1a988a8701445df1f5
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 5 [EscapeFromZomboidFirearms.A_5e85aa1a988a8701445df1f5] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5e85aa1a988a8701445df1f5,
+        }
+    }
+
+    craftRecipe TW_OpenAB_59e6542b86f77411dc52a77a
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_59e6542b86f77411dc52a77a] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 20 EscapeFromZomboidFirearms.A_59e6542b86f77411dc52a77a,
+        }
+    }
+
+    craftRecipe TW_PackAB_59e6542b86f77411dc52a77a
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 20 [EscapeFromZomboidFirearms.A_59e6542b86f77411dc52a77a] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_59e6542b86f77411dc52a77a,
+        }
+    }
+
+    craftRecipe TW_OpenAB_59e655cb86f77411dc52a77b
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_59e655cb86f77411dc52a77b] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 20 EscapeFromZomboidFirearms.A_59e655cb86f77411dc52a77b,
+        }
+    }
+
+    craftRecipe TW_PackAB_59e655cb86f77411dc52a77b
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 20 [EscapeFromZomboidFirearms.A_59e655cb86f77411dc52a77b] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_59e655cb86f77411dc52a77b,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5f0596629e22f464da6bbdd9
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5f0596629e22f464da6bbdd9] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 20 EscapeFromZomboidFirearms.A_5f0596629e22f464da6bbdd9,
+        }
+    }
+
+    craftRecipe TW_PackAB_5f0596629e22f464da6bbdd9
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 20 [EscapeFromZomboidFirearms.A_5f0596629e22f464da6bbdd9] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5f0596629e22f464da6bbdd9,
+        }
+    }
+
+    craftRecipe TW_OpenAB_59e6658b86f77411d949b250
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_59e6658b86f77411d949b250] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 20 EscapeFromZomboidFirearms.A_59e6658b86f77411d949b250,
+        }
+    }
+
+    craftRecipe TW_PackAB_59e6658b86f77411d949b250
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 20 [EscapeFromZomboidFirearms.A_59e6658b86f77411d949b250] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_59e6658b86f77411d949b250,
+        }
+    }
+
+    craftRecipe TW_OpenAB_64b6979341772715af0f9c39
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_64b6979341772715af0f9c39] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 40 EscapeFromZomboidFirearms.A_64b6979341772715af0f9c39,
+        }
+    }
+
+    craftRecipe TW_PackAB_64b6979341772715af0f9c39
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 40 [EscapeFromZomboidFirearms.A_64b6979341772715af0f9c39] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_64b6979341772715af0f9c39,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5ba2678ad4351e44f824b344
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5ba2678ad4351e44f824b344] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 40 EscapeFromZomboidFirearms.A_5ba2678ad4351e44f824b344,
+        }
+    }
+
+    craftRecipe TW_PackAB_5ba2678ad4351e44f824b344
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 40 [EscapeFromZomboidFirearms.A_5ba2678ad4351e44f824b344] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5ba2678ad4351e44f824b344,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5ba26835d4351e0035628ff5
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5ba26835d4351e0035628ff5] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 40 EscapeFromZomboidFirearms.A_5ba26835d4351e0035628ff5,
+        }
+    }
+
+    craftRecipe TW_PackAB_5ba26835d4351e0035628ff5
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 40 [EscapeFromZomboidFirearms.A_5ba26835d4351e0035628ff5] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5ba26835d4351e0035628ff5,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5ba26812d4351e003201fef1
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5ba26812d4351e003201fef1] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 40 EscapeFromZomboidFirearms.A_5ba26812d4351e003201fef1,
+        }
+    }
+
+    craftRecipe TW_PackAB_5ba26812d4351e003201fef1
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 40 [EscapeFromZomboidFirearms.A_5ba26812d4351e003201fef1] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5ba26812d4351e003201fef1,
+        }
+    }
+
+    craftRecipe TW_OpenBox545x39
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.Box545x39] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 30 EscapeFromZomboidFirearms.Bullets545x39,
+        }
+    }
+
+    craftRecipe TW_PackBox545x39
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 30 [EscapeFromZomboidFirearms.Bullets545x39] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.Box545x39,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5c0d5e4486f77478390952fe
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5c0d5e4486f77478390952fe] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 30 EscapeFromZomboidFirearms.A_5c0d5e4486f77478390952fe,
+        }
+    }
+
+    craftRecipe TW_PackAB_5c0d5e4486f77478390952fe
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 30 [EscapeFromZomboidFirearms.A_5c0d5e4486f77478390952fe] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5c0d5e4486f77478390952fe,
+        }
+    }
+
+    craftRecipe TW_OpenAB_56dff216d2720bbd668b4568
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_56dff216d2720bbd668b4568] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 30 EscapeFromZomboidFirearms.A_56dff216d2720bbd668b4568,
+        }
+    }
+
+    craftRecipe TW_PackAB_56dff216d2720bbd668b4568
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 30 [EscapeFromZomboidFirearms.A_56dff216d2720bbd668b4568] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_56dff216d2720bbd668b4568,
+        }
+    }
+
+    craftRecipe TW_OpenAB_56dff4ecd2720b5f5a8b4568
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_56dff4ecd2720b5f5a8b4568] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 30 EscapeFromZomboidFirearms.A_56dff4ecd2720b5f5a8b4568,
+        }
+    }
+
+    craftRecipe TW_PackAB_56dff4ecd2720b5f5a8b4568
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 30 [EscapeFromZomboidFirearms.A_56dff4ecd2720b5f5a8b4568] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_56dff4ecd2720b5f5a8b4568,
+        }
+    }
+
+    craftRecipe TW_OpenAB_54527a984bdc2d4e668b4567
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_54527a984bdc2d4e668b4567] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 50 EscapeFromZomboidFirearms.A_54527a984bdc2d4e668b4567,
+        }
+    }
+
+    craftRecipe TW_PackAB_54527a984bdc2d4e668b4567
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 50 [EscapeFromZomboidFirearms.A_54527a984bdc2d4e668b4567] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_54527a984bdc2d4e668b4567,
+        }
+    }
+
+    craftRecipe TW_OpenAB_54527ac44bdc2d36668b4567
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_54527ac44bdc2d36668b4567] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 50 EscapeFromZomboidFirearms.A_54527ac44bdc2d36668b4567,
+        }
+    }
+
+    craftRecipe TW_PackAB_54527ac44bdc2d36668b4567
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 50 [EscapeFromZomboidFirearms.A_54527ac44bdc2d36668b4567] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_54527ac44bdc2d36668b4567,
+        }
+    }
+
+    craftRecipe TW_OpenAB_601949593ae8f707c4608daa
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_601949593ae8f707c4608daa] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 50 EscapeFromZomboidFirearms.A_601949593ae8f707c4608daa,
+        }
+    }
+
+    craftRecipe TW_PackAB_601949593ae8f707c4608daa
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 50 [EscapeFromZomboidFirearms.A_601949593ae8f707c4608daa] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_601949593ae8f707c4608daa,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5c0d5ae286f7741e46554302
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5c0d5ae286f7741e46554302] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 20 EscapeFromZomboidFirearms.A_5c0d5ae286f7741e46554302,
+        }
+    }
+
+    craftRecipe TW_PackAB_5c0d5ae286f7741e46554302
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 20 [EscapeFromZomboidFirearms.A_5c0d5ae286f7741e46554302] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5c0d5ae286f7741e46554302,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5cc80f8fe4a949033b0224a2
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5cc80f8fe4a949033b0224a2] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 50 EscapeFromZomboidFirearms.A_5cc80f8fe4a949033b0224a2,
+        }
+    }
+
+    craftRecipe TW_PackAB_5cc80f8fe4a949033b0224a2
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 50 [EscapeFromZomboidFirearms.A_5cc80f8fe4a949033b0224a2] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5cc80f8fe4a949033b0224a2,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5cc80f53e4a949000e1ea4f8
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5cc80f53e4a949000e1ea4f8] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 50 EscapeFromZomboidFirearms.A_5cc80f53e4a949000e1ea4f8,
+        }
+    }
+
+    craftRecipe TW_PackAB_5cc80f53e4a949000e1ea4f8
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 50 [EscapeFromZomboidFirearms.A_5cc80f53e4a949000e1ea4f8] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5cc80f53e4a949000e1ea4f8,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5cc80f38e4a949001152b560
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5cc80f38e4a949001152b560] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 50 EscapeFromZomboidFirearms.A_5cc80f38e4a949001152b560,
+        }
+    }
+
+    craftRecipe TW_PackAB_5cc80f38e4a949001152b560
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 50 [EscapeFromZomboidFirearms.A_5cc80f38e4a949001152b560] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5cc80f38e4a949001152b560,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5cc86832d7f00c000d3a6e6c
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5cc86832d7f00c000d3a6e6c] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 50 EscapeFromZomboidFirearms.A_5cc86832d7f00c000d3a6e6c,
+        }
+    }
+
+    craftRecipe TW_PackAB_5cc86832d7f00c000d3a6e6c
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 50 [EscapeFromZomboidFirearms.A_5cc86832d7f00c000d3a6e6c] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5cc86832d7f00c000d3a6e6c,
+        }
+    }
+
+    craftRecipe TW_OpenAB_6529302b8c26af6326029fb7
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_6529302b8c26af6326029fb7] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 20 EscapeFromZomboidFirearms.A_6529302b8c26af6326029fb7,
+        }
+    }
+
+    craftRecipe TW_PackAB_6529302b8c26af6326029fb7
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 20 [EscapeFromZomboidFirearms.A_6529302b8c26af6326029fb7] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_6529302b8c26af6326029fb7,
+        }
+    }
+
+    craftRecipe TW_OpenAB_6529243824cbe3c74a05e5c1
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_6529243824cbe3c74a05e5c1] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 20 EscapeFromZomboidFirearms.A_6529243824cbe3c74a05e5c1,
+        }
+    }
+
+    craftRecipe TW_PackAB_6529243824cbe3c74a05e5c1
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 20 [EscapeFromZomboidFirearms.A_6529243824cbe3c74a05e5c1] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_6529243824cbe3c74a05e5c1,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5735ff5c245977640e39ba7e
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5735ff5c245977640e39ba7e] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 25 EscapeFromZomboidFirearms.A_5735ff5c245977640e39ba7e,
+        }
+    }
+
+    craftRecipe TW_PackAB_5735ff5c245977640e39ba7e
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 25 [EscapeFromZomboidFirearms.A_5735ff5c245977640e39ba7e] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5735ff5c245977640e39ba7e,
+        }
+    }
+
+    craftRecipe TW_OpenAB_573603c924597764442bd9cb
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_573603c924597764442bd9cb] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 25 EscapeFromZomboidFirearms.A_573603c924597764442bd9cb,
+        }
+    }
+
+    craftRecipe TW_PackAB_573603c924597764442bd9cb
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 25 [EscapeFromZomboidFirearms.A_573603c924597764442bd9cb] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_573603c924597764442bd9cb,
+        }
+    }
+
+    craftRecipe TW_OpenAB_573603562459776430731618
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_573603562459776430731618] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 25 EscapeFromZomboidFirearms.A_573603562459776430731618,
+        }
+    }
+
+    craftRecipe TW_PackAB_573603562459776430731618
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 25 [EscapeFromZomboidFirearms.A_573603562459776430731618] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_573603562459776430731618,
+        }
+    }
+
+    craftRecipe TW_OpenAB_573602322459776445391df1
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_573602322459776445391df1] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 25 EscapeFromZomboidFirearms.A_573602322459776445391df1,
+        }
+    }
+
+    craftRecipe TW_PackAB_573602322459776445391df1
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 25 [EscapeFromZomboidFirearms.A_573602322459776445391df1] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_573602322459776445391df1,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5fbe3ffdf8b6a877a729ea82
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5fbe3ffdf8b6a877a729ea82] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 50 EscapeFromZomboidFirearms.A_5fbe3ffdf8b6a877a729ea82,
+        }
+    }
+
+    craftRecipe TW_PackAB_5fbe3ffdf8b6a877a729ea82
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 50 [EscapeFromZomboidFirearms.A_5fbe3ffdf8b6a877a729ea82] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5fbe3ffdf8b6a877a729ea82,
+        }
+    }
+
+    craftRecipe TW_OpenAB_619636be6db0f2477964e710
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_619636be6db0f2477964e710] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 50 EscapeFromZomboidFirearms.A_619636be6db0f2477964e710,
+        }
+    }
+
+    craftRecipe TW_PackAB_619636be6db0f2477964e710
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 50 [EscapeFromZomboidFirearms.A_619636be6db0f2477964e710] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_619636be6db0f2477964e710,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5fd20ff893a8961fc660a954
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5fd20ff893a8961fc660a954] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 50 EscapeFromZomboidFirearms.A_5fd20ff893a8961fc660a954,
+        }
+    }
+
+    craftRecipe TW_PackAB_5fd20ff893a8961fc660a954
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 50 [EscapeFromZomboidFirearms.A_5fd20ff893a8961fc660a954] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5fd20ff893a8961fc660a954,
+        }
+    }
+
+    craftRecipe TW_OpenAB_6196365d58ef8c428c287da1
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_6196365d58ef8c428c287da1] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 50 EscapeFromZomboidFirearms.A_6196365d58ef8c428c287da1,
+        }
+    }
+
+    craftRecipe TW_PackAB_6196365d58ef8c428c287da1
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 50 [EscapeFromZomboidFirearms.A_6196365d58ef8c428c287da1] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_6196365d58ef8c428c287da1,
+        }
+    }
+
+    craftRecipe TW_OpenBox762x39
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.Box762x39] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 20 EscapeFromZomboidFirearms.Bullets762x39,
+        }
+    }
+
+    craftRecipe TW_PackBox762x39
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 20 [EscapeFromZomboidFirearms.Bullets762x39] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.Box762x39,
+        }
+    }
+
+    craftRecipe TW_OpenAB_601aa3d2b2bcb34913271e6d
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_601aa3d2b2bcb34913271e6d] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 20 EscapeFromZomboidFirearms.A_601aa3d2b2bcb34913271e6d,
+        }
+    }
+
+    craftRecipe TW_PackAB_601aa3d2b2bcb34913271e6d
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 20 [EscapeFromZomboidFirearms.A_601aa3d2b2bcb34913271e6d] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_601aa3d2b2bcb34913271e6d,
+        }
+    }
+
+    craftRecipe TW_OpenAB_59e4d3d286f774176a36250a
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_59e4d3d286f774176a36250a] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 20 EscapeFromZomboidFirearms.A_59e4d3d286f774176a36250a,
+        }
+    }
+
+    craftRecipe TW_PackAB_59e4d3d286f774176a36250a
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 20 [EscapeFromZomboidFirearms.A_59e4d3d286f774176a36250a] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_59e4d3d286f774176a36250a,
+        }
+    }
+
+    craftRecipe TW_OpenAB_59e4d24686f7741776641ac7
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_59e4d24686f7741776641ac7] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 20 EscapeFromZomboidFirearms.A_59e4d24686f7741776641ac7,
+        }
+    }
+
+    craftRecipe TW_PackAB_59e4d24686f7741776641ac7
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 20 [EscapeFromZomboidFirearms.A_59e4d24686f7741776641ac7] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_59e4d24686f7741776641ac7,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5e023e53d4353e3302577c4c
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5e023e53d4353e3302577c4c] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 20 EscapeFromZomboidFirearms.A_5e023e53d4353e3302577c4c,
+        }
+    }
+
+    craftRecipe TW_PackAB_5e023e53d4353e3302577c4c
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 20 [EscapeFromZomboidFirearms.A_5e023e53d4353e3302577c4c] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5e023e53d4353e3302577c4c,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5a6086ea4f39f99cd479502f
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5a6086ea4f39f99cd479502f] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 20 EscapeFromZomboidFirearms.A_5a6086ea4f39f99cd479502f,
+        }
+    }
+
+    craftRecipe TW_PackAB_5a6086ea4f39f99cd479502f
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 20 [EscapeFromZomboidFirearms.A_5a6086ea4f39f99cd479502f] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5a6086ea4f39f99cd479502f,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5efb0c1bd79ff02a1f5e68d9
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5efb0c1bd79ff02a1f5e68d9] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 20 EscapeFromZomboidFirearms.A_5efb0c1bd79ff02a1f5e68d9,
+        }
+    }
+
+    craftRecipe TW_PackAB_5efb0c1bd79ff02a1f5e68d9
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 20 [EscapeFromZomboidFirearms.A_5efb0c1bd79ff02a1f5e68d9] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5efb0c1bd79ff02a1f5e68d9,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5e023e88277cce2b522ff2b1
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5e023e88277cce2b522ff2b1] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 20 EscapeFromZomboidFirearms.A_5e023e88277cce2b522ff2b1,
+        }
+    }
+
+    craftRecipe TW_PackAB_5e023e88277cce2b522ff2b1
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 20 [EscapeFromZomboidFirearms.A_5e023e88277cce2b522ff2b1] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5e023e88277cce2b522ff2b1,
+        }
+    }
+
+    craftRecipe TW_OpenBox762x54R
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.Box762x54R] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 20 EscapeFromZomboidFirearms.Bullets762x54R,
+        }
+    }
+
+    craftRecipe TW_PackBox762x54R
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 20 [EscapeFromZomboidFirearms.Bullets762x54R] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.Box762x54R,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5e023d34e8a400319a28ed44
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5e023d34e8a400319a28ed44] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 20 EscapeFromZomboidFirearms.A_5e023d34e8a400319a28ed44,
+        }
+    }
+
+    craftRecipe TW_PackAB_5e023d34e8a400319a28ed44
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 20 [EscapeFromZomboidFirearms.A_5e023d34e8a400319a28ed44] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5e023d34e8a400319a28ed44,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5e023d48186a883be655e551
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5e023d48186a883be655e551] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 20 EscapeFromZomboidFirearms.A_5e023d48186a883be655e551,
+        }
+    }
+
+    craftRecipe TW_PackAB_5e023d48186a883be655e551
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 20 [EscapeFromZomboidFirearms.A_5e023d48186a883be655e551] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5e023d48186a883be655e551,
+        }
+    }
+
+    craftRecipe TW_OpenAB_64b8f7c241772715af0f9c3d
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_64b8f7c241772715af0f9c3d] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 20 EscapeFromZomboidFirearms.A_64b8f7c241772715af0f9c3d,
+        }
+    }
+
+    craftRecipe TW_PackAB_64b8f7c241772715af0f9c3d
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 20 [EscapeFromZomboidFirearms.A_64b8f7c241772715af0f9c3d] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_64b8f7c241772715af0f9c3d,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5fc382c1016cce60e8341b20
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5fc382c1016cce60e8341b20] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 20 EscapeFromZomboidFirearms.A_5fc382c1016cce60e8341b20,
+        }
+    }
+
+    craftRecipe TW_PackAB_5fc382c1016cce60e8341b20
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 20 [EscapeFromZomboidFirearms.A_5fc382c1016cce60e8341b20] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5fc382c1016cce60e8341b20,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5fc275cf85fd526b824a571a
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5fc275cf85fd526b824a571a] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 20 EscapeFromZomboidFirearms.A_5fc275cf85fd526b824a571a,
+        }
+    }
+
+    craftRecipe TW_PackAB_5fc275cf85fd526b824a571a
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 20 [EscapeFromZomboidFirearms.A_5fc275cf85fd526b824a571a] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5fc275cf85fd526b824a571a,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5fc382a9d724d907e2077dab
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5fc382a9d724d907e2077dab] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 20 EscapeFromZomboidFirearms.A_5fc382a9d724d907e2077dab,
+        }
+    }
+
+    craftRecipe TW_PackAB_5fc382a9d724d907e2077dab
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 20 [EscapeFromZomboidFirearms.A_5fc382a9d724d907e2077dab] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5fc382a9d724d907e2077dab,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5fc382b6d6fa9c00c571bbc3
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5fc382b6d6fa9c00c571bbc3] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 20 EscapeFromZomboidFirearms.A_5fc382b6d6fa9c00c571bbc3,
+        }
+    }
+
+    craftRecipe TW_PackAB_5fc382b6d6fa9c00c571bbc3
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 20 [EscapeFromZomboidFirearms.A_5fc382b6d6fa9c00c571bbc3] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5fc382b6d6fa9c00c571bbc3,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5737207f24597760ff7b25f2
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5737207f24597760ff7b25f2] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 16 EscapeFromZomboidFirearms.A_5737207f24597760ff7b25f2,
+        }
+    }
+
+    craftRecipe TW_PackAB_5737207f24597760ff7b25f2
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 16 [EscapeFromZomboidFirearms.A_5737207f24597760ff7b25f2] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5737207f24597760ff7b25f2,
+        }
+    }
+
+    craftRecipe TW_OpenAB_573720e02459776143012541
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_573720e02459776143012541] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 16 EscapeFromZomboidFirearms.A_573720e02459776143012541,
+        }
+    }
+
+    craftRecipe TW_PackAB_573720e02459776143012541
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 16 [EscapeFromZomboidFirearms.A_573720e02459776143012541] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_573720e02459776143012541,
+        }
+    }
+
+    craftRecipe TW_OpenAB_573719df2459775a626ccbc2
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_573719df2459775a626ccbc2] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 16 EscapeFromZomboidFirearms.A_573719df2459775a626ccbc2,
+        }
+    }
+
+    craftRecipe TW_PackAB_573719df2459775a626ccbc2
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 16 [EscapeFromZomboidFirearms.A_573719df2459775a626ccbc2] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_573719df2459775a626ccbc2,
+        }
+    }
+
+    craftRecipe TW_OpenAB_57372140245977611f70ee91
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_57372140245977611f70ee91] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 16 EscapeFromZomboidFirearms.A_57372140245977611f70ee91,
+        }
+    }
+
+    craftRecipe TW_PackAB_57372140245977611f70ee91
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 16 [EscapeFromZomboidFirearms.A_57372140245977611f70ee91] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_57372140245977611f70ee91,
+        }
+    }
+
+    craftRecipe TW_OpenAB_58864a4f2459770fcc257101
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_58864a4f2459770fcc257101] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 50 EscapeFromZomboidFirearms.A_58864a4f2459770fcc257101,
+        }
+    }
+
+    craftRecipe TW_PackAB_58864a4f2459770fcc257101
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 50 [EscapeFromZomboidFirearms.A_58864a4f2459770fcc257101] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_58864a4f2459770fcc257101,
+        }
+    }
+
+    craftRecipe TW_OpenAB_56d59d3ad2720bdb418b4577
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_56d59d3ad2720bdb418b4577] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 16 EscapeFromZomboidFirearms.A_56d59d3ad2720bdb418b4577,
+        }
+    }
+
+    craftRecipe TW_PackAB_56d59d3ad2720bdb418b4577
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 16 [EscapeFromZomboidFirearms.A_56d59d3ad2720bdb418b4577] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_56d59d3ad2720bdb418b4577,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5efb0da7a29a85116f6ea05f
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5efb0da7a29a85116f6ea05f] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 50 EscapeFromZomboidFirearms.A_5efb0da7a29a85116f6ea05f,
+        }
+    }
+
+    craftRecipe TW_PackAB_5efb0da7a29a85116f6ea05f
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 50 [EscapeFromZomboidFirearms.A_5efb0da7a29a85116f6ea05f] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5efb0da7a29a85116f6ea05f,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5c0d56a986f774449d5de529
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5c0d56a986f774449d5de529] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 20 EscapeFromZomboidFirearms.A_5c0d56a986f774449d5de529,
+        }
+    }
+
+    craftRecipe TW_PackAB_5c0d56a986f774449d5de529
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 20 [EscapeFromZomboidFirearms.A_5c0d56a986f774449d5de529] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5c0d56a986f774449d5de529,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5a269f97c4a282000b151807
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5a269f97c4a282000b151807] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 30 EscapeFromZomboidFirearms.A_5a269f97c4a282000b151807,
+        }
+    }
+
+    craftRecipe TW_PackAB_5a269f97c4a282000b151807
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 30 [EscapeFromZomboidFirearms.A_5a269f97c4a282000b151807] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5a269f97c4a282000b151807,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5a26ac0ec4a28200741e1e18
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5a26ac0ec4a28200741e1e18] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 30 EscapeFromZomboidFirearms.A_5a26ac0ec4a28200741e1e18,
+        }
+    }
+
+    craftRecipe TW_PackAB_5a26ac0ec4a28200741e1e18
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 30 [EscapeFromZomboidFirearms.A_5a26ac0ec4a28200741e1e18] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5a26ac0ec4a28200741e1e18,
+        }
+    }
+
+    craftRecipe TW_OpenAB_6576f4708ca9c4381d16cd9d
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_6576f4708ca9c4381d16cd9d] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 30 EscapeFromZomboidFirearms.A_6576f4708ca9c4381d16cd9d,
+        }
+    }
+
+    craftRecipe TW_PackAB_6576f4708ca9c4381d16cd9d
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 30 [EscapeFromZomboidFirearms.A_6576f4708ca9c4381d16cd9d] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_6576f4708ca9c4381d16cd9d,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5a26ac06c4a282000c5a90a8
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5a26ac06c4a282000c5a90a8] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 30 EscapeFromZomboidFirearms.A_5a26ac06c4a282000c5a90a8,
+        }
+    }
+
+    craftRecipe TW_PackAB_5a26ac06c4a282000c5a90a8
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 30 [EscapeFromZomboidFirearms.A_5a26ac06c4a282000c5a90a8] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5a26ac06c4a282000c5a90a8,
+        }
+    }
+
+    craftRecipe TW_OpenAB_62330bfadc5883093563729b
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_62330bfadc5883093563729b] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 25 EscapeFromZomboidFirearms.A_62330bfadc5883093563729b,
+        }
+    }
+
+    craftRecipe TW_PackAB_62330bfadc5883093563729b
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 25 [EscapeFromZomboidFirearms.A_62330bfadc5883093563729b] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_62330bfadc5883093563729b,
+        }
+    }
+
+    craftRecipe TW_OpenAB_62330c18744e5e31df12f516
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_62330c18744e5e31df12f516] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 25 EscapeFromZomboidFirearms.A_62330c18744e5e31df12f516,
+        }
+    }
+
+    craftRecipe TW_PackAB_62330c18744e5e31df12f516
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 25 [EscapeFromZomboidFirearms.A_62330c18744e5e31df12f516] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_62330c18744e5e31df12f516,
+        }
+    }
+
+    craftRecipe TW_OpenAB_62330b3ed4dc74626d570b95
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_62330b3ed4dc74626d570b95] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 25 EscapeFromZomboidFirearms.A_62330b3ed4dc74626d570b95,
+        }
+    }
+
+    craftRecipe TW_PackAB_62330b3ed4dc74626d570b95
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 25 [EscapeFromZomboidFirearms.A_62330b3ed4dc74626d570b95] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_62330b3ed4dc74626d570b95,
+        }
+    }
+
+    craftRecipe TW_OpenAB_62330c40bdd19b369e1e53d1
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_62330c40bdd19b369e1e53d1] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 25 EscapeFromZomboidFirearms.A_62330c40bdd19b369e1e53d1,
+        }
+    }
+
+    craftRecipe TW_PackAB_62330c40bdd19b369e1e53d1
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 25 [EscapeFromZomboidFirearms.A_62330c40bdd19b369e1e53d1] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_62330c40bdd19b369e1e53d1,
+        }
+    }
+
+    craftRecipe TW_OpenAB_61962d879bb3d20b0946d385
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_61962d879bb3d20b0946d385] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 20 EscapeFromZomboidFirearms.A_61962d879bb3d20b0946d385,
+        }
+    }
+
+    craftRecipe TW_PackAB_61962d879bb3d20b0946d385
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 20 [EscapeFromZomboidFirearms.A_61962d879bb3d20b0946d385] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_61962d879bb3d20b0946d385,
+        }
+    }
+
+    craftRecipe TW_OpenAB_5c0d688c86f77413ae3407b2
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_5c0d688c86f77413ae3407b2] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 8 EscapeFromZomboidFirearms.A_5c0d688c86f77413ae3407b2,
+        }
+    }
+
+    craftRecipe TW_PackAB_5c0d688c86f77413ae3407b2
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 8 [EscapeFromZomboidFirearms.A_5c0d688c86f77413ae3407b2] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_5c0d688c86f77413ae3407b2,
+        }
+    }
+
+    craftRecipe TW_OpenAB_6576f96220d53a5b8f3e395e
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_6576f96220d53a5b8f3e395e] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 20 EscapeFromZomboidFirearms.A_6576f96220d53a5b8f3e395e,
+        }
+    }
+
+    craftRecipe TW_PackAB_6576f96220d53a5b8f3e395e
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 20 [EscapeFromZomboidFirearms.A_6576f96220d53a5b8f3e395e] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_6576f96220d53a5b8f3e395e,
+        }
+    }
+
+    craftRecipe TW_OpenAB_57a0dfb82459774d3078b56c
+    {
+        timedAction = OpenAmmoBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft;CanBeDoneInDark,
+        inputs
+        {
+            item 1 [EscapeFromZomboidFirearms.AB_57a0dfb82459774d3078b56c] flags[Prop2;AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 20 EscapeFromZomboidFirearms.A_57a0dfb82459774d3078b56c,
+        }
+    }
+
+    craftRecipe TW_PackAB_57a0dfb82459774d3078b56c
+    {
+        timedAction = PlaceAmmoInBox,
+        time = 15,
+        category = Packing,
+        Tags = InHandCraft,
+        inputs
+        {
+            item 20 [EscapeFromZomboidFirearms.A_57a0dfb82459774d3078b56c] flags[AllowFavorite;InheritFavorite],
+        }
+        outputs
+        {
+            item 1 EscapeFromZomboidFirearms.AB_57a0dfb82459774d3078b56c,
+        }
+    }
+
+}
