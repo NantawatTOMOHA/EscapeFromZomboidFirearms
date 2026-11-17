@@ -124,6 +124,12 @@ final class ScopePipCpu {
                 } else if (value instanceof int[] a) {
                     if (!(values[i] instanceof int[] b) || b.length != a.length) values[i] = new int[a.length];
                     System.arraycopy(a, 0, values[i], 0, a.length);
+                } else if (value instanceof float[] a) {
+                    if (!(values[i] instanceof float[] b) || b.length != a.length) values[i] = new float[a.length];
+                    System.arraycopy(a, 0, values[i], 0, a.length);
+                } else if (fields[i].getType().getName().equals("viewpoint.render.CarriedEffects")) {
+                    // Keep each FrameContext's own effects object and its own mutable buffers.
+                    values[i] = null;
                 } else throw new IllegalStateException("unreviewed final context value " + fields[i]);
             }
             busy = true;
@@ -138,6 +144,8 @@ final class ScopePipCpu {
                     else if (value instanceof Matrix4f m) ((Matrix4f) fields[i].get(destination)).set(m);
                     else if (value instanceof Matrix3f m) ((Matrix3f) fields[i].get(destination)).set(m);
                     else if (value instanceof int[] a) System.arraycopy(a, 0, fields[i].get(destination), 0, a.length);
+                    else if (value instanceof float[] a) System.arraycopy(a, 0, fields[i].get(destination), 0, a.length);
+                    // null is the deliberate no-copy marker for CarriedEffects.
                 } catch (Throwable t) { failure = t; }
             }
             if (failure != null) throw failure;
