@@ -237,6 +237,13 @@ public final class ViewpointPipBridge {
         {"viewpoint.render.FrameContext", "cloudTime", "F", ""},
         {"viewpoint.render.FrameContext", "since", "F", ""},
         {"viewpoint.render.FrameContext", "scissorBox", "[I", ""},
+        // Viewpoint 0.1.7 carried cloud state and per-frame translucent effects.
+        {"viewpoint.render.FrameContext", "cloudCarriedX", "D", ""},
+        {"viewpoint.render.FrameContext", "cloudCarriedZ", "D", ""},
+        {"viewpoint.render.FrameContext", "cloudSheetMid", "[F", ""},
+        {"viewpoint.render.FrameContext", "cloudSheetHigh", "[F", ""},
+        {"viewpoint.render.FrameContext", "effects", "Lviewpoint/render/CarriedEffects;", ""},
+        {"viewpoint.render.CarriedEffects", "carry", "(Lviewpoint/render/SceneData;Lviewpoint/render/ModelPass;)V", ""},
     };
 
     /** The frame's carried lights: reviewed apart, the scope's context keeps its own arrays and gets a copy (copyLights). */
@@ -720,6 +727,11 @@ public final class ViewpointPipBridge {
                         call("ModelPass.prepare", bank.models, scene);
                     }
                 }
+                if (blendedFrame) {
+                    // FrameContext owns its effects buffer. Rebuild it against the
+                    // scope ModelPass; sharing the main buffer would use main-camera transforms.
+                    call("CarriedEffects.carry", get("FrameContext.effects", scope), scene, bank.models);
+                }
                 // VP performs its own current-scope frustum tests here and in the
                 // model gbuffer. Main-eye visibility cannot replace that selection.
                 try (PerfProbe.Scope perf = PerfProbe.cpu(PerfProbe.PIP_FAR)) {
@@ -1014,6 +1026,10 @@ public final class ViewpointPipBridge {
                     if (value instanceof Matrix4f m) { value = new Matrix4f(m); }
                     else if (value instanceof Matrix3f m) { value = new Matrix3f(m); }
                     else if (value instanceof int[] a) { value = a.clone(); }
+                    else if (value instanceof float[] a) { value = a.clone(); }
+                    // Each FrameContext constructs its own CarriedEffects buffers;
+                    // do not alias the main context's mutable effects object.
+                    else if (f.getType().getName().equals("viewpoint.render.CarriedEffects")) { value = null; }
                     else { throw new IllegalStateException("unreviewed final context value " + f); }
                 }
                 saved.put(f, value);
@@ -1046,6 +1062,8 @@ public final class ViewpointPipBridge {
                     else if (value instanceof Matrix4f m) { ((Matrix4f) f.get(destination)).set(m); }
                     else if (value instanceof Matrix3f m) { ((Matrix3f) f.get(destination)).set(m); }
                     else if (value instanceof int[] a) { System.arraycopy(a, 0, f.get(destination), 0, a.length); }
+                    else if (value instanceof float[] a) { System.arraycopy(a, 0, f.get(destination), 0, a.length); }
+                    // null is the deliberate no-copy marker for CarriedEffects.
                 } catch (Throwable t) {
                     failure = t;
                 }
