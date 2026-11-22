@@ -1,0 +1,212 @@
+# Rukx Stutter Watch session 2026-11-22_18-29 | stutter = logic frame > 40 ms
+
+=== 18:30:21 | last 11s | frames 7441 | avg logic 0.6ms | worst 2652.6ms | stutters 5 | lua 73% of logic | gc 465 ms | - | zombies ?
+  game-update Lua by mod:
+     1870.6ms total (166.0 ms/s)  calls   13339  worst 1833.6ms  vanilla
+      775.4ms total ( 68.8 ms/s)  calls       7  worst 775.2ms  KnoxInventoryBeta
+      527.6ms total ( 46.8 ms/s)  calls       2  worst 467.2ms  TIYLFullClothingUIFix
+       18.6ms total (  1.7 ms/s)  calls      21  worst  16.9ms  EscapeFromZomboidFirearms
+        7.2ms total (  0.6 ms/s)  calls      11  worst   5.7ms  ViewpointDriveByShooting
+        6.7ms total (  0.6 ms/s)  calls       2  worst   6.6ms  VanillaCameraExpansion
+        6.7ms total (  0.6 ms/s)  calls       2  worst   6.7ms  VisibleVehicleCorpsesCore
+        5.9ms total (  0.5 ms/s)  calls       3  worst   5.8ms  errorMagnifier
+        3.2ms total (  0.3 ms/s)  calls       1  worst   3.2ms  ViewpointSourceMovement
+        2.9ms total (  0.3 ms/s)  calls      19  worst   2.1ms  ProjectALifeNPCs
+        1.5ms total (  0.1 ms/s)  calls       1  worst   1.5ms  Tempo_PerfKit
+        1.2ms total (  0.1 ms/s)  calls       2  worst   0.8ms  ZombieBuddy
+  game-update Lua by function:
+     1833.6ms total (162.7 ms/s)  calls       1  worst 1833.6ms  vanilla | client/OptionScreens/MainScreen.lua:1667
+      775.2ms total ( 68.8 ms/s)  calls       1  worst 775.2ms  KnoxInventoryBeta | client/Knox/KnoxMenuScene.lua:3278
+      527.6ms total ( 46.8 ms/s)  calls       2  worst 467.2ms  TIYLFullClothingUIFix | client/TIYLFullClothingUIFix.lua:3284
+       30.2ms total (  2.7 ms/s)  calls    5147  worst   0.4ms  vanilla | client/ISUI/ISUIElement.lua:564
+       16.9ms total (  1.5 ms/s)  calls       1  worst  16.9ms  EscapeFromZomboidFirearms | client/TW_VersionCheck.lua:393
+        6.7ms total (  0.6 ms/s)  calls       1  worst   6.7ms  VisibleVehicleCorpsesCore | client/VisibleVehicleCorpsesCore.lua:38
+        6.6ms total (  0.6 ms/s)  calls       1  worst   6.6ms  VanillaCameraExpansion | client/VCE/PhotoOptions.lua:258
+        5.8ms total (  0.5 ms/s)  calls       1  worst   5.8ms  errorMagnifier | client/errorMagnifier_Main.lua:1132
+        5.7ms total (  0.5 ms/s)  calls       1  worst   5.7ms  ViewpointDriveByShooting | client/DriveByOptions.lua:228
+        3.5ms total (  0.3 ms/s)  calls      46  worst   0.8ms  vanilla | client/ISUI/Gamepad/ISControllerBindingsEditorPanel.lua:113
+        3.2ms total (  0.3 ms/s)  calls       1  worst   3.2ms  ViewpointSourceMovement | client/SourceMovement.lua:106
+        2.1ms total (  0.2 ms/s)  calls       1  worst   2.1ms  ProjectALifeNPCs | client/ProjectALife/Compat/ALifeImmersiveDrivingAdapter.lua:76
+  UI/render Lua by mod:
+       22.2ms total (  2.0 ms/s)  calls      60  worst  15.1ms  KnoxInventoryBeta
+       18.9ms total (  1.7 ms/s)  calls      39  worst   5.3ms  vanilla
+        8.5ms total (  0.8 ms/s)  calls      14  worst   4.2ms  ProjectALifeNPCs
+        2.0ms total (  0.2 ms/s)  calls       2  worst   1.9ms  chuckleberryModdingAlertSystem
+        1.3ms total (  0.1 ms/s)  calls      19  worst   0.9ms  KnoxMarketCustom
+        0.6ms total (  0.0 ms/s)  calls       7  worst   0.5ms  ProjectRPGExpanded
+
+=== 18:30:31 | last 10s | frames 2622 | avg logic 0.8ms | worst 148.3ms | stutters 2 | lua 22% of logic | gc 0 ms | - | zombies ?
+  game-update Lua by mod:
+      384.1ms total ( 38.4 ms/s)  calls  431965  worst   0.4ms  vanilla
+       43.8ms total (  4.4 ms/s)  calls      97  worst   0.9ms  TIYLFullClothingUIFix
+       23.1ms total (  2.3 ms/s)  calls    2622  worst   0.2ms  errorMagnifier
+       11.9ms total (  1.2 ms/s)  calls    2622  worst   0.0ms  EscapeFromZomboidFirearms
+        8.9ms total (  0.9 ms/s)  calls    2622  worst   0.1ms  ViewpointDriveByShooting
+        5.2ms total (  0.5 ms/s)  calls      97  worst   0.1ms  Lifestyle
+  game-update Lua by function:
+      269.8ms total ( 27.0 ms/s)  calls   38455  worst   0.1ms  vanilla | client/ISUI/ISUIElement.lua:564
+       43.8ms total (  4.4 ms/s)  calls      97  worst   0.9ms  TIYLFullClothingUIFix | client/TIYLFullClothingUIFix.lua:3284
+       41.3ms total (  4.1 ms/s)  calls    2231  worst   0.4ms  vanilla | client/ISUI/Gamepad/ISControllerBindingsEditorPanel.lua:113
+       41.1ms total (  4.1 ms/s)  calls   60625  worst   0.1ms  vanilla | client/ISUI/ISButton.lua:299
+       23.1ms total (  2.3 ms/s)  calls    2622  worst   0.2ms  errorMagnifier | client/errorMagnifier_events.lua:10
+       22.3ms total (  2.2 ms/s)  calls  314552  worst   0.1ms  vanilla | client/ISUI/ISUIElement.lua:1612
+       11.9ms total (  1.2 ms/s)  calls    2622  worst   0.0ms  EscapeFromZomboidFirearms | client/TW_WarningOptions.lua:44
+        8.9ms total (  0.9 ms/s)  calls    2622  worst   0.1ms  ViewpointDriveByShooting | client/DriveByOptions.lua:221
+        8.3ms total (  0.8 ms/s)  calls   15811  worst   0.1ms  vanilla | client/RadioCom/ISUIRadio/ISSliderPanel.lua:121
+        5.2ms total (  0.5 ms/s)  calls      97  worst   0.1ms  Lifestyle | client/OptionScreens/MainScreenHook.lua:429
+        0.7ms total (  0.1 ms/s)  calls      97  worst   0.0ms  vanilla | client/OptionScreens/CharacterCreationProfession.lua:720
+        0.6ms total (  0.1 ms/s)  calls      97  worst   0.0ms  vanilla | client/OptionScreens/NewGameScreen.lua:319
+  UI/render Lua by mod:
+     2924.3ms total (292.4 ms/s)  calls   83904  worst  76.1ms  KnoxInventoryBeta
+      715.3ms total ( 71.5 ms/s)  calls   15732  worst   0.6ms  ProjectALifeNPCs
+      429.3ms total ( 42.9 ms/s)  calls   44574  worst   0.7ms  KnoxMarketCustom
+      296.9ms total ( 29.7 ms/s)  calls    5244  worst   0.9ms  chuckleberryModdingAlertSystem
+      190.3ms total ( 19.0 ms/s)  calls   94392  worst   0.2ms  vanilla
+      189.4ms total ( 18.9 ms/s)  calls   10488  worst   0.9ms  ProjectRPGExpanded
+
+=== 18:30:41 | last 10s | frames 3346 | avg logic 0.6ms | worst 7.2ms | stutters 0 | lua 25% of logic | gc 0 ms | - | zombies ?
+  game-update Lua by mod:
+      445.2ms total ( 44.5 ms/s)  calls  450269  worst   0.2ms  vanilla
+       46.0ms total (  4.6 ms/s)  calls      99  worst   1.0ms  TIYLFullClothingUIFix
+       22.6ms total (  2.3 ms/s)  calls    3346  worst   0.1ms  errorMagnifier
+       13.6ms total (  1.4 ms/s)  calls    3346  worst   0.1ms  EscapeFromZomboidFirearms
+       10.1ms total (  1.0 ms/s)  calls    3346  worst   0.3ms  ViewpointDriveByShooting
+        5.4ms total (  0.5 ms/s)  calls      99  worst   0.3ms  Lifestyle
+  game-update Lua by function:
+      332.2ms total ( 33.2 ms/s)  calls   48626  worst   0.2ms  vanilla | client/ISUI/ISUIElement.lua:564
+       46.0ms total (  4.6 ms/s)  calls      99  worst   1.0ms  TIYLFullClothingUIFix | client/TIYLFullClothingUIFix.lua:3284
+       42.1ms total (  4.2 ms/s)  calls   61875  worst   0.1ms  vanilla | client/ISUI/ISButton.lua:299
+       38.0ms total (  3.8 ms/s)  calls    2277  worst   0.1ms  vanilla | client/ISUI/Gamepad/ISControllerBindingsEditorPanel.lua:113
+       23.1ms total (  2.3 ms/s)  calls  321057  worst   0.1ms  vanilla | client/ISUI/ISUIElement.lua:1612
+       22.6ms total (  2.3 ms/s)  calls    3346  worst   0.1ms  errorMagnifier | client/errorMagnifier_events.lua:10
+       13.6ms total (  1.4 ms/s)  calls    3346  worst   0.1ms  EscapeFromZomboidFirearms | client/TW_WarningOptions.lua:44
+       10.1ms total (  1.0 ms/s)  calls    3346  worst   0.3ms  ViewpointDriveByShooting | client/DriveByOptions.lua:221
+        8.4ms total (  0.8 ms/s)  calls   16137  worst   0.0ms  vanilla | client/RadioCom/ISUIRadio/ISSliderPanel.lua:121
+        5.4ms total (  0.5 ms/s)  calls      99  worst   0.3ms  Lifestyle | client/OptionScreens/MainScreenHook.lua:429
+        0.7ms total (  0.1 ms/s)  calls      99  worst   0.0ms  vanilla | client/OptionScreens/CharacterCreationProfession.lua:720
+        0.6ms total (  0.1 ms/s)  calls      99  worst   0.0ms  vanilla | client/OptionScreens/NewGameScreen.lua:319
+  UI/render Lua by mod:
+     2744.6ms total (274.4 ms/s)  calls  107072  worst   1.1ms  KnoxInventoryBeta
+      846.3ms total ( 84.6 ms/s)  calls   20076  worst   0.7ms  ProjectALifeNPCs
+      505.7ms total ( 50.6 ms/s)  calls   56882  worst   0.2ms  KnoxMarketCustom
+      338.0ms total ( 33.8 ms/s)  calls    6692  worst   0.7ms  chuckleberryModdingAlertSystem
+      225.4ms total ( 22.5 ms/s)  calls   13384  worst   0.3ms  ProjectRPGExpanded
+      218.4ms total ( 21.8 ms/s)  calls  120456  worst   0.6ms  vanilla
+
+=== 18:30:51 | last 10s | frames 3888 | avg logic 0.5ms | worst 5.2ms | stutters 0 | lua 29% of logic | gc 0 ms | - | zombies ?
+  game-update Lua by mod:
+      430.2ms total ( 43.0 ms/s)  calls  459032  worst   0.7ms  vanilla
+       39.2ms total (  3.9 ms/s)  calls      99  worst   0.8ms  TIYLFullClothingUIFix
+       16.7ms total (  1.7 ms/s)  calls    3888  worst   0.1ms  errorMagnifier
+       12.0ms total (  1.2 ms/s)  calls    3888  worst   0.1ms  EscapeFromZomboidFirearms
+        8.3ms total (  0.8 ms/s)  calls    3888  worst   0.0ms  ViewpointDriveByShooting
+        4.5ms total (  0.5 ms/s)  calls      99  worst   0.1ms  Lifestyle
+        0.1ms total (  0.0 ms/s)  calls      16  worst   0.0ms  KnoxInventoryBeta
+  game-update Lua by function:
+      332.6ms total ( 33.3 ms/s)  calls   56215  worst   0.7ms  vanilla | client/ISUI/ISUIElement.lua:564
+       39.2ms total (  3.9 ms/s)  calls      99  worst   0.8ms  TIYLFullClothingUIFix | client/TIYLFullClothingUIFix.lua:3284
+       36.6ms total (  3.7 ms/s)  calls   61875  worst   0.1ms  vanilla | client/ISUI/ISButton.lua:299
+       31.8ms total (  3.2 ms/s)  calls    2277  worst   0.1ms  vanilla | client/ISUI/Gamepad/ISControllerBindingsEditorPanel.lua:113
+       19.5ms total (  2.0 ms/s)  calls  321057  worst   0.1ms  vanilla | client/ISUI/ISUIElement.lua:1612
+       16.7ms total (  1.7 ms/s)  calls    3888  worst   0.1ms  errorMagnifier | client/errorMagnifier_events.lua:10
+       12.0ms total (  1.2 ms/s)  calls    3888  worst   0.1ms  EscapeFromZomboidFirearms | client/TW_WarningOptions.lua:44
+        8.3ms total (  0.8 ms/s)  calls    3888  worst   0.0ms  ViewpointDriveByShooting | client/DriveByOptions.lua:221
+        7.3ms total (  0.7 ms/s)  calls   16137  worst   0.0ms  vanilla | client/RadioCom/ISUIRadio/ISSliderPanel.lua:121
+        4.5ms total (  0.5 ms/s)  calls      99  worst   0.1ms  Lifestyle | client/OptionScreens/MainScreenHook.lua:429
+        0.6ms total (  0.1 ms/s)  calls      99  worst   0.0ms  vanilla | client/OptionScreens/CharacterCreationProfession.lua:720
+        0.5ms total (  0.1 ms/s)  calls      34  worst   0.0ms  vanilla | client/OptionScreens/MainScreen.lua:895
+  UI/render Lua by mod:
+     2606.5ms total (260.6 ms/s)  calls  124456  worst   7.6ms  KnoxInventoryBeta
+      795.6ms total ( 79.5 ms/s)  calls   23328  worst   0.7ms  ProjectALifeNPCs
+      486.1ms total ( 48.6 ms/s)  calls   66096  worst   0.2ms  KnoxMarketCustom
+      319.6ms total ( 32.0 ms/s)  calls    7776  worst   0.3ms  chuckleberryModdingAlertSystem
+      225.1ms total ( 22.5 ms/s)  calls   15552  worst   0.7ms  ProjectRPGExpanded
+      211.7ms total ( 21.2 ms/s)  calls  140008  worst   1.2ms  vanilla
+
+=== 18:31:01 | last 10s | frames 3493 | avg logic 0.5ms | worst 5.2ms | stutters 0 | lua 30% of logic | gc 0 ms | - | zombies ?
+  game-update Lua by mod:
+      407.9ms total ( 40.8 ms/s)  calls  462154  worst   0.2ms  vanilla
+       39.0ms total (  3.9 ms/s)  calls      99  worst   0.8ms  TIYLFullClothingUIFix
+       15.4ms total (  1.5 ms/s)  calls    3493  worst   0.1ms  errorMagnifier
+       10.9ms total (  1.1 ms/s)  calls    3493  worst   0.0ms  EscapeFromZomboidFirearms
+        7.5ms total (  0.7 ms/s)  calls    3493  worst   0.1ms  ViewpointDriveByShooting
+        4.3ms total (  0.4 ms/s)  calls      99  worst   0.1ms  Lifestyle
+        0.3ms total (  0.0 ms/s)  calls      78  worst   0.0ms  KnoxInventoryBeta
+  game-update Lua by function:
+      302.1ms total ( 30.2 ms/s)  calls   50687  worst   0.2ms  vanilla | client/ISUI/ISUIElement.lua:564
+       39.0ms total (  3.9 ms/s)  calls      99  worst   0.8ms  TIYLFullClothingUIFix | client/TIYLFullClothingUIFix.lua:3284
+       36.3ms total (  3.6 ms/s)  calls   61875  worst   0.1ms  vanilla | client/ISUI/ISButton.lua:299
+       32.4ms total (  3.2 ms/s)  calls    2277  worst   0.1ms  vanilla | client/ISUI/Gamepad/ISControllerBindingsEditorPanel.lua:113
+       19.7ms total (  2.0 ms/s)  calls  321057  worst   0.1ms  vanilla | client/ISUI/ISUIElement.lua:1612
+       15.4ms total (  1.5 ms/s)  calls    3493  worst   0.1ms  errorMagnifier | client/errorMagnifier_events.lua:10
+       10.9ms total (  1.1 ms/s)  calls    3493  worst   0.0ms  EscapeFromZomboidFirearms | client/TW_WarningOptions.lua:44
+        7.7ms total (  0.8 ms/s)  calls   16137  worst   0.1ms  vanilla | client/RadioCom/ISUIRadio/ISSliderPanel.lua:121
+        7.5ms total (  0.7 ms/s)  calls    3493  worst   0.1ms  ViewpointDriveByShooting | client/DriveByOptions.lua:221
+        4.9ms total (  0.5 ms/s)  calls     287  worst   0.1ms  vanilla | client/OptionScreens/MainScreen.lua:895
+        4.3ms total (  0.4 ms/s)  calls      99  worst   0.1ms  Lifestyle | client/OptionScreens/MainScreenHook.lua:429
+        1.1ms total (  0.1 ms/s)  calls    2318  worst   0.0ms  vanilla | client/ISUI/ISButton.lua:23
+  UI/render Lua by mod:
+     2805.5ms total (280.5 ms/s)  calls  113163  worst  10.5ms  KnoxInventoryBeta
+      723.1ms total ( 72.3 ms/s)  calls   20958  worst   0.8ms  ProjectALifeNPCs
+      431.4ms total ( 43.1 ms/s)  calls   59381  worst   0.2ms  KnoxMarketCustom
+      289.3ms total ( 28.9 ms/s)  calls    6986  worst   0.5ms  chuckleberryModdingAlertSystem
+      204.4ms total ( 20.4 ms/s)  calls   13972  worst   0.3ms  ProjectRPGExpanded
+      194.6ms total ( 19.5 ms/s)  calls  129015  worst   0.2ms  vanilla
+
+=== 18:31:11 | last 10s | frames 4051 | avg logic 0.4ms | worst 5.9ms | stutters 0 | lua 33% of logic | gc 0 ms | - | zombies ?
+  game-update Lua by mod:
+      421.9ms total ( 42.2 ms/s)  calls  460751  worst   0.7ms  vanilla
+       33.4ms total (  3.3 ms/s)  calls      99  worst   0.5ms  TIYLFullClothingUIFix
+       13.9ms total (  1.4 ms/s)  calls    4051  worst   0.1ms  errorMagnifier
+        9.9ms total (  1.0 ms/s)  calls    4051  worst   0.1ms  EscapeFromZomboidFirearms
+        7.0ms total (  0.7 ms/s)  calls    4051  worst   0.1ms  ViewpointDriveByShooting
+        3.2ms total (  0.3 ms/s)  calls      99  worst   0.0ms  Lifestyle
+  game-update Lua by function:
+      328.1ms total ( 32.8 ms/s)  calls   58496  worst   0.7ms  vanilla | client/ISUI/ISUIElement.lua:564
+       34.9ms total (  3.5 ms/s)  calls   61875  worst   0.1ms  vanilla | client/ISUI/ISButton.lua:299
+       33.4ms total (  3.3 ms/s)  calls      99  worst   0.5ms  TIYLFullClothingUIFix | client/TIYLFullClothingUIFix.lua:3284
+       31.1ms total (  3.1 ms/s)  calls    2277  worst   0.2ms  vanilla | client/ISUI/Gamepad/ISControllerBindingsEditorPanel.lua:113
+       18.9ms total (  1.9 ms/s)  calls  321057  worst   0.1ms  vanilla | client/ISUI/ISUIElement.lua:1612
+       13.9ms total (  1.4 ms/s)  calls    4051  worst   0.1ms  errorMagnifier | client/errorMagnifier_events.lua:10
+        9.9ms total (  1.0 ms/s)  calls    4051  worst   0.1ms  EscapeFromZomboidFirearms | client/TW_WarningOptions.lua:44
+        7.3ms total (  0.7 ms/s)  calls   16137  worst   0.1ms  vanilla | client/RadioCom/ISUIRadio/ISSliderPanel.lua:121
+        7.0ms total (  0.7 ms/s)  calls    4051  worst   0.1ms  ViewpointDriveByShooting | client/DriveByOptions.lua:221
+        3.2ms total (  0.3 ms/s)  calls      99  worst   0.0ms  Lifestyle | client/OptionScreens/MainScreenHook.lua:429
+        0.5ms total (  0.1 ms/s)  calls      99  worst   0.0ms  vanilla | client/OptionScreens/CharacterCreationProfession.lua:720
+        0.5ms total (  0.0 ms/s)  calls      99  worst   0.0ms  vanilla | client/OptionScreens/NewGameScreen.lua:319
+  UI/render Lua by mod:
+     2619.6ms total (261.9 ms/s)  calls  129632  worst   1.8ms  KnoxInventoryBeta
+      735.0ms total ( 73.5 ms/s)  calls   24306  worst   1.5ms  ProjectALifeNPCs
+      467.9ms total ( 46.8 ms/s)  calls   68867  worst   0.2ms  KnoxMarketCustom
+      313.6ms total ( 31.4 ms/s)  calls    8102  worst   0.2ms  chuckleberryModdingAlertSystem
+      217.9ms total ( 21.8 ms/s)  calls   16204  worst   0.3ms  ProjectRPGExpanded
+      201.2ms total ( 20.1 ms/s)  calls  145836  worst   0.2ms  vanilla
+
+=== 18:31:21 | last 10s | frames 3946 | avg logic 0.4ms | worst 4.2ms | stutters 0 | lua 32% of logic | gc 0 ms | - | zombies ?
+  game-update Lua by mod:
+      415.9ms total ( 41.6 ms/s)  calls  460948  worst   1.0ms  vanilla
+       34.4ms total (  3.4 ms/s)  calls      99  worst   0.7ms  TIYLFullClothingUIFix
+       14.0ms total (  1.4 ms/s)  calls    3946  worst   0.0ms  errorMagnifier
+        9.7ms total (  1.0 ms/s)  calls    3946  worst   0.1ms  EscapeFromZomboidFirearms
+        6.9ms total (  0.7 ms/s)  calls    3946  worst   0.1ms  ViewpointDriveByShooting
+        3.3ms total (  0.3 ms/s)  calls      99  worst   0.1ms  Lifestyle
+  game-update Lua by function:
+      322.4ms total ( 32.2 ms/s)  calls   57027  worst   1.0ms  vanilla | client/ISUI/ISUIElement.lua:564
+       34.7ms total (  3.5 ms/s)  calls   61875  worst   0.1ms  vanilla | client/ISUI/ISButton.lua:299
+       34.4ms total (  3.4 ms/s)  calls      99  worst   0.7ms  TIYLFullClothingUIFix | client/TIYLFullClothingUIFix.lua:3284
+       30.2ms total (  3.0 ms/s)  calls    2277  worst   0.1ms  vanilla | client/ISUI/Gamepad/ISControllerBindingsEditorPanel.lua:113
+       18.7ms total (  1.9 ms/s)  calls  321057  worst   0.1ms  vanilla | client/ISUI/ISUIElement.lua:1612
+       14.0ms total (  1.4 ms/s)  calls    3946  worst   0.0ms  errorMagnifier | client/errorMagnifier_events.lua:10
+        9.7ms total (  1.0 ms/s)  calls    3946  worst   0.1ms  EscapeFromZomboidFirearms | client/TW_WarningOptions.lua:44
+        7.2ms total (  0.7 ms/s)  calls   16137  worst   0.1ms  vanilla | client/RadioCom/ISUIRadio/ISSliderPanel.lua:121
+        6.9ms total (  0.7 ms/s)  calls    3946  worst   0.1ms  ViewpointDriveByShooting | client/DriveByOptions.lua:221
+        3.3ms total (  0.3 ms/s)  calls      99  worst   0.1ms  Lifestyle | client/OptionScreens/MainScreenHook.lua:429
+        0.9ms total (  0.1 ms/s)  calls      67  worst   0.0ms  vanilla | client/OptionScreens/MainScreen.lua:895
+        0.6ms total (  0.1 ms/s)  calls      99  worst   0.0ms  vanilla | client/OptionScreens/CharacterCreationProfession.lua:720
+  UI/render Lua by mod:
+     2626.5ms total (262.6 ms/s)  calls  126629  worst   1.6ms  KnoxInventoryBeta
+      718.5ms total ( 71.8 ms/s)  calls   23676  worst   0.3ms  ProjectALifeNPCs
+      452.6ms total ( 45.3 ms/s)  calls   67082  worst   0.2ms  KnoxMarketCustom
+      303.2ms total ( 30.3 ms/s)  calls    7892  worst   0.2ms  chuckleberryModdingAlertSystem
+      213.0ms total ( 21.3 ms/s)  calls   15784  worst   0.3ms  ProjectRPGExpanded
+      197.1ms total ( 19.7 ms/s)  calls  142909  worst   0.2ms  vanilla

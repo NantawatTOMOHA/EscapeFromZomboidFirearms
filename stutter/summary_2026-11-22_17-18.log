@@ -1,0 +1,484 @@
+# Rukx Stutter Watch session 2026-11-22_17-18 | stutter = logic frame > 40 ms
+
+=== 17:19:44 | last 10s | frames 4316 | avg logic 1.1ms | worst 3084.2ms | stutters 5 | lua 76% of logic | gc 0 ms | - | zombies ?
+  game-update Lua by mod:
+     1954.6ms total (190.6 ms/s)  calls   13339  worst 1921.5ms  vanilla
+     1113.6ms total (108.6 ms/s)  calls       7  worst 1113.5ms  KnoxInventoryBeta
+      579.1ms total ( 56.5 ms/s)  calls       2  worst 518.6ms  TIYLFullClothingUIFix
+       19.0ms total (  1.9 ms/s)  calls      21  worst  17.1ms  EscapeFromZomboidFirearms
+        9.2ms total (  0.9 ms/s)  calls      11  worst   6.9ms  ViewpointDriveByShooting
+        6.2ms total (  0.6 ms/s)  calls       2  worst   6.2ms  VanillaCameraExpansion
+        5.6ms total (  0.5 ms/s)  calls       1  worst   5.6ms  ProjectRPGExpanded
+        5.4ms total (  0.5 ms/s)  calls       3  worst   5.4ms  errorMagnifier
+        5.4ms total (  0.5 ms/s)  calls       2  worst   5.3ms  VisibleVehicleCorpsesCore
+        2.7ms total (  0.3 ms/s)  calls       1  worst   2.7ms  ViewpointSourceMovement
+        2.5ms total (  0.2 ms/s)  calls      19  worst   1.9ms  ProjectALifeNPCs
+        1.5ms total (  0.1 ms/s)  calls       1  worst   1.5ms  RealisticDoorImpacts
+  game-update Lua by function:
+     1921.5ms total (187.4 ms/s)  calls       1  worst 1921.5ms  vanilla | client/OptionScreens/MainScreen.lua:1667
+     1113.5ms total (108.6 ms/s)  calls       1  worst 1113.5ms  KnoxInventoryBeta | client/Knox/KnoxMenuScene.lua:3278
+      579.1ms total ( 56.5 ms/s)  calls       2  worst 518.6ms  TIYLFullClothingUIFix | client/TIYLFullClothingUIFix.lua:3284
+       26.9ms total (  2.6 ms/s)  calls    5147  worst   0.1ms  vanilla | client/ISUI/ISUIElement.lua:564
+       17.1ms total (  1.7 ms/s)  calls       1  worst  17.1ms  EscapeFromZomboidFirearms | client/TW_VersionCheck.lua:393
+        6.9ms total (  0.7 ms/s)  calls       1  worst   6.9ms  ViewpointDriveByShooting | client/DriveByOptions.lua:228
+        6.2ms total (  0.6 ms/s)  calls       1  worst   6.2ms  VanillaCameraExpansion | client/VCE/PhotoOptions.lua:258
+        5.6ms total (  0.5 ms/s)  calls       1  worst   5.6ms  ProjectRPGExpanded | client/PRPGE_MenuInfo.lua:399
+        5.4ms total (  0.5 ms/s)  calls       1  worst   5.4ms  errorMagnifier | client/errorMagnifier_Main.lua:1132
+        5.3ms total (  0.5 ms/s)  calls       1  worst   5.3ms  VisibleVehicleCorpsesCore | client/VisibleVehicleCorpsesCore.lua:38
+        2.9ms total (  0.3 ms/s)  calls      46  worst   0.4ms  vanilla | client/ISUI/Gamepad/ISControllerBindingsEditorPanel.lua:113
+        2.7ms total (  0.3 ms/s)  calls       1  worst   2.7ms  ViewpointSourceMovement | client/SourceMovement.lua:106
+  UI/render Lua by mod:
+       29.7ms total (  2.9 ms/s)  calls      60  worst  16.5ms  KnoxInventoryBeta
+       17.7ms total (  1.7 ms/s)  calls      39  worst   5.4ms  vanilla
+        8.8ms total (  0.9 ms/s)  calls      14  worst   4.8ms  ProjectALifeNPCs
+        2.2ms total (  0.2 ms/s)  calls       2  worst   2.1ms  chuckleberryModdingAlertSystem
+        1.2ms total (  0.1 ms/s)  calls      19  worst   0.9ms  KnoxMarketCustom
+        0.5ms total (  0.0 ms/s)  calls       7  worst   0.4ms  ProjectRPGExpanded
+
+=== 17:19:54 | last 10s | frames 1611 | avg logic 1.8ms | worst 1189.1ms | stutters 4 | lua 18% of logic | gc 0 ms | - | zombies ?
+  game-update Lua by mod:
+      440.7ms total ( 44.1 ms/s)  calls  365345  worst 130.8ms  vanilla
+       41.2ms total (  4.1 ms/s)  calls      82  worst   0.8ms  TIYLFullClothingUIFix
+       18.1ms total (  1.8 ms/s)  calls    1611  worst   0.3ms  errorMagnifier
+        8.2ms total (  0.8 ms/s)  calls    1611  worst   0.1ms  EscapeFromZomboidFirearms
+        7.1ms total (  0.7 ms/s)  calls    1611  worst   0.1ms  ViewpointDriveByShooting
+        4.5ms total (  0.5 ms/s)  calls      82  worst   0.1ms  Lifestyle
+        0.3ms total (  0.0 ms/s)  calls       2  worst   0.3ms  Bridge
+        0.0ms total (  0.0 ms/s)  calls       2  worst   0.0ms  ProjectALifeJimmy
+        0.0ms total (  0.0 ms/s)  calls       2  worst   0.0ms  BetterLockpickingContinued
+        0.0ms total (  0.0 ms/s)  calls       2  worst   0.0ms  ALifeSurvivorStudio
+        0.0ms total (  0.0 ms/s)  calls       1  worst   0.0ms  KnoxInventoryBeta
+  game-update Lua by function:
+      193.7ms total ( 19.4 ms/s)  calls   23938  worst   0.5ms  vanilla | client/ISUI/ISUIElement.lua:564
+      130.8ms total ( 13.1 ms/s)  calls       1  worst 130.8ms  vanilla | client/OptionScreens/MainScreen.lua:1302
+       41.2ms total (  4.1 ms/s)  calls      82  worst   0.8ms  TIYLFullClothingUIFix | client/TIYLFullClothingUIFix.lua:3284
+       38.5ms total (  3.9 ms/s)  calls    1886  worst   0.3ms  vanilla | client/ISUI/Gamepad/ISControllerBindingsEditorPanel.lua:113
+       38.3ms total (  3.8 ms/s)  calls   51250  worst   0.1ms  vanilla | client/ISUI/ISButton.lua:299
+       19.0ms total (  1.9 ms/s)  calls  265907  worst   0.1ms  vanilla | client/ISUI/ISUIElement.lua:1612
+       18.1ms total (  1.8 ms/s)  calls    1611  worst   0.3ms  errorMagnifier | client/errorMagnifier_events.lua:10
+        8.2ms total (  0.8 ms/s)  calls    1611  worst   0.1ms  EscapeFromZomboidFirearms | client/TW_WarningOptions.lua:44
+        7.6ms total (  0.8 ms/s)  calls   13366  worst   0.1ms  vanilla | client/RadioCom/ISUIRadio/ISSliderPanel.lua:121
+        7.1ms total (  0.7 ms/s)  calls    1611  worst   0.1ms  ViewpointDriveByShooting | client/DriveByOptions.lua:221
+        6.5ms total (  0.6 ms/s)  calls     141  worst   0.7ms  vanilla | client/OptionScreens/MainScreen.lua:895
+        4.5ms total (  0.5 ms/s)  calls      82  worst   0.1ms  Lifestyle | client/OptionScreens/MainScreenHook.lua:429
+  UI/render Lua by mod:
+     2851.2ms total (285.1 ms/s)  calls   50953  worst  98.6ms  KnoxInventoryBeta
+      663.3ms total ( 66.3 ms/s)  calls   57197  worst 284.5ms  vanilla
+      492.4ms total ( 49.2 ms/s)  calls    9566  worst   0.6ms  ProjectALifeNPCs
+      280.6ms total ( 28.1 ms/s)  calls   27089  worst   0.6ms  KnoxMarketCustom
+      202.2ms total ( 20.2 ms/s)  calls    3122  worst   0.4ms  chuckleberryModdingAlertSystem
+      126.2ms total ( 12.6 ms/s)  calls    6346  worst   0.3ms  ProjectRPGExpanded
+
+=== 17:20:34 | last 41s | frames 919 | avg logic 38.7ms | worst 34788.3ms | stutters 1 | lua 98% of logic | gc 3474 ms | - | zombies ?
+  game-update Lua by mod:
+    34675.9ms total (854.5 ms/s)  calls  229019  worst 34527.3ms  vanilla
+       23.2ms total (  0.6 ms/s)  calls      52  worst   0.9ms  TIYLFullClothingUIFix
+       10.5ms total (  0.3 ms/s)  calls     918  worst   0.1ms  errorMagnifier
+        4.8ms total (  0.1 ms/s)  calls     942  worst   0.1ms  EscapeFromZomboidFirearms
+        4.4ms total (  0.1 ms/s)  calls     918  worst   0.2ms  ViewpointDriveByShooting
+        3.0ms total (  0.1 ms/s)  calls      52  worst   0.3ms  Lifestyle
+        1.7ms total (  0.0 ms/s)  calls     114  worst   0.3ms  KnoxInventoryBeta
+        1.0ms total (  0.0 ms/s)  calls      32  worst   0.1ms  ProjectALifeNPCs
+        0.7ms total (  0.0 ms/s)  calls      16  worst   0.2ms  CyesPushDoors
+        0.5ms total (  0.0 ms/s)  calls      66  worst   0.1ms  Bridge
+        0.3ms total (  0.0 ms/s)  calls      32  worst   0.0ms  ALifeChatPlus
+        0.2ms total (  0.0 ms/s)  calls      66  worst   0.0ms  ProjectALifeJimmy
+  game-update Lua by function:
+    34527.3ms total (850.8 ms/s)  calls       1  worst 34527.3ms  vanilla | client/ISUI/ISButton.lua:34
+       78.3ms total (  1.9 ms/s)  calls   11952  worst   0.1ms  vanilla | client/ISUI/ISUIElement.lua:564
+       23.2ms total (  0.6 ms/s)  calls      52  worst   0.9ms  TIYLFullClothingUIFix | client/TIYLFullClothingUIFix.lua:3284
+       22.5ms total (  0.6 ms/s)  calls    1196  worst   0.5ms  vanilla | client/ISUI/Gamepad/ISControllerBindingsEditorPanel.lua:113
+       18.5ms total (  0.5 ms/s)  calls   32500  worst   0.1ms  vanilla | client/ISUI/ISButton.lua:299
+       11.5ms total (  0.3 ms/s)  calls  168636  worst   0.1ms  vanilla | client/ISUI/ISUIElement.lua:1612
+       10.5ms total (  0.3 ms/s)  calls     918  worst   0.1ms  errorMagnifier | client/errorMagnifier_events.lua:10
+        6.4ms total (  0.2 ms/s)  calls     232  worst   0.1ms  vanilla | client/OptionScreens/MainScreen.lua:895
+        4.7ms total (  0.1 ms/s)  calls     918  worst   0.1ms  EscapeFromZomboidFirearms | client/TW_WarningOptions.lua:44
+        4.7ms total (  0.1 ms/s)  calls    8476  worst   0.0ms  vanilla | client/RadioCom/ISUIRadio/ISSliderPanel.lua:121
+        4.4ms total (  0.1 ms/s)  calls     918  worst   0.2ms  ViewpointDriveByShooting | client/DriveByOptions.lua:221
+        3.0ms total (  0.1 ms/s)  calls      52  worst   0.3ms  Lifestyle | client/OptionScreens/MainScreenHook.lua:429
+  UI/render Lua by mod:
+     2720.3ms total ( 67.0 ms/s)  calls   18380  worst   4.6ms  vanilla
+      564.2ms total ( 13.9 ms/s)  calls   18380  worst   0.8ms  KnoxInventoryBeta
+       89.3ms total (  2.2 ms/s)  calls   10109  worst   0.2ms  KnoxMarketCustom
+       87.9ms total (  2.2 ms/s)  calls    3676  worst   0.5ms  ProjectALifeNPCs
+       49.5ms total (  1.2 ms/s)  calls    1838  worst   0.7ms  CyesPushDoors
+       19.4ms total (  0.5 ms/s)  calls    5514  worst   0.1ms  Bridge
+
+=== 17:20:44 | last 10s | frames 182 | avg logic 40.4ms | worst 6325.8ms | stutters 8 | lua 46% of logic | gc 521 ms | - | zombies ?
+  game-update Lua by mod:
+     1390.8ms total (138.9 ms/s)  calls       1  worst 1390.8ms  A-Qo-Life
+      711.6ms total ( 71.1 ms/s)  calls    8409  worst 581.3ms  vanilla
+      629.2ms total ( 62.8 ms/s)  calls     212  worst 157.2ms  ProjectALifeNPCs
+      420.4ms total ( 42.0 ms/s)  calls       2  worst 420.1ms  TIYLFullClothingUIFix
+       73.8ms total (  7.4 ms/s)  calls      58  worst  14.5ms  ProjectALifeJimmy
+       68.9ms total (  6.9 ms/s)  calls      43  worst  29.1ms  ProjectRPGExpanded
+       41.4ms total (  4.1 ms/s)  calls      36  worst  17.3ms  Talis New Music
+       14.8ms total (  1.5 ms/s)  calls      13  worst  11.7ms  PhunInteriors
+       11.1ms total (  1.1 ms/s)  calls       9  worst   9.1ms  BlackoutPredatorsExtended
+        3.2ms total (  0.3 ms/s)  calls      13  worst   2.4ms  tsarslib
+        2.5ms total (  0.3 ms/s)  calls       5  worst   2.1ms  WaterRestoration
+        2.5ms total (  0.2 ms/s)  calls      26  worst   0.8ms  batman_LiveWire
+  game-update Lua by function:
+     1390.8ms total (138.9 ms/s)  calls       1  worst 1390.8ms  A-Qo-Life | server/AQoLife/PublicMapServer.lua:3
+      581.3ms total ( 58.1 ms/s)  calls       1  worst 581.3ms  vanilla | server/WorldGen/attachments/Priorities.lua:1
+      420.1ms total ( 42.0 ms/s)  calls       1  worst 420.1ms  TIYLFullClothingUIFix | client/TIYLFullClothingUIFix.lua:3284
+      157.2ms total ( 15.7 ms/s)  calls       1  worst 157.2ms  ProjectALifeNPCs | server/ProjectALife/Core/ALifeRuntime.lua:1
+       49.8ms total (  5.0 ms/s)  calls       1  worst  49.8ms  ProjectALifeNPCs | server/ProjectALife/Admin/ALifeDebugService.lua:1
+       49.1ms total (  4.9 ms/s)  calls       1  worst  49.1ms  ProjectALifeNPCs | server/ProjectALife/Core/ALifeLifecycle.lua:1
+       47.6ms total (  4.8 ms/s)  calls       1  worst  47.6ms  ProjectALifeNPCs | server/ProjectALife/Behaviours/ALifeModuleActivity.lua:1
+       41.4ms total (  4.1 ms/s)  calls       1  worst  41.4ms  ProjectALifeNPCs | server/ProjectALife/Combat/ALifeCombat.lua:1
+       29.1ms total (  2.9 ms/s)  calls       1  worst  29.1ms  ProjectRPGExpanded | server/00_PRPGE_Core_server.lua:3
+       24.3ms total (  2.4 ms/s)  calls       1  worst  24.3ms  ProjectALifeNPCs | server/ProjectALife/Captives/ALifeCaptiveCare.lua:1
+       24.2ms total (  2.4 ms/s)  calls       1  worst  24.2ms  ProjectALifeNPCs | server/ProjectALife/Activities/ALifeActivityLife.lua:1
+       24.1ms total (  2.4 ms/s)  calls    4065  worst   0.1ms  vanilla | client/ISUI/ISUIElement.lua:564
+  UI/render Lua by mod:
+    (none)
+
+=== 17:20:54 | last 10s | frames 2978 | avg logic 1.6ms | worst 928.7ms | stutters 26 | lua 0% of logic | gc 2412 ms | - | zombies ?
+  game-update Lua by mod:
+    (none)
+  game-update Lua by function:
+    (none)
+  UI/render Lua by mod:
+    (none)
+
+=== 17:21:04 | last 10s | frames 11685 | avg logic 0.1ms | worst 85.6ms | stutters 2 | lua 0% of logic | gc 0 ms | - | zombies ?
+  game-update Lua by mod:
+    (none)
+  game-update Lua by function:
+    (none)
+  UI/render Lua by mod:
+    (none)
+
+=== 17:21:14 | last 10s | frames 16150 | avg logic 0.1ms | worst 1.2ms | stutters 0 | lua 0% of logic | gc 0 ms | - | zombies ?
+  game-update Lua by mod:
+    (none)
+  game-update Lua by function:
+    (none)
+  UI/render Lua by mod:
+    (none)
+
+=== 17:21:24 | last 10s | frames 15810 | avg logic 0.0ms | worst 60.8ms | stutters 1 | lua 0% of logic | gc 0 ms | - | zombies ?
+  game-update Lua by mod:
+    (none)
+  game-update Lua by function:
+    (none)
+  UI/render Lua by mod:
+    (none)
+
+=== 17:21:34 | last 10s | frames 17526 | avg logic 0.0ms | worst 0.4ms | stutters 0 | lua 0% of logic | gc 0 ms | - | zombies 0
+  game-update Lua by mod:
+    (none)
+  game-update Lua by function:
+    (none)
+  UI/render Lua by mod:
+    (none)
+
+=== 17:21:44 | last 10s | frames 18088 | avg logic 0.0ms | worst 0.2ms | stutters 0 | lua 0% of logic | gc 0 ms | - | zombies 0
+  game-update Lua by mod:
+    (none)
+  game-update Lua by function:
+    (none)
+  UI/render Lua by mod:
+    (none)
+
+=== 17:21:54 | last 10s | frames 18402 | avg logic 0.0ms | worst 0.6ms | stutters 0 | lua 0% of logic | gc 0 ms | - | zombies 0
+  game-update Lua by mod:
+    (none)
+  game-update Lua by function:
+    (none)
+  UI/render Lua by mod:
+    (none)
+
+=== 17:22:04 | last 10s | frames 18661 | avg logic 0.0ms | worst 0.6ms | stutters 0 | lua 0% of logic | gc 0 ms | - | zombies 0
+  game-update Lua by mod:
+    (none)
+  game-update Lua by function:
+    (none)
+  UI/render Lua by mod:
+    (none)
+
+=== 17:22:14 | last 10s | frames 15481 | avg logic 0.1ms | worst 66.6ms | stutters 4 | lua 11% of logic | gc 0 ms | 8106,11769 | zombies 0
+  game-update Lua by mod:
+       63.7ms total (  6.4 ms/s)  calls      12  worst  57.5ms  TIYLFullClothingUIFix
+       20.8ms total (  2.1 ms/s)  calls   50660  worst   0.1ms  vanilla
+        1.1ms total (  0.1 ms/s)  calls      12  worst   0.2ms  Lifestyle
+  game-update Lua by function:
+       63.7ms total (  6.4 ms/s)  calls      12  worst  57.5ms  TIYLFullClothingUIFix | client/TIYLFullClothingUIFix.lua:3284
+        6.8ms total (  0.7 ms/s)  calls    1325  worst   0.0ms  vanilla | client/ISUI/ISUIElement.lua:564
+        5.1ms total (  0.5 ms/s)  calls     276  worst   0.1ms  vanilla | client/ISUI/Gamepad/ISControllerBindingsEditorPanel.lua:113
+        5.1ms total (  0.5 ms/s)  calls    7584  worst   0.0ms  vanilla | client/ISUI/ISButton.lua:299
+        2.6ms total (  0.3 ms/s)  calls   39432  worst   0.0ms  vanilla | client/ISUI/ISUIElement.lua:1612
+        1.1ms total (  0.1 ms/s)  calls      12  worst   0.2ms  Lifestyle | client/OptionScreens/MainScreenHook.lua:429
+        1.0ms total (  0.1 ms/s)  calls    2004  worst   0.0ms  vanilla | client/RadioCom/ISUIRadio/ISSliderPanel.lua:121
+        0.1ms total (  0.0 ms/s)  calls      12  worst   0.0ms  vanilla | client/OptionScreens/CharacterCreationProfession.lua:720
+        0.1ms total (  0.0 ms/s)  calls      12  worst   0.0ms  vanilla | client/OptionScreens/NewGameScreen.lua:319
+        0.1ms total (  0.0 ms/s)  calls       1  worst   0.1ms  vanilla | client/OptionScreens/MainScreen.lua:895
+        0.0ms total (  0.0 ms/s)  calls       2  worst   0.0ms  vanilla | client/ISUI/ISButton.lua:23
+        0.0ms total (  0.0 ms/s)  calls      12  worst   0.0ms  vanilla | client/ISUI/ISMPButton.lua:255
+  UI/render Lua by mod:
+        3.6ms total (  0.4 ms/s)  calls      11  worst   3.4ms  Viewpoint
+
+=== 17:22:24 | last 10s | frames 2051 | avg logic 1.0ms | worst 7.7ms | stutters 0 | lua 10% of logic | gc 0 ms | 8106,11769 | zombies 0
+  game-update Lua by mod:
+      143.6ms total ( 14.4 ms/s)  calls  400513  worst   0.3ms  vanilla
+       55.6ms total (  5.6 ms/s)  calls      97  worst   1.1ms  TIYLFullClothingUIFix
+        8.6ms total (  0.9 ms/s)  calls      97  worst   0.2ms  Lifestyle
+  game-update Lua by function:
+       55.6ms total (  5.6 ms/s)  calls      97  worst   1.1ms  TIYLFullClothingUIFix | client/TIYLFullClothingUIFix.lua:3284
+       47.6ms total (  4.8 ms/s)  calls    2231  worst   0.3ms  vanilla | client/ISUI/Gamepad/ISControllerBindingsEditorPanel.lua:113
+       47.4ms total (  4.7 ms/s)  calls   61304  worst   0.1ms  vanilla | client/ISUI/ISButton.lua:299
+       25.1ms total (  2.5 ms/s)  calls  318742  worst   0.3ms  vanilla | client/ISUI/ISUIElement.lua:1612
+       12.3ms total (  1.2 ms/s)  calls    1746  worst   0.3ms  vanilla | client/ISUI/ISUIElement.lua:564
+        9.7ms total (  1.0 ms/s)  calls   16199  worst   0.1ms  vanilla | client/RadioCom/ISUIRadio/ISSliderPanel.lua:121
+        8.6ms total (  0.9 ms/s)  calls      97  worst   0.2ms  Lifestyle | client/OptionScreens/MainScreenHook.lua:429
+        0.7ms total (  0.1 ms/s)  calls      97  worst   0.0ms  vanilla | client/OptionScreens/CharacterCreationProfession.lua:720
+        0.6ms total (  0.1 ms/s)  calls      97  worst   0.0ms  vanilla | client/OptionScreens/NewGameScreen.lua:319
+        0.2ms total (  0.0 ms/s)  calls      97  worst   0.0ms  vanilla | client/ISUI/ISMPButton.lua:255
+  UI/render Lua by mod:
+        1.3ms total (  0.1 ms/s)  calls      97  worst   0.0ms  Viewpoint
+
+=== 17:22:34 | last 10s | frames 2589 | avg logic 0.9ms | worst 5.8ms | stutters 0 | lua 7% of logic | gc 0 ms | 8106,11769 | zombies 0
+  game-update Lua by mod:
+      112.6ms total ( 11.3 ms/s)  calls  404642  worst   0.1ms  vanilla
+       44.3ms total (  4.4 ms/s)  calls      98  worst   0.7ms  TIYLFullClothingUIFix
+        7.2ms total (  0.7 ms/s)  calls      98  worst   0.2ms  Lifestyle
+  game-update Lua by function:
+       44.3ms total (  4.4 ms/s)  calls      98  worst   0.7ms  TIYLFullClothingUIFix | client/TIYLFullClothingUIFix.lua:3284
+       37.8ms total (  3.8 ms/s)  calls   61936  worst   0.1ms  vanilla | client/ISUI/ISButton.lua:299
+       36.7ms total (  3.7 ms/s)  calls    2254  worst   0.1ms  vanilla | client/ISUI/Gamepad/ISControllerBindingsEditorPanel.lua:113
+       19.7ms total (  2.0 ms/s)  calls  322028  worst   0.1ms  vanilla | client/ISUI/ISUIElement.lua:1612
+        9.5ms total (  1.0 ms/s)  calls    1764  worst   0.0ms  vanilla | client/ISUI/ISUIElement.lua:564
+        7.7ms total (  0.8 ms/s)  calls   16366  worst   0.1ms  vanilla | client/RadioCom/ISUIRadio/ISSliderPanel.lua:121
+        7.2ms total (  0.7 ms/s)  calls      98  worst   0.2ms  Lifestyle | client/OptionScreens/MainScreenHook.lua:429
+        0.6ms total (  0.1 ms/s)  calls      98  worst   0.0ms  vanilla | client/OptionScreens/CharacterCreationProfession.lua:720
+        0.6ms total (  0.1 ms/s)  calls      98  worst   0.0ms  vanilla | client/OptionScreens/NewGameScreen.lua:319
+        0.1ms total (  0.0 ms/s)  calls      98  worst   0.0ms  vanilla | client/ISUI/ISMPButton.lua:255
+  UI/render Lua by mod:
+        0.8ms total (  0.1 ms/s)  calls      98  worst   0.0ms  Viewpoint
+
+=== 17:22:44 | last 10s | frames 2609 | avg logic 0.9ms | worst 6.2ms | stutters 0 | lua 8% of logic | gc 0 ms | 8106,11769 | zombies 0
+  game-update Lua by mod:
+      123.9ms total ( 12.4 ms/s)  calls  409182  worst   0.3ms  vanilla
+       46.1ms total (  4.6 ms/s)  calls      99  worst   1.1ms  TIYLFullClothingUIFix
+        6.9ms total (  0.7 ms/s)  calls      99  worst   0.2ms  Lifestyle
+  game-update Lua by function:
+       46.1ms total (  4.6 ms/s)  calls      99  worst   1.1ms  TIYLFullClothingUIFix | client/TIYLFullClothingUIFix.lua:3284
+       39.2ms total (  3.9 ms/s)  calls   62568  worst   0.3ms  vanilla | client/ISUI/ISButton.lua:299
+       38.3ms total (  3.8 ms/s)  calls    2277  worst   0.2ms  vanilla | client/ISUI/Gamepad/ISControllerBindingsEditorPanel.lua:113
+       20.6ms total (  2.1 ms/s)  calls  325314  worst   0.1ms  vanilla | client/ISUI/ISUIElement.lua:1612
+       10.0ms total (  1.0 ms/s)  calls    1782  worst   0.0ms  vanilla | client/ISUI/ISUIElement.lua:564
+        8.2ms total (  0.8 ms/s)  calls   16533  worst   0.2ms  vanilla | client/RadioCom/ISUIRadio/ISSliderPanel.lua:121
+        6.9ms total (  0.7 ms/s)  calls      99  worst   0.2ms  Lifestyle | client/OptionScreens/MainScreenHook.lua:429
+        4.8ms total (  0.5 ms/s)  calls     137  worst   0.1ms  vanilla | client/OptionScreens/MainScreen.lua:895
+        1.5ms total (  0.1 ms/s)  calls     274  worst   0.0ms  vanilla | client/ISUI/ISButton.lua:23
+        0.6ms total (  0.1 ms/s)  calls      99  worst   0.0ms  vanilla | client/OptionScreens/CharacterCreationProfession.lua:720
+        0.6ms total (  0.1 ms/s)  calls      99  worst   0.0ms  vanilla | client/OptionScreens/NewGameScreen.lua:319
+        0.1ms total (  0.0 ms/s)  calls      99  worst   0.0ms  vanilla | client/ISUI/ISMPButton.lua:255
+  UI/render Lua by mod:
+        0.9ms total (  0.1 ms/s)  calls      99  worst   0.0ms  Viewpoint
+
+=== 17:23:05 | last 21s | frames 633 | avg logic 30.1ms | worst 18525.2ms | stutters 1 | lua 62% of logic | gc 0 ms | 8106,11769 | zombies 72
+  game-update Lua by mod:
+     3701.3ms total (176.6 ms/s)  calls   83200  worst 2775.0ms  ProjectALifeNPCs
+     1549.3ms total ( 73.9 ms/s)  calls       6  worst 1548.7ms  BurdSurvivalJournals
+      887.9ms total ( 42.4 ms/s)  calls   55357  worst   0.8ms  BulkPallets
+      873.5ms total ( 41.7 ms/s)  calls  332462  worst  14.7ms  TrueSewers
+      813.1ms total ( 38.8 ms/s)  calls  138378  worst  21.5ms  WaterRestoration
+      535.7ms total ( 25.6 ms/s)  calls   27838  worst 361.0ms  ALifeChatPlus
+      466.4ms total ( 22.3 ms/s)  calls   27721  worst  16.1ms  Railroader
+      380.1ms total ( 18.1 ms/s)  calls     296  worst 314.3ms  ProjectRPGExpanded
+      356.4ms total ( 17.0 ms/s)  calls   55711  worst   1.1ms  LGExtendedPlumbing
+      268.1ms total ( 12.8 ms/s)  calls   99789  worst 164.8ms  vanilla
+      236.7ms total ( 11.3 ms/s)  calls    1448  worst   1.2ms  batman_LiveWire
+      190.8ms total (  9.1 ms/s)  calls     363  worst  27.5ms  ViewpointRoofs
+  game-update Lua by function:
+     2775.0ms total (132.4 ms/s)  calls       1  worst 2775.0ms  ProjectALifeNPCs | server/ProjectALife/Core/ALifeServerBootstrap.lua:27
+     1548.7ms total ( 73.9 ms/s)  calls       1  worst 1548.7ms  BurdSurvivalJournals | shared/BurdJournals_Shared.lua:24998
+      804.6ms total ( 38.4 ms/s)  calls   27674  worst   0.8ms  BulkPallets | server/BulkPallets/BP_Server.lua:779
+      608.5ms total ( 29.0 ms/s)  calls   27674  worst   0.5ms  WaterRestoration | server/WaterRestoration/WR_LaptopServer.lua:87
+      601.2ms total ( 28.7 ms/s)  calls   27675  worst   6.0ms  ProjectALifeNPCs | shared/ProjectALife/Core/ALifeHandlers.lua:283
+      448.4ms total ( 21.4 ms/s)  calls   27674  worst  16.1ms  Railroader | shared/Railroader/RR_EventGate.lua:293
+      361.0ms total ( 17.2 ms/s)  calls       1  worst 361.0ms  ALifeChatPlus | shared/ALifeNPCOverhaul/ALifeQuests.lua:1856
+      314.3ms total ( 15.0 ms/s)  calls       1  worst 314.3ms  ProjectRPGExpanded | client/PRPGE_PDALang.lua:159
+      276.7ms total ( 13.2 ms/s)  calls   27674  worst   1.1ms  LGExtendedPlumbing | server/LGExtendedPlumbing/LGEPPlumbing.lua:656
+      235.4ms total ( 11.2 ms/s)  calls       1  worst 235.4ms  ProjectALifeNPCs | shared/ProjectALife/Compat/ALifeModCompat.lua:459
+      208.9ms total ( 10.0 ms/s)  calls   27674  worst  12.6ms  TrueSewers | client/TrueSewers.lua:2913
+      183.6ms total (  8.8 ms/s)  calls   27674  worst  10.1ms  TrueSewers | client/TrueSewersProfond.lua:887
+  UI/render Lua by mod:
+        0.2ms total (  0.0 ms/s)  calls      24  worst   0.0ms  Viewpoint
+
+=== 17:23:15 | last 10s | frames 1090 | avg logic 1.8ms | worst 174.7ms | stutters 2 | lua 58% of logic | gc 0 ms | 8106,11769 | zombies 72
+  game-update Lua by mod:
+      601.4ms total ( 60.1 ms/s)  calls   15488  worst   2.6ms  EscapeFromZomboidFirearms
+      105.1ms total ( 10.5 ms/s)  calls  222825  worst   1.2ms  vanilla
+       91.1ms total (  9.1 ms/s)  calls    5746  worst   2.6ms  ProjectALifeNPCs
+       88.8ms total (  8.9 ms/s)  calls    1197  worst  23.2ms  KnoxInventoryBeta
+       73.0ms total (  7.3 ms/s)  calls     162  worst  10.6ms  BulkPallets
+       31.9ms total (  3.2 ms/s)  calls    7709  worst   0.2ms  Bridge
+       30.0ms total (  3.0 ms/s)  calls    8721  worst   0.1ms  Railroader
+       23.2ms total (  2.3 ms/s)  calls     154  worst   0.7ms  DayZ Vitals
+       20.8ms total (  2.1 ms/s)  calls    1098  worst   0.2ms  ALifeChatPlus
+       19.3ms total (  1.9 ms/s)  calls    3280  worst   0.4ms  ProjectALifeJimmy
+        9.5ms total (  0.9 ms/s)  calls    1098  worst   0.3ms  HorseMod
+        9.2ms total (  0.9 ms/s)  calls    1090  worst   2.8ms  errorMagnifier
+  game-update Lua by function:
+      147.4ms total ( 14.7 ms/s)  calls    1090  worst   1.5ms  EscapeFromZomboidFirearms | client/TW_AdsCamera.lua:71
+      119.4ms total ( 11.9 ms/s)  calls    1090  worst   0.7ms  EscapeFromZomboidFirearms | client/TW_SightInput.lua:148
+       81.1ms total (  8.1 ms/s)  calls    1090  worst   1.2ms  EscapeFromZomboidFirearms | client/TW_Sensitivity.lua:89
+       74.7ms total (  7.5 ms/s)  calls    1090  worst   2.6ms  EscapeFromZomboidFirearms | client/TW_SeeThrough.lua:82
+       73.0ms total (  7.3 ms/s)  calls     154  worst  10.6ms  BulkPallets | client/BulkPallets/BP_Client.lua:908
+       70.5ms total (  7.1 ms/s)  calls    1090  worst   1.6ms  EscapeFromZomboidFirearms | client/TW_ZoomRings.lua:82
+       70.2ms total (  7.0 ms/s)  calls    1090  worst   2.6ms  ProjectALifeNPCs | shared/ProjectALife/Core/ALifeHandlers.lua:283
+       48.6ms total (  4.9 ms/s)  calls      77  worst  23.2ms  KnoxInventoryBeta | client/Knox/KnoxHotbar.lua:838
+       40.1ms total (  4.0 ms/s)  calls    1090  worst   0.4ms  KnoxInventoryBeta | client/Knox/KnoxCarRadio.lua:505
+       32.1ms total (  3.2 ms/s)  calls    1090  worst   0.3ms  EscapeFromZomboidFirearms | client/TW_AdsFromThird.lua:371
+       30.4ms total (  3.0 ms/s)  calls    4573  worst   0.1ms  vanilla | client/ISUI/ISUIElement.lua:564
+       30.3ms total (  3.0 ms/s)  calls    1771  worst   0.2ms  vanilla | client/ISUI/Gamepad/ISControllerBindingsEditorPanel.lua:113
+  UI/render Lua by mod:
+     1006.8ms total (100.6 ms/s)  calls    5759  worst  54.8ms  KnoxInventoryBeta
+      574.1ms total ( 57.4 ms/s)  calls   29203  worst  78.5ms  vanilla
+      490.7ms total ( 49.1 ms/s)  calls   16391  worst   1.9ms  Lifestyle
+      185.6ms total ( 18.5 ms/s)  calls   14615  worst   8.4ms  KnoxMarketCustom
+      178.9ms total ( 17.9 ms/s)  calls    3748  worst   0.4ms  ProjectALifeNPCs
+      157.5ms total ( 15.7 ms/s)  calls    1329  worst  35.3ms  DayZ Vitals
+
+=== 17:23:25 | last 10s | frames 2587 | avg logic 1.0ms | worst 7.6ms | stutters 0 | lua 68% of logic | gc 0 ms | 8106,11769 | zombies 72
+  game-update Lua by mod:
+     1077.0ms total (107.7 ms/s)  calls   36416  worst   1.0ms  EscapeFromZomboidFirearms
+       95.8ms total (  9.6 ms/s)  calls  295459  worst   0.1ms  vanilla
+       85.5ms total (  8.5 ms/s)  calls    2686  worst   0.4ms  KnoxInventoryBeta
+       82.0ms total (  8.2 ms/s)  calls   12935  worst   0.1ms  ProjectALifeNPCs
+       60.2ms total (  6.0 ms/s)  calls   20696  worst   0.1ms  Railroader
+       59.4ms total (  5.9 ms/s)  calls   18208  worst   0.2ms  Bridge
+       53.1ms total (  5.3 ms/s)  calls     198  worst   1.2ms  BulkPallets
+       37.5ms total (  3.7 ms/s)  calls    7761  worst   0.2ms  ProjectALifeJimmy
+       36.4ms total (  3.6 ms/s)  calls    2587  worst   0.1ms  ALifeChatPlus
+       21.9ms total (  2.2 ms/s)  calls     198  worst   0.7ms  DayZ Vitals
+       16.7ms total (  1.7 ms/s)  calls    2587  worst   0.2ms  A-Qo-Life
+       12.4ms total (  1.2 ms/s)  calls    2587  worst   0.1ms  HorseMod
+  game-update Lua by function:
+      262.0ms total ( 26.2 ms/s)  calls    2587  worst   0.5ms  EscapeFromZomboidFirearms | client/TW_AdsCamera.lua:71
+      238.1ms total ( 23.8 ms/s)  calls    2587  worst   0.4ms  EscapeFromZomboidFirearms | client/TW_SightInput.lua:148
+      165.3ms total ( 16.5 ms/s)  calls    2587  worst   1.0ms  EscapeFromZomboidFirearms | client/TW_Sensitivity.lua:89
+      139.8ms total ( 14.0 ms/s)  calls    2587  worst   0.3ms  EscapeFromZomboidFirearms | client/TW_SeeThrough.lua:82
+      104.8ms total ( 10.5 ms/s)  calls    2587  worst   0.2ms  EscapeFromZomboidFirearms | client/TW_ZoomRings.lua:82
+       63.3ms total (  6.3 ms/s)  calls    2587  worst   0.2ms  KnoxInventoryBeta | client/Knox/KnoxCarRadio.lua:505
+       53.1ms total (  5.3 ms/s)  calls     198  worst   1.2ms  BulkPallets | client/BulkPallets/BP_Client.lua:908
+       51.5ms total (  5.1 ms/s)  calls    2587  worst   0.3ms  EscapeFromZomboidFirearms | client/TW_AdsFromThird.lua:371
+       46.1ms total (  4.6 ms/s)  calls    2587  worst   0.1ms  ProjectALifeNPCs | shared/ProjectALife/Core/ALifeHandlers.lua:283
+       37.2ms total (  3.7 ms/s)  calls    2587  worst   0.1ms  EscapeFromZomboidFirearms | client/TW_ScopePipOptions.lua:200
+       36.4ms total (  3.6 ms/s)  calls    2587  worst   0.1ms  ALifeChatPlus | shared/ALifeNPCOverhaul/AA_Health.lua:43
+       34.0ms total (  3.4 ms/s)  calls    2277  worst   0.1ms  vanilla | client/ISUI/Gamepad/ISControllerBindingsEditorPanel.lua:113
+  UI/render Lua by mod:
+      978.3ms total ( 97.8 ms/s)  calls    7761  worst   5.2ms  KnoxInventoryBeta
+      580.1ms total ( 58.0 ms/s)  calls   41591  worst   2.1ms  vanilla
+      561.3ms total ( 56.1 ms/s)  calls   22089  worst   0.4ms  Lifestyle
+      221.7ms total ( 22.2 ms/s)  calls    6169  worst   0.5ms  ProjectALifeNPCs
+      209.3ms total ( 20.9 ms/s)  calls   17313  worst   0.3ms  EscapeFromZomboidFirearms
+      140.3ms total ( 14.0 ms/s)  calls    4975  worst   0.4ms  Viewpoint
+
+=== 17:23:35 | last 10s | frames 308 | avg logic 22.7ms | worst 963.6ms | stutters 47 | lua 66% of logic | gc 0 ms | 8106,11769 | zombies 72
+  game-update Lua by mod:
+     1329.7ms total (132.7 ms/s)  calls   12862  worst 303.0ms  ProjectALifeNPCs
+      595.4ms total ( 59.4 ms/s)  calls   11583  worst 140.5ms  EscapeFromZomboidFirearms
+      531.2ms total ( 53.0 ms/s)  calls    6485  worst 127.3ms  ProjectALifeJimmy
+      432.2ms total ( 43.1 ms/s)  calls    6571  worst  23.7ms  ALifeChatPlus
+      164.0ms total ( 16.4 ms/s)  calls  173521  worst  44.2ms  vanilla
+      147.4ms total ( 14.7 ms/s)  calls   12275  worst  45.6ms  Bridge
+      140.0ms total ( 14.0 ms/s)  calls    6066  worst  48.1ms  TrueSewers
+      111.5ms total ( 11.1 ms/s)  calls    1122  worst   9.1ms  ProjectRPGExpanded
+      104.4ms total ( 10.4 ms/s)  calls    1739  worst  78.5ms  TilterWreck
+       88.3ms total (  8.8 ms/s)  calls    6052  worst   8.9ms  BlackoutPredatorsExtended
+       86.0ms total (  8.6 ms/s)  calls    2541  worst   9.3ms  Lifestyle
+       82.4ms total (  8.2 ms/s)  calls     324  worst   3.6ms  WhoseKeyIsThis
+  game-update Lua by function:
+      643.9ms total ( 64.3 ms/s)  calls     108  worst 303.0ms  ProjectALifeNPCs | server/ProjectALife/Core/ALifeServerBootstrap.lua:52
+      361.2ms total ( 36.0 ms/s)  calls    2665  worst  23.7ms  ALifeChatPlus | shared/ALifeNPCOverhaul/AA_Health.lua:43
+      310.6ms total ( 31.0 ms/s)  calls     108  worst   4.2ms  ProjectALifeNPCs | shared/ProjectALife/ModLoot/ALifeModLoot.lua:701
+      213.8ms total ( 21.3 ms/s)  calls    1669  worst   6.2ms  ProjectALifeNPCs | shared/ProjectALife/Core/ALifeHandlers.lua:283
+      143.0ms total ( 14.3 ms/s)  calls     108  worst 140.5ms  EscapeFromZomboidFirearms | client/TW_MovingWeaponParts.lua:58
+      127.7ms total ( 12.7 ms/s)  calls       2  worst 127.3ms  ProjectALifeJimmy | server/ProjectALifeJimmy/Features/Residents/Adopt.lua:539
+      108.7ms total ( 10.8 ms/s)  calls       2  worst  69.5ms  ProjectALifeJimmy | server/ProjectALifeJimmy/Features/Residents/Manage.lua:2329
+       96.2ms total (  9.6 ms/s)  calls     108  worst  78.5ms  TilterWreck | client/TilterWreck_Client.lua:1593
+       89.0ms total (  8.9 ms/s)  calls    2107  worst   0.3ms  ProjectALifeNPCs | server/ProjectALife/Senses/ALifeInvestigation.lua:94
+       83.6ms total (  8.3 ms/s)  calls     108  worst  45.6ms  Bridge | client/BridgeMain.lua:9731
+       77.2ms total (  7.7 ms/s)  calls     108  worst   3.6ms  WhoseKeyIsThis | client/WKT_Pointer.lua:555
+       72.4ms total (  7.2 ms/s)  calls     108  worst   9.1ms  ProjectRPGExpanded | shared/PRPGE_Tick.lua:29
+  UI/render Lua by mod:
+      257.3ms total ( 25.7 ms/s)  calls    1738  worst   3.5ms  KnoxInventoryBeta
+      219.5ms total ( 21.9 ms/s)  calls    1196  worst   4.7ms  ProjectRPGExpanded
+      149.7ms total ( 14.9 ms/s)  calls    5550  worst   1.0ms  Lifestyle
+       53.3ms total (  5.3 ms/s)  calls    1208  worst   0.5ms  ProjectALifeNPCs
+       50.7ms total (  5.1 ms/s)  calls     450  worst   5.8ms  DayZ Vitals
+       43.2ms total (  4.3 ms/s)  calls    8584  worst   0.7ms  vanilla
+
+=== 17:23:45 | last 10s | frames 3195 | avg logic 1.1ms | worst 83.2ms | stutters 6 | lua 72% of logic | gc 0 ms | 8106,11769 | zombies 72
+  game-update Lua by mod:
+     1340.7ms total (134.1 ms/s)  calls   45849  worst   0.6ms  EscapeFromZomboidFirearms
+      340.9ms total ( 34.1 ms/s)  calls   17222  worst  45.7ms  ProjectALifeNPCs
+      190.9ms total ( 19.1 ms/s)  calls  284460  worst  59.1ms  vanilla
+      105.6ms total ( 10.6 ms/s)  calls    3318  worst   0.5ms  KnoxInventoryBeta
+      100.3ms total ( 10.0 ms/s)  calls   23520  worst  15.2ms  Bridge
+       79.5ms total (  7.9 ms/s)  calls   26285  worst   0.2ms  Railroader
+       77.3ms total (  7.7 ms/s)  calls   10325  worst   6.6ms  ProjectALifeJimmy
+       61.6ms total (  6.2 ms/s)  calls    3994  worst   7.2ms  ALifeChatPlus
+       50.0ms total (  5.0 ms/s)  calls     209  worst   0.6ms  BulkPallets
+       25.4ms total (  2.5 ms/s)  calls    3639  worst   8.3ms  Lifestyle
+       21.8ms total (  2.2 ms/s)  calls    3237  worst   0.1ms  A-Qo-Life
+       21.5ms total (  2.1 ms/s)  calls     208  worst   0.5ms  DayZ Vitals
+  game-update Lua by function:
+      325.4ms total ( 32.5 ms/s)  calls    3195  worst   0.3ms  EscapeFromZomboidFirearms | client/TW_AdsCamera.lua:71
+      303.6ms total ( 30.4 ms/s)  calls    3195  worst   0.6ms  EscapeFromZomboidFirearms | client/TW_SightInput.lua:148
+      205.3ms total ( 20.5 ms/s)  calls    3195  worst   0.3ms  EscapeFromZomboidFirearms | client/TW_Sensitivity.lua:89
+      186.2ms total ( 18.6 ms/s)  calls      14  worst  45.7ms  ProjectALifeNPCs | shared/ProjectALife/ModLoot/ALifeModLoot.lua:701
+      176.5ms total ( 17.6 ms/s)  calls    3195  worst   0.4ms  EscapeFromZomboidFirearms | client/TW_SeeThrough.lua:82
+      101.3ms total ( 10.1 ms/s)  calls    3195  worst   0.2ms  EscapeFromZomboidFirearms | client/TW_ZoomRings.lua:82
+       85.6ms total (  8.6 ms/s)  calls    3195  worst   0.3ms  KnoxInventoryBeta | client/Knox/KnoxCarRadio.lua:505
+       72.8ms total (  7.3 ms/s)  calls    3289  worst   1.3ms  ProjectALifeNPCs | shared/ProjectALife/Core/ALifeHandlers.lua:283
+       61.5ms total (  6.1 ms/s)  calls    3195  worst   0.1ms  EscapeFromZomboidFirearms | client/TW_AdsFromThird.lua:371
+       59.1ms total (  5.9 ms/s)  calls       1  worst  59.1ms  vanilla | client/OptionScreens/MainScreen.lua:1710
+       58.8ms total (  5.9 ms/s)  calls    3493  worst   7.2ms  ALifeChatPlus | shared/ALifeNPCOverhaul/AA_Health.lua:43
+       49.5ms total (  4.9 ms/s)  calls     194  worst   0.5ms  BulkPallets | client/BulkPallets/BP_Client.lua:908
+  UI/render Lua by mod:
+      260.3ms total ( 26.0 ms/s)  calls   20898  worst   0.2ms  EscapeFromZomboidFirearms
+      169.7ms total ( 17.0 ms/s)  calls    5489  worst   0.3ms  ProjectALifeNPCs
+      152.9ms total ( 15.3 ms/s)  calls    7879  worst   1.6ms  KnoxInventoryBeta
+       93.2ms total (  9.3 ms/s)  calls   19813  worst   0.1ms  vanilla
+       92.7ms total (  9.3 ms/s)  calls    8670  worst   0.2ms  KnoxMarketCustom
+       79.9ms total (  8.0 ms/s)  calls   11849  worst  15.5ms  ALifeChatPlus
+
+=== 17:23:55 | last 10s | frames 1656 | avg logic 3.6ms | worst 250.3ms | stutters 40 | lua 69% of logic | gc 0 ms | 8106,11756 | zombies 85
+  game-update Lua by mod:
+     1183.0ms total (118.3 ms/s)  calls   28390  worst 206.7ms  ProjectALifeNPCs
+      835.6ms total ( 83.6 ms/s)  calls   40137  worst   0.9ms  EscapeFromZomboidFirearms
+      206.9ms total ( 20.7 ms/s)  calls    6756  worst   4.4ms  BulkPallets
+      150.0ms total ( 15.0 ms/s)  calls   10823  worst  16.2ms  ALifeChatPlus
+      140.3ms total ( 14.0 ms/s)  calls  139291  worst  55.6ms  vanilla
+      128.6ms total ( 12.9 ms/s)  calls   44587  worst   1.6ms  TrueSewers
+      123.3ms total ( 12.3 ms/s)  calls   16623  worst  14.7ms  WaterRestoration
+      113.6ms total ( 11.4 ms/s)  calls   21307  worst   2.5ms  Bridge
+      106.8ms total ( 10.7 ms/s)  calls   21906  worst  43.3ms  Railroader
+       94.7ms total (  9.5 ms/s)  calls    6690  worst  41.5ms  NMRadioAddon
+       87.1ms total (  8.7 ms/s)  calls    2046  worst  28.6ms  KnoxInventoryBeta
+       82.3ms total (  8.2 ms/s)  calls    3438  worst   9.5ms  Lifestyle
+  game-update Lua by function:
+      527.0ms total ( 52.7 ms/s)  calls     105  worst 206.7ms  ProjectALifeNPCs | server/ProjectALife/Core/ALifeServerBootstrap.lua:52
+      259.1ms total ( 25.9 ms/s)  calls       8  worst  50.1ms  ProjectALifeNPCs | shared/ProjectALife/ModLoot/ALifeModLoot.lua:701
+      240.8ms total ( 24.1 ms/s)  calls    6114  worst   3.7ms  ProjectALifeNPCs | shared/ProjectALife/Core/ALifeHandlers.lua:283
+      157.6ms total ( 15.8 ms/s)  calls    1656  worst   0.8ms  EscapeFromZomboidFirearms | client/TW_AdsCamera.lua:71
+      153.2ms total ( 15.3 ms/s)  calls    1656  worst   0.9ms  EscapeFromZomboidFirearms | client/TW_SightInput.lua:148
+      117.5ms total ( 11.8 ms/s)  calls    3875  worst  16.2ms  ALifeChatPlus | shared/ALifeNPCOverhaul/AA_Health.lua:43
+      105.8ms total ( 10.6 ms/s)  calls    3238  worst   0.7ms  BulkPallets | server/BulkPallets/BP_Server.lua:779
+      100.9ms total ( 10.1 ms/s)  calls    1656  worst   0.4ms  EscapeFromZomboidFirearms | client/TW_Sensitivity.lua:89
+       90.0ms total (  9.0 ms/s)  calls     170  worst   4.4ms  BulkPallets | client/BulkPallets/BP_Client.lua:908
+       87.6ms total (  8.8 ms/s)  calls    1656  worst   0.4ms  EscapeFromZomboidFirearms | client/TW_SeeThrough.lua:82
+       82.4ms total (  8.2 ms/s)  calls    3238  worst   0.5ms  WaterRestoration | server/WaterRestoration/WR_LaptopServer.lua:87
+       79.0ms total (  7.9 ms/s)  calls    1996  worst   0.2ms  ProjectALifeNPCs | server/ProjectALife/Senses/ALifeInvestigation.lua:94
+  UI/render Lua by mod:
+      214.9ms total ( 21.5 ms/s)  calls    4462  worst   2.7ms  KnoxInventoryBeta
+      189.0ms total ( 18.9 ms/s)  calls    2621  worst   3.0ms  ProjectRPGExpanded
+      127.9ms total ( 12.8 ms/s)  calls   11167  worst   0.3ms  EscapeFromZomboidFirearms
+      103.9ms total ( 10.4 ms/s)  calls    3228  worst   0.3ms  ProjectALifeNPCs
+      101.8ms total ( 10.2 ms/s)  calls    3848  worst   0.5ms  Lifestyle
+       53.9ms total (  5.4 ms/s)  calls    6363  worst   0.2ms  KnoxMarketCustom
