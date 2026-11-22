@@ -448,25 +448,46 @@ end
 
 function Director.pickPreset(day, r, accept)
     local eligible = {}
+    local compoundCount = nil
+
     for _, preset in ipairs(Presets.list) do
         if preset.placeholder ~= true and preset.manualOnly ~= true
                 and (accept == nil or accept(preset) == true)
                 and day >= (tonumber(preset.minDay) or 0)
-                and (preset.lastDay == nil or day < preset.lastDay)
-                and Director.compoundAllowed(preset)
-                and Presets.rotationOk(preset)
-                and Director.hasHolder(preset) then
-            eligible[#eligible + 1] = preset
+                and (preset.lastDay == nil or day < preset.lastDay) then
+
+            local compoundAllowed = true
+
+            if Director.isCompound(preset) then
+                if compoundCount == nil then
+                    compoundCount = Director.compounds()
+                end
+
+                compoundAllowed = compoundCount < Director.settings.maxCompounds
+            end
+
+            if compoundAllowed
+                    and Presets.rotationOk(preset)
+                    and Director.hasHolder(preset) then
+                eligible[#eligible + 1] = preset
+            end
         end
     end
+
     if #eligible == 0 then return nil end
+
     local total = 0
-    for _, preset in ipairs(eligible) do total = total + Director.weightOf(preset, day) end
+    for _, preset in ipairs(eligible) do
+        total = total + Director.weightOf(preset, day)
+    end
+
     local mark = (tonumber(r) or 0) * total
+
     for _, preset in ipairs(eligible) do
         mark = mark - Director.weightOf(preset, day)
         if mark < 0 then return preset end
     end
+
     return eligible[#eligible]
 end
 
@@ -3749,21 +3770,51 @@ function Director.idsOnly()
 end
 
 function Director.buildBurst(list, hours, now)
-    local work = 0
-    if Director.idsOnly() then
-        for _, id in ipairs(Registry.ids()) do
-            if Registry.stateOf(id) == "proposed" then
-                local site = Registry.read(id)
-                if site ~= nil then work = work + Director.tickSite(site, list, hours, now) end
+    local slice = ProjectALife.TickSlice
+    local began = slice ~= nil and type(slice.clock) == "function" and slice.clock() or nil
+    local sweep = Director.state.burstSweep
+
+    -- Keep a stable ID snapshot and resume it over subsequent outpost ticks.
+    if sweep == nil then
+        local ids = {}
+        if Director.idsOnly() then
+            ids = Registry.ids()
+        else
+            for _, row in ipairs(Registry.list()) do
+                ids[#ids + 1] = row.id
             end
         end
-        return work
+        sweep = { ids = ids, at = 0 }
+        Director.state.burstSweep = sweep
     end
-    for _, row in ipairs(Registry.list()) do
-        if row.state == "proposed" then
-            local site = Registry.read(row.id)
-            if site ~= nil then work = work + Director.tickSite(site, list, hours, now) end
+
+    local work, visited = 0, 0
+    while sweep.at < #sweep.ids do
+        sweep.at = sweep.at + 1
+        local id = sweep.ids[sweep.at]
+        local site = Registry.read(id)
+        if site ~= nil and site.state == "proposed" then
+            work = work + Director.tickSite(site, list, hours, now)
+            visited = visited + 1
         end
+
+        -- Yield only after a complete tickSite call.
+        if began ~= nil and sweep.at < #sweep.ids and slice.exhausted(began) then
+            break
+        end
+    end
+
+    local yielded = sweep.at < #sweep.ids
+    if yielded then
+        if slice ~= nil and type(slice.more) == "function" then
+            slice.more("outposts")
+        end
+    else
+        Director.state.burstSweep = nil
+    end
+
+    if began ~= nil and visited > 0 and slice ~= nil and type(slice.note) == "function" then
+        slice.note("outposts:burst", began, visited, yielded)
     end
     return work
 end
@@ -3788,6 +3839,7 @@ function Director.tick()
 
     local resumed = Director.state.siteSweep
     if resumed ~= nil then return Director.siteStep(resumed, list, hours, now, 0) end
+    if Director.state.burstSweep ~= nil then return Director.buildBurst(list, hours, now) end
     if ProjectALife.BuildSpeed ~= nil and ProjectALife.BuildSpeed.burstTick() then return Director.buildBurst(list, hours, now) end
 
     Registry.sweep(hours)
