@@ -1,10 +1,10 @@
 Viewpoint crash report
-When: 2026-11-22 16:56:53
+When: 2026-11-22 18:14:02
 Crashed while: drawing
 Viewpoint: 0.1.7, release, setup edition 2
 Game: 42.22.2 3d39148846 classpath=1113,agents=1, Java 25.0.5 (Azul Systems, Inc.), heap at most 16384 MB
 System: Windows 11 10.0 amd64, 20 threads
-Hardware: NVIDIA GeForce RTX 4070/PCIe/SSE2 (NVIDIA Corporation), video memory 12010 MiB (1399 free, the game's process 6989), the game's textures 7602 MiB (compression off), its isometric chunk textures 0 MiB, memory 32509 MiB (4160 available, the game's process 15583 resident), heap 16384 MiB, 20 threads, 2560 x 1369; Viewpoint holds 616 MiB of memory, 1490 of video memory
+Hardware: NVIDIA GeForce RTX 4070/PCIe/SSE2 (NVIDIA Corporation), video memory 12010 MiB (1097 free, the game's process 3457), the game's textures 7619 MiB (compression off), its isometric chunk textures 0 MiB, memory 32509 MiB (9000 available, the game's process 10868 resident), heap 16384 MiB, 20 threads, 2560 x 1369; Viewpoint holds 616 MiB of memory, 1490 of video memory
 
 --- the error ---
 java.lang.IllegalStateException: looks: reading media/textures/clothes/Spongie/Jacket/Masks/ShortSleeve/ShortClosedMasks/Waist.png failed
@@ -56,7 +56,7 @@ Caused by: java.io.IOException: Unsupported bit depth: 1
 
 --- viewpoint-live.properties ---
 #Viewpoint's live settings. Edit by hand only with the game closed.
-#Sun Nov 22 16:52:31 GMT+07:00 2026
+#Sun Nov 22 17:27:21 GMT+07:00 2026
 addon.drive_by_shooting.aimDownDegrees=40
 addon.drive_by_shooting.aimLeftDegrees=120
 addon.drive_by_shooting.aimRightDegrees=95
@@ -1876,7 +1876,114 @@ windscreen.wipers.waitHeavy=0.25
 
 
 --- console.txt (its last 512 KB) ---
-RR_LockerAccess.lua: loaded OK.
+ral      f:0>     TrueSewers silence: silence de la surface branche
+LOG  : General      f:0>     [ImmersiveDrivingCamera] loaded v0.18.3; camera, body and steering adapter registered.
+LOG  : General      f:0>     [ImmersiveDrivingCamera] ignition action listener registered.
+LOG  : General      f:0>     [ImmersiveDrivingCamera] hotwire animation listener registered.
+LOG  : General      f:0>     [ImmersiveDrivingCamera] native settings registered.
+LOG  : General      f:0>     [Run'n'Gun ReloadCompat] Installed successfully.
+LOG  : General      f:0>     NB_OverrideISEntity - Building Interface Override
+LOG  : General      f:0>     [PlowAttachment][Dashboard] self driven hydraulic mode cluster ready (no longer hooks ISVehicleDashboard.prerender)
+LOG  : General      f:0>     [PlowAttachment] DebugMenu.lua loaded (Corpse Plow debug submenu, rod overlay)
+LOG  : General      f:0>     [PlowAttachment][RadialMenu] wrapped ISVehicleMenu.showRadialMenuOutside and showRadialMenu (Plow Options -> PlowModeUI; in-cab requires driver + hydraulic blade)
+WARN : Lua          f:0 at Lua((MOD:Lifestyle: Hobbies)).NeuralHat.lua> require("Skill Recovery Journal Context") failed
+LOG  : General      f:0>     [BetterWorldMap] Minimap options tick installed
+LOG  : General      f:0>     [BetterWorldMap] Minimap hook installed (load-time)
+LOG  : General      f:0>     KATTAJ1 Tactical Flashlight: No Mods installed
+LOG  : General      f:0>     Loading Custom ToolTip Override Code
+LOG  : General      f:0>     [NMRadioAddon] Client side loaded
+LOG  : General      f:0>     [This Is Your Life] Character-creation flow loaded.
+LOG  : General      f:0>     [This Is Your Life] Origin runtime effects loaded.
+LOG  : General      f:0>     [Project A-Life TH] Missing-text log on: new untranslated UI texts go to Zomboid/Lua/ALifeTH_missing.txt
+WARN : Lua          f:0 at Lua((MOD:Better Server Settings)).ServerModsFromActive.lua> require("ServerSettingsScreen") failed
+LOG  : General      f:0>     RPG_Client_Main loaded!
+LOG  : General      f:0>     [RPG Randombox][CM] context menu loaded
+LOG  : General      f:0>     [RPG RitualScroll][CM] ritual scroll context menu loaded
+LOG  : General      f:0>     [RPG Collector][SP] watcher registered
+LOG  : General      f:0>     [RPG Equipment][SP] equipped-item watcher registered
+LOG  : General      f:0>     [RPG Needs][SP] B42.21 hunger/thirst/carry watcher registered
+LOG  : General      f:0>     [RPG Passive][SP] B42.21 stat watcher registered
+LOG  : General      f:0>     [RPG Randombox][SP] drop watcher registered
+LOG  : General      f:0>     [RPG XP][SP] client OnTick watcher registered
+LOG  : General      f:0>     [RPG MemoryStone][CM] context menu loaded
+LOG  : General      f:0>     [PRPGE Shadow] Running-speed and endurance handlers registered
+LOG  : General      f:0>     [PRPGE v0.9.9] Skills-panel Vanguard / Survivalist / Shadow / Medic / Marksman tooltips registered
+LOG  : General      f:0>     [PRPGE v0.9.7] Real-XP observer installed; Axe/Long Blunt/Strength/Fitness XP logged on first 12 bonuses
+LOG  : General      f:0>     [NV] Battery module loaded
+LOG  : General      f:0>     [NV] ModOptions loaded
+LOG  : General      f:0>     [NV] Light controller loaded - Enhanced NV lighting enabled
+LOG  : General      f:0>     [NV] Context menu loaded
+LOG  : General      f:0>     [NV] Tooltip guard installed (module)
+LOG  : General      f:0>     [NV] Tooltip module loaded
+LOG  : General      f:0>     [NV] Overlay system loaded (Pure Tint - No Brightness Boost)
+LOG  : General      f:0>     [PropaneCabinet] support commands loaded
+LOG  : General      f:0>     [PropaneCabinet] visual state lua loaded
+WARN : Lua          f:0 at Lua((MOD:Knox Market | 1993 Trading OS, 16 3D Physical Survivors, BBS & Retro Apps [Build 42])).KnoxMilitaryNetbookUI.lua> recursive require(): D:/steam/steamapps/workshop/content/108600/3788479995/mods/KnoxMarketCustom/42/media/lua/client/KnoxMarketClient.lua
+WARN : Lua          f:0 at Lua((MOD:Knox Market | 1993 Trading OS, 16 3D Physical Survivors, BBS & Retro Apps [Build 42])).KnoxSkillDiskLoaderUI.lua> recursive require(): D:/steam/steamapps/workshop/content/108600/3788479995/mods/KnoxMarketCustom/42/media/lua/client/KnoxMarketClient.lua
+WARN : Lua          f:0 at Lua((MOD:Knox Market | 1993 Trading OS, 16 3D Physical Survivors, BBS & Retro Apps [Build 42])).KCDS_TerminalHackerUI.lua> recursive require(): D:/steam/steamapps/workshop/content/108600/3788479995/mods/KnoxMarketCustom/42/media/lua/client/KnoxMarketClient.lua
+WARN : Lua          f:0 at Lua((MOD:Knox Market | 1993 Trading OS, 16 3D Physical Survivors, BBS & Retro Apps [Build 42])).KnoxMilitaryNetbookUI.lua> recursive require(): D:/steam/steamapps/workshop/content/108600/3788479995/mods/KnoxMarketCustom/42/media/lua/client/KCDS_RawDuplicatorUI.lua
+WARN : Lua          f:0 at Lua((MOD:Knox Market | 1993 Trading OS, 16 3D Physical Survivors, BBS & Retro Apps [Build 42])).pcall> require("KnoxMarketServer") failed
+LOG  : General      f:0>     [PhunInteriors] registered the Viewpoint model pack
+LOG  : General      f:0>     [Railroader] RR_AdminChat.lua: loading...
+LOG  : General      f:0>     [Railroader] RR_AdminChat.lua: solo session -- no chat, no commands registered.
+LOG  : General      f:0>     [Railroader] RR_AlbumPlace.lua: loading...
+LOG  : General      f:0>     [Railroader] RR_AlbumPlace.lua: loaded OK (a Railroader starts with his photo album)
+LOG  : General      f:0>     [Railroader] RR_AnimalMenuFilter.lua: loading...
+LOG  : General      f:0>     [Railroader] RR_AnimalSize.lua: loaded OK -- rr_ animals are held at their declared size (RR.AnimalSize.report()).
+LOG  : General      f:0>     [Railroader] RR_APIClient.lua: loading...
+LOG  : General      f:0>     [Railroader] RR_APIClient.lua: loaded OK
+LOG  : General      f:0>     [Railroader] RR_BoardMenu.lua: loading...
+LOG  : General      f:0>     [Railroader] RR_BoardMenu.lua: loaded OK -- right-click or the controller's interact button boards her.
+LOG  : General      f:0>     [Railroader] RR_BodyBuffer.lua: loaded OK (a car's hidden body buffer)
+LOG  : General      f:0>     [Railroader] RR_BodyDebug.lua: loading...
+LOG  : General      f:0>     [Railroader] RR_BodyDebug.lua: loaded OK (U = footprint overlay -- a gated dev key, RR.Debug.set(true)).
+LOG  : General      f:0>     [Railroader] RR_BodyPieces.lua: loading...
+LOG  : General      f:0>     [Railroader] RR_BodyPieces.lua: loaded OK (RR.BodyPieces.report(); RR.BodyPieces.setEnabled(false) = A/B).
+LOG  : General      f:0>     [Railroader] RR_CabClimate.lua: loading...
+LOG  : General      f:0>     [Railroader] RR_CabClimate.lua: loaded OK.
+LOG  : General      f:0>     [Railroader] RR_CabLocker.lua: loading...
+LOG  : General      f:0>     [Railroader] RR_CabLocker.lua: loaded OK.
+LOG  : General      f:0>     [Railroader] RR_CabMenu.lua: loaded OK.
+LOG  : General      f:0>     [Railroader] RR_CabooseFixClient loaded (the caboose's furniture: bunk, chairs, cabinets, fridge, stove, sink -- singleplayer)
+LOG  : General      f:0>     [Railroader] RR_CabooseMenu loaded (V in a caboose's cabin: the bunk, the lights, the fridge)
+LOG  : General      f:0>     [Railroader] RR_CaboosePowerClient loaded (the caboose's battery, lamps and fridge -- singleplayer)
+LOG  : General      f:0>     [Railroader] RR_CabooseSpawnClient.lua: loaded OK (phase 10 singleplayer binding -- RR.CabooseSpawnClient.report())
+LOG  : General      f:0>     [Railroader] calibrate: baked offsets ACTIVE; the numpad nudger is a gated dev tool (RR.Debug.set(true) -- 4/6=across-rail 8/2=along-rail 7/1=Z 5=dump 9=table 0=reset +/-=step; RR.Calibrate.report())
+LOG  : General      f:0>     [Railroader] RR_CarBoarders.lua: loaded OK (some zombies climb into a boxcar)
+LOG  : General      f:0>     [Railroader] RR_CarDoorClient.lua: loaded OK (a car's doors: tap E or right-click)
+LOG  : General      f:0>     [Railroader] RR_CarDoorOutline.lua: loaded OK (an open doorway drawn as a contour on a hidden wall)
+LOG  : General      f:0>     [Railroader] RR_CarFloorClient.lua: loaded OK (a car's floor under foot)
+LOG  : General      f:0>     [Railroader] RR_CarGroundMenu loaded (no ground entries from inside a car)
+LOG  : General      f:0>     [Railroader] RR_CarHold.lua: loaded OK (a boxcar's hold, singleplayer)
+LOG  : General      f:0>     [Railroader] RR_CarInteriorClient.lua: loaded OK (climb into a standing car with E)
+LOG  : General      f:0>     [Railroader] RR_Cars.lua: loading...
+LOG  : General      f:0>     [Railroader] RR_Cars.lua: loaded OK (Task 3.B-1 -- RR.Cars.help())
+LOG  : General      f:0>     [Railroader] RR_CarWallCombat.lua: loaded OK (a car's wall stops a blow)
+LOG  : General      f:0>     [Railroader] RR_ClickMenu loaded (right-click menus under a 3D renderer: decided by the player, one fallback)
+LOG  : General      f:0>     [Railroader] RR_Collider.lua: loading...
+LOG  : General      f:0>     [Railroader] RR_Collider.lua: loaded OK (I = segment tiles -- a gated dev key, RR.Debug.set(true)).
+LOG  : General      f:0>     [Railroader] RR_Crush.lua: loading...
+LOG  : General      f:0>     [Railroader] RR_Crush.lua: loaded OK (V_MIN=1 V_KILL=4 m/s; animals=true).
+LOG  : General      f:0>     [Railroader] RR_CutawayClient.lua: loaded OK (standing cars and locomotives open when they hide the player)
+LOG  : General      f:0>     [Railroader] RR_Cuts.lua: loading...
+LOG  : General      f:0>     [Railroader] RR_Cuts.lua: loaded OK (Task 3.B-2 part 2 sub-step 3a -- RR.Cuts.help())
+LOG  : General      f:0>     [Railroader] RR_DeadUnitsClient.lua: loaded OK (cars kept alive; our corpses removed before they are drawn)
+LOG  : General      f:0>     [Railroader] RR_DeckItemsClient.lua: loaded OK (things on a car's floor: SP sweep, lift, loot, sleep)
+LOG  : General      f:0>     [Railroader] RR_Depot.lua: loading...
+LOG  : General      f:0>     [Railroader] RR_Depot.lua: loaded OK (K&L 800 materialises on approach to the Muldraugh shed; O = gated dev teleport to the loco, else to the shed)
+LOG  : General      f:0>     [Railroader] RR_DieselFluidBridge.lua: loading...
+LOG  : General      f:0>     [Railroader] RR_DieselFluidBridge.lua: loaded OK
+LOG  : General      f:0>     [Railroader] RR_EndBoarders.lua: loaded OK (zombies on a caboose)
+LOG  : General      f:0>     [Railroader] RR_JournalJoypadFix.lua: loading...
+LOG  : General      f:0>     [Railroader] journal joypad guard: read-only notes are safe on a controller.
+LOG  : General      f:0>     [Railroader] RR_JournalJoypadFix.lua: loaded OK
+LOG  : General      f:0>     [Railroader] RR_Licence.lua: loading...
+LOG  : General      f:0>     [Railroader] RR_Licence.lua: loaded OK (the books teach; the profession still outranks them)
+LOG  : General      f:0>     [Railroader] RR_LightsRender.lua: loading...
+LOG  : General      f:0>     [Railroader] RR_LightsRender: reading in a lit cab hooked
+LOG  : General      f:0>     [Railroader] RR_LightsRender.lua: loaded OK.
+LOG  : General      f:0>     [Railroader] RR_LockerAccess.lua: loading...
+LOG  : General      f:0>     [Railroader] RR_LockerAccess.lua: loaded OK.
 LOG  : General      f:0>     [Railroader] RR_LocoBoarders.lua: loaded OK (zombies on the locomotive, singleplayer)
 LOG  : General      f:0>     [Railroader] RR_LocoDoorsClient.lua: loaded OK (her cab doors, singleplayer)
 LOG  : General      f:0>     [Railroader] RR_LocoWalkClient.lua: loaded OK (her walkways, ladders and cab doors, singleplayer)
@@ -1975,7 +2082,7 @@ LOG  : General      f:0>     [LiveWristwatch] rolled sleeves: texture tops ready
 LOG  : General      f:0>     [ViewpointThrow][SP] Gunworks ordnance registry found: grenade fuses are read from it
 LOG  : General      f:0>     [TW] Registered grips: 5 reference classes, 1 own
 LOG  : General      f:0>     [TW] Registered weapons: 9A91 1 magazines 5 ammo 700 rpm, AA12GEN1 2 magazines 7 ammo 330 rpm, AA12GEN2 2 magazines 7 ammo 330 rpm, ADAR215 24 magazines 11 ammo semi, AK101 3 magazines 11 ammo 650 rpm, AK102 3 magazines 11 ammo 600 rpm, AK103 17 magazines 5 ammo 600 rpm, AK104 17 magazines 5 ammo 600 rpm, AK105 13 magazines 5 ammo 600 rpm, AK12 13 magazines 5 ammo 700 rpm, AK308 2 magazines 7 ammo 700 rpm, AK50 1 magazines 4 ammo semi, AK545 13 magazines 5 ammo semi, AK545SHORT 13 magazines 5 ammo semi, AK74 13 magazines 5 ammo 650 rpm, AK74M 13 magazines 5 ammo 650 rpm, AK74N 13 magazines 5 ammo 650 rpm, AKM 17 magazines 5 ammo 600 rpm, AKMN 17 magazines 5 ammo 600 rpm, AKMS 17 magazines 5 ammo 600 rpm, AKMSN 17 magazines 5 ammo 600 rpm, AKS74 13 magazines 5 ammo 650 rpm, AKS74N 13 magazines 5 ammo 650 rpm, AKS74U 13 magazines 5 ammo 650 rpm, AKS74UB 13 magazines 5 ammo 650 rpm, AKS74UN 13 magazines 5 ammo 650 rpm, APB 1 magazines 4 ammo 750 rpm, APS 1 magazines 4 ammo 750 rpm, ASH12 2 magazines 3 ammo 650 rpm, ASVAL 4 magazines 5 ammo 900 rpm, AUGA1 3 magazines 11 ammo 715 rpm, AUGA3 3 magazines 11 ammo 715 rpm, AUGA3BLK 3 magazines 11 ammo 715 rpm, AVT40 2 magazines 5 ammo 750 rpm, AXMC 1 magazines 4 ammo semi, CR200DS 0 magazines 6 ammo semi, CR50DS 0 magazines 6 ammo semi, DEAGLEL5 1 magazines 6 ammo semi, DEAGLEL5357 1 magazines 6 ammo semi, DEAGLEL6 1 magazines 6 ammo semi, DEAGLEL6WTS 1 magazines 6 ammo semi, DEAGLEMK19 1 magazines 6 ammo semi, DVL10 1 magazines 7 ammo semi, FN40GL 0 magazines 4 ammo semi, FN57 2 magazines 4 ammo semi, FN57FDE 2 magazines 4 ammo semi, G28 2 magazines 7 ammo semi, G36 23 magazines 11 ammo 750 rpm, GLOCK17 7 magazines 6 ammo semi, GLOCK18C 7 magazines 6 ammo 1200 rpm, GLOCK19X 7 magazines 6 ammo semi, HK416A5 24 magazines 11 ammo 850 rpm, HK416A5RAL 24 magazines 11 ammo 850 rpm, KEDR 2 magazines 4 ammo 900 rpm, KEDRB 2 magazines 4 ammo 900 rpm, KS23M 0 magazines 2 ammo semi, M110 6 magazines 7 ammo semi, M16A1 24 magazines 11 ammo 800 rpm, M16A2 24 magazines 11 ammo 800 rpm, M1911A1 3 magazines 5 ammo semi, M1A 4 magazines 7 ammo semi, M3S90 0 magazines 7 ammo semi, M45A1 3 magazines 5 ammo semi, M4A1 24 magazines 11 ammo 800 rpm, M590A1 0 magazines 7 ammo semi, M60E6 1 magazines 7 ammo 550 rpm, M60E6FDE 1 magazines 7 ammo 550 rpm, M700 9 magazines 7 ammo semi, M870 0 magazines 7 ammo semi, M9A3 2 magazines 6 ammo semi, MCX300 24 magazines 4 ammo 800 rpm, MDR556 23 magazines 11 ammo 650 rpm, MDR762 6 magazines 7 ammo 650 rpm, MK16 24 magazines 11 ammo 650 rpm, MK16FDE 24 magazines 11 ammo 650 rpm, MK17 2 magazines 7 ammo 600 rpm, MK18MJOLNIR 1 magazines 4 ammo semi, MK43 1 magazines 7 ammo 550 rpm, MK47 16 magazines 5 ammo 650 rpm, MODEL1 24 magazines 11 ammo 800 rpm, MOSIN 1 magazines 5 ammo semi, MOSINSNIPER 1 magazines 5 ammo semi, MP133 0 magazines 7 ammo semi, MP153 0 magazines 7 ammo semi, MP155 0 magazines 7 ammo semi, MP18 0 magazines 5 ammo semi, MP431C 0 magazines 7 ammo semi, MP43SAWED 0 magazines 7 ammo semi, MP443 1 magazines 6 ammo semi, MP5 3 magazines 6 ammo 800 rpm, MP5K 3 magazines 6 ammo 900 rpm, MP7A1 3 magazines 4 ammo 950 rpm, MP7A2 3 magazines 4 ammo 950 rpm, MP9 4 magazines 6 ammo 900 rpm, MP9N 4 magazines 6 ammo 1100 rpm, MPX 4 magazines 6 ammo 850 rpm, MSGL 0 magazines 4 ammo semi, MTS255 0 magazines 7 ammo semi, MXLR 0 magazines 2 ammo semi, NL545 12 magazines 5 ammo 850 rpm, NL545DI 12 magazines 5 ammo 800 rpm, OPSKS 3 magazines 5 ammo semi, P226R 2 magazines 6 ammo semi, P90 1 magazines 4 ammo 900 rpm, P90DRAGON 1 magazines 4 ammo 910 rpm, PB 2 magazines 4 ammo semi, PKM 1 magazines 5 ammo 650 rpm, PKP 1 magazines 5 ammo 650 rpm, PL15 1 magazines 6 ammo semi, PM 2 magazines 4 ammo semi, PMT 2 magazines 4 ammo semi, PP1901 5 magazines 6 ammo 700 rpm, PP9KLIN 2 magazines 4 ammo 1000 rpm, PPSH41 2 magazines 7 ammo 1000 rpm, QBZ191 1 magazines 4 ammo 750 rpm, RD704 17 magazines 5 ammo 600 rpm, RFB 5 magazines 7 ammo semi, RPD 1 magazines 5 ammo 700 rpm, RPDN 1 magazines 5 ammo 700 rpm, RPK16 13 magazines 5 ammo 650 rpm, RSASS 6 magazines 7 ammo semi, RSH12 0 magazines 3 ammo semi, RSHG2 0 magazines 1 ammo semi, SA58 6 magazines 7 ammo 700 rpm, SAIGA12CHAMP 4 magazines 7 ammo 450 rpm, SAIGA12K 4 magazines 7 ammo semi, SAIGA12KFA 4 magazines 7 ammo 450 rpm, SAIGA9 5 magazines 6 ammo semi, SCARH 2 magazines 7 ammo 600 rpm, SKS 3 magazines 5 ammo semi, SPEAR68 6 magazines 2 ammo 800 rpm, SR1MP 1 magazines 4 ammo semi, SR25 6 magazines 7 ammo semi, SR2M 2 magazines 4 ammo 950 rpm, SR3M 4 magazines 5 ammo 900 rpm, STM9 7 magazines 6 ammo semi, SV98 1 magazines 5 ammo semi, SVDS 2 magazines 5 ammo semi, SVT40 2 magazines 5 ammo semi, T5000M 1 magazines 7 ammo semi, TKPD 1 magazines 3 ammo semi, TOZ106 3 magazines 4 ammo semi, TRGM10 1 magazines 4 ammo semi, TT 1 magazines 7 ammo semi, TTGOLD 1 magazines 7 ammo semi, TX15 24 magazines 11 ammo semi, TYPE20 24 magazines 11 ammo 700 rpm, UMP45 1 magazines 5 ammo 600 rpm, USP45 2 magazines 5 ammo semi, UZI 9 magazines 6 ammo 600 rpm, UZIPROPISTOL 3 magazines 6 ammo 1075 rpm, UZIPROSMG 3 magazines 6 ammo 1075 rpm, VALMOD4 4 magazines 5 ammo 900 rpm, VECTOR45 2 magazines 5 ammo 1100 rpm, VECTOR9 7 magazines 6 ammo 950 rpm, VELOCIRAPTOR 3 magazines 4 ammo 600 rpm, VPO101 2 magazines 7 ammo semi, VPO136 17 magazines 5 ammo semi, VPO209 17 magazines 4 ammo semi, VPO215 1 magazines 4 ammo semi, VSK94 1 magazines 5 ammo 700 rpm, VSS 4 magazines 5 ammo 900 rpm, X17 6 magazines 7 ammo 600 rpm
-LOG  : General      f:0>     [KnoxMarket] Escaneo Din mico de  tems completado con  xito. Total registrados: 13325  tems.
+LOG  : General      f:0>     [KnoxMarket] Escaneo Din�mico de �tems completado con �xito. Total registrados: 13325 �tems.
 LOG  : General      f:0>     [Railroader] RR_PieceDefinitions: every piece type defined
 LOG  : General      f:0>     ALICEPacks Tweaking Item: Base.BlowTorch: AttachmentType, Tool
 LOG  : General      f:0>     ALICEPacks Tweaking Item: Base.ClosedUmbrellaRed: AttachmentType, Umbrella
@@ -2008,12 +2115,12 @@ LOG  : General      f:0> ERROR IntegerConfigOption.parse() "ALife.Combat_BulletP
 LOG  : General      f:0> ERROR IntegerConfigOption.parse() "ALife.Combat_BulletPenetration" string="false"
 WARN : Lua          f:0 at Lua(Vanilla).namedColorToTable      > env.lua-> namedColorToTable color not found: ProgressYellow
 LOG  : General      f:0>     [ZombieBuddy] ZombieBuddy.getVersion() = 2.3.4
-LOG  : General      f:0>     [Knox] menu scene (bar): 3 of the last saves' heroes, 5 objects, built in 134 ms
+LOG  : General      f:0>     [Knox] menu scene (bar): 3 of the last saves' heroes, 5 objects, built in 168 ms
 LOG  : General      f:0>     [PV Door Impacts] Door impacts helper loaded 0.1.7-alpha; Viewpoint 0.1.7 (date=2026-11-15, release=true); active=0, strikes=0
 LOG  : General      f:0>     [TIYL Full Clothing UI Fix] Physique provider: SPNCC direct muscle preview (sandbox mode=1).
 LOG  : General      f:0> STATE: exit zombie.gameStates.MainScreenState
-LOG  : General      f:0> LOADED UP A TOTAL OF 14791 TEXTURES
-LOG  : General      f:0> [VRAMSteady] last minute: 58372 uploads, 4 MiB, 1 storage changes, 0 left to stock, 2 buffers
+LOG  : General      f:0> LOADED UP A TOTAL OF 14857 TEXTURES
+LOG  : General      f:0> [VRAMSteady] last minute: 1126 uploads, 0 MiB, 0 storage changes, 0 left to stock, 2 buffers
 LOG  : General      f:0> STATE: exit zombie.gameStates.LoadingQueueState
 LOG  : General      f:0>     Initializing Randomized World Tabletop Clutter Tables
 WARN : Lua          f:0 at Lua(Vanilla).Features               > recursive require(): D:/steam/steamapps/common/ProjectZomboid/media/lua/server/WorldGen/WorldGen.lua
@@ -2063,7 +2170,7 @@ LOG  : General      f:0>     [Railroader] RR_ServerKit.lua: loading...
 LOG  : General      f:0>     [Railroader] RR_ServerKit.lua: loaded OK  console: RR.ServerKit.report()
 LOG  : General      f:0>     [BrainPatch] ready (homestead chores, planks from loot runs, idle nudge) true 
 LOG  : General      f:0>     [BrainPatch] loaded
-Nov 22, 2026 4:54:24 PM zombie.Lua.LuaManager RunLuaInternal
+Nov 22, 2026 5:51:56 PM zombie.Lua.LuaManager RunLuaInternal
 SEVERE: Error found in LUA file: D:/steam/steamapps/workshop/content/108600/3816520031/mods/A-Qo-Life/42/media/lua/server/AQoLife/NpcBaseProtection.lua
 ERROR: General      f:0> LuaManager.RunLuaInternal> Exception thrown
 	se.krka.kahlua.vm.KahluaException: NpcBaseProtection.lua:1: '<eof>' expected near `else` at Lua.NpcBaseProtection.lua(NpcBaseProtection.lua:1).
@@ -2087,7 +2194,7 @@ ERROR: General      f:0> LuaManager.RunLuaInternal> Exception thrown
 		zombie.GameWindow.frameStep(GameWindow.java:780)
 		zombie.GameWindow.mainThreadStep(GameWindow.java:557)
 		zombie.MainThread.mainLoop(MainThread.java:69)
-Nov 22, 2026 4:54:24 PM zombie.Lua.LuaManager RunLuaInternal
+Nov 22, 2026 5:51:56 PM zombie.Lua.LuaManager RunLuaInternal
 SEVERE: Error found in LUA file: D:/steam/steamapps/workshop/content/108600/3816520031/mods/A-Qo-Life/42/media/lua/server/AQoLife/NpcBaseProtection.lua
 ERROR: General      f:0> LuaManager.RunLuaInternal> Exception thrown
 	se.krka.kahlua.vm.KahluaException: NpcBaseProtection.lua:1: '<eof>' expected near `else` at Lua.NpcBaseProtection.lua(NpcBaseProtection.lua:1).
@@ -2136,7 +2243,7 @@ ERROR: General      f:0> LuaManager.RunLuaInternal> Exception thrown
 LOG  : General      f:0>     [Project A-Life TH] Translation summary: 0 translated, 0 skipped, 0 not found (legacy counter)
 LOG  : General      f:0>     [ALifeNPCOverhaul] ready: +254 phrasings, 1555 known words, lexicon (3 entries already native) active
 LOG  : General      f:0>     [ProjectViewpointParkour] server side ready (Parkour XP, injuries, broken locks, landings, endurance and the moves other players see are dealt with here in multiplayer)
-Nov 22, 2026 4:54:25 PM zombie.Lua.LuaManager RunLuaInternal
+Nov 22, 2026 5:51:57 PM zombie.Lua.LuaManager RunLuaInternal
 SEVERE: Error found in LUA file: D:/steam/steamapps/workshop/content/108600/3843829220/mods/Blackout Predators/42/media/lua/server/BlackoutPredators_Server.lua
 ERROR: General      f:0> LuaManager.RunLuaInternal> Exception thrown
 	se.krka.kahlua.vm.KahluaException: BlackoutPredators_Server.lua:4269: main function has more than 200 local variables at Lua.BlackoutPredators_Server.lua(BlackoutPredators_Server.lua:4269).
@@ -2171,8 +2278,6 @@ LOG  : General      f:0> [ZB] patching viewpoint.input.Eye.atHead with 1 advice(
 LOG  : General      f:0> [ZB] hasMultipleSignatures: false, hasAllArguments: false, hasNoParamMethod: false, inferredTypes: null
 LOG  : General      f:0> [ZB] Transformed: viewpoint.input.Eye (new load)
 LOG  : General      f:0> [Viewpoint] chunk grid 19 x 19 (the game's own; the near world reaches 72 squares)
-LOG  : General      f:0> [Viewpoint] settings window: its text boxes hear the window's characters
-LOG  : General      f:0> [Viewpoint] settings window: ImGui ready
 LOG  : General      f:0> [ZB] patching viewpoint.camera.HitStop.delta with 1 advice(s)
 LOG  : General      f:0> [ZB] hasMultipleSignatures: false, hasAllArguments: false, hasNoParamMethod: false, inferredTypes: null
 LOG  : General      f:0> [ZB] Transformed: viewpoint.camera.HitStop (new load)
@@ -2191,9 +2296,11 @@ LOG  : General      f:0> [ZB] patching viewpoint.input.Camera.eye with 1 advice(
 LOG  : General      f:0> [ZB] hasMultipleSignatures: false, hasAllArguments: true, hasNoParamMethod: false, inferredTypes: null
 LOG  : General      f:0> [ZB] patching viewpoint.input.Camera.direction with 1 advice(s)
 LOG  : General      f:0> [ZB] hasMultipleSignatures: false, hasAllArguments: true, hasNoParamMethod: false, inferredTypes: null
+LOG  : General      f:0> [Viewpoint] settings window: its text boxes hear the window's characters
 LOG  : General      f:0> [ZB] Transformed: viewpoint.input.Camera (new load)
 LOG  : General      f:0> [ZB] patching viewpoint.input.Camera.direction with 1 advice(s)
 LOG  : General      f:0> [ZB] hasMultipleSignatures: false, hasAllArguments: false, hasNoParamMethod: false, inferredTypes: null
+LOG  : General      f:0> [Viewpoint] settings window: ImGui ready
 LOG  : General      f:0> [ZB] Transformed: viewpoint.input.Camera (new load)
 LOG  : General      f:0> [ZB] patching viewpoint.input.Controls.owns with 1 advice(s)
 LOG  : General      f:0> [ZB] hasMultipleSignatures: false, hasAllArguments: false, hasNoParamMethod: true, inferredTypes: null
@@ -2231,10 +2338,6 @@ LOG  : General      f:0> [ZB] Transformed: viewpoint.packs.PackLoads (new load)
 LOG  : General      f:0> [ZB] patching viewpoint.packs.PackLoads.load with 1 advice(s)
 LOG  : General      f:0> [ZB] hasMultipleSignatures: false, hasAllArguments: false, hasNoParamMethod: false, inferredTypes: null
 LOG  : General      f:0> [ZB] Transformed: viewpoint.packs.PackLoads (new load)
-LOG  : General      f:0> Loading worldgen params
-LOG  : General      f:0> IsoMetaGrid.Create: begin scanning directories
-LOG  : General      f:0> Looking in these map folders:
-LOG  : General      f:0> <End of map-folders list>
 LOG  : General      f:0> [ZB] patching viewpoint.render.VolumePass.air with 1 advice(s)
 LOG  : General      f:0> [ZB] hasMultipleSignatures: false, hasAllArguments: false, hasNoParamMethod: true, inferredTypes: null
 LOG  : General      f:0> [ZB] Transformed: viewpoint.render.VolumePass (new load)
@@ -2260,6 +2363,10 @@ LOG  : General      f:0> [ZB] Transformed: viewpoint.world.PackGather (new load)
 LOG  : General      f:0> [ZB] patching viewpoint.world.Recipe.model with 1 advice(s)
 LOG  : General      f:0> [ZB] hasMultipleSignatures: false, hasAllArguments: false, hasNoParamMethod: false, inferredTypes: null
 LOG  : General      f:0> [ZB] Transformed: viewpoint.world.Recipe (new load)
+LOG  : General      f:0> Loading worldgen params
+LOG  : General      f:0> IsoMetaGrid.Create: begin scanning directories
+LOG  : General      f:0> Looking in these map folders:
+LOG  : General      f:0> <End of map-folders list>
 LOG  : General      f:0> [ZB] patching viewpoint.world.TileMeshes.isPlant with 1 advice(s)
 LOG  : General      f:0> [ZB] hasMultipleSignatures: false, hasAllArguments: false, hasNoParamMethod: false, inferredTypes: null
 LOG  : General      f:0> [ZB] patching viewpoint.world.TileMeshes.plantCards with 1 advice(s)
@@ -2282,7 +2389,7 @@ LOG  : General      f:0> [ZB] hasMultipleSignatures: false, hasAllArguments: fal
 LOG  : General      f:0> [ZB] Transformed: zombie.LoadGridsquarePerformanceWorkaround (new load)
 LOG  : General      f:0> IsoMetaGrid.Create: X: [ -250 250 ], Y: [ -250 250 ]
 LOG  : General      f:0> World seed: XsyxnfpvNULhQoMw 246610147
-LOG  : General      f:0> IsoMetaGrid.Create: finished scanning directories in 1.332 seconds
+LOG  : General      f:0> IsoMetaGrid.Create: finished scanning directories in 0.975 seconds
 LOG  : General      f:0> IsoMetaGrid.Create: begin loading
 LOG  : General      f:0>     [Railroader] distributions: 18 loot rows added, 0 skipped, 0 withheld.
 LOG  : General      f:0>     [Railroader] distributions: train-handling manual in 12 list(s), GP7 journal in 2 list(s).
@@ -2291,12 +2398,12 @@ LOG  : General      f:0>     Merging distribution addon #    1
 LOG  : General      f:0>     Merging distribution addon #    2
 LOG  : General      f:0>     ###################################
 LOG  : General      f:0>     [PropaneCabinet] configured loot respawn (propanecabinet=blocked, propanecabinetauto=tank-only) in 693 rooms
+LOG  : General      f:0>     [TW] range FirearmRange=2.00 AllFirearmsRange=1.00 scripts+instances changed=0
 LOG  : General      f:0> [ZB] patching zombie.pathfind.PolygonalMap2.resolveCollision with 1 advice(s)
 LOG  : General      f:0> [ZB] hasMultipleSignatures: false, hasAllArguments: false, hasNoParamMethod: false, inferredTypes: null
-LOG  : General      f:0>     [TW] range FirearmRange=2.00 AllFirearmsRange=1.00 scripts+instances changed=0
-LOG  : General      f:0> [ZB] Transformed: zombie.pathfind.PolygonalMap2 (new load)
 LOG  : General      f:0>     [TW] loot zombies: 39 twins, 56 custom outfit entries, 0 vanilla definitions removed, 32 changed, 7 vanilla firearm parts kept apart; ZombieWeapons=1 VanillaFirearms=2 client=false
-LOG  : General      f:0> [Viewpoint] classes ahead: 6313 of 6314 listed loaded in 3818 ms
+LOG  : General      f:0> [ZB] Transformed: zombie.pathfind.PolygonalMap2 (new load)
+LOG  : General      f:0> [Viewpoint] classes ahead: 6313 of 6314 listed loaded in 4290 ms
 LOG  : General      f:0> [Viewpoint] target mask, Deadwood-Moody shader compile failed (shadow.vert): shadow.vert(99) : error C1103: too few parameters in function call
 
 LOG  : General      f:0> [Viewpoint] shaders ahead: target mask, Deadwood-Moody did not compile
@@ -2311,13 +2418,13 @@ light.frag(162) : error C7011: implicit cast from "float" to "vec3"
 light.frag(162) : error C1103: too few parameters in function call
 
 LOG  : General      f:0> [Viewpoint] shaders ahead: light, Deadwood-Moody did not compile
-LOG  : General      f:0> [Viewpoint] precip, Deadwood-Moody shader compile failed (precip.vert): precip.vert(229) : error C1503: undefined variable "precipSeen"
-
-LOG  : General      f:0> [Viewpoint] shaders ahead: precip, Deadwood-Moody did not compile
 LOG  : General      f:0> [Viewpoint] puddle, Deadwood-Moody shader compile failed (mesh.vert): lib/mesh_vertex.glsl(106) : error C1103: too few parameters in function call
 mesh.vert(35) : error C7623: implicit narrowing of type from "vec3" to "float"
 
 LOG  : General      f:0> [Viewpoint] shaders ahead: puddle, Deadwood-Moody did not compile
+LOG  : General      f:0> [Viewpoint] precip, Deadwood-Moody shader compile failed (precip.vert): precip.vert(229) : error C1503: undefined variable "precipSeen"
+
+LOG  : General      f:0> [Viewpoint] shaders ahead: precip, Deadwood-Moody did not compile
 LOG  : General      f:0> [Viewpoint] light, Deadwood-Vibrant shader compile failed (light.frag): light.frag(105) : error C1103: too few parameters in function call
 light.frag(162) : error C7011: implicit cast from "float" to "vec3"
 light.frag(162) : error C1103: too few parameters in function call
@@ -2327,6 +2434,10 @@ LOG  : General      f:0> [Viewpoint] gbuffer, Deadwood-Moody shader compile fail
 mesh.vert(35) : error C7623: implicit narrowing of type from "vec3" to "float"
 
 LOG  : General      f:0> [Viewpoint] shaders ahead: gbuffer, Deadwood-Moody did not compile
+LOG  : General      f:0>     [TW] range FirearmRange=2.00 AllFirearmsRange=1.00 scripts+instances changed=0
+LOG  : General      f:0>     [TW] loot: 7 missing procedural pools mapped, 0 source pools missing ()
+LOG  : General      f:0>     [TW] loot: 13 missing store rooms mapped, 0 source rooms missing ()
+LOG  : General      f:0>     [TW] loot: military pools: 5 weights changed, 0 missing (); share of a fill armystorage/militarycrate 0.214, armystorage/metal_shelves 0.106, armytent/locker 0.048, oldarmy/locker 0.048
 LOG  : General      f:0> [Viewpoint] forward, Deadwood-Moody shader compile failed (mesh.vert): lib/mesh_vertex.glsl(106) : error C1103: too few parameters in function call
 mesh.vert(35) : error C7623: implicit narrowing of type from "vec3" to "float"
 
@@ -2335,13 +2446,8 @@ LOG  : General      f:0> [Viewpoint] forward, Deadwood-Vibrant shader compile fa
 mesh.vert(35) : error C7623: implicit narrowing of type from "vec3" to "float"
 
 LOG  : General      f:0> [Viewpoint] shaders ahead: forward, Deadwood-Vibrant did not compile
-LOG  : General      f:0> [Viewpoint] shaders ahead: 10 programs compiled in 5.6 s, 8 at once on the driver's threads, 10 did not compile (above)
+LOG  : General      f:0> [Viewpoint] shaders ahead: 10 programs compiled in 5.4 s, 8 at once on the driver's threads, 10 did not compile (above)
 LOG  : General      f:0> [Viewpoint] mesh arena: buffer textures reach 268435456 texels, 2048 MiB of arena
-LOG  : General      f:0>     [TW] range FirearmRange=2.00 AllFirearmsRange=1.00 scripts+instances changed=0
-LOG  : General      f:0>     [TW] loot: 7 missing procedural pools mapped, 0 source pools missing ()
-LOG  : General      f:0>     [TW] loot: 13 missing store rooms mapped, 0 source rooms missing ()
-LOG  : General      f:0>     [TW] loot: military pools: 5 weights changed, 0 missing (); share of a fill armystorage/militarycrate 0.214, armystorage/metal_shelves 0.106, armytent/locker 0.048, oldarmy/locker 0.048
-LOG  : General      f:0> [Viewpoint] renderer started in 728 ms of the render thread (its slowest step, 8 of 20: 151 ms); 133 shader programs from disk, 0 linked from source
 LOG  : General      f:0>     [TW] loot: 218 lists, 1703 tickets (weight 422132586.17), 0 vanilla entries removed, 1684 halved, 1 malformed lists skipped; Loot=10 Guns=10 Ammo=10 Magazines=10 Parts=10 VanillaFirearms=2 VanillaAmmo=2
 LOG  : General      f:0>     [TW] loot tickets by kind: ammo:3030:box=652500.00, ammo:3030:carton=5000.00, ammo:3030:loose=25000.00, ammo:308:box=3394234.05, ammo:308:carton=5815.36, ammo:308:loose=193845.46, ammo:357:box=1315416.67, ammo:357:carton=2619.05, ammo:357:loose=7857.14, ammo:38:box=2050000.00, ammo:38:carton=5000.00, ammo:38:loose=232500.00, ammo:44:box=3876250.00, ammo:44:carton=5000.00, ammo:44:loose=215000.00, ammo:45:box=1264375.00, ammo:45:carton=2058.82, ammo:45:loose=86470.59, ammo:556:box=6411525.50, ammo:556:carton=12189.21, ammo:556:loose=316919.51, ammo:9mm:box=3828571.43, ammo:9mm:carton=5714.29, ammo:9mm:loose=1034285.71, ammo:shotgun:box=5407774.37, ammo:shotgun:carton=5043.00, ammo:shotgun:loose=2829121.62, handGrenades=1280000.00, light=316000.00, magPistol=4217500.00, magRifle=5220741.20, optics=10757281.53, other=2047224.99, pistol=104339505.48, rifle=54190994.22, shotgun=176714375.02, sniper=29858876.95
 LOG  : General      f:0>     [TW] loot order: 127 lists reordered, 6379 entries moved; AmmoFirst=true AttachmentsFirst=true
@@ -2374,6 +2480,7 @@ LOG  : General      f:0> SandboxOptions.load() end
 LOG  : General      f:0> ItemPickerJava.Parse() start
 LOG  : General      f:0> ItemPickerJava.Parse() end
 LOG  : General      f:0> LoadTileDefinitions start
+LOG  : General      f:0> [Viewpoint] renderer started in 702 ms of the render thread (its slowest step, 8 of 20: 144 ms); 133 shader programs from disk, 0 linked from source
 LOG  : General      f:0> LoadTileDefinitions end
 LOG  : General      f:0> triggerEvent OnLoadedTileDefinitions
 LOG  : General      f:0>     TrueSewers eau: eau d'egout buvable (sale, source infinie) : waterAmount=9999 taintedWater=true
@@ -2386,11 +2493,10 @@ LOG  : General      f:0> WeatherPeriod: Clearing existing stages...
 LOG  : General      f:0> WeatherPeriod: Pattern loaded!
 LOG  : General      f:0> GameTime.init() and load() end
 LOG  : General      f:0> ZomboidRadio.Init() start
-LOG  : General      f:0> [Viewpoint] video memory: 1 evictions (4 MiB) in 0.5 s, 6026 MiB of 12282 free
 LOG  : General      f:0> Attempting to load translation: TH
 LOG  : General      f:0> Attempting to load translation: TH
 LOG  : General      f:0>     [Project A-Life TH] Knox Radio: multiplayer hook installed (Thai radio lines via server command)
-LOG  : General      f:0>     scriptmanager = zombie.radio.scripting.RadioScriptManager@34ff8198, isNewGame = false
+LOG  : General      f:0>     scriptmanager = zombie.radio.scripting.RadioScriptManager@6ae5a2ef, isNewGame = false
 LOG  : General      f:0>     name = Automated Emergency Broadcast System, freq = 98200, cat = Emergency, uuid = EMRG-711984
 LOG  : General      f:0>     [ALIFE-RADIO] Field Band ready on 143.4 MHz
 LOG  : General      f:0> Radio Loading channels...
@@ -2865,8 +2971,10 @@ LOG  : General      f:0> GameEntityManager.Init() start
 LOG  : General      f:0> GameEntityManager.Init() end
 LOG  : General      f:0> PersistentOutfits.init() start
 LOG  : General      f:0> PersistentOutfits.init() end
-LOG  : General      f:0> IsoMetaGrid.Create: finished loading in 12.55 seconds
-LOG  : General      f:0> [Viewpoint] sound files: 2349 decoded ahead in 20439 ms (128 MiB), 5076 left to the game's first play, 0 failed
+LOG  : General      f:0> IsoMetaGrid.Create: finished loading in 11.767 seconds
+LOG  : General      f:0> [Viewpoint] video memory: 1 evictions (2 MiB) in 0.7 s, 6088 MiB of 12282 free
+LOG  : General      f:0> [Viewpoint] video memory: 1 evictions (2 MiB) in 0.5 s, 5000 MiB of 12282 free
+LOG  : General      f:0> [Viewpoint] sound files: 2349 decoded ahead in 21804 ms (128 MiB), 5076 left to the game's first play, 0 failed
 LOG  : General      f:0> [RealLimbs] graph: reallimbs/rlfall added, 43 states can now stumble (5/6 exits)
 ERROR: Lua          f:0 at Lua(Vanilla).handleMannequinZone    > ERROR: Mannequin zone missing properties in media/maps/Muldraugh, KY/objects.lua coords: 13583, 1299, 0
 WARN : Lua          f:0 at Lua(Vanilla).doMapZones             > can't find map objects file: media/maps/West Point, KY/objects.lua
@@ -2981,8 +3089,7 @@ LOG  : General      f:0> MapItem.LoadWorldMap() start
 LOG  : General      f:0> MapItem.LoadWorldMap() start
 LOG  : General      f:0> WorldStreamer.isBusy() loop start
 LOG  : General      f:0> WorldStreamer.isBusy() loop end
-LOG  : General      f:0> [Viewpoint] far world: terrain relief 4993 x 4033 nodes smoothed over 32 squares at 0.5 times its height, 629125 nodes at the map's water, 10075 buildings and the lots on 5845 pads, roads along 1098 streets, as fitted here before for these map files, in 6672 ms
-LOG  : General      f:0> [Viewpoint] video memory: 1 evictions (2 MiB) in 0.5 s, 3134 MiB of 12282 free
+LOG  : General      f:0> [Viewpoint] far world: terrain relief 4993 x 4033 nodes smoothed over 32 squares at 0.5 times its height, 629125 nodes at the map's water, 10075 buildings and the lots on 5845 pads, roads along 1098 streets, as fitted here before for these map files, in 6848 ms
 LOG  : General      f:0> MetaTracker.load() start
 LOG  : General      f:0> MetaTracker.load() end
 LOG  : General      f:0> triggerEvent OnGameTimeLoaded
@@ -2994,7 +3101,7 @@ LOG  : General      f:0> FBORenderChunkManager.gameLoaded() start
 LOG  : General      f:0> FBORenderChunkManager.gameLoaded() end
 LOG  : General      f:0> Bullet.initPhysicsMeshes() start
 LOG  : General      f:0> Bullet.initPhysicsMeshes() end
-LOG  : General      f:0> game loading took 86 seconds
+LOG  : General      f:0> game loading took 91 seconds
 LOG  : General      f:0> [Viewpoint] the world being built behind the loading screen
 LOG  : General      f:0> [TWZB] Viewpoint 0.1.7 (2026-11-15) sha256=8d0d5a73227d3ba0724cab076f621435ebaed8ed2c73bfaf7d32a90b0a249e1f: bridge on (43 members, optional missing [viewpoint.render.SceneData.torchCount, viewpoint.render.SceneData.TORCH_STRIDE, viewpoint.render.SceneData.MAX_TORCHES]); load order: after Viewpoint
 LOG  : General      f:0> [Viewpoint] grass atlas: 92 of 120 of the game's grass sprites
@@ -3006,60 +3113,85 @@ LOG  : General      f:0> [Viewpoint] the night sky uploaded
 LOG  : General      f:0> [Viewpoint] the air's tables uploaded
 LOG  : General      f:0> [Visceral] wounds on texture units 190 and 191
 LOG  : General      f:0> [TWZB] Viewpoint crosshair pick: MousePick reads through 1 pixel-pack buffer(s) and one fence polled without waiting; each aim hit is tagged with the frame its read requested, a hit read before a vehicle enter/exit is dropped (no frame count)
-LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.white_door_w_se (source fixtures_doors_01_2)
-LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.white_door_n_sw (source fixtures_doors_01_3)
-LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.glass_white_door_w_se (source fixtures_doors_01_46)
+LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.door_grey_metal_door_w_se (source fixtures_doors_01_52)
+LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.door_tan_flush_door_w_se (source fixtures_doors_01_64)
+LOG  : General      f:0> [VPVParts] shown hook reached; layout verified; vehicle submodels only
+LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.glass_black_stack_door_pair_left_n (source fixtures_doors_02_41)
+LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.glass_black_stack_door_pair_right_n (source fixtures_doors_02_45)
 LOG  : General      f:0> [ShelfContents3D] 372 kinds of furniture with boards
+LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.glass_black_full_door_n_sw (source fixtures_doors_01_41)
+LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.glass_beige_upper_door_n_sw (source fixtures_doors_01_17)
+LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.stall_purple_fixtures_bathroom_01_48 (source fixtures_bathroom_01_48)
+LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.door_short_brown_fixtures_doors_02_18 (source fixtures_doors_02_16)
+LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.door_tan_flush_door_n_sw (source fixtures_doors_01_65)
 LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.glass_beige_upper_door_w_se (source fixtures_doors_01_16)
-LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.cream_door_w_se (source fixtures_doors_01_56)
-LOG  : General      f:0> [Viewpoint] process memory jumped +357 MiB in 0.5 s: 24411 MiB committed, 14659 MiB of the system's commit left
-LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.glass_four_door_n_sw (source fixtures_doors_02_5)
-LOG  : General      f:0> [Viewpoint] map layout differs at 8080,11943,1: flags map -61 game -61, passes map 0004440004 game 0000000004, room map -1 game -1
-LOG  : General      f:0> [Viewpoint] map layout differs at 8081,11943,1: flags map -61 game -61, passes map 0004440004 game 0000000004, room map -1 game -1
-LOG  : General      f:0> [Viewpoint] map layout differs at 8082,11943,1: flags map -61 game -61, passes map 0004440004 game 0000000004, room map -1 game -1
-LOG  : General      f:0> [Viewpoint] map layout differs at 8083,11943,1: flags map -61 game -61, passes map 0000040000 game 0000000000, room map -1 game -1
+LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.glass_black_full_door_w_se (source fixtures_doors_01_40)
+LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.stall_purple_fixtures_bathroom_01_49 (source fixtures_bathroom_01_49)
+LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.door_grey_metal_door_n_sw (source fixtures_doors_01_53)
+LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.garage_native_red_windows_garage_n_0_closed (source walls_garage_02_35)
+LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.garage_native_red_windows_garage_n_1_closed (source walls_garage_02_36)
+LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.garage_native_red_windows_garage_n_2_closed (source walls_garage_02_37)
+LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.garage_native_grey_windows_garage_n_0_closed (source walls_garage_02_51)
+LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.garage_native_grey_windows_garage_n_1_closed (source walls_garage_02_52)
+LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.garage_native_grey_windows_garage_n_2_closed (source walls_garage_02_53)
+LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.glass_white_door_w_se (source fixtures_doors_01_44)
 LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.cream_door_n_sw (source fixtures_doors_01_57)
-LOG  : General      f:0> [Viewpoint] map layout differs at 8071,11931,0: flags map -61 game -61, passes map 0444000000 game 0400000000, room map -1 game -1
-LOG  : General      f:0> [Viewpoint] map layout differs at 8071,11932,0: flags map -61 game -61, passes map 0444000000 game 0000000000, room map -1 game -1
-LOG  : General      f:0> [Viewpoint] map layout differs at 8071,11933,0: flags map -61 game -61, passes map 0444000000 game 0004000000, room map -1 game -1
-LOG  : General      f:0> [Viewpoint] map layout differs at 8071,11934,0: flags map -61 game -61, passes map 0444000000 game 0404000000, room map -1 game -1
-LOG  : General      f:0> [Viewpoint] map layout differs at 8071,11935,0: flags map -61 game -61, passes map 0424000000 game 0020000000, room map -1 game -1
-LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.oak_door_w_se (source fixtures_doors_01_4)
-LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.oak_door_n_sw (source fixtures_doors_01_5)
-LOG  : General      f:0> [Viewpoint] map layout differs at 8072,11936,0: flags map 1 game 1, passes map 0000044440 game 0000000240, room map 12947982072676352 game 12947982072676352
-LOG  : General      f:0> [Viewpoint] map layout differs at 8079,11936,0: flags map 1 game 1, passes map 4400044440 game 0000044440, room map 12947982072676353 game 12947982072676353
-LOG  : General      f:0> [Viewpoint] map layout differs at 8072,11937,0: flags map 1 game 1, passes map 0004444440 game 0004440040, room map 12947982072676352 game 12947982072676352
-LOG  : General      f:0> [Viewpoint] map layout differs at 8072,11938,0: flags map 1 game 1, passes map 0404444440 game 0404440040, room map 12947982072676352 game 12947982072676352
-LOG  : General      f:0> [Viewpoint] map layout differs at 8079,11938,0: flags map 1 game 1, passes map 4400044440 game 4400144440, room map 12947982072676356 game 12947982072676356
-LOG  : General      f:0> [Viewpoint] map layout differs at 8078,11939,0: flags map 1 game 1, passes map 0444000040 game 0404000040, room map 12947982072676352 game 12947982072676352
-LOG  : General      f:0> [Viewpoint] map layout differs at 8079,11939,0: flags map 1 game 1, passes map 0000044440 game 1100040440, room map 12947982072676356 game 12947982072676356
-LOG  : General      f:0> [Viewpoint] map layout differs at 8077,11943,0: flags map 1 game 1, passes map 4404444440 game 4402044440, room map 12947982072676355 game 12947982072676355
-LOG  : General      f:0> [Viewpoint] map layout differs at 8078,11943,0: flags map 1 game 1, passes map 0004240440 game 0000200440, room map 12947982072676355 game 12947982072676355
-LOG  : General      f:0> [Viewpoint] map layout differs at 8079,11943,0: flags map 1 game 1, passes map 0004440040 game 0000020040, room map 12947982072676355 game 12947982072676355
-LOG  : General      f:0> [Viewpoint] map layout differs at 8076,11943,1: flags map -61 game -61, passes map 0004000000 game 0000000000, room map -1 game -1
-LOG  : General      f:0> [Viewpoint] map layout differs at 8077,11943,1: flags map -61 game -61, passes map 0004440004 game 0000000004, room map -1 game -1
-LOG  : General      f:0> [Viewpoint] map layout differs at 8078,11943,1: flags map -61 game -61, passes map 0004440004 game 0000000004, room map -1 game -1
-LOG  : General      f:0> [Viewpoint] map layout differs at 8079,11943,1: flags map -61 game -61, passes map 0004440004 game 0000000004, room map -1 game -1
-LOG  : General      f:0> [Viewpoint] map layout differs at 8055,11897,0: flags map -61 game -61, passes map 0004000000 game 0000000000, room map -1 game -1
-LOG  : General      f:0> [Viewpoint] map layout differs at 8055,11898,0: flags map -61 game -61, passes map 0444000000 game 0404000000, room map -1 game -1
-LOG  : General      f:0> [Viewpoint] map layout differs at 8055,11899,0: flags map -61 game -61, passes map 0400000000 game 0000000000, room map -1 game -1
-LOG  : General      f:0> [Viewpoint] map layout differs at 8080,11944,0: flags map -61 game -61, passes map 4400000400 game 0400000000, room map -1 game -1
-LOG  : General      f:0> [Viewpoint] map layout differs at 8081,11944,0: flags map -61 game -61, passes map 2400000400 game 4400000400, room map -1 game -1
-LOG  : General      f:0> [Viewpoint] map layout differs at 8082,11944,0: flags map -61 game -61, passes map 4400000400 game 0400000400, room map -1 game -1
-LOG  : General      f:0> [Viewpoint] map layout differs at 8080,11944,1: flags map -61 game -61, passes map 4400000400 game 0000000000, room map -1 game -1
-LOG  : General      f:0> [Viewpoint] map layout differs at 8081,11944,1: flags map -61 game -61, passes map 4400000400 game 0000000000, room map -1 game -1
-LOG  : General      f:0> [Viewpoint] map layout differs at 8082,11944,1: flags map -61 game -61, passes map 4400000400 game 0000000000, room map -1 game -1
-LOG  : General      f:0> [Viewpoint] map layout differs at 8083,11944,1: flags map -61 game -61, passes map 0000000400 game 0000000000, room map -1 game -1
-LOG  : General      f:0> [Viewpoint] map layout differs at 8055,11892,0: flags map -61 game -61, passes map 0004000000 game 0000000000, room map -1 game -1
-LOG  : General      f:0> [Viewpoint] map layout differs at 8055,11893,0: flags map -61 game -61, passes map 0444000000 game 0404000000, room map -1 game -1
-LOG  : General      f:0> [Viewpoint] map layout differs at 8055,11894,0: flags map -61 game -61, passes map 0400000000 game 0000000000, room map -1 game -1
-LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.gate_carpentry_fixtures_doors_fences_01_4 (source fixtures_doors_fences_01_4)
-LOG  : General      f:0> [Viewpoint] map layout differs at 8071,11936,0: flags map -61 game -61, passes map 0444000000 game 0200000000, room map -1 game -1
-LOG  : General      f:0> [Viewpoint] map layout differs at 8071,11937,0: flags map -61 game -61, passes map 0444000000 game 0000000000, room map -1 game -1
-LOG  : General      f:0> [Viewpoint] map layout differs at 8071,11938,0: flags map -61 game -61, passes map 0444000000 game 0404000000, room map -1 game -1
-LOG  : General      f:0> [Viewpoint] map layout differs at 8077,11944,0: flags map -61 game -61, passes map 4400000400 game 0200000400, room map -1 game -1
+LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.glass_white_door_n_sw (source fixtures_doors_01_45)
+LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.glass_black_stack_door_pair_right_w (source fixtures_doors_02_40)
+LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.glass_black_stack_door_pair_left_w (source fixtures_doors_02_44)
+LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.glass_black_vision_door_n_sw (source fixtures_doors_01_21)
+LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.glass_black_stack_door_n_sw (source fixtures_doors_01_49)
+LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.door_service_red_door_w_se (source fixtures_doors_02_8)
+LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.stall_rose_fixtures_bathroom_01_48 (source fixtures_bathroom_01_64)
+LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.glass_black_vision_door_w_se (source fixtures_doors_01_20)
+LOG  : General      f:0> [Viewpoint] process memory jumped +333 MiB in 0.5 s: 24280 MiB committed, 14760 MiB of the system's commit left
+LOG  : General      f:0> [Viewpoint] map layout differs at 8056,11728,0: flags map 1 game 1, passes map 4400044440 game 0000000040, room map 12666507095966040 game 12666507095966040
+LOG  : General      f:0> [Viewpoint] map layout differs at 8057,11728,0: flags map 1 game 1, passes map 4400000440 game 0000000040, room map 12666507095966040 game 12666507095966040
+LOG  : General      f:0> [Viewpoint] map layout differs at 8058,11728,0: flags map 1 game 1, passes map 4400000440 game 0000000040, room map 12666507095966040 game 12666507095966040
+LOG  : General      f:0> [Viewpoint] map layout differs at 8059,11728,0: flags map 1 game 1, passes map 0444000440 game 0444000040, room map 12666507095966040 game 12666507095966040
+LOG  : General      f:0> [Viewpoint] map layout differs at 8056,11729,0: flags map 1 game 1, passes map 0000044440 game 0000000040, room map 12666507095966040 game 12666507095966040
+LOG  : General      f:0> [Viewpoint] map layout differs at 8056,11730,0: flags map 1 game 1, passes map 0000000440 game 0000000040, room map 12666507095966040 game 12666507095966040
+LOG  : General      f:0> [Viewpoint] map layout differs at 8122,11744,0: flags map -127 game -127, passes map 4400000440 game 0400000440, room map -1 game -1
+LOG  : General      f:0> [Viewpoint] map layout differs at 8126,11744,0: flags map -127 game -127, passes map 4444000440 game 0444000440, room map -1 game -1
+LOG  : General      f:0> [Viewpoint] map layout differs at 8127,11749,0: flags map 1 game 1, passes map 4444044440 game 4400044440, room map 12666507095966061 game 12666507095966061
+LOG  : General      f:0> [Viewpoint] map layout differs at 8127,11750,0: flags map 1 game 1, passes map 0444444440 game 0004444440, room map 12666507095966061 game 12666507095966061
+LOG  : General      f:0> [Viewpoint] map layout differs at 8056,11735,1: flags map -61 game -61, passes map 4400044404 game 4400000404, room map -1 game -1
+LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.security_keypad_door_n_sw (source fixtures_doors_01_33)
+LOG  : General      f:0> [Viewpoint] map layout differs at 8048,11752,0: flags map 1 game 1, passes map 0000044440 game 0000000040, room map 12666507095966020 game 12666507095966020
+LOG  : General      f:0> [Viewpoint] map layout differs at 8048,11753,0: flags map 1 game 1, passes map 0000044440 game 0000000040, room map 12666507095966020 game 12666507095966020
+LOG  : General      f:0> [Viewpoint] map layout differs at 8048,11754,0: flags map 1 game 1, passes map 0004444440 game 0004440040, room map 12666507095966020 game 12666507095966020
+LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.prison_bars_door_w_se (source location_community_police_01_4)
+LOG  : General      f:0> [Viewpoint] map layout differs at 8048,11744,0: flags map 1 game 1, passes map 4400044440 game 0400000040, room map 12666507095966043 game 12666507095966043
+LOG  : General      f:0> [Viewpoint] map layout differs at 8050,11744,0: flags map 1 game 1, passes map 4400000440 game 0400000440, room map 12666507095966043 game 12666507095966043
+LOG  : General      f:0> [Viewpoint] map layout differs at 8048,11745,0: flags map 1 game 1, passes map 0004444440 game 0004440040, room map 12666507095966043 game 12666507095966043
+LOG  : General      f:0> [Viewpoint] map layout differs at 8048,11746,0: flags map 1 game 1, passes map 4400044440 game 4400000440, room map 12666507095966027 game 12666507095966027
+LOG  : General      f:0> [Viewpoint] map layout differs at 8048,11747,0: flags map 1 game 1, passes map 0004044440 game 0004000040, room map 12666507095966027 game 12666507095966027
+LOG  : General      f:0> [Viewpoint] map layout differs at 8048,11748,0: flags map 1 game 1, passes map 0444044440 game 0444000040, room map 12666507095966027 game 12666507095966027
+LOG  : General      f:0> [Viewpoint] map layout differs at 8048,11749,0: flags map 1 game 1, passes map 0444444440 game 0444440040, room map 12666507095966027 game 12666507095966027
+LOG  : General      f:0> [Viewpoint] map layout differs at 8048,11750,0: flags map 1 game 1, passes map 4400044440 game 4400000440, room map 12666507095966020 game 12666507095966020
+LOG  : General      f:0> [Viewpoint] map layout differs at 8048,11751,0: flags map 1 game 1, passes map 0000044440 game 0000000040, room map 12666507095966020 game 12666507095966020
+LOG  : General      f:0> [Viewpoint] map layout differs at 8052,11744,1: flags map -61 game -61, passes map 0400000004 game 0000000004, room map -1 game -1
+LOG  : General      f:0> [Viewpoint] map layout differs at 8053,11744,1: flags map -61 game -61, passes map 4400000404 game 0400000404, room map -1 game -1
+LOG  : General      f:0> [Viewpoint] map layout differs at 8054,11744,1: flags map -61 game -61, passes map 0000000404 game 0000000004, room map -1 game -1
+LOG  : General      f:0> [Viewpoint] map layout differs at 8054,11770,0: flags map -61 game -61, passes map 0000000000 game 0000000004, room map -1 game -1
+LOG  : General      f:0> [Viewpoint] map layout differs at 8055,11770,0: flags map -61 game -61, passes map 0000000000 game 0000000004, room map -1 game -1
+LOG  : General      f:0> [Viewpoint] map layout differs at 8054,11771,0: flags map -61 game -61, passes map 0000000000 game 0000000004, room map -1 game -1
+LOG  : General      f:0> [Viewpoint] map layout differs at 8055,11771,0: flags map -61 game -61, passes map 0000000000 game 0000000004, room map -1 game -1
+LOG  : General      f:0> [Viewpoint] map layout differs at 8054,11772,0: flags map -61 game -61, passes map 0000000000 game 0000000004, room map -1 game -1
+LOG  : General      f:0> [Viewpoint] map layout differs at 8055,11772,0: flags map -61 game -61, passes map 0000000000 game 0000000004, room map -1 game -1
+LOG  : General      f:0> [Viewpoint] map layout differs at 8054,11773,0: flags map -61 game -61, passes map 0000000000 game 0000000004, room map -1 game -1
+LOG  : General      f:0> [Viewpoint] map layout differs at 8055,11773,0: flags map -61 game -61, passes map 0000000000 game 0000000004, room map -1 game -1
+LOG  : General      f:0> [Viewpoint] map layout differs at 8054,11774,0: flags map -61 game -61, passes map 0000000000 game 0000000004, room map -1 game -1
+LOG  : General      f:0> [Viewpoint] map layout differs at 8055,11774,0: flags map -61 game -61, passes map 0000000000 game 0000000004, room map -1 game -1
+LOG  : General      f:0> [Viewpoint] map layout differs at 8054,11775,0: flags map -61 game -61, passes map 0000000000 game 0000000004, room map -1 game -1
+LOG  : General      f:0> [Viewpoint] map layout differs at 8055,11775,0: flags map -61 game -61, passes map 0000000000 game 0000000004, room map -1 game -1
+LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.security_keypad_door_w_se (source fixtures_doors_01_32)
+LOG  : General      f:0> [Viewpoint] map layout differs at 8056,11727,0: flags map 1 game 1, passes map 0004440040 game 0000000040, room map 12666507095966040 game 12666507095966040
+LOG  : General      f:0> [Viewpoint] map layout differs at 8057,11727,0: flags map 1 game 1, passes map 0004440040 game 0000000040, room map 12666507095966040 game 12666507095966040
+LOG  : General      f:0> [BasileDoors3D] Original door render selected: BasileDoors3D.door_service_red_door_n_sw (source fixtures_doors_02_9)
+LOG  : General      f:0> [Viewpoint] process memory jumped +290 MiB in 0.5 s: 24571 MiB committed, 14477 MiB of the system's commit left
 LOG  : General      f:0> [Viewpoint] light atlas grown to 6528 grids
-LOG  : General      f:0> [Viewpoint] the world whole behind the loading screen after 7.3 s and 1146 frames
+LOG  : General      f:0> [Viewpoint] the world whole behind the loading screen after 5.0 s and 399 frames
 LOG  : General      f:0> STATE: exit zombie.gameStates.GameLoadingState
 LOG  : General      f:0>     1 players found
 LOG  : General      f:0>     player 0 is mouse
@@ -6697,7 +6829,7 @@ LOG  : General      f:0>     [LiveWristwatch] rolled sleeves: model tops ready: 
 LOG  : General      f:0>     [LiveWristwatch] rolled sleeves: texture tops ready: 41
 LOG  : General      f:0>     [AttackHeli] Schedule: next helicopter day 6 (9:00-13:00), nights survived 17, passes so far that day: 1
 LOG  : General      f:0>     [TW] range FirearmRange=2.00 AllFirearmsRange=1.00 scripts+instances changed=0
-LOG  : General      f:0>     [Railroader] BUILD: 3.2.0   release 14.11 (2026-11-14)
+LOG  : General      f:0>     [Railroader] BUILD: 3.2.0 � release 14.11 (2026-11-14)
 LOG  : General      f:0>     [Railroader] track registry: OnRailroaderRegisterTrack fired (OnGameStart); 0 prefix(es) registered
 LOG  : General      f:0>     [ALifeSurvivorStudio] followers keep their nerve: 7 A-Life fear check(s) wrapped
 LOG  : General      f:0>     [ALifeTalkLLM] settings: ambient=true every 20-40s, cooldown 120s
@@ -6859,7 +6991,7 @@ LOG  : General      f:0>     [ViewpointRightClick] ready: on, up to 5.0 tiles
 LOG  : General      f:0>     [ImmersiveDrivingCamera] settings applied; follow vehicle rotation=true
 LOG  : General      f:0>     [New Music] [v2026.08.23.1] side=client
 LOG  : General      f:0>     [VPVParts] Lua mod active in this save. Look for Java loaded and shown hook reached messages.
-LOG  : General      f:0>     [VitalSigns] start: build 1.0.10-dev1, game 42.22.2 3d39148846 classpath=1113,agents=1, debug false, Better Bodies off, Last Ones Standing off, Wound Expansion off, Wounds Overhaul off, key \, talk 2, hide icons true, slip 2, paper inventory true, character window in notebook false, diary true, last page true, notes need a pen false
+LOG  : General      f:0>     [VitalSigns] start: build 1.0.10-dev1, game 42.22.2 3d39148846 classpath=1113,agents=1, debug false, Better Bodies off, Last Ones Standing off, Wound Expansion off, Wounds Overhaul off, key ฃ, talk 2, hide icons true, slip 2, paper inventory true, character window in notebook false, diary true, last page true, notes need a pen false
 LOG  : General      f:0>     [VitalSigns] files found: art, font, text, tie-ins
 LOG  : General      f:0>     [VitalSigns] player: First Aid 0, Nutritionist true, doctor or nurse false, chattiness 1, build none, wounds 1, pages built 10, mod panels in the character window 1, exercise link true, ink black, game health window true, diary lines 44, something to write with false, inventory hint false
 LOG  : General      f:0>     [VitalSigns] KJ UI Overhaul off, steps aside for our paper windows and notebook false
@@ -6943,42 +7075,55 @@ LOG  : General      f:0>     [ALIFE-SETTINGS] old world signature requested=4 ef
 LOG  : General      f:0>     [ALIFE-VEH] scanned=423 usable=292 refused=131 modded=262 police=34 fire=8 ems=2 military=7 heavy=4 civilian=107 van=81 truck=49 utility=0
 LOG  : General      f:0>     [ALIFE-VEH] recognised 24 of 262 non-vanilla: Base.66pontiacGTO>barrier+civilian+wreck Base.66pontiacGTOconv>barrier+civilian+wreck Base.66pontiacLeMans>barrier+civilian+wreck Base.66pontiacLeMansConv>barrier+civilian+wreck Base.69charger440>barrier+civilian+wreck Base.69charger500>barrier+civilian+wreck Base.69chargerDaytona>barrier+civilian+wreck Base.69chargerDemon>barrier+civilian+wreck Base.69chargerRT>barrier+civilian+wreck Base.70chevelleCoupe>barrier+civilian+wreck Base.70chevelleCoupeSS>barrier+civilian+wreck Base.70chevelleCoupeSSL6>barrier+civilian+wreck Base.70chevelleSedan>barrier+civilian+wreck Base.70chevelleWagon>barrier+civilian+wreck Base.70chevelleWagonSS>barrier+civilian+wreck Base.70chevelleWagonSSnomad>barrier+civilian+wreck Base.70elCamino>barrier+civilian+wreck Base.70elCaminoSS>barrier+civilian+wreck Base.70roadRunner>barrier+civilian+wreck Base.71chevyc10offroadlbparkrangerLG>barrier+civilian+wreck Base.78lamboCountachLP400>barrier+civilian+wreck Base.78lamboCountachLP400S>barrier+civilian+wreck Base.78lamboCountachLP400Scb>barrier+civilian+wreck Base.80f350ambulanceFEMAas>ems
 LOG  : General      f:0>     [BPE] nests upstream=572 generated=0 overrides=0 dropped=0 ()
-LOG  : General      f:0> [Viewpoint] play started after 1753 frames behind the loading screen over 22.0 s, the world whole
+LOG  : General      f:0> [Viewpoint] play started after 333872 frames behind the loading screen over 1209.3 s, the world whole
 LOG  : General      f:0> [RealLimbs] graph (crawlers): reallimbs added, 13 states can now stumble (3 exits)
-LOG  : General      f:0> [Viewpoint] characters: LOG  : General      f:0> 24LOG  : General      f:0>  animation sets and action groups loaded with the game in LOG  : General      f:0> 5407LOG  : General      f:0>  msLOG  : General      f:0> 
+LOG  : General      f:0> [Viewpoint] characters: LOG  : General      f:0> 24LOG  : General      f:0>  animation sets and action groups loaded with the game in LOG  : General      f:0> 4807LOG  : General      f:0>  msLOG  : General      f:0> 
 LOG  : General      f:0> [Viewpoint] Bob_WalkNoAim1Hand_DiagR: its root motion turned to the right
 LOG  : General      f:0> [TWZB] GL environment: GL_VERSION=4.6.0 NVIDIA 610.88 GLSL=4.60 NVIDIA useOpenGL21=false vpshim=false metalPath=false
-LOG  : General      f:0> [TWZB] shader warm-up done viewpoint=true totalMs=271.5 failed=0 programs=30 muzzle=23.9 barrelGlow=12.0 heatModel=16.1 heat=20.5 vehicleHeat=19.0 optic=30.2 reticle=11.3 frost=20.1 vpPass=9.4 vpMuzzle=9.3 vpBarrelGlow=9.0 vpHeatModel=13.8 vpSensor=19.7 vpSensorHeat=10.0 pip=24.5 rangefinder=8.4 seeThrough=14.3
+LOG  : General      f:0> [TWZB] shader warm-up done viewpoint=true totalMs=279.9 failed=0 programs=30 muzzle=24.3 barrelGlow=12.3 heatModel=15.6 heat=18.8 vehicleHeat=18.5 optic=22.5 reticle=10.2 frost=22.4 vpPass=10.0 vpMuzzle=9.1 vpBarrelGlow=10.4 vpHeatModel=17.3 vpSensor=24.2 vpSensorHeat=13.1 pip=29.5 rangefinder=9.6 seeThrough=12.2
 LOG  : General      f:0> [TW-SHOT] shot ABI ready; ABI=74 on
-LOG  : General      f:0> [Viewpoint] memory meters: first read in 8.25 ms (DXGI, NVIDIA GeForce RTX 4070 (LUID 0xD706), what is free from the GL driver)
-LOG  : General      f:0> [Viewpoint] setup's hardware check: NVIDIA GeForce RTX 4070/PCIe/SSE2 (NVIDIA Corporation), video memory 12010 MiB (1399 free, the game's process 6989), the game's textures 7602 MiB (compression off), its isometric chunk textures 0 MiB, memory 32509 MiB (4160 available, the game's process 15583 resident), heap 16384 MiB, 20 threads, 2560 x 1369; Viewpoint holds 616 MiB of memory, 1490 of video memory; advised Default, far world workers 4
+LOG  : General      f:0> [Viewpoint] memory meters: first read in 10.43 ms (DXGI, NVIDIA GeForce RTX 4070 (LUID 0xD706), what is free from the GL driver)
+LOG  : General      f:0> [Viewpoint] setup's hardware check: NVIDIA GeForce RTX 4070/PCIe/SSE2 (NVIDIA Corporation), video memory 12010 MiB (1097 free, the game's process 3457), the game's textures 7619 MiB (compression off), its isometric chunk textures 0 MiB, memory 32509 MiB (9000 available, the game's process 10868 resident), heap 16384 MiB, 20 threads, 2560 x 1369; Viewpoint holds 616 MiB of memory, 1490 of video memory; advised Default, far world workers 4
 LOG  : General      f:0> [Viewpoint] fixed tick: off, first person is not drawn decoupled (the isometric view, or debug.frameBetween off)
 LOG  : General      f:0>     [VVC][proto][srv] session local=true proto=3 schema=VVC_RagdollPose_4 syncRange=45
 LOG  : General      f:0>     [VVC][proto][srv] summary accepted=0 activeLeases=0 approved=0 clients=1 dropped=0 expired=0 failed=0 leases=0 mode=FIXED rejected=0 released=0
 LOG  : General      f:0>     [Knox] car radio: broadcast back, set volume 1
 LOG  : General      f:0> [VRAMSteady] last minute: 974 uploads, 0 MiB, 0 storage changes, 0 left to stock, 2 buffers
+LOG  : General      f:0> [Viewpoint] video memory: 14 evictions (180 MiB) in 0.9 s, 929 MiB of 12282 free
 LOG  : General      f:0>     [Knox] car radio: broadcast back, set volume 1
-LOG  : General      f:0> [CeilingLights] lamp under the roof at 8135.0,11899.0,0: 3.0760896 above the floor
-LOG  : General      f:0> [CeilingLights] lamp under the roof at 8135.0,11902.0,0: 2.9514616 above the floor
-LOG  : General      f:0> [CeilingLights] lamp under the roof at 8134.0,11905.5,0: 2.7750096 above the floor
-LOG  : General      f:0> [Viewpoint] memory meters: the Task Manager's counters read in 11.91 ms (read 1)
+LOG  : General      f:0> [Viewpoint] memory meters: the Task Manager's counters read in 18.41 ms (read 1)
 LOG  : General      f:0> [Viewpoint] memory meters: the card's memory from DXGI and the Task Manager's counters, NVIDIA GeForce RTX 4070 (LUID 0xD706)
-LOG  : General      f:0> [Viewpoint] memory meters: the Task Manager's counters read in 0.08 ms (read 2)
-LOG  : General      f:0> [Viewpoint] video memory: 15 evictions (92 MiB) in 0.5 s, 814 MiB of 12282 free
-LOG  : General      f:0> [Viewpoint] video memory: 29 evictions (245 MiB) in 0.5 s, 848 MiB of 12282 free
-LOG  : General      f:0> [Viewpoint] video memory: 23 evictions (218 MiB) in 0.5 s, 794 MiB of 12282 free
+LOG  : General      f:0> [Viewpoint] memory meters: the Task Manager's counters read in 0.06 ms (read 2)
+LOG  : General      f:0> [CeilingLights] lamp under the roof at 8124.5,11745.5,4: 2.4494896 above the floor
+LOG  : General      f:0> [Viewpoint] video memory: 11 evictions (38 MiB) in 0.5 s, 823 MiB of 12282 free
+LOG  : General      f:0> [Viewpoint] video memory: 47 evictions (242 MiB) in 0.5 s, 859 MiB of 12282 free
+LOG  : General      f:0> [Viewpoint] video memory: 33 evictions (173 MiB) in 0.5 s, 788 MiB of 12282 free
+LOG  : General      f:0> [CeilingLights] lamp under the roof at 8120.5,11696.5,1: 3.061862 above the floor
+LOG  : General      f:0> [CeilingLights] lamp under the roof at 8129.5,11696.5,1: 3.061862 above the floor
+LOG  : General      f:0> [Viewpoint] video memory: 30 evictions (240 MiB) in 0.5 s, 789 MiB of 12282 free
+LOG  : General      f:0> [Viewpoint] video memory: 7 evictions (88 MiB) in 0.6 s, 791 MiB of 12282 free
+LOG  : General      f:0> [Viewpoint] video memory: 5 evictions (10 MiB) in 0.5 s, 787 MiB of 12282 free
+LOG  : General      f:0> [Viewpoint] video memory: 1 evictions (2 MiB) in 0.5 s, 787 MiB of 12282 free
+LOG  : General      f:0> [Viewpoint] video memory: 1 evictions (2 MiB) in 0.5 s, 787 MiB of 12282 free
+LOG  : General      f:0> [Viewpoint] video memory: 1 evictions (2 MiB) in 0.5 s, 787 MiB of 12282 free
+LOG  : General      f:0> [Viewpoint] nearby models loaded ahead: 169 chunks, 592 asks, in 10.0 s of play
+LOG  : General      f:0> [Viewpoint] video memory: 1 evictions (2 MiB) in 0.5 s, 787 MiB of 12282 free
+LOG  : General      f:1> [ProjectViewpointParkour] ignoring another IsoPlayer object at 8073.2,11683.6 dead=false local=true
+LOG  : General      f:1> [ProjectViewpointParkour] ignoring another IsoPlayer object at 8073.2,11683.6 dead=false local=true
 LOG  : General      f:1> [ProjectViewpointParkour] jump mod: ViewpointSourceMovement
 LOG  : General      f:1> [ProjectViewpointParkour] status: z=0.00 fallSpeed=0.000 speed=0.0 climbKey=57 slideKey=46 grounded=true
 LOG  : General      f:1> [ProjectViewpointParkour] slide ready (crouch key 46, sneaking=false, enabled=true)
 LOG  : General      f:1> [ProjectViewpointParkour] ladders: ready
 LOG  : General      f:1> [ProjectViewpointParkour] injury check ready (legs fine, foot fine, pain 0, canSprint true): the fast sprint stays off while you limp or are in pain
 LOG  : General      f:1> [SourceMovement] Viewpoint found: viewpoint.core.View.enabled
+LOG  : General      f:1> [ProjectViewpointParkour] ignoring another IsoPlayer object at 8073.2,11683.6 dead=false local=true
 LOG  : General      f:1>     [ALIFE-JIMMY] residents: beds at base:11: 9 (area:13: 2.00 (last whole count; not all loaded here), area:14: 7.00 (last whole count; not all loaded here))
 LOG  : General      f:1>     [ALIFE-REP] store opened players=1 fresh=false
 LOG  : General      f:1>     [ALIFE-HP] npc health legacy=false percent=100 taken=130 regen=50
-LOG  : General      f:1>     [ALIFE-POLRADIO] car=252 script=Base.CarNormal day=17 roll=- result=not_police
+LOG  : General      f:1>     [ALIFE-POLRADIO] car=227 script=Base.CarNormal day=17 roll=- result=not_police
 LOG  : General      f:1>     [ALIFE-CARSWEEP] summary side=host rows=off/off/on/on/on/on scans=1 cars=0 free=0 swept=0 capped=0 squads=0 protected=0 (none) held=0 (none) flagged=0 released=0 refused=0 overflow=0 errors=0 last=none kept=0 (none)
 LOG  : General      f:1>     [RPG XP][SP] OnTick fired; isMultiplayer=false
+LOG  : General      f:1>     [ALifeHealth] NPC Overhaul cost per 5 s: 131 ms total; most: ALifeSignText 59 ms/634 calls (max 25), ALifeTalk_PausedTalk 24 ms/1595 calls (max 2), ALifeHover 20 ms/634 calls (max 4), ALifeAISetupLight 15 ms/634 calls (max 2), ALifeStatus 6 ms/634 calls (max 1)
 LOG  : General      f:1>     [ALifeUnderFire] hooked ProjectALife.ModuleGunner.whizz
 LOG  : General      f:1>     [ALifeFightTalk] hooked ProjectALife.Talk.onPlayerText
 LOG  : General      f:1>     [ALifeAmbush] hooked ProjectALife.ModuleCover.find (ambush spot on your way in)
@@ -7008,248 +7153,147 @@ LOG  : General      f:1>     [NMRadioAddon] Community Radio 4 on 92.2 MHz
 LOG  : General      f:1>     [NMRadioAddon] Community Radio 5 on 92.4 MHz
 LOG  : General      f:1>     [NMRadioAddon] Community Radio 6 on 92.6 MHz
 LOG  : General      f:1>     [NMRadioAddon] Community Radio 3: restored 206 track(s) from the previous session
-LOG  : General      f:1>     [NMRadioAddon] Community Radio 3 now playing UI_NMGreatestHits_GreatestHits4_Song_01 (NMGreatestHitsGreatestHits401) 1/206
+LOG  : General      f:1>     [NMRadioAddon] Community Radio 3 now playing UI_NMGreatestHits_GreatestHits9_Song_10 (NMGreatestHitsGreatestHits910) 1/206
 LOG  : General      f:1>     [SWMLang] ready: their lines in TH
 LOG  : General      f:1> [ShelfContents3D] square objects: java.util.List (java.util.List)
-LOG  : General      f:1> [Viewpoint] video memory: 8 evictions (64 MiB) in 1.5 s, 770 MiB of 12282 free
+LOG  : General      f:2> [ProjectViewpointParkour] ignoring another IsoPlayer object at 8073.2,11683.6 dead=false local=true
+LOG  : General      f:2> [ProjectViewpointParkour] ignoring another IsoPlayer object at 8073.2,11683.6 dead=false local=true
+LOG  : General      f:2> [ProjectViewpointParkour] ignoring another IsoPlayer object at 8073.2,11683.6 dead=false local=true
 LOG  : General      f:2>     PrawnsNoHeavyLoadDamage: not preventing right now for p0: Heavy Load moodle is level 0 (vanilla only damages you at 3+).
 LOG  : General      f:3>     [ALIFE-MAP] known=true towns=2 roads=2834 regions=14 mode=extended profile=none source=cache dynamic=2 zones=2888 buildings=0 near=- ms=0 cells=-250..250x-250..250 map="HavenFall;Macon;Raven Creek B42;HighriseClimberspawns;Rooftop;St. John's Dairy Farm;phuninteriors;Brandenburg, KY;Echo Creek, KY;Ekron, KY;Fallas Lake, KY;Irvington, KY;March Ridge, KY;Riverside, KY;Rosewood, KY;Valley Station, KY;West Point, KY;Muldraugh, KY"
+LOG  : General      f:3>     [ALIFE-OUTPOST] outpost_propose_refused site=? outside_city_cap
+LOG  : General      f:3>     [ALIFE-OUTPOST] build site=site:12 needed=? done=0 waiting=player_far
+LOG  : General      f:3>     [ALIFE-OUTPOST] build site=site:13 needed=? done=0 waiting=player_far
+LOG  : General      f:3>     [ALIFE-PERF] tick=311ms slowest=outposts:310ms
+LOG  : General      f:3> [Viewpoint] video memory: 6 evictions (17 MiB) in 0.8 s, 788 MiB of 12282 free
 LOG  : General      f:4> [RealLimbs] Viewpoint works out the zombies' skeletons itself: zombies in a body are left to Real Limbs (viewpointSkeletons)
 LOG  : General      f:4> [RealLimbs] body bound to a 35-bone skeleton
-LOG  : General      f:4>     [ALifeTalkPatch] settle: palife:1795024480134:227 home follows the base to 6935,8535 (cell:433:533)
-LOG  : General      f:4>     [ALifeTalkLLM] base repair: palife:1795024480134:227 home at the base restored
-LOG  : General      f:4>     [ALifeTalkPatch] settle: palife:1795025266209:239 home follows the base to 6935,8535 (cell:433:533)
-LOG  : General      f:4>     [ALifeTalkLLM] base repair: palife:1795025266209:239 home at the base restored
-LOG  : General      f:4>     [ALifeTalkLLM] Jeem Extension found: its People list is its own (memory.jimmyResident); API seen: ProjectALifeJimmyTH{} ProjectALifeJimmy{} ViewpointALifeJeem{}
+LOG  : General      f:4> [RealLimbs] body bound to a 35-bone skeleton
 LOG  : General      f:5>     [ALifeTalkLLM] probe 'heli1' unavailable in this game version; skipped from now on
-LOG  : General      f:5>     [ALIFE-OUTPOST] build site=site:12 needed=? done=0 waiting=player_far
-LOG  : General      f:5>     [ALIFE-OUTPOST] build site=site:13 needed=? done=0 waiting=player_far
 LOG  : General      f:5>     [ALIFE-OUTPOST] build site=site:14 needed=? done=50 waiting=player_far
+LOG  : General      f:6>     [ALifeTalkPatch] settle: palife:1795024480134:227 home follows the base to 6935,8535 (cell:433:533)
+LOG  : General      f:6>     [ALifeTalkLLM] base repair: palife:1795024480134:227 home at the base restored
+LOG  : General      f:6>     [ALifeTalkPatch] settle: palife:1795025266209:239 home follows the base to 6935,8535 (cell:433:533)
+LOG  : General      f:6>     [ALifeTalkLLM] base repair: palife:1795025266209:239 home at the base restored
+LOG  : General      f:6>     [ALifeTalkLLM] Jeem Extension found: its People list is its own (memory.jimmyResident); API seen: ProjectALifeJimmyTH{} ProjectALifeJimmy{} ViewpointALifeJeem{}
+LOG  : General      f:6> [Viewpoint] video memory: 2 evictions (12 MiB) in 0.5 s, 779 MiB of 12282 free
 LOG  : General      f:7>     [RPG Equipment][SP] equipped bonuses updated: none
-LOG  : General      f:10> [Viewpoint] video memory: 1 evictions (5 MiB) in 0.5 s, 737 MiB of 12282 free
 LOG  : General      f:13>     [WaterRestoration] regional bounds -256,0 to 20224,18176
 LOG  : General      f:13>     [WaterRestoration] regional network ready original-service zones=0
-LOG  : General      f:15>     [RPG Collector][SP] kill counter baseline=423
-LOG  : General      f:15>     [RPG XP][SP] client watcher active, recorded kills=423
-LOG  : General      f:20> [Viewpoint] video memory: 3 evictions (8 MiB) in 0.5 s, 729 MiB of 12282 free
+LOG  : General      f:13> [Viewpoint] video memory: 8 evictions (16 MiB) in 0.5 s, 784 MiB of 12282 free
+LOG  : General      f:15>     [RPG Collector][SP] kill counter baseline=424
+LOG  : General      f:15>     [RPG XP][SP] client watcher active, recorded kills=424
+LOG  : General      f:20> [Viewpoint] video memory: 7 evictions (14 MiB) in 0.5 s, 784 MiB of 12282 free
+LOG  : General      f:23> [Viewpoint] the isometric view left
+LOG  : General      f:23> [Viewpoint] compat: all 160 patch targets and 126 private members found
+LOG  : General      f:23> [Viewpoint] third person on
+LOG  : General      f:23> [ImmersiveDrivingCamera] Camera frame callback received: FrameFill.fill
+LOG  : General      f:23> [ImmersiveDrivingCamera] Waiting for vehicle camera: third-person view
+LOG  : General      f:23> [TWZB] OldPoint camera: not installed, nothing changes
+LOG  : General      f:23> [Visceral] zombies are posed by the game, not on the graphics card (Viewpoint's lod.livePoses and lod.bakedPoses held off while Visceral is on): the wounds need each zombie's skeleton
+LOG  : General      f:23> [ViewpointInteriors] 1.0.1 capture layout verified
+LOG  : General      f:23> [ViewpointInteriors] Base.CarNormal: AUTHORED CABIN RETAINED: no matching verified compatibility profile; no inferred overlay
+LOG  : General      f:23> [ViewpointInteriors] Base.92crownvicFBIunm: AUTHORED CABIN RETAINED: no matching verified compatibility profile; no inferred overlay
+LOG  : General      f:23> [ViewpointInteriors] Base.CarStationWagon2: AUTHORED CABIN RETAINED: no matching verified compatibility profile; no inferred overlay
+LOG  : General      f:23> [Viewpoint] headlights: the game's head lamp cone is a cosine of 0.75 (41 degrees each side); drawn 20 degrees each side (Debug, Headlights, Beam width)
+LOG  : General      f:23> [Viewpoint] fixed tick: on at 30 ticks a second
+LOG  : General      f:23> [ImmersiveDrivingCamera] camera hook received first call.
+LOG  : General      f:24> [Viewpoint] lamp shadows: 2 cubes of 256 texels a side, 3 MB
+LOG  : General      f:24> [Viewpoint] frame stream grown to 16 MB
+LOG  : General      f:24> [ProjectViewpointParkour] roofs: 776 tiles drawn as models in 2 model package(s) are stood on as the models, 67 of them turned and 544 moved sideways (of those, only the part still over the tile's own square); read in 20 ms
+LOG  : General      f:24>     [AttackHeli] View is now: third
+LOG  : General      f:24> [CeilingLights] first ceiling light at 8132.5,11733.0,1
+LOG  : General      f:25> [ImmersiveDrivingCamera] body movement active; spine and shoulders move, seated pelvis preserved. pitchDeg=0.03680254001169642 sideDeg=0.017449234016525 paletteBones=352
+LOG  : General      f:25> [ViewpointInteriors] Cabin material ready: D:\steam\steamapps\workshop\content\108600\3826550325\mods\ViewpointInteriors\42\media\textures\vehicles\VPI_Headliner_casual.png; GPU=1024x1024; addon texture loaded without global model size limit
+LOG  : General      f:25> [ViewpointInteriors] Cabin material ready: D:\steam\steamapps\workshop\content\108600\3826550325\mods\ViewpointInteriors\42\media\textures\vehicles\VPI_Dome.png; GPU=64x32; addon texture loaded without global model size limit
+LOG  : General      f:25> [Viewpoint] frame generation on: 2560 x 1369 from frames of 2560 x 1369
+LOG  : General      f:25> [Viewpoint] process memory jumped +3624 MiB in 38.9 s: 24209 MiB committed, 14945 MiB of the system's commit left
+LOG  : General      f:25> [Viewpoint] the isometric view's 53 chunk textures let go: 1.5 ms on the main thread, 37.6 ms on the render thread
+LOG  : General      f:25> [Viewpoint] video memory: 99 evictions (478 MiB) in 1.2 s, 1236 MiB of 12282 free
+LOG  : General      f:26> [Viewpoint] raccoonsow reaches 0.67275894 squares at size 1
+LOG  : General      f:26> [ViewpointInteriors] Cabin material ready: D:\steam\steamapps\workshop\content\108600\3826550325\mods\ViewpointInteriors\42\media\textures\vehicles\VPI_Cabin_casual.png; GPU=4096x4096; addon texture loaded without global model size limit
+LOG  : General      f:26> [Viewpoint] windscreen measured: 1.62 m across, 0.75 m up the glass (0.48 m high, 0.58 m deep)
+LOG  : General      f:27> [Viewpoint] frames between the game's: none while a frame holds pz.escapefromzomboidfirearms.zb.ViewpointPass$Batch
+LOG  : General      f:27> [Viewpoint] headlights: Base.CarNormal's lamps on its model's glass (37.2 ms): head left at 0.60 0.35 2.25 facing 0.16 -0.01 0.99, 0.19 across, 2 piece(s); head right at -0.64 0.35 2.25 facing -0.16 -0.01 0.99, 0.18 across, 2 piece(s); rear left at 0.52 0.27 -2.34 facing 0.03 0.21 -0.98, 0.32 across, 2 piece(s); rear right at -0.44 0.21 -2.36 facing -0.02 0.21 -0.98, 0.00 across, 1 piece(s)
+LOG  : General      f:27> [Viewpoint] headlights: Base.TrailerKI5utilityMedium's lamps on its model's glass (30.0 ms): head left none (on its box); head right none (on its box); rear left at 0.74 0.30 -1.01 facing 0.00 0.00 -1.00, 0.07 across, 1 piece(s); rear right at -0.74 0.30 -1.01 facing 0.00 0.00 -1.00, 0.07 across, 1 piece(s)
+LOG  : General      f:28> [ProjectViewpointParkour] status: z=0.00 fallSpeed=0.000 speed=0.0 climbKey=57 slideKey=46 grounded=true
+LOG  : General      f:28> [Viewpoint] headlights: Base.93chevySilveradoCClongfd's lamps on its model's glass (21.1 ms): head left at 0.57 0.48 2.69 facing 0.23 -0.04 0.97, 0.26 across, 1 piece(s); head right at -0.57 0.48 2.69 facing -0.23 -0.04 0.97, 0.26 across, 2 piece(s); rear left none (on its box); rear right none (on its box)
+LOG  : General      f:29> [ImmersiveDrivingCamera] head look active; head look follows gaze; head turns independently; driver grips preserved.
+LOG  : General      f:29> [Viewpoint] headlights: Base.70chevelleSedan's lamps on its model's glass (7.3 ms): head left at 0.58 0.42 2.07 facing -0.03 -0.11 0.99, 0.18 across, 1 piece(s); head right at -0.58 0.42 2.07 facing 0.00 -0.10 0.99, 0.18 across, 2 piece(s); rear left none (on its box); rear right none (on its box)
+LOG  : General      f:29> [Viewpoint] process memory jumped +258 MiB in 0.5 s: 24462 MiB committed, 14689 MiB of the system's commit left
 LOG  : General      f:30>     [ALIFE-RADIO] director running, band 143.4 MHz
 LOG  : General      f:30>     [VitalSigns] icons: the game's mood icons are hidden
 LOG  : General      f:30>     [VitalSigns] slip: on (fades)
-LOG  : General      f:30> [Viewpoint] video memory: 4 evictions (12 MiB) in 0.6 s, 733 MiB of 12282 free
-LOG  : General      f:31>     [ALifeTalkLLM] patch 1.2 hooks: shelter, leader commands, player orders
+LOG  : General      f:30> [Viewpoint] headlights: Base.SmallCar's lamps on its model's glass (4.6 ms): head left at 0.45 0.48 1.53 facing 0.10 0.58 0.81, 0.04 across, 1 piece(s) from the other side's texels; head right none (on its box); rear left none (on its box); rear right none (on its box)
+LOG  : General      f:31> [Viewpoint] headlights: Base.86oshkoshKYFD's lamps on its model's glass (8.2 ms): head left at 0.99 0.71 3.84 facing 0.00 0.00 1.00, 0.19 across, 1 piece(s); head right at -0.99 0.73 3.84 facing 0.00 0.00 1.00, 0.19 across, 1 piece(s); rear left at 0.60 1.70 -3.25 facing -0.05 0.35 -0.94, 0.04 across, 1 piece(s); rear right at -0.15 1.70 -3.25 facing -0.05 0.26 -0.96, 0.04 across, 1 piece(s) from the other side's texels
+LOG  : General      f:32> [Viewpoint] headlights: Base.VanSeats_Prison's lamps on its model's glass (3.3 ms): head left none (on its box); head right none (on its box); rear left none (on its box); rear right none (on its box)
+LOG  : General      f:33> [Viewpoint] headlights: Base.TrailerISOcontainerS2's lamps on its model's glass (31.1 ms): head left none (on its box); head right none (on its box); rear left none (on its box); rear right none (on its box)
+LOG  : General      f:34> [Viewpoint] headlights: Base.CarTaxi's lamps on its model's glass (3.3 ms): head left none (on its box); head right none (on its box); rear left at 0.42 0.18 -2.36 facing 0.02 0.20 -0.98, 0.22 across, 1 piece(s); rear right at -0.52 0.18 -2.35 facing -0.02 0.21 -0.98, 0.21 across, 2 piece(s)
+LOG  : General      f:35>     [ALifeTalkLLM] patch 1.2 hooks: shelter, leader commands, player orders
+LOG  : General      f:35>     [ALifeNotice] loot settings that fight "the world bleeds dry": Diminished Loot is 20 (recommended: None); Looted Buildings is 25 (recommended: None); A-Life's "Previously scavenged building rate" is 100 (recommended: 0)
+LOG  : General      f:35> [Viewpoint] disabled after error while drawing:
+LOG  : General      f:35> java.lang.IllegalStateException: looks: reading media/textures/clothes/Spongie/Jacket/Masks/ShortSleeve/ShortClosedMasks/Waist.png failed
+LOG  : General      f:35> 	at viewpoint.render.LookFiles.take(LookFiles.java:135)
+LOG  : General      f:35> 	at viewpoint.render.LookMasks.image(LookMasks.java:429)
+LOG  : General      f:35> 	at viewpoint.render.LookMasks.square(LookMasks.java:418)
+LOG  : General      f:35> 	at viewpoint.render.LookMasks.folder(LookMasks.java:181)
+LOG  : General      f:35> 	at viewpoint.render.LayeredLooks.resolved(LayeredLooks.java:182)
+LOG  : General      f:35> 	at viewpoint.render.LayeredLooks.prepare(LayeredLooks.java:84)
+LOG  : General      f:35> 	at viewpoint.render.ModelPass.prepare(ModelPass.java:142)
+LOG  : General      f:35> 	at viewpoint.render.WorldRenderer.begin(WorldRenderer.java:276)
+LOG  : General      f:35> 	at viewpoint.SceneDrawer.drawFrame(SceneDrawer.java:233)
+LOG  : General      f:35> 	at viewpoint.SceneDrawer.guarded(SceneDrawer.java:151)
+LOG  : General      f:35> 	at viewpoint.SceneDrawer.render(SceneDrawer.java:108)
+LOG  : General      f:35> 	at zombie.core.textures.TextureDraw$GenericDrawer.render(TextureDraw.java:1104)
+LOG  : General      f:35> 	at zombie.core.textures.TextureDraw.run(TextureDraw.java:500)
+LOG  : General      f:35> 	at zombie.core.SpriteRenderer$RingBuffer$StateRun.render(SpriteRenderer.java:1265)
+LOG  : General      f:35> 	at zombie.core.SpriteRenderer$RingBuffer.render(SpriteRenderer.java:1194)
+LOG  : General      f:35> 	at zombie.core.SpriteRenderer$RingBuffer.add(SpriteRenderer.java:876)
+LOG  : General      f:35> 	at zombie.core.SpriteRenderer.buildDrawBuffer(SpriteRenderer.java:411)
+LOG  : General      f:35> 	at zombie.core.SpriteRenderer.buildStateDrawBuffer(SpriteRenderer.java:469)
+LOG  : General      f:35> 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+LOG  : General      f:35> 	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+LOG  : General      f:35> 	at viewpoint.FrameBetween.play(FrameBetween.java:169)
+LOG  : General      f:35> 	at viewpoint.FrameBetween.taken(FrameBetween.java:135)
+LOG  : General      f:35> 	at viewpoint.Hooks.renderStateTaken(Hooks.java:575)
+LOG  : General      f:35> 	at zombie.core.SpriteRenderer.acquireStateForRendering(SpriteRenderer.java:685)
+LOG  : General      f:35> 	at zombie.core.opengl.RenderThread.lockStepRenderStep(RenderThread.java:265)
+LOG  : General      f:35> 	at zombie.core.opengl.RenderThread.renderStep(RenderThread.java:246)
+LOG  : General      f:35> 	at zombie.core.opengl.RenderThread.renderLoop(RenderThread.java:137)
+LOG  : General      f:35> 	at zombie.gameStates.MainScreenState.main(MainScreenState.java:340)
+LOG  : General      f:35> Caused by: java.io.UncheckedIOException: looks: reading D:\steam\steamapps\workshop\content\108600\2684285534\mods\Spongie Clothing\common\media\textures\clothes\Spongie\Jacket\Masks\ShortSleeve\ShortClosedMasks\Waist.png
+LOG  : General      f:35> 	at viewpoint.render.LookImage.read(LookImage.java:33)
+LOG  : General      f:35> 	at viewpoint.render.LookFiles.read(LookFiles.java:100)
+LOG  : General      f:35> 	at viewpoint.render.LookFiles.lambda$ask$0(LookFiles.java:91)
+LOG  : General      f:35> 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+LOG  : General      f:35> 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+LOG  : General      f:35> 	at java.base/java.lang.Thread.run(Unknown Source)
+LOG  : General      f:35> Caused by: java.io.IOException: Unsupported bit depth: 1
+LOG  : General      f:35> 	at zombie.core.textures.PNGDecoder.readIHDR(PNGDecoder.java:908)
+LOG  : General      f:35> 	at zombie.core.textures.PNGDecoder.<init>(PNGDecoder.java:142)
+LOG  : General      f:35> 	at viewpoint.render.LookImage.read(LookImage.java:26)
+LOG  : General      f:35> 	... 5 more
+LOG  : General      f:35> [Viewpoint] crashed while drawing: the crash window shows the report to send
+LOG  : General      f:35> [Viewpoint] headlights: Base.92crownvicFBIunm's lamps on its model's glass (7.1 ms): head left at 0.49 0.34 2.04 facing 0.24 0.46 0.85, 0.18 across, 1 piece(s); head right at -0.49 0.34 2.04 facing -0.24 0.46 0.85, 0.18 across, 1 piece(s); rear left at 0.62 0.38 -2.04 facing 0.48 0.13 -0.87, 0.17 across, 2 piece(s); rear right at -0.62 0.38 -2.04 facing -0.48 0.13 -0.87, 0.17 across, 2 piece(s)
+LOG  : General      f:35> [Viewpoint] frames between the game's: none while a frame holds zombie.iso.weather.fx.WeatherParticleDrawer
+LOG  : General      f:36>     [AttackHeli] View is now: isometric
+LOG  : General      f:36> [Viewpoint] fixed tick: off, first person is not drawn decoupled (the isometric view, or debug.frameBetween off)
 LOG  : General      f:40>     [ALifeTalkLLM] wrapped NpcOpinion.adjust (personality multipliers, interaction log, opinion popup)
-LOG  : General      f:53>     [ALIFE-OUTPOST] outpost_propose_refused site=? ground
-LOG  : General      f:53>     [ALIFE-PERF] tick=323ms slowest=outposts:322ms
-LOG  : General      f:65> [ProjectViewpointParkour] status: z=0.00 fallSpeed=0.000 speed=0.0 climbKey=57 slideKey=46 grounded=true
-LOG  : General      f:65> [Viewpoint] nearby models loaded ahead: 169 chunks, 117 asks, in 10.0 s of play
-LOG  : General      f:72>     [ALifeTalkLLM] last words clean-up: 0 row(s) about people who are alive removed
-LOG  : General      f:77> [Viewpoint] video memory: 1 evictions (4 MiB) in 0.5 s, 732 MiB of 12282 free
+LOG  : General      f:41> [Viewpoint] video memory: 88 evictions (189 MiB) in 0.5 s, 802 MiB of 12282 free
+LOG  : General      f:45>     [ALIFE-POPULATE] populate_town_scanned town=muldraugh key=- faction=- category=populate_town_scanned places=1222 distance=- reason=-
+LOG  : General      f:49>     [ALIFE-OFFLINE] offline_tasked squad=squad:557 rest at Fallas Lake town=town28 "Fallas Lake 3" region=Fallas Lake at=7111,8445
+LOG  : General      f:50> [Viewpoint] video memory: 2 evictions (4 MiB) in 0.6 s, 802 MiB of 12282 free
+LOG  : General      f:57>     [ALIFE-POPULATE] populate_town_scanned town=mc_6932_8240 key=- faction=- category=populate_town_scanned places=1222 distance=- reason=-
+LOG  : General      f:60>     [BridgeGunRules] EFZ runtime detected
+LOG  : General      f:60> [Viewpoint] video memory: 1 evictions (2 MiB) in 0.5 s, 795 MiB of 12282 free
+LOG  : General      f:75>     [ALIFE-OFFLINE] offline_tasked squad=squad:560 rest at West Point town=town36 "West Point" region=West Point at=11581,6916
+LOG  : General      f:77>     [ALifeTalkLLM] last words clean-up: 0 row(s) about people who are alive removed
 LOG  : General      f:83>     [SWMFight] fight style Normal
-LOG  : General      f:87>     [ALifeNotice] loot settings that fight "the world bleeds dry": Diminished Loot is 20 (recommended: None); Looted Buildings is 25 (recommended: None); A-Life's "Previously scavenged building rate" is 100 (recommended: 0)
-LOG  : General      f:90>     [A-Life] site fill light 1 at 8139,11841,0
-LOG  : General      f:90>     [A-Life] site fill light 2 at 8121,11825,0
-LOG  : General      f:90>     [A-Life] site fill light 3 at 8116,11841,0
-LOG  : General      f:109>     [BridgeGunRules] EFZ runtime detected
+LOG  : General      f:90>     [A-Life] site fill light 1 at 8121,11825,0
+LOG  : General      f:99>     [ALifeTalk][Keep] load: 110 people in the book (33 dead, 35 without an A-Life record -> shown as away); keepKnown=true patch=pre-1.0
+LOG  : General      f:99>     [ALIFE-POPULATE] populate_town_scanned town=echo_creek key=- faction=- category=populate_town_scanned places=1225 distance=- reason=-
+LOG  : General      f:104>     [ALIFE-OFFLINE] offline_tasked squad=squad:569 rest at Valley Station town=town39 "Valley Station" region=Valley Station at=13056,6031
+LOG  : General      f:118> [ProjectViewpointParkour] status: z=0.00 fallSpeed=0.000 speed=0.0 climbKey=57 slideKey=46 grounded=true
+LOG  : General      f:120>     [ImmersiveDrivingCamera] camera hook active
+LOG  : General      f:120>     [ImmersiveDrivingCamera] body movement active
 LOG  : General      f:120>     [Sim Life] smoother zombie checks on (her body every frame, other zombies ~2x a second)
-LOG  : General      f:122>     [ALifeTalkLLM] optional mods found: factionsExpanded, jeem, npcMap, sewers, survivorStudio
-LOG  : General      f:122>     [ALifeTalkLLM] note: ALifeTalkPatch is not enabled - shelter, orders, recruit following and betrayal actions stay off
-LOG  : General      f:123>     [ALIFE-POPULATE] populate_town_scanned town=rosewood key=- faction=- category=populate_town_scanned places=1155 distance=- reason=-
-LOG  : General      f:131>     [ALIFE-MODLOOT] classified weapons=487 ammo=77 magazines=101 clothing=948 excluded=2382 slices=131 busyMs=758
-LOG  : General      f:142>     [ALIFE-OFFLINE] offline_tasked squad=squad:568 scavenge Ekron town=town42 "Ekron" region=Ekron at=1020,9838
-LOG  : General      f:175>     [ALIFE-POPULATE] populate_town_scanned town=march_ridge key=- faction=- category=populate_town_scanned places=1157 distance=- reason=-
-LOG  : General      f:176>     [ALifeTalk][Keep] load: 110 people in the book (33 dead, 35 without an A-Life record -> shown as away); keepKnown=true patch=pre-1.0
-LOG  : General      f:188>     [ALIFE-POPULATE] populate_town_scanned town=fallas_lake key=- faction=- category=populate_town_scanned places=1159 distance=- reason=-
-LOG  : General      f:193>     [ALIFE-POPULATE] populate_town_scanned town=mc_7208_8320 key=- faction=- category=populate_town_scanned places=1159 distance=- reason=-
-LOG  : General      f:203> [ProjectViewpointParkour] status: z=0.00 fallSpeed=0.000 speed=0.0 climbKey=57 slideKey=46 grounded=true
-LOG  : General      f:208> [Viewpoint] video memory: 9 evictions (32 MiB) in 0.5 s, 745 MiB of 12282 free
-LOG  : General      f:217>     [ALIFE-OFFLINE] offline_tasked squad=squad:572 rest at Ekron town=town42 "Ekron" region=Ekron at=1020,9838
-LOG  : General      f:219>     [ALifeTalk][Keep] patch pre-1.0 keep active: 160 protected of 160 A-Life actors (0 dead), 3 keep marks, 26 squad members remembered; guarded paths: dormant_ttl, inside_player_base, outpost_expired
-LOG  : General      f:219>     [ALIFE-POPULATE] populate_town_scanned town=muldraugh key=- faction=- category=populate_town_scanned places=1165 distance=- reason=-
-LOG  : General      f:219>     [ALIFE-POPULATE] populate_town_scanned town=mc_6932_8240 key=- faction=- category=populate_town_scanned places=1165 distance=- reason=-
-LOG  : General      f:254>     [ALIFE-OFFLINE] offline_tasked squad=squad:573 scavenge Valley Station town=town39 "Valley Station" region=Valley Station at=13056,6031
-LOG  : General      f:254>     [ALIFE-OFFLINE] offline_tasked squad=squad:574 rest at Louisville town=town44 "Louisville" region=Louisville at=12600,1800
-LOG  : General      f:254>     [ALIFE-OFFLINE] offline_tasked squad=squad:575 rest at Ekron town=town42 "Ekron" region=Ekron at=1020,9838
-LOG  : General      f:286>     [ALIFE-OUTPOST] outpost_propose_refused site=? ground
-LOG  : General      f:297> [Viewpoint] the isometric view left
-LOG  : General      f:297> [Viewpoint] compat: all 160 patch targets and 126 private members found
-LOG  : General      f:297> [Viewpoint] third person on
-LOG  : General      f:297> [ImmersiveDrivingCamera] Camera frame callback received: FrameFill.fill
-LOG  : General      f:297> [ImmersiveDrivingCamera] Waiting for vehicle camera: third-person view
-LOG  : General      f:297> [TWZB] OldPoint camera: not installed, nothing changes
-LOG  : General      f:297> [Visceral] zombies are posed by the game, not on the graphics card (Viewpoint's lod.livePoses and lod.bakedPoses held off while Visceral is on): the wounds need each zombie's skeleton
-LOG  : General      f:297> [ViewpointInteriors] 1.0.1 capture layout verified
-LOG  : General      f:297> [ViewpointInteriors] Base.CarNormal: AUTHORED CABIN RETAINED: no matching verified compatibility profile; no inferred overlay
-LOG  : General      f:297> [Viewpoint] headlights: the game's head lamp cone is a cosine of 0.75 (41 degrees each side); drawn 20 degrees each side (Debug, Headlights, Beam width)
-LOG  : General      f:297> [Viewpoint] fixed tick: on at 30 ticks a second
-LOG  : General      f:297> [ImmersiveDrivingCamera] camera hook received first call.
-LOG  : General      f:297> [PV Door Impacts] already-loaded door geometry not rigidly weighted to one bone; skipped
-LOG  : General      f:298> [Viewpoint] lamp shadows: 2 cubes of 256 texels a side, 3 MB
-LOG  : General      f:298> [VPVParts] shown hook reached; layout verified; vehicle submodels only
-LOG  : General      f:298>     [AttackHeli] View is now: third
-LOG  : General      f:298> [ProjectViewpointParkour] roofs: 776 tiles drawn as models in 2 model package(s) are stood on as the models, 67 of them turned and 544 moved sideways (of those, only the part still over the tile's own square); read in 17 ms
-LOG  : General      f:298> [ImmersiveDrivingCamera] body movement active; spine and shoulders move, seated pelvis preserved. pitchDeg=-0.06515488871015075 sideDeg=0.011730104515083082 paletteBones=352
-LOG  : General      f:299> [ImmersiveDrivingCamera] head look active; head look follows gaze; head turns independently; driver grips preserved.
-LOG  : General      f:299> [ViewpointInteriors] Cabin material ready: D:\steam\steamapps\workshop\content\108600\3826550325\mods\ViewpointInteriors\42\media\textures\vehicles\VPI_Headliner_casual.png; GPU=1024x1024; addon texture loaded without global model size limit
-LOG  : General      f:299> [ViewpointInteriors] Cabin material ready: D:\steam\steamapps\workshop\content\108600\3826550325\mods\ViewpointInteriors\42\media\textures\vehicles\VPI_Dome.png; GPU=64x32; addon texture loaded without global model size limit
-LOG  : General      f:299> [Viewpoint] frame generation on: 2560 x 1369 from frames of 2560 x 1369
-LOG  : General      f:299> [Viewpoint] process memory jumped +2841 MiB in 36.7 s: 27901 MiB committed, 11374 MiB of the system's commit left
-LOG  : General      f:299> [Viewpoint] the isometric view's 39 chunk textures let go: 0.7 ms on the main thread, 57.8 ms on the render thread
-LOG  : General      f:299> [Viewpoint] video memory: 79 evictions (353 MiB) in 0.9 s, 1043 MiB of 12282 free
-LOG  : General      f:300>     [SWMRV] loaded: called her to you (following)
-LOG  : General      f:300> [Viewpoint] windscreen measured: 1.62 m across, 0.75 m up the glass (0.48 m high, 0.58 m deep)
-LOG  : General      f:300> [Viewpoint] frames between the game's: none while a frame holds pz.escapefromzomboidfirearms.zb.ViewpointPass$Batch
-LOG  : General      f:300> [CeilingLights] first ceiling light at 8135.0,11899.0,0
-LOG  : General      f:300> [ViewpointInteriors] Cabin material ready: D:\steam\steamapps\workshop\content\108600\3826550325\mods\ViewpointInteriors\42\media\textures\vehicles\VPI_Cabin_casual.png; GPU=4096x4096; addon texture loaded without global model size limit
-LOG  : General      f:301> [Viewpoint] headlights: Base.CarNormal's lamps on its model's glass (52.3 ms): head left at 0.60 0.35 2.25 facing 0.16 -0.01 0.99, 0.19 across, 2 piece(s); head right at -0.64 0.35 2.25 facing -0.16 -0.01 0.99, 0.18 across, 2 piece(s); rear left at 0.52 0.27 -2.34 facing 0.03 0.21 -0.98, 0.32 across, 2 piece(s); rear right at -0.44 0.21 -2.36 facing -0.02 0.21 -0.98, 0.00 across, 1 piece(s)
-LOG  : General      f:301> [Viewpoint] headlights: Base.CarStationWagon's lamps on its model's glass (21.1 ms): head left at 0.63 0.39 2.25 facing 0.15 -0.01 0.99, 0.20 across, 2 piece(s); head right at -0.65 0.36 2.25 facing -0.16 -0.01 0.99, 0.20 across, 3 piece(s); rear left at 0.49 0.27 -2.42 facing 0.03 0.21 -0.98, 0.22 across, 2 piece(s); rear right at -0.43 0.28 -2.42 facing -0.03 0.20 -0.98, 0.22 across, 2 piece(s)
-LOG  : General      f:302> [Viewpoint] headlights: Base.StepVan's lamps on its model's glass (9.4 ms): head left none (on its box); head right none (on its box); rear left at 0.66 1.62 -2.01 facing 0.05 0.17 -0.98, 0.06 across, 1 piece(s); rear right at -0.67 1.62 -2.01 facing -0.05 0.17 -0.98, 0.06 across, 1 piece(s)
-LOG  : General      f:303> [Viewpoint] headlights: Base.TrailerKI5livestock's lamps on its model's glass (5.4 ms): head left none (on its box); head right none (on its box); rear left at 0.72 1.22 -1.62 facing 0.20 0.00 -0.98, 0.07 across, 1 piece(s); rear right at -0.52 1.65 -1.62 facing 0.00 0.28 -0.96, 0.06 across, 1 piece(s)
-LOG  : General      f:304> [Viewpoint] headlights: Base.70chevelleWagon's lamps on its model's glass (14.2 ms): head left at 0.58 0.42 2.14 facing -0.03 -0.11 0.99, 0.18 across, 1 piece(s); head right at -0.58 0.42 2.14 facing 0.00 -0.10 0.99, 0.18 across, 2 piece(s); rear left at 0.68 0.43 -2.31 facing -0.34 0.05 -0.94, 0.07 across, 1 piece(s) from the other side's texels; rear right at -0.68 0.44 -2.31 facing 0.34 0.05 -0.94, 0.07 across, 1 piece(s) from the other side's texels
-LOG  : General      f:305> [Viewpoint] headlights: Base.93chevySuburban's lamps on its model's glass (5.9 ms): head left at 0.57 0.48 2.29 facing 0.23 -0.04 0.97, 0.26 across, 1 piece(s); head right at -0.57 0.48 2.29 facing -0.23 -0.04 0.97, 0.26 across, 2 piece(s); rear left none (on its box); rear right none (on its box)
-LOG  : General      f:306> [ProjectViewpointParkour] status: z=0.00 fallSpeed=0.000 speed=0.0 climbKey=57 slideKey=46 grounded=true
-LOG  : General      f:321>     [ALIFE-VAULT] who=palife:1795338221686:363 kind=fence result=failed why=fence_start_rejected
-LOG  : General      f:326> [ViewpointRightClick] past the 5.0 tile reach, no menu: IsoObject
-LOG  : General      f:333>     [ALifeTalkLLM] wrapped KnoxRadio.OnEveryHour (AI news bulletins)
-LOG  : General      f:360>     [ImmersiveDrivingCamera] camera hook active
-LOG  : General      f:360>     [ImmersiveDrivingCamera] body movement active
-LOG  : General      f:363>     [ALIFE-OFFLINE] offline_tasked squad=squad:595 rest at Fallas Lake town=town25 "Fallas Lake 7" region=Fallas Lake at=7416,7972
-LOG  : General      f:367>     [ALIFE-OUTPOST] build site=site:12 needed=? done=0 waiting=player_far
-LOG  : General      f:367>     [ALIFE-OUTPOST] build site=site:13 needed=? done=0 waiting=player_far
-LOG  : General      f:367>     [ALIFE-OUTPOST] build site=site:14 needed=? done=50 waiting=player_far
-LOG  : General      f:368> [ViewpointRightClick] filled a gap in Viewpoint's pick: IsoObject
-LOG  : General      f:399>     [ALIFE-ROAD] traffic seed: done (traffic_off), cars 0 of 0
-LOG  : General      f:414> [ImmersiveDrivingCamera] steering hands active; local and replicated wheel steering supported.
-LOG  : General      f:435>     [ALIFE-VAULT] who=palife:1795338221686:363 kind=fence result=crossed why=native_complete
-LOG  : General      f:447>     [NMRadioAddon] Scan: Community Radio has 0 track(s) (0 crate(s) loaded of 0 registered)
-LOG  : General      f:447>     [NMRadioAddon] Scan: Community Radio 2 has 0 track(s) (0 crate(s) loaded of 0 registered)
-LOG  : General      f:447>     [NMRadioAddon] Found 0 legacy (True Music style) media item(s)
-LOG  : General      f:447>     [NMRadioAddon] Scan: Community Radio 3 has 206 track(s) (full catalog, compiled once per session)
-LOG  : General      f:447>     [NMRadioAddon] Scan: Community Radio 4 has 0 track(s) (0 crate(s) loaded of 0 registered)
-LOG  : General      f:447>     [NMRadioAddon] Scan: Community Radio 5 has 0 track(s) (0 crate(s) loaded of 0 registered)
-LOG  : General      f:447>     [NMRadioAddon] Scan: Community Radio 6 has 0 track(s) (0 crate(s) loaded of 0 registered)
-LOG  : General      f:478>     [ALIFE-OUTPOST] outpost_propose_refused site=? ground
-LOG  : General      f:480>     [ImmersiveDrivingCamera] steering hands active
-LOG  : General      f:496> [Viewpoint] patches seen working: 110 of 160; not yet: IsoReticle.render (while aiming), IsoPlayer.updateMovementFromInput (every frame on foot), IsoPlayer.getInputMoveVector (while moving on foot), AimingReticle.getXA (while aiming), AimingReticle.getYA (while aiming), GameTime.getViewDistMax (every frame), IsoWindow.ToggleWindow (when a window opens or closes), IsoWindow.smashWindow (when a window is smashed), IsoWindow.setGlassRemoved (when broken glass is taken out of a window), IsoWindow.syncIsoObjectReceive (when another player changes a window (multiplayer)), Core.loadOptions (when the game reads its options), Core.saveOptions (when the game writes its options), ThunderStorm.enqueueThunderEvent (when lightning strikes or thunder rumbles, in a storm), IsoObjectPicker.PickDoor (when something in the world is right-clicked), IsoObjectPicker.PickWindow (when something in the world is right-clicked), IsoObjectPicker.PickWindowFrame (when something in the world is right-clicked), IsoObjectPicker.PickThumpable (when something in the world is right-clicked), IsoObjectPicker.PickHoppable (when something in the world is right-clicked), IsoObjectPicker.PickCorpse (when a world menu opens), IsoObjectPicker.PickTree (when something in the world is right-clicked), IsoObjectPicker.PickVehicle (when a vehicle is right-clicked), IsoPlayer.setAngleFromAim (while aiming a firearm), EffectsManager.startMuzzleFlash (when a gun fires), IsoFireManager.explode (when something explodes), IsoZombie.Hit (when a zombie is struck), CombatManager.attackCollisionCheck (when a weapon swings or fires), CombatManager.processBallisticsTargets (while aiming a firearm with someone in its range), CombatManager.calculateHitInfoList (while aiming a firearm), CombatManager.missedShot (when a shot hits nothing), BallisticsController.isCameraTarget (while aiming a firearm with someone in its range), BallisticsController.getCachedTargetedBodyPart (when a shot hits someone), BallisticsController.isTarget (while aiming a firearm with someone or a vehicle in its range), BallisticsController.spreadCount (while aiming a shotgun with someone in its range), MultiTextureFBO2.doZoomScroll (when the mouse wheel zooms the isometric view, in first or third person), MultiTextureFBO2.setTargetZoom (when the isometric view zooms by itself (driving, running), in first or third person), ActionProgressBar.updateScreenPos (while a timed action of the player's runs), ActionProgressBar.render (while a timed action of the player's runs), SpriteRenderer.renderClamped (every frame (the game's cursor, moodles and reticle)), CharacterInputComponent.isJoypadAimingAxisApplied (every frame while player 0 plays on a pad), CharacterJoypadButtonBinding.isDown (every frame while player 0 plays on a pad), CombatManager.calculateHitListWeapon (while aiming a firearm with the crosshair), GameLoadingState.Done (as a client finishes loading into a server), AnimationPlayer.getBoneTransformAt (when the game reads a character's bone (a ragdoll, a firearm's aim, attachments)), AnimationPlayer.getBoneTransformAt (when the game copies a character's bone (a death's pose)), AnimationPlayer.GetPropBoneMatrix (when a prop hangs from a character's bone), IsoGridSquare.startWaterSplash (when the water splashes in sight (a hooked fish, a school of fish, chum)), Mouse.renderCursorTexture (every frame while the game's Lock Cursor to Window option is on), Clock.render (every frame while the game's clock shows (a watch or an alarm clock worn or held)), LuaManager$GlobalObject.getAverageFSP (every frame the game's frame counter or debug overlay is shown), IsoBulletTracerEffects.createEffect (for every tracer the game makes for a shot (a pellet each for a shotgun)). Each is logged when it first runs; one still missing after its situation came up was not applied.
-LOG  : General      f:514> [BasileDoors3D] Original door render selected: BasileDoors3D.door_grey_metal_door_w_se (source fixtures_doors_01_52)
-LOG  : General      f:526>     [ALifeTalk][Activity] skipped Eugene Lawson (palife:1795338221686:363): hostile to you
-LOG  : General      f:526>     [ALifeTalk][Activity] skipped Alvin Duarte (palife:1795338220696:361): hostile to you
-LOG  : General      f:544>     [ALifeTalkLLM] weird: detected sewers
-LOG  : General      f:554> [Viewpoint] video memory: 42 evictions (69 MiB) in 0.5 s, 738 MiB of 12282 free
-LOG  : General      f:559>     [ALIFE-VAULT] who=palife:1795338221686:363 kind=fence result=held why=hold
-LOG  : General      f:560> [BasileDoors3D] Original door render selected: BasileDoors3D.door_service_blue_door_w_se (source fixtures_doors_01_24)
-LOG  : General      f:563> [Viewpoint] video memory: 1 evictions (8 MiB) in 0.5 s, 734 MiB of 12282 free
-LOG  : General      f:569> [Viewpoint] video memory: 7 evictions (39 MiB) in 0.5 s, 746 MiB of 12282 free
-LOG  : General      f:572> [ShelfContents3D] boards of furniture_shelving_01_16 on lp_sh_low_a_S.obj: 0.117(0.23) 0.457(0.23)
-LOG  : General      f:572> [ShelfContents3D] furniture furniture_shelving_01_16 at 8119,11830,0 facing S, 2 boards, 2 items
-LOG  : General      f:572> [ShelfContents3D] boards of location_shop_generic_01_52 on lp_rkt.obj: 0.060(1.24) 0.060(1.24) 0.060(1.24) 0.060(1.24)
-LOG  : General      f:572> [ShelfContents3D] furniture location_shop_generic_01_52 at 8121,11837,0 facing null, 4 boards, 0 items
-LOG  : General      f:572> [ShelfContents3D] laid out furniture_shelving_01_16: 0 of 2 items shown (models still loading)
-LOG  : General      f:572> [ShelfContents3D] laid out location_shop_generic_01_52: 0 of 0 items shown
-LOG  : General      f:573> [ViewpointInteriors] Base.SmallCar: native draws retained: vehicle body is unavailable
-LOG  : General      f:578> [ViewpointInteriors] Base.TrailerISOcontainerS2: native CARGO interior retained
-LOG  : General      f:578> [ViewpointInteriors] Base.TrailerKI5utilityMedium: native CARGO interior retained
-LOG  : General      f:579> [ShelfContents3D] laid out furniture_shelving_01_16: 2 of 2 items shown
-LOG  : General      f:580>     [ALifeTalkLLM] persona: Eugene Lawson is The Hard-Living Plant Worker
-LOG  : General      f:599> [RealLimbs] body bound to a 35-bone skeleton
-LOG  : General      f:600>     [ALifeTalkLLM] chat input: vanilla chat box (A-Life processSayMessage hook)
-LOG  : General      f:600>     [ViewpointRoofs] 13 chunks with roof pieces; pieces added (in memory, none saved): 168 as their chunks came in, 0 a moment later (0 squares made for them, 0 could not be), 0 put back after going missing; at the last count 0 of 168 had gone again; sprites the game does not know: 0; this script's time so far: 26 ms over 13 chunks; left off (roof tile gone, or broken): 0 as their chunks came in, 0 taken off later; broken by the player this session: 0; broken by others, from the server: 0; taken off when Viewpoint's own roofs came on: 0; chunks looked over for an earlier build's saved pieces: 514 (0 taken off, 96 ms)
-LOG  : General      f:600>     [ALIFE-SPAWN] despawn_refused uid=palife:1795338220696:361 reason=window_edge why=near
-LOG  : General      f:600> [ViewpointInteriors] Base.70chevelleSedan: native draws retained: vehicle body is unavailable
-LOG  : General      f:607> [BasileDoors3D] Original door render selected: BasileDoors3D.door_tan_flush_door_w_se (source fixtures_doors_01_64)
-LOG  : General      f:609> [BasileDoors3D] Original door render selected: BasileDoors3D.door_reinforced_native_door_w_se (source fixtures_doors_01_68)
-LOG  : General      f:611> [BasileDoors3D] Original door render selected: BasileDoors3D.glass_black_stack_door_pair_left_n (source fixtures_doors_02_41)
-LOG  : General      f:611> [BasileDoors3D] Original door render selected: BasileDoors3D.glass_black_stack_door_pair_right_n (source fixtures_doors_02_45)
-LOG  : General      f:612> [Viewpoint] headlights: Base.92crownvicFBIunm's lamps on its model's glass (6.8 ms): head left at 0.49 0.34 2.04 facing 0.24 0.46 0.85, 0.18 across, 1 piece(s); head right at -0.49 0.34 2.04 facing -0.24 0.46 0.85, 0.18 across, 1 piece(s); rear left at 0.62 0.38 -2.04 facing 0.48 0.13 -0.87, 0.17 across, 2 piece(s); rear right at -0.62 0.38 -2.04 facing -0.48 0.13 -0.87, 0.17 across, 2 piece(s)
-LOG  : General      f:614> [Viewpoint] headlights: Base.SmallCar's lamps on its model's glass (3.5 ms): head left at 0.45 0.48 1.53 facing 0.10 0.58 0.81, 0.04 across, 1 piece(s) from the other side's texels; head right none (on its box); rear left none (on its box); rear right none (on its box)
-LOG  : General      f:616> [Viewpoint] patches seen working: 111 of 160, now also AnimationPlayer.getBoneTransformAt
-LOG  : General      f:616> [RealLimbs] Viewpoint Visceral found: its cuts are taken off the bodies
-LOG  : General      f:616> [RealLimbs] calibration: hips 0.73 m and head 1.29 m above the floor, hips 0.05 m from the zombie's position, left thigh 0.09 m to its left: looks right
-LOG  : General      f:616>     [ALIFE-OUTPOST] outpost_propose_refused site=? ground
-LOG  : General      f:617> [Viewpoint] video memory: 9 evictions (43 MiB) in 0.5 s, 768 MiB of 12282 free
-LOG  : General      f:620> [Viewpoint] disabled after error while drawing:
-LOG  : General      f:620> java.lang.IllegalStateException: looks: reading media/textures/clothes/Spongie/Jacket/Masks/ShortSleeve/ShortClosedMasks/Waist.png failed
-LOG  : General      f:620> 	at viewpoint.render.LookFiles.take(LookFiles.java:135)
-LOG  : General      f:620> 	at viewpoint.render.LookMasks.image(LookMasks.java:429)
-LOG  : General      f:620> 	at viewpoint.render.LookMasks.square(LookMasks.java:418)
-LOG  : General      f:620> 	at viewpoint.render.LookMasks.folder(LookMasks.java:181)
-LOG  : General      f:620> 	at viewpoint.render.LayeredLooks.resolved(LayeredLooks.java:182)
-LOG  : General      f:620> 	at viewpoint.render.LayeredLooks.prepare(LayeredLooks.java:84)
-LOG  : General      f:620> 	at viewpoint.render.ModelPass.prepare(ModelPass.java:142)
-LOG  : General      f:620> 	at viewpoint.render.WorldRenderer.begin(WorldRenderer.java:276)
-LOG  : General      f:620> 	at viewpoint.SceneDrawer.drawFrame(SceneDrawer.java:233)
-LOG  : General      f:620> 	at viewpoint.SceneDrawer.guarded(SceneDrawer.java:151)
-LOG  : General      f:620> 	at viewpoint.SceneDrawer.render(SceneDrawer.java:108)
-LOG  : General      f:620> 	at zombie.core.textures.TextureDraw$GenericDrawer.render(TextureDraw.java:1104)
-LOG  : General      f:620> 	at zombie.core.textures.TextureDraw.run(TextureDraw.java:500)
-LOG  : General      f:620> 	at zombie.core.SpriteRenderer$RingBuffer$StateRun.render(SpriteRenderer.java:1265)
-LOG  : General      f:620> 	at zombie.core.SpriteRenderer$RingBuffer.render(SpriteRenderer.java:1194)
-LOG  : General      f:620> 	at zombie.core.SpriteRenderer$RingBuffer.add(SpriteRenderer.java:876)
-LOG  : General      f:620> 	at zombie.core.SpriteRenderer.buildDrawBuffer(SpriteRenderer.java:411)
-LOG  : General      f:620> 	at zombie.core.SpriteRenderer.buildStateDrawBuffer(SpriteRenderer.java:469)
-LOG  : General      f:620> 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
-LOG  : General      f:620> 	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
-LOG  : General      f:620> 	at viewpoint.FrameBetween.play(FrameBetween.java:169)
-LOG  : General      f:620> 	at viewpoint.FrameBetween.taken(FrameBetween.java:135)
-LOG  : General      f:620> 	at viewpoint.Hooks.renderStateTaken(Hooks.java:575)
-LOG  : General      f:620> 	at zombie.core.SpriteRenderer.acquireStateForRendering(SpriteRenderer.java:685)
-LOG  : General      f:620> 	at zombie.core.opengl.RenderThread.lockStepRenderStep(RenderThread.java:265)
-LOG  : General      f:620> 	at zombie.core.opengl.RenderThread.renderStep(RenderThread.java:246)
-LOG  : General      f:620> 	at zombie.core.opengl.RenderThread.renderLoop(RenderThread.java:137)
-LOG  : General      f:620> 	at zombie.gameStates.MainScreenState.main(MainScreenState.java:340)
-LOG  : General      f:620> Caused by: java.io.UncheckedIOException: looks: reading D:\steam\steamapps\workshop\content\108600\2684285534\mods\Spongie Clothing\common\media\textures\clothes\Spongie\Jacket\Masks\ShortSleeve\ShortClosedMasks\Waist.png
-LOG  : General      f:620> 	at viewpoint.render.LookImage.read(LookImage.java:33)
-LOG  : General      f:620> 	at viewpoint.render.LookFiles.read(LookFiles.java:100)
-LOG  : General      f:620> 	at viewpoint.render.LookFiles.lambda$ask$0(LookFiles.java:91)
-LOG  : General      f:620> 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-LOG  : General      f:620> 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-LOG  : General      f:620> 	at java.base/java.lang.Thread.run(Unknown Source)
-LOG  : General      f:620> Caused by: java.io.IOException: Unsupported bit depth: 1
-LOG  : General      f:620> 	at zombie.core.textures.PNGDecoder.readIHDR(PNGDecoder.java:908)
-LOG  : General      f:620> 	at zombie.core.textures.PNGDecoder.<init>(PNGDecoder.java:142)
-LOG  : General      f:620> 	at viewpoint.render.LookImage.read(LookImage.java:26)
-LOG  : General      f:620> 	... 5 more
-LOG  : General      f:620> [Viewpoint] crashed while drawing: the crash window shows the report to send
-LOG  : General      f:620>     [AttackHeli] View is now: isometric
-LOG  : General      f:620> [Viewpoint] fixed tick: off, first person is not drawn decoupled (the isometric view, or debug.frameBetween off)
-LOG  : General      f:622> [Viewpoint] video memory: 43 evictions (331 MiB) in 0.7 s, 776 MiB of 12282 free
-LOG  : General      f:624> [Viewpoint] video memory: 4 evictions (13 MiB) in 0.5 s, 772 MiB of 12282 free
-LOG  : General      f:629>     [ALIFE-OUTPOST] build site=site:12 needed=? done=0 waiting=player_far
-LOG  : General      f:629>     [ALIFE-OUTPOST] build site=site:13 needed=? done=0 waiting=player_far
-LOG  : General      f:630>     [RPG XP][SP] 1 kill(s) counted, 1 seen and rewarded; counter 423 -> 424; totalXP=9308
-LOG  : General      f:630>     [ALIFE-OUTPOST] build site=site:14 needed=? done=50 waiting=player_far
-LOG  : General      f:638> [Viewpoint] video memory: 28 evictions (46 MiB) in 0.5 s, 765 MiB of 12282 free
-LOG  : General      f:640> [ProjectViewpointParkour] ignoring another IsoPlayer object at 8078.3,11707.7 dead=false local=true
-LOG  : General      f:640> [ProjectViewpointParkour] ignoring another IsoPlayer object at 8078.3,11707.7 dead=false local=true
-LOG  : General      f:640> [ProjectViewpointParkour] ignoring another IsoPlayer object at 8078.3,11707.7 dead=false local=true
-LOG  : General      f:641> [ProjectViewpointParkour] ignoring another IsoPlayer object at 8078.3,11707.7 dead=false local=true
-LOG  : General      f:641> [ProjectViewpointParkour] ignoring another IsoPlayer object at 8078.3,11707.7 dead=false local=true
-LOG  : General      f:641> [ProjectViewpointParkour] ignoring another IsoPlayer object at 8078.3,11707.7 dead=false local=true
-LOG  : General      f:641> [Viewpoint] patches seen working: 112 of 160, now also AnimationPlayer.getBoneTransformAt
-LOG  : General      f:644> [Viewpoint] video memory: 30 evictions (32 MiB) in 0.5 s, 761 MiB of 12282 free
-LOG  : General      f:649> [BasileDoors3D] Original door render selected: BasileDoors3D.glass_black_stack_door_pair_right_w (source fixtures_doors_02_40)
-LOG  : General      f:649> [BasileDoors3D] Original door render selected: BasileDoors3D.glass_black_stack_door_pair_left_w (source fixtures_doors_02_44)
-LOG  : General      f:650> [BasileDoors3D] Original door render selected: BasileDoors3D.glass_black_full_door_n_sw (source fixtures_doors_01_41)
-LOG  : General      f:650> [BasileDoors3D] Original door render selected: BasileDoors3D.glass_beige_upper_door_n_sw (source fixtures_doors_01_17)
-LOG  : General      f:658> [BasileDoors3D] Original door render selected: BasileDoors3D.glass_black_vision_door_n_sw (source fixtures_doors_01_21)
-LOG  : General      f:659> [BasileDoors3D] Original door render selected: BasileDoors3D.door_tan_flush_door_n_sw (source fixtures_doors_01_65)
-LOG  : General      f:659> [BasileDoors3D] Original door render selected: BasileDoors3D.glass_black_full_door_w_se (source fixtures_doors_01_40)
-LOG  : General      f:659> [BasileDoors3D] Original door render selected: BasileDoors3D.stall_purple_fixtures_bathroom_01_49 (source fixtures_bathroom_01_49)
-LOG  : General      f:661> [BasileDoors3D] Original door render selected: BasileDoors3D.stall_purple_fixtures_bathroom_01_48 (source fixtures_bathroom_01_48)
-LOG  : General      f:661> [BasileDoors3D] Original door render selected: BasileDoors3D.door_short_brown_fixtures_doors_02_18 (source fixtures_doors_02_16)
-LOG  : General      f:663> [BasileDoors3D] Original door render selected: BasileDoors3D.door_grey_metal_door_n_sw (source fixtures_doors_01_53)
-LOG  : General      f:663> [BasileDoors3D] Original door render selected: BasileDoors3D.garage_native_red_windows_garage_n_0_closed (source walls_garage_02_35)
-LOG  : General      f:663> [BasileDoors3D] Original door render selected: BasileDoors3D.garage_native_red_windows_garage_n_1_closed (source walls_garage_02_36)
-LOG  : General      f:663> [BasileDoors3D] Original door render selected: BasileDoors3D.garage_native_red_windows_garage_n_2_closed (source walls_garage_02_37)
-LOG  : General      f:671> [Viewpoint] video memory: 13 evictions (9 MiB) in 0.5 s, 757 MiB of 12282 free
-LOG  : General      f:675> [BasileDoors3D] Original door render selected: BasileDoors3D.glass_black_stack_door_n_sw (source fixtures_doors_01_49)
-LOG  : General      f:690> [BasileDoors3D] Original door render selected: BasileDoors3D.door_service_red_door_w_se (source fixtures_doors_02_8)
-LOG  : General      f:690> [BasileDoors3D] Original door render selected: BasileDoors3D.stall_rose_fixtures_bathroom_01_48 (source fixtures_bathroom_01_64)
-LOG  : General      f:690> [BasileDoors3D] Original door render selected: BasileDoors3D.glass_black_vision_door_w_se (source fixtures_doors_01_20)
-LOG  : General      f:693> [BasileDoors3D] Original door render selected: BasileDoors3D.garage_native_grey_windows_garage_n_0_closed (source walls_garage_02_51)
-LOG  : General      f:693> [BasileDoors3D] Original door render selected: BasileDoors3D.garage_native_grey_windows_garage_n_1_closed (source walls_garage_02_52)
-LOG  : General      f:693> [BasileDoors3D] Original door render selected: BasileDoors3D.garage_native_grey_windows_garage_n_2_closed (source walls_garage_02_53)
-LOG  : General      f:696> [BasileDoors3D] Original door render selected: BasileDoors3D.security_keypad_door_w_se (source fixtures_doors_01_32)
-LOG  : General      f:696> [BasileDoors3D] Original door render selected: BasileDoors3D.security_keypad_door_n_sw (source fixtures_doors_01_33)
-LOG  : General      f:720>     [A-Life] site fill light 4 at 8116,11841,0
-LOG  : General      f:720>     [A-Life] site fill light 5 at 8139,11841,0
-LOG  : General      f:782>     [ALIFE-OUTPOST] outpost_propose_refused site=? no_building
