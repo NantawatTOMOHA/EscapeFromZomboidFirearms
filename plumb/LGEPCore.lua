@@ -1732,10 +1732,14 @@ end
 --- object on EVERY square of `EP.collectorsInScope`'s box, which is 5,625 squares at the
 --- default Reach and 149,769 at the highest a player can set.  Measured in
 --- `tools/luatest/lgep_probe_scopecost.lua`.
-function EP.isWaterSource(object)
+function EP.isWaterSource(object, fedFixtureKnown, precheckedThumpable)
 	if not object then return false end
-	if not instanceof(object, "IsoThumpable") then return false end
-	if EP.isGhost(object) then return false end
+	-- notice() passes true only after its own IsoThumpable and non-ghost checks.
+	-- Existing callers omit it and retain the full public validation path.
+	if not precheckedThumpable then
+		if not instanceof(object, "IsoThumpable") then return false end
+		if EP.isGhost(object) then return false end
+	end
 	if isFuelHolder(object) then return false end
 
 	local sprite = object:getSprite()
@@ -1763,6 +1767,7 @@ function EP.isWaterSource(object)
 	-- A flag an operator has already set is left alone.  Take an id off the list and the
 	-- object is a collector again, still carrying whatever KEY_INCLUDE it had before -
 	-- which is the reversible direction, and the reason nothing here writes to it.
+	if fedFixtureKnown ~= nil then return not fedFixtureKnown end
 	return not EP.isFedFixture(object)
 end
 
@@ -3772,11 +3777,15 @@ end
 --- Self-limiting rather than latched: a repaired barrel has a container, so the second gate
 --- turns it away on every later chunk load.  An object the rebuild cannot help is refused by
 --- the fourth gate before the Java crossing.
-function EP.repairOrphanedCollector(object)
+function EP.repairOrphanedCollector(object, precheckedThumpable)
 	if not EP.isAuthority() then return false end
 	if not object then return false end
-	if EP.isGhost(object) then return false end
-	if not instanceof(object, "IsoThumpable") then return false end
+	-- notice() has already rejected ghosts and checked IsoThumpable. Keep the
+	-- original checks for every existing one-argument/public caller.
+	if not precheckedThumpable then
+		if EP.isGhost(object) then return false end
+		if not instanceof(object, "IsoThumpable") then return false end
+	end
 
 	if object.getFluidContainer and object:getFluidContainer() ~= nil then return false end
 	if not object.hasComponent then return false end

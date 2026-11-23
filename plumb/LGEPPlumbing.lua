@@ -565,7 +565,7 @@ local function notice(square)
 		local thumpable = instanceof(object, "IsoThumpable")
 
 		if thumpable then
-			local ok, err = pcall(EP.repairOrphanedCollector, object)
+			local ok, err = pcall(EP.repairOrphanedCollector, object, true)
 			if not ok then
 				EP.logFault("repair-orphaned-collector",
 					"ERROR giving a collector its container back: " .. tostring(err))
@@ -575,7 +575,11 @@ local function notice(square)
 			end
 		end
 
-		if thumpable and EP.isWaterSource(object) then
+		-- Resolve the configured fixture list once. isWaterSource() uses this cached
+		-- answer below, so a listed IsoThumpable is not queried twice.
+		local fedFixture = EP.isFedFixture(object)
+
+		if thumpable and EP.isWaterSource(object, fedFixture, true) then
 			key = key or EP.key(x, y, z)
 			-- Created once and then left alone, like a fixture, because working out
 			-- the pool means asking the metagrid and a roof barrel's own square has
@@ -617,7 +621,7 @@ local function notice(square)
 				-- entire supply.  lgep_sim_tiers asserts exactly that, and it is right to.
 				pumped[key] = EP.isPumped(object)
 			end
-		elseif EP.isFedFixture(object) then
+		elseif fedFixture then
 			key = key or EP.key(x, y, z)
 			-- REACHED ONLY BECAUSE isWaterSource ALREADY SAID NO, which is what keeps the
 			-- two answers from ever both being yes: the list is consulted at the foot of
