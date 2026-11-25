@@ -1,0 +1,106 @@
+Rukx Stutter Watch - whole-session totals (rewritten every 10 s)
+frames 335003 | stutters (>40 ms) 62208
+
+Lua time by mod:
+    1349841.9ms total  calls 36797662  worst 2826.5ms  ProjectALifeNPCs
+    653421.5ms total  calls 2753116  worst 317.8ms  ProjectRPGExpanded
+    567743.7ms total  calls 36698579  worst 399.8ms  EscapeFromZomboidFirearms
+    519565.0ms total  calls 94263027  worst 44094.3ms  vanilla
+    435477.9ms total  calls 13511185  worst  93.2ms  Lifestyle
+    399471.5ms total  calls 19238859  worst 1102.5ms  ALifeChatPlus
+    382223.8ms total  calls 6721681  worst 365.1ms  KnoxInventoryBeta
+    281000.1ms total  calls 15082413  worst 154.0ms  ProjectALifeJimmy
+    249944.0ms total  calls 9626407  worst 233.6ms  BulkPallets
+    236127.7ms total  calls 22362084  worst 284.8ms  StayWithMeViewpointPatch
+    183567.0ms total  calls 65994747  worst  47.9ms  TrueSewers
+    166339.9ms total  calls 23922684  worst  22.4ms  WaterRestoration
+    155296.3ms total  calls 22679882  worst 773.8ms  Bridge
+    138481.6ms total  calls 12506457  worst  17.6ms  BlackoutPredatorsExtended
+    126017.4ms total  calls  751541  worst   6.5ms  WhoseKeyIsThis
+    110195.5ms total  calls 1335694  worst   5.7ms  batman_LiveWire
+    105952.6ms total  calls 14943691  worst  16.9ms  GlassGreenhouse
+    103410.0ms total  calls 11262114  worst   8.2ms  ViewpointLivingProps
+    96999.7ms total  calls 7961924  worst  52.3ms  Blackout Predators
+    95728.5ms total  calls 1252116  worst  31.5ms  DayZ Vitals
+    90051.2ms total  calls 10809281  worst   6.4ms  LGExtendedPlumbing
+    85721.6ms total  calls 24551912  worst   8.1ms  KnoxMarketCustom
+    83556.8ms total  calls 17479168  worst 255.7ms  TilterWreck
+    65223.0ms total  calls 18590365  worst  49.9ms  Railroader
+    54492.0ms total  calls 9652840  worst  46.2ms  NMRadioAddon
+    52334.6ms total  calls 1053478  worst  19.3ms  Neat_Crafting
+    47195.6ms total  calls 1358478  worst   2.5ms  CyesPushDoors
+    46287.2ms total  calls  540249  worst  23.4ms  Talis New Music
+    39155.7ms total  calls 5063556  worst   6.0ms  yeahbitch
+    36838.4ms total  calls 2082236  worst  19.6ms  ViewpointAdvancedThrowables
+    35187.8ms total  calls 6449260  worst   9.4ms  PZ_MobilityPack_B42_Local
+    33746.4ms total  calls  654196  worst  38.5ms  ViewpointRoofs
+    31647.0ms total  calls  768385  worst  15.4ms  VitalSigns1993
+    31550.2ms total  calls  802325  worst   2.0ms  LiveWristwatch
+    29056.0ms total  calls 4826727  worst  12.8ms  VisibleDoorDamage
+    27196.4ms total  calls  899008  worst  85.3ms  ViewpointALife
+    24774.2ms total  calls 9200241  worst   2.0ms  WeaponRacks
+    22405.8ms total  calls 4050735  worst  64.5ms  HorseMod
+    21497.3ms total  calls 1260123  worst  36.9ms  NVFramework
+    20434.2ms total  calls  950236  worst 1249.9ms  A-Qo-Life
+
+Lua time by function:
+    483945.8ms total  calls  225875  worst 435.0ms  ProjectALifeNPCs | server/ProjectALife/Core/ALifeServerBootstrap.lua:52
+    417604.8ms total  calls 7386455  worst 166.6ms  ProjectALifeNPCs | shared/ProjectALife/Core/ALifeHandlers.lua:283
+    392943.1ms total  calls  226587  worst   8.4ms  ProjectRPGExpanded | client/PRPGE_PlayerCard.lua:512
+    312406.5ms total  calls   40461  worst 105.5ms  vanilla | client/OptionScreens/ModSelector/ModListBox.lua:84
+    283373.8ms total  calls 5862655  worst 124.0ms  ALifeChatPlus | shared/ALifeNPCOverhaul/AA_Health.lua:43
+    282819.8ms total  calls 8753150  worst  10.0ms  Lifestyle | client/LSMoodleManager.lua:239
+    208142.5ms total  calls    1835  worst 284.8ms  StayWithMeViewpointPatch | client/StayWithMeViewpointPatch.lua:104
+    193897.0ms total  calls 3974878  worst  36.5ms  ProjectALifeNPCs | server/ProjectALife/Senses/ALifeInvestigation.lua:94
+    156400.7ms total  calls   92973  worst  56.2ms  KnoxInventoryBeta | client/Knox/KnoxDashboard.lua:842
+    127814.4ms total  calls  195814  worst 233.6ms  BulkPallets | client/BulkPallets/BP_Client.lua:908
+    121101.0ms total  calls 4600120  worst   1.7ms  WaterRestoration | server/WaterRestoration/WR_LaptopServer.lua:87
+    118248.4ms total  calls  225875  worst   6.4ms  WhoseKeyIsThis | client/WKT_Pointer.lua:555
+    105323.6ms total  calls 4600120  worst   2.3ms  BulkPallets | server/BulkPallets/BP_Server.lua:798
+    94550.2ms total  calls  225875  worst  24.0ms  ProjectRPGExpanded | shared/PRPGE_Tick.lua:29
+    84141.6ms total  calls  225875  worst   4.5ms  Lifestyle | client/LSEffects/LSPerTick.lua:148
+    65727.8ms total  calls    8422  worst  44.6ms  ProjectRPGExpanded | client/PRPGE_PDA.lua:1565
+    63199.2ms total  calls  225875  worst  17.6ms  BlackoutPredatorsExtended | shared/BPE/Core.lua:68
+    60619.0ms total  calls 3974878  worst   1.2ms  ProjectALifeNPCs | server/ProjectALife/Anim/ALifeLookAnim.lua:82
+    57987.4ms total  calls 4600120  worst   1.2ms  GlassGreenhouse | shared/GlassGreenhouse_Paint.lua:120
+    57490.6ms total  calls  225875  worst 255.7ms  TilterWreck | client/TilterWreck_Client.lua:1593
+    55938.2ms total  calls  225875  worst   1.8ms  batman_LiveWire | server/LiveWire/LW_Circuits.lua:287
+    55442.3ms total  calls  250090  worst  31.5ms  DayZ Vitals | client/DayZ_UI.lua:1247
+    54311.7ms total  calls 4600120  worst   1.8ms  LGExtendedPlumbing | server/LGExtendedPlumbing/LGEPPlumbing.lua:660
+    50498.3ms total  calls  225874  worst   2.5ms  ProjectRPGExpanded | shared/PRPGE_Tick.lua:41
+    50098.8ms total  calls    3414  worst  93.2ms  Lifestyle | client/LSEffects/LSPerMinute.lua:712
+    49738.0ms total  calls  227548  worst   1.6ms  Neat_Crafting | client/Neat_Crafting/Patches/NC_ISEquippedItem_CraftingBtn_ContextToggle.lua:298
+    47942.9ms total  calls    3414  worst 154.0ms  ProjectALifeJimmy | server/ProjectALifeJimmy/Features/Residents/Server.lua:3598
+    44829.2ms total  calls   23554  worst   3.4ms  vanilla | client/OptionScreens/ModSelector/ModOrderListBox.lua:121
+    44614.9ms total  calls      43  worst 44094.3ms  vanilla | client/ISUI/ISButton.lua:34
+    43997.9ms total  calls  250090  worst   2.1ms  ProjectALifeNPCs | client/ProjectALife/UI2/ALifeUI2Hud.lua:97
+    42500.9ms total  calls  225875  worst  37.6ms  EscapeFromZomboidFirearms | client/TW_ViewpointCompat.lua:451
+    40880.0ms total  calls  225875  worst  39.8ms  EscapeFromZomboidFirearms | client/TW_HipFire.lua:234
+    40848.4ms total  calls  225874  worst  12.6ms  EscapeFromZomboidFirearms | client/TW/WeaponObstacle.lua:411
+    38557.0ms total  calls  225875  worst   8.2ms  ViewpointLivingProps | client/ViewpointLivingPropsDoorCurtains.lua:210
+    35040.8ms total  calls 3974878  worst   1.9ms  ALifeChatPlus | shared/ALifeLLMTalk/ALifeLLMTalk_Hearing.lua:367
+    33454.8ms total  calls 4706531  worst   8.1ms  KnoxMarketCustom | client/KnoxMarketUI.lua:513
+    33302.3ms total  calls  178254  worst 365.1ms  KnoxInventoryBeta | client/Knox/KnoxGridView.lua:1490
+    32672.2ms total  calls 1636187  worst   3.9ms  BlackoutPredatorsExtended | shared/BPE/Core.lua:51
+    32107.1ms total  calls 4600120  worst   3.1ms  TrueSewers | client/TrueSewers.lua:648
+    31854.8ms total  calls 4600120  worst   2.9ms  TrueSewers | client/TrueSewers.lua:2913
+    31736.2ms total  calls  225875  worst  16.9ms  GlassGreenhouse | shared/GlassGreenhouse_Paint.lua:126
+    30693.5ms total  calls 1636187  worst   9.1ms  Blackout Predators | server/BlackoutPredators_Server.lua:2015
+    30403.2ms total  calls  225875  worst  71.7ms  Bridge | client/BridgeMain.lua:9731
+    30115.2ms total  calls  240560  worst   1.8ms  ALifeChatPlus | client/ALifeLLMTalk/ALifeLLMTalk_Moments.lua:299
+    29145.8ms total  calls  225875  worst   1.7ms  CyesPushDoors | shared/CyesPushDoors/Hook.lua:1468
+    28771.9ms total  calls  250090  worst  62.1ms  KnoxInventoryBeta | client/Knox/KnoxCrosshair.lua:2366
+    28421.2ms total  calls  225875  worst   1.1ms  Talis New Music | client/runtime/NMClientTickGate.lua:171
+    27944.4ms total  calls   66706  worst  16.2ms  ViewpointRoofs | client/ViewpointRoofs_Backs.lua:669
+    27132.1ms total  calls  249651  worst   1.4ms  VitalSigns1993 | client/VitalSigns/VS_Slip.lua:143
+    26828.0ms total  calls   22269  worst   4.8ms  KnoxInventoryBeta | client/Knox/KnoxInventoryPanel.lua:443
+    26615.9ms total  calls  225875  worst   3.3ms  ViewpointAdvancedThrowables | client/VAT/VAT_Controller.lua:406
+    26364.7ms total  calls 4600120  worst  11.8ms  TrueSewers | client/TrueSewersProfond.lua:887
+    26087.3ms total  calls 4600120  worst   1.8ms  ProjectALifeNPCs | server/ProjectALife/Outposts/ALifeOutpostSpeed.lua:116
+    25967.3ms total  calls 4836847  worst   1.1ms  yeahbitch | shared/PoolPitShared.lua:4
+    25861.0ms total  calls  249680  worst   1.6ms  EscapeFromZomboidFirearms | client/TW_ArmStamina.lua:107
+    25600.5ms total  calls 4719604  worst   0.9ms  KnoxMarketCustom | client/KnoxMarketUI.lua:504
+    25507.3ms total  calls 1636187  worst  33.7ms  Bridge | client/BridgeMain.lua:10515
+    23452.7ms total  calls  330244  worst   6.1ms  ViewpointALife | client/ViewpointALife.lua:1193
+    23401.3ms total  calls    4777  worst 360.4ms  EscapeFromZomboidFirearms | server/TW_LootFill.lua:679
+    23222.6ms total  calls 3974878  worst   0.6ms  BlackoutPredatorsExtended | shared/BPE/NoiseInvestigation.lua:68
